@@ -48,13 +48,16 @@ class Config:
         self.input_data_raw = self.input_data / "data" / "raw"
         self.input_data_raw.mkdir(parents=True, exist_ok=True)
 
+
         self.output_dir = self.config_path / "out"
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        self.staging_output = self.output_dir / "staging"
+        self.output_dir_data = self.output_dir / "data"
+        self.output_dir_data.mkdir(parents=True, exist_ok=True)
+        self.staging_output = self.output_dir_data / "staging"
         self.staging_output.mkdir(parents=True, exist_ok=True)
-        self.indicator_output = self.output_dir / "indicator"
+        self.indicator_output = self.output_dir_data / "indicator"
         self.indicator_output.mkdir(parents=True, exist_ok=True)
-        self.error_folder = self.output_dir / "error"
+        self.error_folder = self.output_dir_data / "error"
         self.error_folder.mkdir(parents=True, exist_ok=True)
 
         self.source_selection_file = self.input_data / "source_selection.json"
