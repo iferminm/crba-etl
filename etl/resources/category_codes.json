@@ -1,0 +1,26 @@
+[
+  {
+    "CATEGORY": "Legal framework international",
+    "CATEGORY_CODE": "LF"
+  },
+  {
+    "CATEGORY": "Legal framework national",
+    "CATEGORY_CODE": "LF"
+  },
+  {
+    "CATEGORY": "Outcome",
+    "CATEGORY_CODE": "OC"
+  },
+  {
+    "CATEGORY": "Enforcement",
+    "CATEGORY_CODE": "EN"
+  },
+  {
+    "CATEGORY": "Enforcement programs and spending",
+    "CATEGORY_CODE": "EP"
+  },
+  {
+    "CATEGORY": "Enforcement government capacity and effectiveness",
+    "CATEGORY_CODE": "EG"
+  }
+]

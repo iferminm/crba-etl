@@ -1,0 +1,9 @@
+config/2020/in/data/raw filter=lfs diff=lfs merge=lfs -text
+config/2020/in/data/staging filter=lfs diff=lfs merge=lfs -text
+config/2023/in/data/raw filter=lfs diff=lfs merge=lfs -text
+config/2023/in/data/staging filter=lfs diff=lfs merge=lfs -text
+config/*/in/data/raw/** filter=lfs diff=lfs merge=lfs -text
+config/*/in/data/staging/** filter=lfs diff=lfs merge=lfs -text
+config/*/out/data/staging/** filter=lfs diff=lfs merge=lfs -text
+config/*/out/data/raw/** filter=lfs diff=lfs merge=lfs -text
+config/*/out/indicator/raw/** filter=lfs diff=lfs merge=lfs -text

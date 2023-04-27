@@ -1,0 +1,2657 @@
+[
+  {
+    "COUNTRY_NAME": "Aruba",
+    "COUNTRY_ISO_2": "AW",
+    "COUNTRY_ISO_3": "ABW"
+  },
+  {
+    "COUNTRY_NAME": "Afghanistan",
+    "COUNTRY_ISO_2": "AF",
+    "COUNTRY_ISO_3": "AFG"
+  },
+  {
+    "COUNTRY_NAME": "The Islamic Republic Of Afghanistan",
+    "COUNTRY_ISO_2": "AF",
+    "COUNTRY_ISO_3": "AFG"
+  },
+  {
+    "COUNTRY_NAME": "Angola",
+    "COUNTRY_ISO_2": "AO",
+    "COUNTRY_ISO_3": "AGO"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Angola",
+    "COUNTRY_ISO_2": "AO",
+    "COUNTRY_ISO_3": "AGO"
+  },
+  {
+    "COUNTRY_NAME": "Anguilla",
+    "COUNTRY_ISO_2": "AI",
+    "COUNTRY_ISO_3": "AIA"
+  },
+  {
+    "COUNTRY_NAME": "\u00c5land",
+    "COUNTRY_ISO_2": "AX",
+    "COUNTRY_ISO_3": "ALA"
+  },
+  {
+    "COUNTRY_NAME": "Albania",
+    "COUNTRY_ISO_2": "AL",
+    "COUNTRY_ISO_3": "ALB"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Albania",
+    "COUNTRY_ISO_2": "AL",
+    "COUNTRY_ISO_3": "ALB"
+  },
+  {
+    "COUNTRY_NAME": "Andorra",
+    "COUNTRY_ISO_2": "AD",
+    "COUNTRY_ISO_3": "AND"
+  },
+  {
+    "COUNTRY_NAME": "The Principality Of Andorra",
+    "COUNTRY_ISO_2": "AD",
+    "COUNTRY_ISO_3": "AND"
+  },
+  {
+    "COUNTRY_NAME": "Netherlands Ant",
+    "COUNTRY_ISO_2": "AN",
+    "COUNTRY_ISO_3": "ANT"
+  },
+  {
+    "COUNTRY_NAME": "Netherlands Antilles",
+    "COUNTRY_ISO_2": "AN",
+    "COUNTRY_ISO_3": "ANT"
+  },
+  {
+    "COUNTRY_NAME": "The United Arab Emirates",
+    "COUNTRY_ISO_2": "AE",
+    "COUNTRY_ISO_3": "ARE"
+  },
+  {
+    "COUNTRY_NAME": "United Arab Emirates",
+    "COUNTRY_ISO_2": "AE",
+    "COUNTRY_ISO_3": "ARE"
+  },
+  {
+    "COUNTRY_NAME": "Argentina",
+    "COUNTRY_ISO_2": "AR",
+    "COUNTRY_ISO_3": "ARG"
+  },
+  {
+    "COUNTRY_NAME": "The Argentine Republic",
+    "COUNTRY_ISO_2": "AR",
+    "COUNTRY_ISO_3": "ARG"
+  },
+  {
+    "COUNTRY_NAME": "Armenia",
+    "COUNTRY_ISO_2": "AM",
+    "COUNTRY_ISO_3": "ARM"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Armenia",
+    "COUNTRY_ISO_2": "AM",
+    "COUNTRY_ISO_3": "ARM"
+  },
+  {
+    "COUNTRY_NAME": "American Samoa",
+    "COUNTRY_ISO_2": "AS",
+    "COUNTRY_ISO_3": "ASM"
+  },
+  {
+    "COUNTRY_NAME": "Antarctica",
+    "COUNTRY_ISO_2": "AQ",
+    "COUNTRY_ISO_3": "ATA"
+  },
+  {
+    "COUNTRY_NAME": "French Southern Territories",
+    "COUNTRY_ISO_2": "TF",
+    "COUNTRY_ISO_3": "ATF"
+  },
+  {
+    "COUNTRY_NAME": "Antigua and Barbuda",
+    "COUNTRY_ISO_2": "AG",
+    "COUNTRY_ISO_3": "ATG"
+  },
+  {
+    "COUNTRY_NAME": "Antigua And Barbuda",
+    "COUNTRY_ISO_2": "AG",
+    "COUNTRY_ISO_3": "ATG"
+  },
+  {
+    "COUNTRY_NAME": "Australia",
+    "COUNTRY_ISO_2": "AU",
+    "COUNTRY_ISO_3": "AUS"
+  },
+  {
+    "COUNTRY_NAME": "Australia (Western)",
+    "COUNTRY_ISO_2": "AU",
+    "COUNTRY_ISO_3": "AUS"
+  },
+  {
+    "COUNTRY_NAME": "Austria",
+    "COUNTRY_ISO_2": "AT",
+    "COUNTRY_ISO_3": "AUT"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Austria",
+    "COUNTRY_ISO_2": "AT",
+    "COUNTRY_ISO_3": "AUT"
+  },
+  {
+    "COUNTRY_NAME": "Azerbaijan",
+    "COUNTRY_ISO_2": "AZ",
+    "COUNTRY_ISO_3": "AZE"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Azerbaijan",
+    "COUNTRY_ISO_2": "AZ",
+    "COUNTRY_ISO_3": "AZE"
+  },
+  {
+    "COUNTRY_NAME": "Burundi",
+    "COUNTRY_ISO_2": "BI",
+    "COUNTRY_ISO_3": "BDI"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Burundi",
+    "COUNTRY_ISO_2": "BI",
+    "COUNTRY_ISO_3": "BDI"
+  },
+  {
+    "COUNTRY_NAME": "Belgium",
+    "COUNTRY_ISO_2": "BE",
+    "COUNTRY_ISO_3": "BEL"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Belgium",
+    "COUNTRY_ISO_2": "BE",
+    "COUNTRY_ISO_3": "BEL"
+  },
+  {
+    "COUNTRY_NAME": "Benin",
+    "COUNTRY_ISO_2": "BJ",
+    "COUNTRY_ISO_3": "BEN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Benin",
+    "COUNTRY_ISO_2": "BJ",
+    "COUNTRY_ISO_3": "BEN"
+  },
+  {
+    "COUNTRY_NAME": "Bonaire, Sint Eustatius, and Saba",
+    "COUNTRY_ISO_2": "BQ",
+    "COUNTRY_ISO_3": "BES"
+  },
+  {
+    "COUNTRY_NAME": "Burkina Faso",
+    "COUNTRY_ISO_2": "BF",
+    "COUNTRY_ISO_3": "BFA"
+  },
+  {
+    "COUNTRY_NAME": "Bangladesh",
+    "COUNTRY_ISO_2": "BD",
+    "COUNTRY_ISO_3": "BGD"
+  },
+  {
+    "COUNTRY_NAME": "The People's Republic Of Bangladesh",
+    "COUNTRY_ISO_2": "BD",
+    "COUNTRY_ISO_3": "BGD"
+  },
+  {
+    "COUNTRY_NAME": "Bulgaria",
+    "COUNTRY_ISO_2": "BG",
+    "COUNTRY_ISO_3": "BGR"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Bulgaria",
+    "COUNTRY_ISO_2": "BG",
+    "COUNTRY_ISO_3": "BGR"
+  },
+  {
+    "COUNTRY_NAME": "Bahrain",
+    "COUNTRY_ISO_2": "BH",
+    "COUNTRY_ISO_3": "BHR"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Bahrain",
+    "COUNTRY_ISO_2": "BH",
+    "COUNTRY_ISO_3": "BHR"
+  },
+  {
+    "COUNTRY_NAME": "Bahamas",
+    "COUNTRY_ISO_2": "BS",
+    "COUNTRY_ISO_3": "BHS"
+  },
+  {
+    "COUNTRY_NAME": "Bahamas, The",
+    "COUNTRY_ISO_2": "BS",
+    "COUNTRY_ISO_3": "BHS"
+  },
+  {
+    "COUNTRY_NAME": "The Commonwealth Of The Bahamas",
+    "COUNTRY_ISO_2": "BS",
+    "COUNTRY_ISO_3": "BHS"
+  },
+  {
+    "COUNTRY_NAME": "Bosnia and Herzegovina",
+    "COUNTRY_ISO_2": "BA",
+    "COUNTRY_ISO_3": "BIH"
+  },
+  {
+    "COUNTRY_NAME": "Bosnia And Herzegovina",
+    "COUNTRY_ISO_2": "BA",
+    "COUNTRY_ISO_3": "BIH"
+  },
+  {
+    "COUNTRY_NAME": "Saint Barth\u00e9lemy",
+    "COUNTRY_ISO_2": "BL",
+    "COUNTRY_ISO_3": "BLM"
+  },
+  {
+    "COUNTRY_NAME": "Belarus",
+    "COUNTRY_ISO_2": "BY",
+    "COUNTRY_ISO_3": "BLR"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Belarus",
+    "COUNTRY_ISO_2": "BY",
+    "COUNTRY_ISO_3": "BLR"
+  },
+  {
+    "COUNTRY_NAME": "Belize",
+    "COUNTRY_ISO_2": "BZ",
+    "COUNTRY_ISO_3": "BLZ"
+  },
+  {
+    "COUNTRY_NAME": "Bermuda",
+    "COUNTRY_ISO_2": "BM",
+    "COUNTRY_ISO_3": "BMU"
+  },
+  {
+    "COUNTRY_NAME": "Bolivia",
+    "COUNTRY_ISO_2": "BO",
+    "COUNTRY_ISO_3": "BOL"
+  },
+  {
+    "COUNTRY_NAME": "Bolivia (Plurinational State of)",
+    "COUNTRY_ISO_2": "BO",
+    "COUNTRY_ISO_3": "BOL"
+  },
+  {
+    "COUNTRY_NAME": "Bolivia, Plurinational State of",
+    "COUNTRY_ISO_2": "BO",
+    "COUNTRY_ISO_3": "BOL"
+  },
+  {
+    "COUNTRY_NAME": "The Plurinational State Of Bolivia",
+    "COUNTRY_ISO_2": "BO",
+    "COUNTRY_ISO_3": "BOL"
+  },
+  {
+    "COUNTRY_NAME": "Brazil",
+    "COUNTRY_ISO_2": "BR",
+    "COUNTRY_ISO_3": "BRA"
+  },
+  {
+    "COUNTRY_NAME": "The Federative Republic Of Brazil",
+    "COUNTRY_ISO_2": "BR",
+    "COUNTRY_ISO_3": "BRA"
+  },
+  {
+    "COUNTRY_NAME": "Barbados",
+    "COUNTRY_ISO_2": "BB",
+    "COUNTRY_ISO_3": "BRB"
+  },
+  {
+    "COUNTRY_NAME": "Brunei",
+    "COUNTRY_ISO_2": "BN",
+    "COUNTRY_ISO_3": "BRN"
+  },
+  {
+    "COUNTRY_NAME": "Brunei Darussalam",
+    "COUNTRY_ISO_2": "BN",
+    "COUNTRY_ISO_3": "BRN"
+  },
+  {
+    "COUNTRY_NAME": "Bhutan",
+    "COUNTRY_ISO_2": "BT",
+    "COUNTRY_ISO_3": "BTN"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Bhutan",
+    "COUNTRY_ISO_2": "BT",
+    "COUNTRY_ISO_3": "BTN"
+  },
+  {
+    "COUNTRY_NAME": "Bouvet Island",
+    "COUNTRY_ISO_2": "BV",
+    "COUNTRY_ISO_3": "BVT"
+  },
+  {
+    "COUNTRY_NAME": "Botswana",
+    "COUNTRY_ISO_2": "BW",
+    "COUNTRY_ISO_3": "BWA"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Botswana",
+    "COUNTRY_ISO_2": "BW",
+    "COUNTRY_ISO_3": "BWA"
+  },
+  {
+    "COUNTRY_NAME": "Central African Republic",
+    "COUNTRY_ISO_2": "CF",
+    "COUNTRY_ISO_3": "CAF"
+  },
+  {
+    "COUNTRY_NAME": "The Central African Republic",
+    "COUNTRY_ISO_2": "CF",
+    "COUNTRY_ISO_3": "CAF"
+  },
+  {
+    "COUNTRY_NAME": "Canada (Alberta)",
+    "COUNTRY_ISO_2": "CA",
+    "COUNTRY_ISO_3": "CAN"
+  },
+  {
+    "COUNTRY_NAME": "Canada",
+    "COUNTRY_ISO_2": "CA",
+    "COUNTRY_ISO_3": "CAN"
+  },
+  {
+    "COUNTRY_NAME": "Cocos (Keeling) Islands",
+    "COUNTRY_ISO_2": "CC",
+    "COUNTRY_ISO_3": "CCK"
+  },
+  {
+    "COUNTRY_NAME": "Cocos [Keeling] Islands",
+    "COUNTRY_ISO_2": "CC",
+    "COUNTRY_ISO_3": "CCK"
+  },
+  {
+    "COUNTRY_NAME": "Switzerland",
+    "COUNTRY_ISO_2": "CH",
+    "COUNTRY_ISO_3": "CHE"
+  },
+  {
+    "COUNTRY_NAME": "The Swiss Confederation",
+    "COUNTRY_ISO_2": "CH",
+    "COUNTRY_ISO_3": "CHE"
+  },
+  {
+    "COUNTRY_NAME": "Chile",
+    "COUNTRY_ISO_2": "CL",
+    "COUNTRY_ISO_3": "CHL"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Chile",
+    "COUNTRY_ISO_2": "CL",
+    "COUNTRY_ISO_3": "CHL"
+  },
+  {
+    "COUNTRY_NAME": "China",
+    "COUNTRY_ISO_2": "CN",
+    "COUNTRY_ISO_3": "CHN"
+  },
+  {
+    "COUNTRY_NAME": "The People's Republic Of China",
+    "COUNTRY_ISO_2": "CN",
+    "COUNTRY_ISO_3": "CHN"
+  },
+  {
+    "COUNTRY_NAME": "C\u00f4te d`Ivoire",
+    "COUNTRY_ISO_2": "CI",
+    "COUNTRY_ISO_3": "CIV"
+  },
+  {
+    "COUNTRY_NAME": "C\u00f4te d\u00b4Ivoire",
+    "COUNTRY_ISO_2": "CI",
+    "COUNTRY_ISO_3": "CIV"
+  },
+  {
+    "COUNTRY_NAME": "C\u00f4te d\u2018Ivoire",
+    "COUNTRY_ISO_2": "CI",
+    "COUNTRY_ISO_3": "CIV"
+  },
+  {
+    "COUNTRY_NAME": "C\u00f4te d\u2019Ivoire",
+    "COUNTRY_ISO_2": "CI",
+    "COUNTRY_ISO_3": "CIV"
+  },
+  {
+    "COUNTRY_NAME": "C\u00f4te d'Ivoire",
+    "COUNTRY_ISO_2": "CI",
+    "COUNTRY_ISO_3": "CIV"
+  },
+  {
+    "COUNTRY_NAME": "Ivory Coast",
+    "COUNTRY_ISO_2": "CI",
+    "COUNTRY_ISO_3": "CIV"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Cote D'Ivoire",
+    "COUNTRY_ISO_2": "CI",
+    "COUNTRY_ISO_3": "CIV"
+  },
+  {
+    "COUNTRY_NAME": "Cameroon",
+    "COUNTRY_ISO_2": "CM",
+    "COUNTRY_ISO_3": "CMR"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Cameroon",
+    "COUNTRY_ISO_2": "CM",
+    "COUNTRY_ISO_3": "CMR"
+  },
+  {
+    "COUNTRY_NAME": "Congo, Dem. Rep",
+    "COUNTRY_ISO_2": "CD",
+    "COUNTRY_ISO_3": "COD"
+  },
+  {
+    "COUNTRY_NAME": "Congo, Democratic Republic of the",
+    "COUNTRY_ISO_2": "CD",
+    "COUNTRY_ISO_3": "COD"
+  },
+  {
+    "COUNTRY_NAME": "Congo, the Democratic Republic of the",
+    "COUNTRY_ISO_2": "CD",
+    "COUNTRY_ISO_3": "COD"
+  },
+  {
+    "COUNTRY_NAME": "Democratic Republic of the Congo",
+    "COUNTRY_ISO_2": "CD",
+    "COUNTRY_ISO_3": "COD"
+  },
+  {
+    "COUNTRY_NAME": "DR Congo",
+    "COUNTRY_ISO_2": "CD",
+    "COUNTRY_ISO_3": "COD"
+  },
+  {
+    "COUNTRY_NAME": "The Democratic Republic Of The Congo",
+    "COUNTRY_ISO_2": "CD",
+    "COUNTRY_ISO_3": "COD"
+  },
+  {
+    "COUNTRY_NAME": "Congo",
+    "COUNTRY_ISO_2": "CG",
+    "COUNTRY_ISO_3": "COG"
+  },
+  {
+    "COUNTRY_NAME": "Congo Republic",
+    "COUNTRY_ISO_2": "CG",
+    "COUNTRY_ISO_3": "COG"
+  },
+  {
+    "COUNTRY_NAME": "Congo, Rep.",
+    "COUNTRY_ISO_2": "CG",
+    "COUNTRY_ISO_3": "COG"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of The Congo",
+    "COUNTRY_ISO_2": "CG",
+    "COUNTRY_ISO_3": "COG"
+  },
+  {
+    "COUNTRY_NAME": "Cook Islands",
+    "COUNTRY_ISO_2": "CK",
+    "COUNTRY_ISO_3": "COK"
+  },
+  {
+    "COUNTRY_NAME": "The Cook Islands",
+    "COUNTRY_ISO_2": "CK",
+    "COUNTRY_ISO_3": "COK"
+  },
+  {
+    "COUNTRY_NAME": "Colombia",
+    "COUNTRY_ISO_2": "CO",
+    "COUNTRY_ISO_3": "COL"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Colombia",
+    "COUNTRY_ISO_2": "CO",
+    "COUNTRY_ISO_3": "COL"
+  },
+  {
+    "COUNTRY_NAME": "Comoros",
+    "COUNTRY_ISO_2": "KM",
+    "COUNTRY_ISO_3": "COM"
+  },
+  {
+    "COUNTRY_NAME": "The Union Of The Comoros",
+    "COUNTRY_ISO_2": "KM",
+    "COUNTRY_ISO_3": "COM"
+  },
+  {
+    "COUNTRY_NAME": "Cabo Verde",
+    "COUNTRY_ISO_2": "CV",
+    "COUNTRY_ISO_3": "CPV"
+  },
+  {
+    "COUNTRY_NAME": "Cape Verde",
+    "COUNTRY_ISO_2": "CV",
+    "COUNTRY_ISO_3": "CPV"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Cabo Verde",
+    "COUNTRY_ISO_2": "CV",
+    "COUNTRY_ISO_3": "CPV"
+  },
+  {
+    "COUNTRY_NAME": "Costa Rica",
+    "COUNTRY_ISO_2": "CR",
+    "COUNTRY_ISO_3": "CRI"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Costa Rica",
+    "COUNTRY_ISO_2": "CR",
+    "COUNTRY_ISO_3": "CRI"
+  },
+  {
+    "COUNTRY_NAME": "Cuba",
+    "COUNTRY_ISO_2": "CU",
+    "COUNTRY_ISO_3": "CUB"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Cuba",
+    "COUNTRY_ISO_2": "CU",
+    "COUNTRY_ISO_3": "CUB"
+  },
+  {
+    "COUNTRY_NAME": "Cura\u00e7ao",
+    "COUNTRY_ISO_2": "CW",
+    "COUNTRY_ISO_3": "CUW"
+  },
+  {
+    "COUNTRY_NAME": "Cura\u00e7ao",
+    "COUNTRY_ISO_2": "CW",
+    "COUNTRY_ISO_3": "CUW"
+  },
+  {
+    "COUNTRY_NAME": "Christmas Island",
+    "COUNTRY_ISO_2": "CX",
+    "COUNTRY_ISO_3": "CXR"
+  },
+  {
+    "COUNTRY_NAME": "Cayman Islands",
+    "COUNTRY_ISO_2": "KY",
+    "COUNTRY_ISO_3": "CYM"
+  },
+  {
+    "COUNTRY_NAME": "Cyprus",
+    "COUNTRY_ISO_2": "CY",
+    "COUNTRY_ISO_3": "CYP"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Cyprus",
+    "COUNTRY_ISO_2": "CY",
+    "COUNTRY_ISO_3": "CYP"
+  },
+  {
+    "COUNTRY_NAME": "Czech Republic",
+    "COUNTRY_ISO_2": "CZ",
+    "COUNTRY_ISO_3": "CZE"
+  },
+  {
+    "COUNTRY_NAME": "Czechia",
+    "COUNTRY_ISO_2": "CZ",
+    "COUNTRY_ISO_3": "CZE"
+  },
+  {
+    "COUNTRY_NAME": "The Czech Republic",
+    "COUNTRY_ISO_2": "CZ",
+    "COUNTRY_ISO_3": "CZE"
+  },
+  {
+    "COUNTRY_NAME": "Germany",
+    "COUNTRY_ISO_2": "DE",
+    "COUNTRY_ISO_3": "DEU"
+  },
+  {
+    "COUNTRY_NAME": "The Federal Republic Of Germany",
+    "COUNTRY_ISO_2": "DE",
+    "COUNTRY_ISO_3": "DEU"
+  },
+  {
+    "COUNTRY_NAME": "Djibouti",
+    "COUNTRY_ISO_2": "DJ",
+    "COUNTRY_ISO_3": "DJI"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Djibouti",
+    "COUNTRY_ISO_2": "DJ",
+    "COUNTRY_ISO_3": "DJI"
+  },
+  {
+    "COUNTRY_NAME": "Dominica",
+    "COUNTRY_ISO_2": "DM",
+    "COUNTRY_ISO_3": "DMA"
+  },
+  {
+    "COUNTRY_NAME": "The Commonwealth Of Dominica",
+    "COUNTRY_ISO_2": "DM",
+    "COUNTRY_ISO_3": "DMA"
+  },
+  {
+    "COUNTRY_NAME": "Denmark",
+    "COUNTRY_ISO_2": "DK",
+    "COUNTRY_ISO_3": "DNK"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Denmark",
+    "COUNTRY_ISO_2": "DK",
+    "COUNTRY_ISO_3": "DNK"
+  },
+  {
+    "COUNTRY_NAME": "Dominican Republic",
+    "COUNTRY_ISO_2": "DO",
+    "COUNTRY_ISO_3": "DOM"
+  },
+  {
+    "COUNTRY_NAME": "The Dominican Republic",
+    "COUNTRY_ISO_2": "DO",
+    "COUNTRY_ISO_3": "DOM"
+  },
+  {
+    "COUNTRY_NAME": "Algeria",
+    "COUNTRY_ISO_2": "DZ",
+    "COUNTRY_ISO_3": "DZA"
+  },
+  {
+    "COUNTRY_NAME": "The People's Democratic Republic Of Algeria",
+    "COUNTRY_ISO_2": "DZ",
+    "COUNTRY_ISO_3": "DZA"
+  },
+  {
+    "COUNTRY_NAME": "Ecuador",
+    "COUNTRY_ISO_2": "EC",
+    "COUNTRY_ISO_3": "ECU"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Ecuador",
+    "COUNTRY_ISO_2": "EC",
+    "COUNTRY_ISO_3": "ECU"
+  },
+  {
+    "COUNTRY_NAME": "Egypt",
+    "COUNTRY_ISO_2": "EG",
+    "COUNTRY_ISO_3": "EGY"
+  },
+  {
+    "COUNTRY_NAME": "Egypt, Arab Rep.",
+    "COUNTRY_ISO_2": "EG",
+    "COUNTRY_ISO_3": "EGY"
+  },
+  {
+    "COUNTRY_NAME": "The Arab Republic Of Egypt",
+    "COUNTRY_ISO_2": "EG",
+    "COUNTRY_ISO_3": "EGY"
+  },
+  {
+    "COUNTRY_NAME": "Eritrea",
+    "COUNTRY_ISO_2": "ER",
+    "COUNTRY_ISO_3": "ERI"
+  },
+  {
+    "COUNTRY_NAME": "The State Of Eritrea",
+    "COUNTRY_ISO_2": "ER",
+    "COUNTRY_ISO_3": "ERI"
+  },
+  {
+    "COUNTRY_NAME": "Western Sahara",
+    "COUNTRY_ISO_2": "EH",
+    "COUNTRY_ISO_3": "ESH"
+  },
+  {
+    "COUNTRY_NAME": "Spain",
+    "COUNTRY_ISO_2": "ES",
+    "COUNTRY_ISO_3": "ESP"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Spain",
+    "COUNTRY_ISO_2": "ES",
+    "COUNTRY_ISO_3": "ESP"
+  },
+  {
+    "COUNTRY_NAME": "Estonia",
+    "COUNTRY_ISO_2": "EE",
+    "COUNTRY_ISO_3": "EST"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Estonia",
+    "COUNTRY_ISO_2": "EE",
+    "COUNTRY_ISO_3": "EST"
+  },
+  {
+    "COUNTRY_NAME": "Ethiopia",
+    "COUNTRY_ISO_2": "ET",
+    "COUNTRY_ISO_3": "ETH"
+  },
+  {
+    "COUNTRY_NAME": "The Federal Democratic Republic Of Ethiopia",
+    "COUNTRY_ISO_2": "ET",
+    "COUNTRY_ISO_3": "ETH"
+  },
+  {
+    "COUNTRY_NAME": "Finland",
+    "COUNTRY_ISO_2": "FI",
+    "COUNTRY_ISO_3": "FIN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Finland",
+    "COUNTRY_ISO_2": "FI",
+    "COUNTRY_ISO_3": "FIN"
+  },
+  {
+    "COUNTRY_NAME": "Fiji",
+    "COUNTRY_ISO_2": "FJ",
+    "COUNTRY_ISO_3": "FJI"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Fiji",
+    "COUNTRY_ISO_2": "FJ",
+    "COUNTRY_ISO_3": "FJI"
+  },
+  {
+    "COUNTRY_NAME": "Falkland Islands",
+    "COUNTRY_ISO_2": "FK",
+    "COUNTRY_ISO_3": "FLK"
+  },
+  {
+    "COUNTRY_NAME": "Falkland Islands (Malvinas)",
+    "COUNTRY_ISO_2": "FK",
+    "COUNTRY_ISO_3": "FLK"
+  },
+  {
+    "COUNTRY_NAME": "France",
+    "COUNTRY_ISO_2": "FR",
+    "COUNTRY_ISO_3": "FRA"
+  },
+  {
+    "COUNTRY_NAME": "The French Republic",
+    "COUNTRY_ISO_2": "FR",
+    "COUNTRY_ISO_3": "FRA"
+  },
+  {
+    "COUNTRY_NAME": "Faroe Islands",
+    "COUNTRY_ISO_2": "FO",
+    "COUNTRY_ISO_3": "FRO"
+  },
+  {
+    "COUNTRY_NAME": "Micronesia",
+    "COUNTRY_ISO_2": "FM",
+    "COUNTRY_ISO_3": "FSM"
+  },
+  {
+    "COUNTRY_NAME": "Micronesia (Federated States of)",
+    "COUNTRY_ISO_2": "FM",
+    "COUNTRY_ISO_3": "FSM"
+  },
+  {
+    "COUNTRY_NAME": "Micronesia (Fed. States of)",
+    "COUNTRY_ISO_2": "FM",
+    "COUNTRY_ISO_3": "FSM"
+  },
+  {
+    "COUNTRY_NAME": "Micronesia, Fed. Sts.",
+    "COUNTRY_ISO_2": "FM",
+    "COUNTRY_ISO_3": "FSM"
+  },
+  {
+    "COUNTRY_NAME": "Micronesia, Federated States of",
+    "COUNTRY_ISO_2": "FM",
+    "COUNTRY_ISO_3": "FSM"
+  },
+  {
+    "COUNTRY_NAME": "The Federated States Of Micronesia",
+    "COUNTRY_ISO_2": "FM",
+    "COUNTRY_ISO_3": "FSM"
+  },
+  {
+    "COUNTRY_NAME": "Gabon",
+    "COUNTRY_ISO_2": "GA",
+    "COUNTRY_ISO_3": "GAB"
+  },
+  {
+    "COUNTRY_NAME": "The Gabonese Republic",
+    "COUNTRY_ISO_2": "GA",
+    "COUNTRY_ISO_3": "GAB"
+  },
+  {
+    "COUNTRY_NAME": "The United Kingdom Of Great Britain And Northern Ireland",
+    "COUNTRY_ISO_2": "GB",
+    "COUNTRY_ISO_3": "GBR"
+  },
+  {
+    "COUNTRY_NAME": "United Kingdom",
+    "COUNTRY_ISO_2": "GB",
+    "COUNTRY_ISO_3": "GBR"
+  },
+  {
+    "COUNTRY_NAME": "United Kingdom of Great Britain and Northern Ireland",
+    "COUNTRY_ISO_2": "GB",
+    "COUNTRY_ISO_3": "GBR"
+  },
+  {
+    "COUNTRY_NAME": "Georgia",
+    "COUNTRY_ISO_2": "GE",
+    "COUNTRY_ISO_3": "GEO"
+  },
+  {
+    "COUNTRY_NAME": "Guernsey",
+    "COUNTRY_ISO_2": "GG",
+    "COUNTRY_ISO_3": "GGY"
+  },
+  {
+    "COUNTRY_NAME": "Ghana",
+    "COUNTRY_ISO_2": "GH",
+    "COUNTRY_ISO_3": "GHA"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Ghana",
+    "COUNTRY_ISO_2": "GH",
+    "COUNTRY_ISO_3": "GHA"
+  },
+  {
+    "COUNTRY_NAME": "Gibraltar",
+    "COUNTRY_ISO_2": "GI",
+    "COUNTRY_ISO_3": "GIB"
+  },
+  {
+    "COUNTRY_NAME": "Gibralter",
+    "COUNTRY_ISO_2": "GI",
+    "COUNTRY_ISO_3": "GIB"
+  },
+  {
+    "COUNTRY_NAME": "Guinea",
+    "COUNTRY_ISO_2": "GN",
+    "COUNTRY_ISO_3": "GIN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Guinea",
+    "COUNTRY_ISO_2": "GN",
+    "COUNTRY_ISO_3": "GIN"
+  },
+  {
+    "COUNTRY_NAME": "Guadeloupe",
+    "COUNTRY_ISO_2": "GP",
+    "COUNTRY_ISO_3": "GLP"
+  },
+  {
+    "COUNTRY_NAME": "Gambia",
+    "COUNTRY_ISO_2": "GM",
+    "COUNTRY_ISO_3": "GMB"
+  },
+  {
+    "COUNTRY_NAME": "Gambia, The",
+    "COUNTRY_ISO_2": "GM",
+    "COUNTRY_ISO_3": "GMB"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of The Gambia",
+    "COUNTRY_ISO_2": "GM",
+    "COUNTRY_ISO_3": "GMB"
+  },
+  {
+    "COUNTRY_NAME": "Guinea - Bissau",
+    "COUNTRY_ISO_2": "GW",
+    "COUNTRY_ISO_3": "GNB"
+  },
+  {
+    "COUNTRY_NAME": "Guinea-Bissau",
+    "COUNTRY_ISO_2": "GW",
+    "COUNTRY_ISO_3": "GNB"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Guinea-Bissau",
+    "COUNTRY_ISO_2": "GW",
+    "COUNTRY_ISO_3": "GNB"
+  },
+  {
+    "COUNTRY_NAME": "Equatorial Guinea",
+    "COUNTRY_ISO_2": "GQ",
+    "COUNTRY_ISO_3": "GNQ"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Equatorial Guinea",
+    "COUNTRY_ISO_2": "GQ",
+    "COUNTRY_ISO_3": "GNQ"
+  },
+  {
+    "COUNTRY_NAME": "Greece",
+    "COUNTRY_ISO_2": "GR",
+    "COUNTRY_ISO_3": "GRC"
+  },
+  {
+    "COUNTRY_NAME": "The Hellenic Republic",
+    "COUNTRY_ISO_2": "GR",
+    "COUNTRY_ISO_3": "GRC"
+  },
+  {
+    "COUNTRY_NAME": "Grenada",
+    "COUNTRY_ISO_2": "GD",
+    "COUNTRY_ISO_3": "GRD"
+  },
+  {
+    "COUNTRY_NAME": "Greenland",
+    "COUNTRY_ISO_2": "GL",
+    "COUNTRY_ISO_3": "GRL"
+  },
+  {
+    "COUNTRY_NAME": "Guatemala",
+    "COUNTRY_ISO_2": "GT",
+    "COUNTRY_ISO_3": "GTM"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Guatemala",
+    "COUNTRY_ISO_2": "GT",
+    "COUNTRY_ISO_3": "GTM"
+  },
+  {
+    "COUNTRY_NAME": "French Guiana",
+    "COUNTRY_ISO_2": "GF",
+    "COUNTRY_ISO_3": "GUF"
+  },
+  {
+    "COUNTRY_NAME": "Guam",
+    "COUNTRY_ISO_2": "GU",
+    "COUNTRY_ISO_3": "GUM"
+  },
+  {
+    "COUNTRY_NAME": "Guyana",
+    "COUNTRY_ISO_2": "GY",
+    "COUNTRY_ISO_3": "GUY"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Guyana",
+    "COUNTRY_ISO_2": "GY",
+    "COUNTRY_ISO_3": "GUY"
+  },
+  {
+    "COUNTRY_NAME": "China, Hong Kong SAR",
+    "COUNTRY_ISO_2": "HK",
+    "COUNTRY_ISO_3": "HKG"
+  },
+  {
+    "COUNTRY_NAME": "Hong Kong",
+    "COUNTRY_ISO_2": "HK",
+    "COUNTRY_ISO_3": "HKG"
+  },
+  {
+    "COUNTRY_NAME": "Hong Kong SAR, China",
+    "COUNTRY_ISO_2": "HK",
+    "COUNTRY_ISO_3": "HKG"
+  },
+  {
+    "COUNTRY_NAME": "Hong Kong, China",
+    "COUNTRY_ISO_2": "HK",
+    "COUNTRY_ISO_3": "HKG"
+  },
+  {
+    "COUNTRY_NAME": "The Hong Kong Special Admin Region Of China",
+    "COUNTRY_ISO_2": "HK",
+    "COUNTRY_ISO_3": "HKG"
+  },
+  {
+    "COUNTRY_NAME": "Heard Island and McDonald Islands",
+    "COUNTRY_ISO_2": "HM",
+    "COUNTRY_ISO_3": "HMD"
+  },
+  {
+    "COUNTRY_NAME": "Honduras",
+    "COUNTRY_ISO_2": "HN",
+    "COUNTRY_ISO_3": "HND"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Honduras",
+    "COUNTRY_ISO_2": "HN",
+    "COUNTRY_ISO_3": "HND"
+  },
+  {
+    "COUNTRY_NAME": "Croatia",
+    "COUNTRY_ISO_2": "HR",
+    "COUNTRY_ISO_3": "HRV"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Croatia",
+    "COUNTRY_ISO_2": "HR",
+    "COUNTRY_ISO_3": "HRV"
+  },
+  {
+    "COUNTRY_NAME": "Haiti",
+    "COUNTRY_ISO_2": "HT",
+    "COUNTRY_ISO_3": "HTI"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Haiti",
+    "COUNTRY_ISO_2": "HT",
+    "COUNTRY_ISO_3": "HTI"
+  },
+  {
+    "COUNTRY_NAME": "Hungary",
+    "COUNTRY_ISO_2": "HU",
+    "COUNTRY_ISO_3": "HUN"
+  },
+  {
+    "COUNTRY_NAME": "Indonesia",
+    "COUNTRY_ISO_2": "ID",
+    "COUNTRY_ISO_3": "IDN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Indonesia",
+    "COUNTRY_ISO_2": "ID",
+    "COUNTRY_ISO_3": "IDN"
+  },
+  {
+    "COUNTRY_NAME": "Isle of Man",
+    "COUNTRY_ISO_2": "IM",
+    "COUNTRY_ISO_3": "IMN"
+  },
+  {
+    "COUNTRY_NAME": "India",
+    "COUNTRY_ISO_2": "IN",
+    "COUNTRY_ISO_3": "IND"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of India",
+    "COUNTRY_ISO_2": "IN",
+    "COUNTRY_ISO_3": "IND"
+  },
+  {
+    "COUNTRY_NAME": "British Indian Ocean Territory",
+    "COUNTRY_ISO_2": "IO",
+    "COUNTRY_ISO_3": "IOT"
+  },
+  {
+    "COUNTRY_NAME": "Ireland",
+    "COUNTRY_ISO_2": "IE",
+    "COUNTRY_ISO_3": "IRL"
+  },
+  {
+    "COUNTRY_NAME": "Iran",
+    "COUNTRY_ISO_2": "IR",
+    "COUNTRY_ISO_3": "IRN"
+  },
+  {
+    "COUNTRY_NAME": "Iran (Islamic Republic of)",
+    "COUNTRY_ISO_2": "IR",
+    "COUNTRY_ISO_3": "IRN"
+  },
+  {
+    "COUNTRY_NAME": "Iran, Islamic Rep.",
+    "COUNTRY_ISO_2": "IR",
+    "COUNTRY_ISO_3": "IRN"
+  },
+  {
+    "COUNTRY_NAME": "Iran, Islamic Republic of",
+    "COUNTRY_ISO_2": "IR",
+    "COUNTRY_ISO_3": "IRN"
+  },
+  {
+    "COUNTRY_NAME": "The Islamic Republic Of Iran",
+    "COUNTRY_ISO_2": "IR",
+    "COUNTRY_ISO_3": "IRN"
+  },
+  {
+    "COUNTRY_NAME": "Iraq",
+    "COUNTRY_ISO_2": "IQ",
+    "COUNTRY_ISO_3": "IRQ"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Iraq",
+    "COUNTRY_ISO_2": "IQ",
+    "COUNTRY_ISO_3": "IRQ"
+  },
+  {
+    "COUNTRY_NAME": "Iceland",
+    "COUNTRY_ISO_2": "IS",
+    "COUNTRY_ISO_3": "ISL"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Iceland",
+    "COUNTRY_ISO_2": "IS",
+    "COUNTRY_ISO_3": "ISL"
+  },
+  {
+    "COUNTRY_NAME": "Israel",
+    "COUNTRY_ISO_2": "IL",
+    "COUNTRY_ISO_3": "ISR"
+  },
+  {
+    "COUNTRY_NAME": "The State Of Israel",
+    "COUNTRY_ISO_2": "IL",
+    "COUNTRY_ISO_3": "ISR"
+  },
+  {
+    "COUNTRY_NAME": "Italy",
+    "COUNTRY_ISO_2": "IT",
+    "COUNTRY_ISO_3": "ITA"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Italy",
+    "COUNTRY_ISO_2": "IT",
+    "COUNTRY_ISO_3": "ITA"
+  },
+  {
+    "COUNTRY_NAME": "Jamaica",
+    "COUNTRY_ISO_2": "JM",
+    "COUNTRY_ISO_3": "JAM"
+  },
+  {
+    "COUNTRY_NAME": "Jersey",
+    "COUNTRY_ISO_2": "JE",
+    "COUNTRY_ISO_3": "JEY"
+  },
+  {
+    "COUNTRY_NAME": "Jordan",
+    "COUNTRY_ISO_2": "JO",
+    "COUNTRY_ISO_3": "JOR"
+  },
+  {
+    "COUNTRY_NAME": "The Hashemite Kingdom Of Jordan",
+    "COUNTRY_ISO_2": "JO",
+    "COUNTRY_ISO_3": "JOR"
+  },
+  {
+    "COUNTRY_NAME": "Japan",
+    "COUNTRY_ISO_2": "JP",
+    "COUNTRY_ISO_3": "JPN"
+  },
+  {
+    "COUNTRY_NAME": "Kazakhstan",
+    "COUNTRY_ISO_2": "KZ",
+    "COUNTRY_ISO_3": "KAZ"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Kazakhstan",
+    "COUNTRY_ISO_2": "KZ",
+    "COUNTRY_ISO_3": "KAZ"
+  },
+  {
+    "COUNTRY_NAME": "Kenya",
+    "COUNTRY_ISO_2": "KE",
+    "COUNTRY_ISO_3": "KEN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Kenya",
+    "COUNTRY_ISO_2": "KE",
+    "COUNTRY_ISO_3": "KEN"
+  },
+  {
+    "COUNTRY_NAME": "Kyrgyz Republic",
+    "COUNTRY_ISO_2": "KG",
+    "COUNTRY_ISO_3": "KGZ"
+  },
+  {
+    "COUNTRY_NAME": "Kyrgyzstan",
+    "COUNTRY_ISO_2": "KG",
+    "COUNTRY_ISO_3": "KGZ"
+  },
+  {
+    "COUNTRY_NAME": "The Kyrgyz Republic",
+    "COUNTRY_ISO_2": "KG",
+    "COUNTRY_ISO_3": "KGZ"
+  },
+  {
+    "COUNTRY_NAME": "Cambodia",
+    "COUNTRY_ISO_2": "KH",
+    "COUNTRY_ISO_3": "KHM"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Cambodia",
+    "COUNTRY_ISO_2": "KH",
+    "COUNTRY_ISO_3": "KHM"
+  },
+  {
+    "COUNTRY_NAME": "Kiribati",
+    "COUNTRY_ISO_2": "KI",
+    "COUNTRY_ISO_3": "KIR"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Kiribati",
+    "COUNTRY_ISO_2": "KI",
+    "COUNTRY_ISO_3": "KIR"
+  },
+  {
+    "COUNTRY_NAME": "Saint Kitts and Nevis",
+    "COUNTRY_ISO_2": "KN",
+    "COUNTRY_ISO_3": "KNA"
+  },
+  {
+    "COUNTRY_NAME": "Saint Kitts And Nevis",
+    "COUNTRY_ISO_2": "KN",
+    "COUNTRY_ISO_3": "KNA"
+  },
+  {
+    "COUNTRY_NAME": "St Kitts and Nevis",
+    "COUNTRY_ISO_2": "KN",
+    "COUNTRY_ISO_3": "KNA"
+  },
+  {
+    "COUNTRY_NAME": "St. Kitts and Nevis",
+    "COUNTRY_ISO_2": "KN",
+    "COUNTRY_ISO_3": "KNA"
+  },
+  {
+    "COUNTRY_NAME": "Korea (the Republic of)",
+    "COUNTRY_ISO_2": "KR",
+    "COUNTRY_ISO_3": "KOR"
+  },
+  {
+    "COUNTRY_NAME": "Korea, Rep.",
+    "COUNTRY_ISO_2": "KR",
+    "COUNTRY_ISO_3": "KOR"
+  },
+  {
+    "COUNTRY_NAME": "Korea, Republic of",
+    "COUNTRY_ISO_2": "KR",
+    "COUNTRY_ISO_3": "KOR"
+  },
+  {
+    "COUNTRY_NAME": "Republic of Korea",
+    "COUNTRY_ISO_2": "KR",
+    "COUNTRY_ISO_3": "KOR"
+  },
+  {
+    "COUNTRY_NAME": "South Korea",
+    "COUNTRY_ISO_2": "KR",
+    "COUNTRY_ISO_3": "KOR"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Korea",
+    "COUNTRY_ISO_2": "KR",
+    "COUNTRY_ISO_3": "KOR"
+  },
+  {
+    "COUNTRY_NAME": "Kuwait",
+    "COUNTRY_ISO_2": "KW",
+    "COUNTRY_ISO_3": "KWT"
+  },
+  {
+    "COUNTRY_NAME": "The State Of Kuwait",
+    "COUNTRY_ISO_2": "KW",
+    "COUNTRY_ISO_3": "KWT"
+  },
+  {
+    "COUNTRY_NAME": "Lao PDR",
+    "COUNTRY_ISO_2": "LA",
+    "COUNTRY_ISO_3": "LAO"
+  },
+  {
+    "COUNTRY_NAME": "Lao People's Democratic Republic",
+    "COUNTRY_ISO_2": "LA",
+    "COUNTRY_ISO_3": "LAO"
+  },
+  {
+    "COUNTRY_NAME": "Laos",
+    "COUNTRY_ISO_2": "LA",
+    "COUNTRY_ISO_3": "LAO"
+  },
+  {
+    "COUNTRY_NAME": "The Lao People's Democratic Republic",
+    "COUNTRY_ISO_2": "LA",
+    "COUNTRY_ISO_3": "LAO"
+  },
+  {
+    "COUNTRY_NAME": "Lebanon",
+    "COUNTRY_ISO_2": "LB",
+    "COUNTRY_ISO_3": "LBN"
+  },
+  {
+    "COUNTRY_NAME": "The Lebanese Republic",
+    "COUNTRY_ISO_2": "LB",
+    "COUNTRY_ISO_3": "LBN"
+  },
+  {
+    "COUNTRY_NAME": "Liberia",
+    "COUNTRY_ISO_2": "LR",
+    "COUNTRY_ISO_3": "LBR"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Liberia",
+    "COUNTRY_ISO_2": "LR",
+    "COUNTRY_ISO_3": "LBR"
+  },
+  {
+    "COUNTRY_NAME": "Libya",
+    "COUNTRY_ISO_2": "LY",
+    "COUNTRY_ISO_3": "LBY"
+  },
+  {
+    "COUNTRY_NAME": "Libyan Arab Jamahiriya",
+    "COUNTRY_ISO_2": "LY",
+    "COUNTRY_ISO_3": "LBY"
+  },
+  {
+    "COUNTRY_NAME": "Saint Lucia",
+    "COUNTRY_ISO_2": "LC",
+    "COUNTRY_ISO_3": "LCA"
+  },
+  {
+    "COUNTRY_NAME": "St. Lucia",
+    "COUNTRY_ISO_2": "LC",
+    "COUNTRY_ISO_3": "LCA"
+  },
+  {
+    "COUNTRY_NAME": "Liechtenstein",
+    "COUNTRY_ISO_2": "LI",
+    "COUNTRY_ISO_3": "LIE"
+  },
+  {
+    "COUNTRY_NAME": "The Principality Of Liechtenstein",
+    "COUNTRY_ISO_2": "LI",
+    "COUNTRY_ISO_3": "LIE"
+  },
+  {
+    "COUNTRY_NAME": "Sri Lanka",
+    "COUNTRY_ISO_2": "LK",
+    "COUNTRY_ISO_3": "LKA"
+  },
+  {
+    "COUNTRY_NAME": "The Democratic Socialist Republic Of Sri Lanka",
+    "COUNTRY_ISO_2": "LK",
+    "COUNTRY_ISO_3": "LKA"
+  },
+  {
+    "COUNTRY_NAME": "Lesotho",
+    "COUNTRY_ISO_2": "LS",
+    "COUNTRY_ISO_3": "LSO"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Lesotho",
+    "COUNTRY_ISO_2": "LS",
+    "COUNTRY_ISO_3": "LSO"
+  },
+  {
+    "COUNTRY_NAME": "Lithuania",
+    "COUNTRY_ISO_2": "LT",
+    "COUNTRY_ISO_3": "LTU"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Lithuania",
+    "COUNTRY_ISO_2": "LT",
+    "COUNTRY_ISO_3": "LTU"
+  },
+  {
+    "COUNTRY_NAME": "Luxembourg",
+    "COUNTRY_ISO_2": "LU",
+    "COUNTRY_ISO_3": "LUX"
+  },
+  {
+    "COUNTRY_NAME": "The Grand Duchy Of Luxembourg",
+    "COUNTRY_ISO_2": "LU",
+    "COUNTRY_ISO_3": "LUX"
+  },
+  {
+    "COUNTRY_NAME": "Latvia",
+    "COUNTRY_ISO_2": "LV",
+    "COUNTRY_ISO_3": "LVA"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Latvia",
+    "COUNTRY_ISO_2": "LV",
+    "COUNTRY_ISO_3": "LVA"
+  },
+  {
+    "COUNTRY_NAME": "Macao",
+    "COUNTRY_ISO_2": "MO",
+    "COUNTRY_ISO_3": "MAC"
+  },
+  {
+    "COUNTRY_NAME": "China, Macao SAR",
+    "COUNTRY_ISO_2": "MO",
+    "COUNTRY_ISO_3": "MAC"
+  },
+  {
+    "COUNTRY_NAME": "Macao SAR, China",
+    "COUNTRY_ISO_2": "MO",
+    "COUNTRY_ISO_3": "MAC"
+  },
+  {
+    "COUNTRY_NAME": "Macau Special Administrative Region Of China",
+    "COUNTRY_ISO_2": "MO",
+    "COUNTRY_ISO_3": "MAC"
+  },
+  {
+    "COUNTRY_NAME": "Saint Martin",
+    "COUNTRY_ISO_2": "MF",
+    "COUNTRY_ISO_3": "MAF"
+  },
+  {
+    "COUNTRY_NAME": "Morocco",
+    "COUNTRY_ISO_2": "MA",
+    "COUNTRY_ISO_3": "MAR"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Morocco",
+    "COUNTRY_ISO_2": "MA",
+    "COUNTRY_ISO_3": "MAR"
+  },
+  {
+    "COUNTRY_NAME": "Monaco",
+    "COUNTRY_ISO_2": "MC",
+    "COUNTRY_ISO_3": "MCO"
+  },
+  {
+    "COUNTRY_NAME": "The Principality Of Monaco",
+    "COUNTRY_ISO_2": "MC",
+    "COUNTRY_ISO_3": "MCO"
+  },
+  {
+    "COUNTRY_NAME": "Moldova",
+    "COUNTRY_ISO_2": "MD",
+    "COUNTRY_ISO_3": "MDA"
+  },
+  {
+    "COUNTRY_NAME": "Moldova, Republic of",
+    "COUNTRY_ISO_2": "MD",
+    "COUNTRY_ISO_3": "MDA"
+  },
+  {
+    "COUNTRY_NAME": "Republic of Moldova",
+    "COUNTRY_ISO_2": "MD",
+    "COUNTRY_ISO_3": "MDA"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Moldova",
+    "COUNTRY_ISO_2": "MD",
+    "COUNTRY_ISO_3": "MDA"
+  },
+  {
+    "COUNTRY_NAME": "Madagascar",
+    "COUNTRY_ISO_2": "MG",
+    "COUNTRY_ISO_3": "MDG"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Madagascar",
+    "COUNTRY_ISO_2": "MG",
+    "COUNTRY_ISO_3": "MDG"
+  },
+  {
+    "COUNTRY_NAME": "Maldives",
+    "COUNTRY_ISO_2": "MV",
+    "COUNTRY_ISO_3": "MDV"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Maldives",
+    "COUNTRY_ISO_2": "MV",
+    "COUNTRY_ISO_3": "MDV"
+  },
+  {
+    "COUNTRY_NAME": "Mexico",
+    "COUNTRY_ISO_2": "MX",
+    "COUNTRY_ISO_3": "MEX"
+  },
+  {
+    "COUNTRY_NAME": "The United Mexican States",
+    "COUNTRY_ISO_2": "MX",
+    "COUNTRY_ISO_3": "MEX"
+  },
+  {
+    "COUNTRY_NAME": "Marshall Islands",
+    "COUNTRY_ISO_2": "MH",
+    "COUNTRY_ISO_3": "MHL"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of The Marshall Islands",
+    "COUNTRY_ISO_2": "MH",
+    "COUNTRY_ISO_3": "MHL"
+  },
+  {
+    "COUNTRY_NAME": "Macedonia, the former Yugoslav Republic of",
+    "COUNTRY_ISO_2": "MK",
+    "COUNTRY_ISO_3": "MKD"
+  },
+  {
+    "COUNTRY_NAME": "North Macedonia",
+    "COUNTRY_ISO_2": "MK",
+    "COUNTRY_ISO_3": "MKD"
+  },
+  {
+    "COUNTRY_NAME": "The former Yugoslav Republic of Macedonia",
+    "COUNTRY_ISO_2": "MK",
+    "COUNTRY_ISO_3": "MKD"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of North Macedonia",
+    "COUNTRY_ISO_2": "MK",
+    "COUNTRY_ISO_3": "MKD"
+  },
+  {
+    "COUNTRY_NAME": "Mali",
+    "COUNTRY_ISO_2": "ML",
+    "COUNTRY_ISO_3": "MLI"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Mali",
+    "COUNTRY_ISO_2": "ML",
+    "COUNTRY_ISO_3": "MLI"
+  },
+  {
+    "COUNTRY_NAME": "Malta",
+    "COUNTRY_ISO_2": "MT",
+    "COUNTRY_ISO_3": "MLT"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Malta",
+    "COUNTRY_ISO_2": "MT",
+    "COUNTRY_ISO_3": "MLT"
+  },
+  {
+    "COUNTRY_NAME": "Burma",
+    "COUNTRY_ISO_2": "MM",
+    "COUNTRY_ISO_3": "MMR"
+  },
+  {
+    "COUNTRY_NAME": "Myanmar",
+    "COUNTRY_ISO_2": "MM",
+    "COUNTRY_ISO_3": "MMR"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of The Union Of Myanmar",
+    "COUNTRY_ISO_2": "MM",
+    "COUNTRY_ISO_3": "MMR"
+  },
+  {
+    "COUNTRY_NAME": "Montenegro",
+    "COUNTRY_ISO_2": "ME",
+    "COUNTRY_ISO_3": "MNE"
+  },
+  {
+    "COUNTRY_NAME": "Mongolia",
+    "COUNTRY_ISO_2": "MN",
+    "COUNTRY_ISO_3": "MNG"
+  },
+  {
+    "COUNTRY_NAME": "Northern Mariana Islands",
+    "COUNTRY_ISO_2": "MP",
+    "COUNTRY_ISO_3": "MNP"
+  },
+  {
+    "COUNTRY_NAME": "The Commomwealth Of The Northern Mariana Islands",
+    "COUNTRY_ISO_2": "MP",
+    "COUNTRY_ISO_3": "MNP"
+  },
+  {
+    "COUNTRY_NAME": "Mozambique",
+    "COUNTRY_ISO_2": "MZ",
+    "COUNTRY_ISO_3": "MOZ"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Mozambique",
+    "COUNTRY_ISO_2": "MZ",
+    "COUNTRY_ISO_3": "MOZ"
+  },
+  {
+    "COUNTRY_NAME": "Mauritania",
+    "COUNTRY_ISO_2": "MR",
+    "COUNTRY_ISO_3": "MRT"
+  },
+  {
+    "COUNTRY_NAME": "The Islamic Republic Of Mauritania",
+    "COUNTRY_ISO_2": "MR",
+    "COUNTRY_ISO_3": "MRT"
+  },
+  {
+    "COUNTRY_NAME": "Montserrat",
+    "COUNTRY_ISO_2": "MS",
+    "COUNTRY_ISO_3": "MSR"
+  },
+  {
+    "COUNTRY_NAME": "Martinique",
+    "COUNTRY_ISO_2": "MQ",
+    "COUNTRY_ISO_3": "MTQ"
+  },
+  {
+    "COUNTRY_NAME": "Mauritius",
+    "COUNTRY_ISO_2": "MU",
+    "COUNTRY_ISO_3": "MUS"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Mauritius",
+    "COUNTRY_ISO_2": "MU",
+    "COUNTRY_ISO_3": "MUS"
+  },
+  {
+    "COUNTRY_NAME": "Malawi",
+    "COUNTRY_ISO_2": "MW",
+    "COUNTRY_ISO_3": "MWI"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Malawi",
+    "COUNTRY_ISO_2": "MW",
+    "COUNTRY_ISO_3": "MWI"
+  },
+  {
+    "COUNTRY_NAME": "Malaysia",
+    "COUNTRY_ISO_2": "MY",
+    "COUNTRY_ISO_3": "MYS"
+  },
+  {
+    "COUNTRY_NAME": "Mayotte",
+    "COUNTRY_ISO_2": "YT",
+    "COUNTRY_ISO_3": "MYT"
+  },
+  {
+    "COUNTRY_NAME": "Namibia",
+    "COUNTRY_ISO_2": NaN,
+    "COUNTRY_ISO_3": "NAM"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Namibia",
+    "COUNTRY_ISO_2": NaN,
+    "COUNTRY_ISO_3": "NAM"
+  },
+  {
+    "COUNTRY_NAME": "New Caledonia",
+    "COUNTRY_ISO_2": "NC",
+    "COUNTRY_ISO_3": "NCL"
+  },
+  {
+    "COUNTRY_NAME": "Niger",
+    "COUNTRY_ISO_2": "NE",
+    "COUNTRY_ISO_3": "NER"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of The Niger",
+    "COUNTRY_ISO_2": "NE",
+    "COUNTRY_ISO_3": "NER"
+  },
+  {
+    "COUNTRY_NAME": "Norfolk Island",
+    "COUNTRY_ISO_2": "NF",
+    "COUNTRY_ISO_3": "NFK"
+  },
+  {
+    "COUNTRY_NAME": "Nigeria",
+    "COUNTRY_ISO_2": "NG",
+    "COUNTRY_ISO_3": "NGA"
+  },
+  {
+    "COUNTRY_NAME": "The Federal Republic Of Nigeria",
+    "COUNTRY_ISO_2": "NG",
+    "COUNTRY_ISO_3": "NGA"
+  },
+  {
+    "COUNTRY_NAME": "Nicaragua",
+    "COUNTRY_ISO_2": "NI",
+    "COUNTRY_ISO_3": "NIC"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Nicaragua",
+    "COUNTRY_ISO_2": "NI",
+    "COUNTRY_ISO_3": "NIC"
+  },
+  {
+    "COUNTRY_NAME": "Niue",
+    "COUNTRY_ISO_2": "NU",
+    "COUNTRY_ISO_3": "NIU"
+  },
+  {
+    "COUNTRY_NAME": "Netherlands",
+    "COUNTRY_ISO_2": "NL",
+    "COUNTRY_ISO_3": "NLD"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of The Netherlands",
+    "COUNTRY_ISO_2": "NL",
+    "COUNTRY_ISO_3": "NLD"
+  },
+  {
+    "COUNTRY_NAME": "Norway",
+    "COUNTRY_ISO_2": "NO",
+    "COUNTRY_ISO_3": "NOR"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Norway",
+    "COUNTRY_ISO_2": "NO",
+    "COUNTRY_ISO_3": "NOR"
+  },
+  {
+    "COUNTRY_NAME": "Nepal",
+    "COUNTRY_ISO_2": "NP",
+    "COUNTRY_ISO_3": "NPL"
+  },
+  {
+    "COUNTRY_NAME": "The Federal Democratic Republic Of Nepal",
+    "COUNTRY_ISO_2": "NP",
+    "COUNTRY_ISO_3": "NPL"
+  },
+  {
+    "COUNTRY_NAME": "Nauru",
+    "COUNTRY_ISO_2": "NR",
+    "COUNTRY_ISO_3": "NRU"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Nauru",
+    "COUNTRY_ISO_2": "NR",
+    "COUNTRY_ISO_3": "NRU"
+  },
+  {
+    "COUNTRY_NAME": "New Zealand",
+    "COUNTRY_ISO_2": "NZ",
+    "COUNTRY_ISO_3": "NZL"
+  },
+  {
+    "COUNTRY_NAME": "Oman",
+    "COUNTRY_ISO_2": "OM",
+    "COUNTRY_ISO_3": "OMN"
+  },
+  {
+    "COUNTRY_NAME": "The Sultanate Of Oman",
+    "COUNTRY_ISO_2": "OM",
+    "COUNTRY_ISO_3": "OMN"
+  },
+  {
+    "COUNTRY_NAME": "Pakistan",
+    "COUNTRY_ISO_2": "PK",
+    "COUNTRY_ISO_3": "PAK"
+  },
+  {
+    "COUNTRY_NAME": "The Islamic Republic Of Pakistan",
+    "COUNTRY_ISO_2": "PK",
+    "COUNTRY_ISO_3": "PAK"
+  },
+  {
+    "COUNTRY_NAME": "Panama",
+    "COUNTRY_ISO_2": "PA",
+    "COUNTRY_ISO_3": "PAN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Panama",
+    "COUNTRY_ISO_2": "PA",
+    "COUNTRY_ISO_3": "PAN"
+  },
+  {
+    "COUNTRY_NAME": "Pitcairn",
+    "COUNTRY_ISO_2": "PN",
+    "COUNTRY_ISO_3": "PCN"
+  },
+  {
+    "COUNTRY_NAME": "Pitcairn Islands",
+    "COUNTRY_ISO_2": "PN",
+    "COUNTRY_ISO_3": "PCN"
+  },
+  {
+    "COUNTRY_NAME": "Peru",
+    "COUNTRY_ISO_2": "PE",
+    "COUNTRY_ISO_3": "PER"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Peru",
+    "COUNTRY_ISO_2": "PE",
+    "COUNTRY_ISO_3": "PER"
+  },
+  {
+    "COUNTRY_NAME": "Philippines",
+    "COUNTRY_ISO_2": "PH",
+    "COUNTRY_ISO_3": "PHL"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of The Philippines",
+    "COUNTRY_ISO_2": "PH",
+    "COUNTRY_ISO_3": "PHL"
+  },
+  {
+    "COUNTRY_NAME": "Palau",
+    "COUNTRY_ISO_2": "PW",
+    "COUNTRY_ISO_3": "PLW"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Palau",
+    "COUNTRY_ISO_2": "PW",
+    "COUNTRY_ISO_3": "PLW"
+  },
+  {
+    "COUNTRY_NAME": "Independent State Of Papua New Guinea",
+    "COUNTRY_ISO_2": "PG",
+    "COUNTRY_ISO_3": "PNG"
+  },
+  {
+    "COUNTRY_NAME": "Papua New Guinea",
+    "COUNTRY_ISO_2": "PG",
+    "COUNTRY_ISO_3": "PNG"
+  },
+  {
+    "COUNTRY_NAME": "Poland",
+    "COUNTRY_ISO_2": "PL",
+    "COUNTRY_ISO_3": "POL"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Poland",
+    "COUNTRY_ISO_2": "PL",
+    "COUNTRY_ISO_3": "POL"
+  },
+  {
+    "COUNTRY_NAME": "Puerto Rico",
+    "COUNTRY_ISO_2": "PR",
+    "COUNTRY_ISO_3": "PRI"
+  },
+  {
+    "COUNTRY_NAME": "Democratic People's Republic of Korea",
+    "COUNTRY_ISO_2": "KP",
+    "COUNTRY_ISO_3": "PRK"
+  },
+  {
+    "COUNTRY_NAME": "Korea (the Democratic People's Republic of)",
+    "COUNTRY_ISO_2": "KP",
+    "COUNTRY_ISO_3": "PRK"
+  },
+  {
+    "COUNTRY_NAME": "Dem. People's Republic of Korea",
+    "COUNTRY_ISO_2": "KP",
+    "COUNTRY_ISO_3": "PRK"
+  },
+  {
+    "COUNTRY_NAME": "Korea, Dem. People's Rep.",
+    "COUNTRY_ISO_2": "KP",
+    "COUNTRY_ISO_3": "PRK"
+  },
+  {
+    "COUNTRY_NAME": "Korea, Democratic People's Republic of",
+    "COUNTRY_ISO_2": "KP",
+    "COUNTRY_ISO_3": "PRK"
+  },
+  {
+    "COUNTRY_NAME": "North Korea",
+    "COUNTRY_ISO_2": "KP",
+    "COUNTRY_ISO_3": "PRK"
+  },
+  {
+    "COUNTRY_NAME": "The Democratic People's Republic Of Korea",
+    "COUNTRY_ISO_2": "KP",
+    "COUNTRY_ISO_3": "PRK"
+  },
+  {
+    "COUNTRY_NAME": "Portugal",
+    "COUNTRY_ISO_2": "PT",
+    "COUNTRY_ISO_3": "PRT"
+  },
+  {
+    "COUNTRY_NAME": "The Portuguese Republic",
+    "COUNTRY_ISO_2": "PT",
+    "COUNTRY_ISO_3": "PRT"
+  },
+  {
+    "COUNTRY_NAME": "Paraguay",
+    "COUNTRY_ISO_2": "PY",
+    "COUNTRY_ISO_3": "PRY"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Paraguay",
+    "COUNTRY_ISO_2": "PY",
+    "COUNTRY_ISO_3": "PRY"
+  },
+  {
+    "COUNTRY_NAME": "Palestine",
+    "COUNTRY_ISO_2": "PS",
+    "COUNTRY_ISO_3": "PSE"
+  },
+  {
+    "COUNTRY_NAME": "Palestine, State of",
+    "COUNTRY_ISO_2": "PS",
+    "COUNTRY_ISO_3": "PSE"
+  },
+  {
+    "COUNTRY_NAME": "Palestinian Territory, Occupied",
+    "COUNTRY_ISO_2": "PS",
+    "COUNTRY_ISO_3": "PSE"
+  },
+  {
+    "COUNTRY_NAME": "State of Palestine",
+    "COUNTRY_ISO_2": "PS",
+    "COUNTRY_ISO_3": "PSE"
+  },
+  {
+    "COUNTRY_NAME": "State Of Palestine",
+    "COUNTRY_ISO_2": "PS",
+    "COUNTRY_ISO_3": "PSE"
+  },
+  {
+    "COUNTRY_NAME": "French Polynesia",
+    "COUNTRY_ISO_2": "PF",
+    "COUNTRY_ISO_3": "PYF"
+  },
+  {
+    "COUNTRY_NAME": "Qatar",
+    "COUNTRY_ISO_2": "QA",
+    "COUNTRY_ISO_3": "QAT"
+  },
+  {
+    "COUNTRY_NAME": "The State Of Qatar",
+    "COUNTRY_ISO_2": "QA",
+    "COUNTRY_ISO_3": "QAT"
+  },
+  {
+    "COUNTRY_NAME": "Reunion",
+    "COUNTRY_ISO_2": "RE",
+    "COUNTRY_ISO_3": "REU"
+  },
+  {
+    "COUNTRY_NAME": "R\u00e9union",
+    "COUNTRY_ISO_2": "RE",
+    "COUNTRY_ISO_3": "REU"
+  },
+  {
+    "COUNTRY_NAME": "Romania",
+    "COUNTRY_ISO_2": "RO",
+    "COUNTRY_ISO_3": "ROU"
+  },
+  {
+    "COUNTRY_NAME": "Russia",
+    "COUNTRY_ISO_2": "RU",
+    "COUNTRY_ISO_3": "RUS"
+  },
+  {
+    "COUNTRY_NAME": "Russian Federation",
+    "COUNTRY_ISO_2": "RU",
+    "COUNTRY_ISO_3": "RUS"
+  },
+  {
+    "COUNTRY_NAME": "The Russian Federation",
+    "COUNTRY_ISO_2": "RU",
+    "COUNTRY_ISO_3": "RUS"
+  },
+  {
+    "COUNTRY_NAME": "Rwanda",
+    "COUNTRY_ISO_2": "RW",
+    "COUNTRY_ISO_3": "RWA"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Rwanda",
+    "COUNTRY_ISO_2": "RW",
+    "COUNTRY_ISO_3": "RWA"
+  },
+  {
+    "COUNTRY_NAME": "Saudi Arabia",
+    "COUNTRY_ISO_2": "SA",
+    "COUNTRY_ISO_3": "SAU"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Saudi Arabia",
+    "COUNTRY_ISO_2": "SA",
+    "COUNTRY_ISO_3": "SAU"
+  },
+  {
+    "COUNTRY_NAME": "Sudan",
+    "COUNTRY_ISO_2": "SD",
+    "COUNTRY_ISO_3": "SDN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of The Sudan",
+    "COUNTRY_ISO_2": "SD",
+    "COUNTRY_ISO_3": "SDN"
+  },
+  {
+    "COUNTRY_NAME": "Senegal",
+    "COUNTRY_ISO_2": "SN",
+    "COUNTRY_ISO_3": "SEN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Senegal",
+    "COUNTRY_ISO_2": "SN",
+    "COUNTRY_ISO_3": "SEN"
+  },
+  {
+    "COUNTRY_NAME": "Singapore",
+    "COUNTRY_ISO_2": "SG",
+    "COUNTRY_ISO_3": "SGP"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Singapore",
+    "COUNTRY_ISO_2": "SG",
+    "COUNTRY_ISO_3": "SGP"
+  },
+  {
+    "COUNTRY_NAME": "South Georgia and South Sandwich Islands",
+    "COUNTRY_ISO_2": "GS",
+    "COUNTRY_ISO_3": "SGS"
+  },
+  {
+    "COUNTRY_NAME": "South Georgia and the South Sandwich Islands",
+    "COUNTRY_ISO_2": "GS",
+    "COUNTRY_ISO_3": "SGS"
+  },
+  {
+    "COUNTRY_NAME": "Saint Helena",
+    "COUNTRY_ISO_2": "SH",
+    "COUNTRY_ISO_3": "SHN"
+  },
+  {
+    "COUNTRY_NAME": "Saint Helena, Ascension and Tristan da Cunha",
+    "COUNTRY_ISO_2": "SH",
+    "COUNTRY_ISO_3": "SHN"
+  },
+  {
+    "COUNTRY_NAME": "Saint Helena, Ascension And Tristan Da Cunha",
+    "COUNTRY_ISO_2": "SH",
+    "COUNTRY_ISO_3": "SHN"
+  },
+  {
+    "COUNTRY_NAME": "Svalbard and Jan Mayen",
+    "COUNTRY_ISO_2": "SJ",
+    "COUNTRY_ISO_3": "SJM"
+  },
+  {
+    "COUNTRY_NAME": "Solomon Islands",
+    "COUNTRY_ISO_2": "SB",
+    "COUNTRY_ISO_3": "SLB"
+  },
+  {
+    "COUNTRY_NAME": "Sierra Leone",
+    "COUNTRY_ISO_2": "SL",
+    "COUNTRY_ISO_3": "SLE"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Sierra Leone",
+    "COUNTRY_ISO_2": "SL",
+    "COUNTRY_ISO_3": "SLE"
+  },
+  {
+    "COUNTRY_NAME": "El Salvador",
+    "COUNTRY_ISO_2": "SV",
+    "COUNTRY_ISO_3": "SLV"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of El Salvador",
+    "COUNTRY_ISO_2": "SV",
+    "COUNTRY_ISO_3": "SLV"
+  },
+  {
+    "COUNTRY_NAME": "San Marino",
+    "COUNTRY_ISO_2": "SM",
+    "COUNTRY_ISO_3": "SMR"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of San Marino",
+    "COUNTRY_ISO_2": "SM",
+    "COUNTRY_ISO_3": "SMR"
+  },
+  {
+    "COUNTRY_NAME": "Somalia",
+    "COUNTRY_ISO_2": "SO",
+    "COUNTRY_ISO_3": "SOM"
+  },
+  {
+    "COUNTRY_NAME": "The Federal Republic Of Somalia",
+    "COUNTRY_ISO_2": "SO",
+    "COUNTRY_ISO_3": "SOM"
+  },
+  {
+    "COUNTRY_NAME": "Saint Pierre and Miquelon",
+    "COUNTRY_ISO_2": "PM",
+    "COUNTRY_ISO_3": "SPM"
+  },
+  {
+    "COUNTRY_NAME": "Serbia",
+    "COUNTRY_ISO_2": "RS",
+    "COUNTRY_ISO_3": "SRB"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Serbia",
+    "COUNTRY_ISO_2": "RS",
+    "COUNTRY_ISO_3": "SRB"
+  },
+  {
+    "COUNTRY_NAME": "South Sudan",
+    "COUNTRY_ISO_2": "SS",
+    "COUNTRY_ISO_3": "SSD"
+  },
+  {
+    "COUNTRY_NAME": "South Sudan",
+    "COUNTRY_ISO_2": "SS",
+    "COUNTRY_ISO_3": "SSD"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of South Sudan",
+    "COUNTRY_ISO_2": "SS",
+    "COUNTRY_ISO_3": "SSD"
+  },
+  {
+    "COUNTRY_NAME": "Sao Tome and Principe",
+    "COUNTRY_ISO_2": "ST",
+    "COUNTRY_ISO_3": "STP"
+  },
+  {
+    "COUNTRY_NAME": "S\u00e3o Tom\u00e9 and Principe",
+    "COUNTRY_ISO_2": "ST",
+    "COUNTRY_ISO_3": "STP"
+  },
+  {
+    "COUNTRY_NAME": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "COUNTRY_ISO_2": "ST",
+    "COUNTRY_ISO_3": "STP"
+  },
+  {
+    "COUNTRY_NAME": "The Democratic Republic Of Sao Tome And Principe",
+    "COUNTRY_ISO_2": "ST",
+    "COUNTRY_ISO_3": "STP"
+  },
+  {
+    "COUNTRY_NAME": "Suriname",
+    "COUNTRY_ISO_2": "SR",
+    "COUNTRY_ISO_3": "SUR"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Suriname",
+    "COUNTRY_ISO_2": "SR",
+    "COUNTRY_ISO_3": "SUR"
+  },
+  {
+    "COUNTRY_NAME": "Slovak Republic",
+    "COUNTRY_ISO_2": "SK",
+    "COUNTRY_ISO_3": "SVK"
+  },
+  {
+    "COUNTRY_NAME": "Slovakia",
+    "COUNTRY_ISO_2": "SK",
+    "COUNTRY_ISO_3": "SVK"
+  },
+  {
+    "COUNTRY_NAME": "The Slovak Republic",
+    "COUNTRY_ISO_2": "SK",
+    "COUNTRY_ISO_3": "SVK"
+  },
+  {
+    "COUNTRY_NAME": "Slovenia",
+    "COUNTRY_ISO_2": "SI",
+    "COUNTRY_ISO_3": "SVN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Slovenia",
+    "COUNTRY_ISO_2": "SI",
+    "COUNTRY_ISO_3": "SVN"
+  },
+  {
+    "COUNTRY_NAME": "Sweden",
+    "COUNTRY_ISO_2": "SE",
+    "COUNTRY_ISO_3": "SWE"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Sweden",
+    "COUNTRY_ISO_2": "SE",
+    "COUNTRY_ISO_3": "SWE"
+  },
+  {
+    "COUNTRY_NAME": "Eswatini",
+    "COUNTRY_ISO_2": "SZ",
+    "COUNTRY_ISO_3": "SWZ"
+  },
+  {
+    "COUNTRY_NAME": "Swaziland",
+    "COUNTRY_ISO_2": "SZ",
+    "COUNTRY_ISO_3": "SWZ"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Eswatini",
+    "COUNTRY_ISO_2": "SZ",
+    "COUNTRY_ISO_3": "SWZ"
+  },
+  {
+    "COUNTRY_NAME": "Sint Maarten",
+    "COUNTRY_ISO_2": "SX",
+    "COUNTRY_ISO_3": "SXM"
+  },
+  {
+    "COUNTRY_NAME": "Seychelles",
+    "COUNTRY_ISO_2": "SC",
+    "COUNTRY_ISO_3": "SYC"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Seychelles",
+    "COUNTRY_ISO_2": "SC",
+    "COUNTRY_ISO_3": "SYC"
+  },
+  {
+    "COUNTRY_NAME": "Syria",
+    "COUNTRY_ISO_2": "SY",
+    "COUNTRY_ISO_3": "SYR"
+  },
+  {
+    "COUNTRY_NAME": "Syrian Arab Republic",
+    "COUNTRY_ISO_2": "SY",
+    "COUNTRY_ISO_3": "SYR"
+  },
+  {
+    "COUNTRY_NAME": "The Syrian Arab Republic",
+    "COUNTRY_ISO_2": "SY",
+    "COUNTRY_ISO_3": "SYR"
+  },
+  {
+    "COUNTRY_NAME": "Turks And Caicos Island",
+    "COUNTRY_ISO_2": "TC",
+    "COUNTRY_ISO_3": "TCA"
+  },
+  {
+    "COUNTRY_NAME": "Turks and Caicos Islands",
+    "COUNTRY_ISO_2": "TC",
+    "COUNTRY_ISO_3": "TCA"
+  },
+  {
+    "COUNTRY_NAME": "Chad",
+    "COUNTRY_ISO_2": "TD",
+    "COUNTRY_ISO_3": "TCD"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Chad",
+    "COUNTRY_ISO_2": "TD",
+    "COUNTRY_ISO_3": "TCD"
+  },
+  {
+    "COUNTRY_NAME": "The Togolese Republic",
+    "COUNTRY_ISO_2": "TG",
+    "COUNTRY_ISO_3": "TGO"
+  },
+  {
+    "COUNTRY_NAME": "Togo",
+    "COUNTRY_ISO_2": "TG",
+    "COUNTRY_ISO_3": "TGO"
+  },
+  {
+    "COUNTRY_NAME": "Thailand",
+    "COUNTRY_ISO_2": "TH",
+    "COUNTRY_ISO_3": "THA"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Thailand",
+    "COUNTRY_ISO_2": "TH",
+    "COUNTRY_ISO_3": "THA"
+  },
+  {
+    "COUNTRY_NAME": "Tajikistan",
+    "COUNTRY_ISO_2": "TJ",
+    "COUNTRY_ISO_3": "TJK"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Tajikistan",
+    "COUNTRY_ISO_2": "TJ",
+    "COUNTRY_ISO_3": "TJK"
+  },
+  {
+    "COUNTRY_NAME": "Tokelau",
+    "COUNTRY_ISO_2": "TK",
+    "COUNTRY_ISO_3": "TKL"
+  },
+  {
+    "COUNTRY_NAME": "Turkmenistan",
+    "COUNTRY_ISO_2": "TM",
+    "COUNTRY_ISO_3": "TKM"
+  },
+  {
+    "COUNTRY_NAME": "The Democratic Republic Of Timor-Leste",
+    "COUNTRY_ISO_2": "TL",
+    "COUNTRY_ISO_3": "TLS"
+  },
+  {
+    "COUNTRY_NAME": "Timor-Leste",
+    "COUNTRY_ISO_2": "TL",
+    "COUNTRY_ISO_3": "TLS"
+  },
+  {
+    "COUNTRY_NAME": "The Kingdom Of Tonga",
+    "COUNTRY_ISO_2": "TO",
+    "COUNTRY_ISO_3": "TON"
+  },
+  {
+    "COUNTRY_NAME": "Tonga",
+    "COUNTRY_ISO_2": "TO",
+    "COUNTRY_ISO_3": "TON"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Trinidad And Tobago",
+    "COUNTRY_ISO_2": "TT",
+    "COUNTRY_ISO_3": "TTO"
+  },
+  {
+    "COUNTRY_NAME": "Trinidad & Tobago",
+    "COUNTRY_ISO_2": "TT",
+    "COUNTRY_ISO_3": "TTO"
+  },
+  {
+    "COUNTRY_NAME": "Trinidad and Tobago",
+    "COUNTRY_ISO_2": "TT",
+    "COUNTRY_ISO_3": "TTO"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Tunisia",
+    "COUNTRY_ISO_2": "TN",
+    "COUNTRY_ISO_3": "TUN"
+  },
+  {
+    "COUNTRY_NAME": "Tunisia",
+    "COUNTRY_ISO_2": "TN",
+    "COUNTRY_ISO_3": "TUN"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Turkey",
+    "COUNTRY_ISO_2": "TR",
+    "COUNTRY_ISO_3": "TUR"
+  },
+  {
+    "COUNTRY_NAME": "Turkey",
+    "COUNTRY_ISO_2": "TR",
+    "COUNTRY_ISO_3": "TUR"
+  },
+  {
+    "COUNTRY_NAME": "Tuvalu",
+    "COUNTRY_ISO_2": "TV",
+    "COUNTRY_ISO_3": "TUV"
+  },
+  {
+    "COUNTRY_NAME": "Taiwan",
+    "COUNTRY_ISO_2": "TW",
+    "COUNTRY_ISO_3": "TWN"
+  },
+  {
+    "COUNTRY_NAME": "China, Taiwan Province of China",
+    "COUNTRY_ISO_2": "TW",
+    "COUNTRY_ISO_3": "TWN"
+  },
+  {
+    "COUNTRY_NAME": "Taiwan, China",
+    "COUNTRY_ISO_2": "TW",
+    "COUNTRY_ISO_3": "TWN"
+  },
+  {
+    "COUNTRY_NAME": "Taiwan, Province of China",
+    "COUNTRY_ISO_2": "TW",
+    "COUNTRY_ISO_3": "TWN"
+  },
+  {
+    "COUNTRY_NAME": "Tanzania",
+    "COUNTRY_ISO_2": "TZ",
+    "COUNTRY_ISO_3": "TZA"
+  },
+  {
+    "COUNTRY_NAME": "Tanzania, United Republic of",
+    "COUNTRY_ISO_2": "TZ",
+    "COUNTRY_ISO_3": "TZA"
+  },
+  {
+    "COUNTRY_NAME": "The United Republic Of Tanzania",
+    "COUNTRY_ISO_2": "TZ",
+    "COUNTRY_ISO_3": "TZA"
+  },
+  {
+    "COUNTRY_NAME": "United Republic of Tanzania",
+    "COUNTRY_ISO_2": "TZ",
+    "COUNTRY_ISO_3": "TZA"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Uganda",
+    "COUNTRY_ISO_2": "UG",
+    "COUNTRY_ISO_3": "UGA"
+  },
+  {
+    "COUNTRY_NAME": "Uganda",
+    "COUNTRY_ISO_2": "UG",
+    "COUNTRY_ISO_3": "UGA"
+  },
+  {
+    "COUNTRY_NAME": "Ukraine",
+    "COUNTRY_ISO_2": "UA",
+    "COUNTRY_ISO_3": "UKR"
+  },
+  {
+    "COUNTRY_NAME": "U.S. Minor Outlying Islands",
+    "COUNTRY_ISO_2": "UM",
+    "COUNTRY_ISO_3": "UMI"
+  },
+  {
+    "COUNTRY_NAME": "United States Minor Outlying Islands",
+    "COUNTRY_ISO_2": "UM",
+    "COUNTRY_ISO_3": "UMI"
+  },
+  {
+    "COUNTRY_NAME": "The Eastern Republic Of Uruguay",
+    "COUNTRY_ISO_2": "UY",
+    "COUNTRY_ISO_3": "URY"
+  },
+  {
+    "COUNTRY_NAME": "Uruguay",
+    "COUNTRY_ISO_2": "UY",
+    "COUNTRY_ISO_3": "URY"
+  },
+  {
+    "COUNTRY_NAME": "USA (Gulf of Mexico)",
+    "COUNTRY_ISO_2": "US",
+    "COUNTRY_ISO_3": "USA"
+  },
+  {
+    "COUNTRY_NAME": "The United States Of America",
+    "COUNTRY_ISO_2": "US",
+    "COUNTRY_ISO_3": "USA"
+  },
+  {
+    "COUNTRY_NAME": "United States",
+    "COUNTRY_ISO_2": "US",
+    "COUNTRY_ISO_3": "USA"
+  },
+  {
+    "COUNTRY_NAME": "United States of America",
+    "COUNTRY_ISO_2": "US",
+    "COUNTRY_ISO_3": "USA"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Uzbekistan",
+    "COUNTRY_ISO_2": "UZ",
+    "COUNTRY_ISO_3": "UZB"
+  },
+  {
+    "COUNTRY_NAME": "Uzbekistan",
+    "COUNTRY_ISO_2": "UZ",
+    "COUNTRY_ISO_3": "UZB"
+  },
+  {
+    "COUNTRY_NAME": "Holy See",
+    "COUNTRY_ISO_2": "VA",
+    "COUNTRY_ISO_3": "VAT"
+  },
+  {
+    "COUNTRY_NAME": "Holy See (Vatican City State)",
+    "COUNTRY_ISO_2": "VA",
+    "COUNTRY_ISO_3": "VAT"
+  },
+  {
+    "COUNTRY_NAME": "The Holy See",
+    "COUNTRY_ISO_2": "VA",
+    "COUNTRY_ISO_3": "VAT"
+  },
+  {
+    "COUNTRY_NAME": "Vatican City",
+    "COUNTRY_ISO_2": "VA",
+    "COUNTRY_ISO_3": "VAT"
+  },
+  {
+    "COUNTRY_NAME": "Saint Vincent & the Grenadines",
+    "COUNTRY_ISO_2": "VC",
+    "COUNTRY_ISO_3": "VCT"
+  },
+  {
+    "COUNTRY_NAME": "Saint Vincent and the Grenadines",
+    "COUNTRY_ISO_2": "VC",
+    "COUNTRY_ISO_3": "VCT"
+  },
+  {
+    "COUNTRY_NAME": "Saint Vincent And The Grenadines",
+    "COUNTRY_ISO_2": "VC",
+    "COUNTRY_ISO_3": "VCT"
+  },
+  {
+    "COUNTRY_NAME": "St Vincent and Grenadines",
+    "COUNTRY_ISO_2": "VC",
+    "COUNTRY_ISO_3": "VCT"
+  },
+  {
+    "COUNTRY_NAME": "St. Vincent and the Grenadines",
+    "COUNTRY_ISO_2": "VC",
+    "COUNTRY_ISO_3": "VCT"
+  },
+  {
+    "COUNTRY_NAME": "The Bolivarian Republic Of Venezuela",
+    "COUNTRY_ISO_2": "VE",
+    "COUNTRY_ISO_3": "VEN"
+  },
+  {
+    "COUNTRY_NAME": "Venezuela",
+    "COUNTRY_ISO_2": "VE",
+    "COUNTRY_ISO_3": "VEN"
+  },
+  {
+    "COUNTRY_NAME": "Venezuela (Bolivarian Republic of)",
+    "COUNTRY_ISO_2": "VE",
+    "COUNTRY_ISO_3": "VEN"
+  },
+  {
+    "COUNTRY_NAME": "Venezuela, Bolivarian Republic of",
+    "COUNTRY_ISO_2": "VE",
+    "COUNTRY_ISO_3": "VEN"
+  },
+  {
+    "COUNTRY_NAME": "Venezuela, RB",
+    "COUNTRY_ISO_2": "VE",
+    "COUNTRY_ISO_3": "VEN"
+  },
+  {
+    "COUNTRY_NAME": "British Virgin Islands",
+    "COUNTRY_ISO_2": "VG",
+    "COUNTRY_ISO_3": "VGB"
+  },
+  {
+    "COUNTRY_NAME": "The Btitish Virgin Islands",
+    "COUNTRY_ISO_2": "VG",
+    "COUNTRY_ISO_3": "VGB"
+  },
+  {
+    "COUNTRY_NAME": "Virgin Islands, British",
+    "COUNTRY_ISO_2": "VG",
+    "COUNTRY_ISO_3": "VGB"
+  },
+  {
+    "COUNTRY_NAME": "U.S. Virgin Islands",
+    "COUNTRY_ISO_2": "VI",
+    "COUNTRY_ISO_3": "VIR"
+  },
+  {
+    "COUNTRY_NAME": "United States Virgin Islands",
+    "COUNTRY_ISO_2": "VI",
+    "COUNTRY_ISO_3": "VIR"
+  },
+  {
+    "COUNTRY_NAME": "Virgin Islands (U.S.)",
+    "COUNTRY_ISO_2": "VI",
+    "COUNTRY_ISO_3": "VIR"
+  },
+  {
+    "COUNTRY_NAME": "Virgin Islands Of The United States",
+    "COUNTRY_ISO_2": "VI",
+    "COUNTRY_ISO_3": "VIR"
+  },
+  {
+    "COUNTRY_NAME": "Virgin Islands, U.S.",
+    "COUNTRY_ISO_2": "VI",
+    "COUNTRY_ISO_3": "VIR"
+  },
+  {
+    "COUNTRY_NAME": "The Socialist Republic Of Viet Nam",
+    "COUNTRY_ISO_2": "VN",
+    "COUNTRY_ISO_3": "VNM"
+  },
+  {
+    "COUNTRY_NAME": "Viet Nam",
+    "COUNTRY_ISO_2": "VN",
+    "COUNTRY_ISO_3": "VNM"
+  },
+  {
+    "COUNTRY_NAME": "Vietnam",
+    "COUNTRY_ISO_2": "VN",
+    "COUNTRY_ISO_3": "VNM"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Vanuatu",
+    "COUNTRY_ISO_2": "VU",
+    "COUNTRY_ISO_3": "VUT"
+  },
+  {
+    "COUNTRY_NAME": "Vanuatu",
+    "COUNTRY_ISO_2": "VU",
+    "COUNTRY_ISO_3": "VUT"
+  },
+  {
+    "COUNTRY_NAME": "Wallis & Futuna Islands",
+    "COUNTRY_ISO_2": "WF",
+    "COUNTRY_ISO_3": "WLF"
+  },
+  {
+    "COUNTRY_NAME": "Wallis and Futuna",
+    "COUNTRY_ISO_2": "WF",
+    "COUNTRY_ISO_3": "WLF"
+  },
+  {
+    "COUNTRY_NAME": "Samoa",
+    "COUNTRY_ISO_2": "WS",
+    "COUNTRY_ISO_3": "WSM"
+  },
+  {
+    "COUNTRY_NAME": "The Independent State Of Samoa",
+    "COUNTRY_ISO_2": "WS",
+    "COUNTRY_ISO_3": "WSM"
+  },
+  {
+    "COUNTRY_NAME": "Kosovo",
+    "COUNTRY_ISO_2": "XK",
+    "COUNTRY_ISO_3": "XKX"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Yemen",
+    "COUNTRY_ISO_2": "YE",
+    "COUNTRY_ISO_3": "YEM"
+  },
+  {
+    "COUNTRY_NAME": "Yemen",
+    "COUNTRY_ISO_2": "YE",
+    "COUNTRY_ISO_3": "YEM"
+  },
+  {
+    "COUNTRY_NAME": "Yemen, Rep.",
+    "COUNTRY_ISO_2": "YE",
+    "COUNTRY_ISO_3": "YEM"
+  },
+  {
+    "COUNTRY_NAME": "Yugoslavia",
+    "COUNTRY_ISO_2": "YU",
+    "COUNTRY_ISO_3": "YUG"
+  },
+  {
+    "COUNTRY_NAME": "South Africa",
+    "COUNTRY_ISO_2": "ZA",
+    "COUNTRY_ISO_3": "ZAF"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of South Africa",
+    "COUNTRY_ISO_2": "ZA",
+    "COUNTRY_ISO_3": "ZAF"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Zambia",
+    "COUNTRY_ISO_2": "ZM",
+    "COUNTRY_ISO_3": "ZMB"
+  },
+  {
+    "COUNTRY_NAME": "Zambia",
+    "COUNTRY_ISO_2": "ZM",
+    "COUNTRY_ISO_3": "ZMB"
+  },
+  {
+    "COUNTRY_NAME": "The Republic Of Zimbabwe",
+    "COUNTRY_ISO_2": "ZW",
+    "COUNTRY_ISO_3": "ZWE"
+  },
+  {
+    "COUNTRY_NAME": "Zimbabwe",
+    "COUNTRY_ISO_2": "ZW",
+    "COUNTRY_ISO_3": "ZWE"
+  }
+]
