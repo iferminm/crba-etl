@@ -1,4 +1,4 @@
-config/2020/in/data/raw filter=lfs diff=lfs merge=lfs -text
-config/2020/in/data/staging filter=lfs diff=lfs merge=lfs -text
-config/2023/in/data/raw filter=lfs diff=lfs merge=lfs -text
-config/2023/in/data/staging filter=lfs diff=lfs merge=lfs -text
+config/2020/in/data/raw/** filter=lfs diff=lfs merge=lfs -text
+config/2020/in/data/staging/** filter=lfs diff=lfs merge=lfs -text
+config/2023/in/data/raw/** filter=lfs diff=lfs merge=lfs -text
+config/2023/in/data/staging/** filter=lfs diff=lfs merge=lfs -text
