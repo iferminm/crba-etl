@@ -34,8 +34,8 @@ datasources:
         default_regex:
           group_names:
             - data_asset_name
-          pattern: (.*.csv)
-        base_directory: ../config/2023/out/data/indicator
+          pattern: (.*)
+        base_directory: ../../config/2023/out/data/indicator
         class_name: InferredAssetFilesystemDataConnector
       default_runtime_data_connector_name:
         module_name: great_expectations.datasource.data_connector
