@@ -2,1309 +2,1058 @@
   "S-1": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-2": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-3": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-4": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-5": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-6": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-7": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-8": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-9": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-10": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-11": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
   },
   "S-12": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-13": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-14": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-21-total-HIZkLiYK.xlsx"
   },
   "S-15": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-16": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-17": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-18": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-19": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-20": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-21": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-22": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-23": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-24": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-25": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-26": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-27": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-28": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-29": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-30": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-31": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-32": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-33": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-34": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-35": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-36": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-37": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-38": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-39": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-40": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-41": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "startPeriod": "2020-01-01",
+    "endPeriod": "2023-12-31"
   },
   "S-42": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "startPeriod": "2020-01-01",
+    "endPeriod": "2023-12-31"
   },
   "S-43": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-44": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "startPeriod": "2012-01-01",
+    "endPeriod": "2023-12-31"
   },
   "S-45": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-46": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-47": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-48": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-49": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-50": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-51": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx"
   },
   "S-52": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-53": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-54": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-55": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-56": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-57": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-58": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-59": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-60": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-61": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-62": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-63": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-64": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-65": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-66": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-67": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-68": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-69": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-70": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-71": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-72": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-73": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-74": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-75": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-76": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-77": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-78": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-79": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-80": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-81": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-82": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-83": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-84": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-85": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-86": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-87": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-88": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-89": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-90": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-91": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-92": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-93": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-94": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-95": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-96": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-97": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
   },
   "S-98": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-99": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-100": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-101": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
   },
   "S-102": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-103": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-104": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-105": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx"
   },
   "S-106": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx"
   },
   "S-107": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx"
   },
   "S-108": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-109": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-110": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-111": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-112": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-113": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-114": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-115": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-116": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-117": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
   },
   "S-118": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
   },
   "S-119": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-120": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-121": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-122": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-123": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-124": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-125": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-126": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-127": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-128": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-129": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-130": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-131": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-132": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-133": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-134": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-135": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-136": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-153_ndc_content.csv"
   },
   "S-137": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-138": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-139": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-140": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-141": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-142": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-159_ghg-emissions.csv"
   },
   "S-143": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-144": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-145": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-146": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-147": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-148": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-149": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-150": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S_167_Pct_IP_CommunityLands\/Pct_IP_CommunityLands_20170623.xls"
   },
   "S-151": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-152": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-153": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-154": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-155": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-156": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-157": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-158": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-159": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-160": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-161": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-162": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-163": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-164": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-165": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-166": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-167": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-168": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-169": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-170": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-171": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-172": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-173": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-174": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-175": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-176": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-177": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-178": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-179": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-180": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-181": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-182": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-183": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-184": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-185": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "startPeriod": "2020-01-01",
+    "endPeriod": "2023-12-31"
   },
   "S-186": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-187": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-188": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-189": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-190": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "startPeriod": "2020-01-01",
+    "endPeriod": "2023-12-31"
   },
   "S-191": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-192": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-193": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-194": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-195": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-196": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-197": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-198": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-199": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-200": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-201": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-202": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-203": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-204": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-205": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-206": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-207": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-208": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
   },
   "S-209": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-210": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-211": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-212": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-213": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-214": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-215": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-216": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-217": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   },
   "S-218": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx",
-    "FILE_PATH": "file\/somwhere"
+    "TIMEPERIOD": "xxx"
   }
 }

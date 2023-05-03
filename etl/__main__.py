@@ -1,7 +1,7 @@
-import sys
 import argparse
-import pathlib
 import logging
+import pathlib
+import sys
 
 import requests_cache
 
@@ -9,6 +9,7 @@ import etl.run
 from etl.conf import Config
 
 log = logging.getLogger(__name__)
+
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -24,7 +25,7 @@ def parse_args():
 
     parser.add_argument(
         "--build-indicator-filter",
-        help="SQL which is applied to the source config. As file",
+        help="SQL which is applied to the source config. Or CSV File where the first column is the Source ID",
         action="store",
         type=str,
         dest="build_indicators_filter",
@@ -42,15 +43,23 @@ def parse_args():
     return parser.parse_args()
 
 
-def setup_logging(logLevel=logging.INFO):
-    indicator_logger = logging.getLogger("etl.progress_logger")
-    indicator_logger.setLevel(logging.INFO)
+def setup_logging(loglevel=logging.INFO):
+    progress_logger = logging.getLogger("etl.progress_logger")
+    progress_logger.setLevel(loglevel)
 
     root_logger = logging.getLogger()
+
+    class NoStackTraceFormatter(logging.Formatter):
+        def format(self, record):
+            return record.getMessage()
+
     str_handler = logging.StreamHandler(sys.stderr)
+    str_handler.setFormatter(NoStackTraceFormatter())
     root_logger.addHandler(str_handler)
 
-
+    if loglevel == logging.DEBUG:
+        from logging_tree import printout
+        printout()
 
 
 def setup_caching(no_caching: bool):
@@ -69,7 +78,6 @@ if __name__ == "__main__":
     args = parse_args()
 
     setup_logging()
-
     setup_caching(args.no_caching)
 
     config = Config(**vars(args))

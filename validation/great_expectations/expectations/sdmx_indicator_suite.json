@@ -1,0 +1,312 @@
+{
+     "data_asset_type": null,
+     "expectation_suite_name": "sdmx_indicator_suite",
+     "expectations": [ 
+          {
+               "expectation_type": "expect_table_row_count_to_be_between",
+               "kwargs": {
+                    "min_value": 195,
+                    "mostly": 1.0
+               }
+          },
+          {
+               "expectation_type": "expect_table_columns_to_match_set",
+               "kwargs": {
+                    "column_set": ["ATTR_API_ENDPOINT_URL", 
+                    "ATTR_DATA_EXTRACTION_METHDOLOGY", "ATTR_INDICATOR_DESCRIPTION", 
+                    "ATTR_INDICATOR_EXPLANATION", "ATTR_SOURCE", "ATTR_SOURCE_BODY", 
+                    "ATTR_SOURCE_TITLE", "ATTR_UNIT_MEASURE", "COUNTRY_ISO_3", 
+                    "CRBA_RELEASE_YEAR", "INDICATOR_CATEGORY", "INDICATOR_CODE", 
+                    "INDICATOR_INDEX", "INDICATOR_ISSUE", "INDICATOR_NAME", "OBS_STATUS", 
+                    "RAW_OBS_VALUE", "SCALED_OBS_VALUE", "SOURCE_ID", "TIME_PERIOD"],
+                    "exact_match": false
+               }
+          },
+          {
+               "expectation_type": "expect_column_distinct_values_to_contain_set",
+               "kwargs": {
+                    "column": "COUNTRY_ISO_3",
+                    "mostly": 1.0,
+                    "result_format": "COMPLETE",
+                    "value_set": ["AFG","ALB","AND","DZA","AGO","ATG","ARG","ARM","AUS","AUT","AZE","BHS","BHR","BGD","BRB","BLR","BEL","BLZ","BEN","BTN","BOL","BIH","BWA","BRA","BRN","BGR","BFA","BDI","CPV","KHM","CMR","CAN","CAF","TCD","CHL","CHN","COL","COM","COG","COD","CRI","CIV","HRV","CUB","CYP","CZE","DNK","DJI","DMA","DOM","ECU","EGY","SLV","GNQ","ERI","EST","SWZ","ETH","FJI","FIN","FRA","GAB","GMB","GEO","DEU","GHA","GRC","GRD","GTM","GIN","GNB","GUY","HTI","HND","HUN","ISL","IND","IDN","IRN","IRQ","IRL","ISR","ITA","JAM","JPN","JOR","KAZ","KEN","KIR","PRK","KOR","XKX","KWT","KGZ","LAO","LVA","LBN","LSO","LBR","LBY","LIE","LTU","LUX","MKD","MDG","MWI","MYS","MDV","MLI","MLT","MHL","MRT","MUS","MEX","FSM","MDA","MCO","MNG","MNE","MAR","MOZ","MMR","NAM","NRU","NPL","NLD","NZL","NIC","NER","NGA","NOR","OMN","PAK","PLW","PSE","PAN","PNG","PRY","PER","PHL","POL","PRT","QAT","ROU","RUS","RWA","KNA","LCA","VCT","WSM","SMR","STP","SAU","SEN","SRB","SYC","SLE","SGP","SVK","SVN","SLB","SOM","ZAF","SSD","ESP","LKA","SDN","SUR","SWE","CHE","SYR","TJK","TZA","THA","TLS","TGO","TON","TTO","TUN","TUR","TKM","TUV","UGA","UKR","ARE","GBR","USA","URY","UZB","VUT","VEN","VNM","YEM","ZMB","ZWE"]
+               }
+          },
+          {
+               "expectation_type": "expect_column_distinct_values_to_be_in_set",
+               "kwargs": {
+                    "column": "COUNTRY_ISO_3",
+                    "mostly": 1.0,
+                    "value_set": ["AFG","ALB","AND","DZA","AGO","ATG","ARG","ARM","AUS","AUT","AZE","BHS","BHR","BGD","BRB","BLR","BEL","BLZ","BEN","BTN","BOL","BIH","BWA","BRA","BRN","BGR","BFA","BDI","CPV","KHM","CMR","CAN","CAF","TCD","CHL","CHN","COL","COM","COG","COD","CRI","CIV","HRV","CUB","CYP","CZE","DNK","DJI","DMA","DOM","ECU","EGY","SLV","GNQ","ERI","EST","SWZ","ETH","FJI","FIN","FRA","GAB","GMB","GEO","DEU","GHA","GRC","GRD","GTM","GIN","GNB","GUY","HTI","HND","HUN","ISL","IND","IDN","IRN","IRQ","IRL","ISR","ITA","JAM","JPN","JOR","KAZ","KEN","KIR","PRK","KOR","XKX","KWT","KGZ","LAO","LVA","LBN","LSO","LBR","LBY","LIE","LTU","LUX","MKD","MDG","MWI","MYS","MDV","MLI","MLT","MHL","MRT","MUS","MEX","FSM","MDA","MCO","MNG","MNE","MAR","MOZ","MMR","NAM","NRU","NPL","NLD","NZL","NIC","NER","NGA","NOR","OMN","PAK","PLW","PSE","PAN","PNG","PRY","PER","PHL","POL","PRT","QAT","ROU","RUS","RWA","KNA","LCA","VCT","WSM","SMR","STP","SAU","SEN","SRB","SYC","SLE","SGP","SVK","SVN","SLB","SOM","ZAF","SSD","ESP","LKA","SDN","SUR","SWE","CHE","SYR","TJK","TZA","THA","TLS","TGO","TON","TTO","TUN","TUR","TKM","TUV","UGA","UKR","ARE","GBR","USA","URY","UZB","VUT","VEN","VNM","YEM","ZMB","ZWE"]
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_not_be_null",
+               "kwargs": {
+                    "column": "INDICATOR_INDEX"
+               },
+               "meta": {
+                    "profiler_details": {
+                         "metric_configuration": {
+                              "domain_kwargs": {
+                                   "column": "INDICATOR_INDEX"
+                              },
+                              "metric_name": "column_values.nonnull.unexpected_count",
+                              "metric_value_kwargs": null
+                         },
+                         "num_batches": 2
+                    }
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_not_be_null",
+               "kwargs": {
+                    "column": "INDICATOR_ISSUE"
+               },
+               "meta": {
+                    "profiler_details": {
+                         "metric_configuration": {
+                              "domain_kwargs": {
+                                   "column": "INDICATOR_ISSUE"
+                              },
+                              "metric_name": "column_values.nonnull.unexpected_count",
+                              "metric_value_kwargs": null
+                         },
+                         "num_batches": 2
+                    }
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_not_be_null",
+               "kwargs": {
+                    "column": "INDICATOR_CATEGORY"
+               },
+               "meta": {
+                    "profiler_details": {
+                         "metric_configuration": {
+                              "domain_kwargs": {
+                                   "column": "INDICATOR_CATEGORY"
+                              },
+                              "metric_name": "column_values.nonnull.unexpected_count",
+                              "metric_value_kwargs": null
+                         },
+                         "num_batches": 2
+                    }
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_be_between",
+               "kwargs": {
+                    "column": "TIME_PERIOD",
+                    "max_value": {"$PARAMETER": "TIME_PERIOD_SPAN_UPPER"},
+                    "min_value": {"$PARAMETER": "TIME_PERIOD_SPAN_LOWER"},
+                    "mostly": 1.0,
+                    "strict_max": false,
+                    "strict_min": false
+               },
+               "meta": {
+                    "profiler_details": {
+                         "column_max_values_range_estimator": {
+                              "metric_configuration": {
+                                   "domain_kwargs": {
+                                        "column": "TIME_PERIOD"
+                                   },
+                                   "metric_name": "column.max",
+                                   "metric_value_kwargs": null
+                              },
+                              "num_batches": 2
+                         },
+                         "column_min_values_range_estimator": {
+                              "metric_configuration": {
+                                   "domain_kwargs": {
+                                        "column": "TIME_PERIOD"
+                                   },
+                                   "metric_name": "column.min",
+                                   "metric_value_kwargs": null
+                              },
+                              "num_batches": 2
+                         }
+                    }
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_be_between",
+               "kwargs": {
+                    "column": "CRBA_RELEASE_YEAR",
+                    "max_value": {"$PARAMETER": "TIME_PERIOD_SPAN_UPPER"},
+                    "min_value": {"$PARAMETER": "TIME_PERIOD_SPAN_UPPER"},
+                    "mostly": 1.0,
+                    "strict_max": false,
+                    "strict_min": false
+               },
+               "meta": {
+                    "profiler_details": {
+                         "column_max_values_range_estimator": {
+                              "metric_configuration": {
+                                   "domain_kwargs": {
+                                        "column": "CRBA_RELEASE_YEAR"
+                                   },
+                                   "metric_name": "column.max",
+                                   "metric_value_kwargs": null
+                              },
+                              "num_batches": 2
+                         },
+                         "column_min_values_range_estimator": {
+                              "metric_configuration": {
+                                   "domain_kwargs": {
+                                        "column": "CRBA_RELEASE_YEAR"
+                                   },
+                                   "metric_name": "column.min",
+                                   "metric_value_kwargs": null
+                              },
+                              "num_batches": 2
+                         }
+                    }
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_be_of_type",
+               "kwargs": {
+                    "column": "RAW_OBS_VALUE",
+                    "type_": "float64",
+                    "mostly": 1.0,
+                    "strict_max": false,
+                    "strict_min": false
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_be_between",
+               "kwargs": {
+                    "column": "SCALED_OBS_VALUE",
+                    "max_value": 10.0,
+                    "min_value": 0.0,
+                    "mostly": 1.0,
+                    "strict_max": false,
+                    "strict_min": false
+               },
+               "meta": {
+                    "profiler_details": {
+                         "column_max_values_range_estimator": {
+                              "metric_configuration": {
+                                   "domain_kwargs": {
+                                        "column": "SCALED_OBS_VALUE"
+                                   },
+                                   "metric_name": "column.max",
+                                   "metric_value_kwargs": null
+                              },
+                              "num_batches": 2
+                         },
+                         "column_min_values_range_estimator": {
+                              "metric_configuration": {
+                                   "domain_kwargs": {
+                                        "column": "SCALED_OBS_VALUE"
+                                   },
+                                   "metric_name": "column.min",
+                                   "metric_value_kwargs": null
+                              },
+                              "num_batches": 2
+                         }
+                    }
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_be_in_set",
+               "kwargs": {
+                    "column": "INDICATOR_INDEX",
+                    "mostly": 1.0,
+                    "value_set": [
+                         "Community and Environment",
+                         "Workplace",
+                         "Marketplace"
+                    ]
+               },
+               "meta": {
+                    "profiler_details": {
+                         "metric_configuration": {
+                              "domain_kwargs": {
+                                   "column": "INDICATOR_INDEX"
+                              },
+                              "metric_name": "column.distinct_values",
+                              "metric_value_kwargs": null
+                         },
+                         "num_batches": 2,
+                         "parse_strings_as_datetimes": false
+                    }
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_be_in_set",
+               "kwargs": {
+                    "column": "INDICATOR_ISSUE",
+                    "mostly": 1.0,
+                    "value_set": [
+                         "Maternity and paternity protection",
+                         "Natural disasters",
+                         "Product Safety",
+                         "Child labour",
+                         "Resource use and damage to the environment",
+                         "Online Abuse and exploitation",
+                         "Marketing and Advertising",
+                         "Land rights",
+                         "Decent working conditions",
+                         "Security arrangements",
+                         "Fulfillment of children\u2019s rights"
+                    ]
+               },
+               "meta": {
+                    "profiler_details": {
+                         "metric_configuration": {
+                              "domain_kwargs": {
+                                   "column": "INDICATOR_ISSUE"
+                              },
+                              "metric_name": "column.distinct_values",
+                              "metric_value_kwargs": null
+                         },
+                         "num_batches": 2,
+                         "parse_strings_as_datetimes": false
+                    }
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_be_in_set",
+               "kwargs": {
+                    "column": "INDICATOR_CATEGORY",
+                    "mostly": 1.0,
+                    "value_set": [
+                         "Legal framework national",
+                         "Outcome",
+                         "Legal framework international",
+                         "Enforcement"
+                    ]
+               },
+               "meta": {
+                    "profiler_details": {
+                         "metric_configuration": {
+                              "domain_kwargs": {
+                                   "column": "INDICATOR_CATEGORY"
+                              },
+                              "metric_name": "column.distinct_values",
+                              "metric_value_kwargs": null
+                         },
+                         "num_batches": 2,
+                         "parse_strings_as_datetimes": false
+                    }
+               }
+          },
+          {
+               "expectation_type": "expect_column_values_to_not_be_null",
+               "kwargs": {
+                    "column": "INDICATOR_NAME"
+               }
+          }
+     ],
+     "ge_cloud_id": null,
+     "meta": {
+          "citations": [
+               {
+                    "citation_date": "2023-01-12T19:11:58.392260Z",
+                    "comment": "Created by effective Rule-Based Profiler of OnboardingDataAssistant with the configuration included.\n"
+               }
+          ],
+          "great_expectations_version": "0.15.42"
+     }
+}

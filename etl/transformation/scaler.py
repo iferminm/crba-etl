@@ -59,7 +59,8 @@ def normalizer(
     # print("\n Calling function 'scaler'... \n")
     # Convert raw_ovs_value to numeric
     #TODO ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 1
-    cleansed_data[raw_data_col] = pd.to_numeric(cleansed_data[raw_data_col])
+    raw_obs_value = cleansed_data[raw_data_col]
+    cleansed_data[raw_data_col] = pd.to_numeric(raw_obs_value)
 
     # Create the relevant dimension-subgroup (mostly for continuous variables. However, even though unusual, some vategorical variables also habe dimension values)
     if sql_subset_query_string:
