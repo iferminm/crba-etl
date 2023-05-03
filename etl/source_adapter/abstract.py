@@ -1,11 +1,10 @@
-from abc import ABC, abstractmethod
-import requests
 import logging
 import re
+from abc import ABC, abstractmethod
+
+import requests
 
 from etl.conf import Config
-from etl.transformation import cleanse
-from etl.transformation import scaler
 from etl.methology import mapping_dict
 from etl.methology import (
     sdmx_df_columns_all,
@@ -17,6 +16,8 @@ from etl.methology import (
     country_full_list,
     value_mapper
 )
+from etl.transformation import cleanse
+from etl.transformation import scaler
 
 
 class ExtractionError(Exception):
@@ -46,17 +47,18 @@ class SourceAdapter(ABC):
         return response
 
     @abstractmethod
-    def __init__(self, config: Config, SOURCE_ID, **kwargs):
+    def __init__(self, config: Config, **kwargs):
 
         self.progress_logger = logging.getLogger("etl.progress_logger")
+        self.kwargs = kwargs
 
         self.config = config
-        self.source_id = SOURCE_ID
+        self.source_id = kwargs.get("SOURCE_ID")
         self.source_type = kwargs.get("SOURCE_TYPE")
         self.source_titel = kwargs.get("SOURCE_TITLE")
         self.endpoint = kwargs.get("ENDPOINT_URL")
         self.value_labels = kwargs.get("VALUE_LABELS")
-        self.indicator_name_y = kwargs.get("INDICATOR_NAME_y")
+        self.indicator_name_y = kwargs.get("INDICATOR_NAME")
         self.index = kwargs.get("INDEX")
         self.issue = kwargs.get("ISSUE")
         self.category = kwargs.get("CATEGORY")
@@ -73,12 +75,8 @@ class SourceAdapter(ABC):
         )
         self.invert_normalization = kwargs.get("INVERT_NORMALIZATION")
         self.indicator_id = kwargs.get("INDICATOR_ID")
-        self.url_params = {
-            key.replace("urlparam_", ""): value
-            for key, value in kwargs.items()
-            if key.startswith("urlparam_")
-        }
-        self.url_params["manuel_data_dir"] = self.config.input_data_data
+        self.file_path = kwargs.get("FILE_PATH")
+        self.url_params = vars(self) | self.kwargs
 
     def build(self):
         """
@@ -102,7 +100,8 @@ class SourceAdapter(ABC):
             ) from ex
 
     def download(self):
-        self.endpoint = self.endpoint.format(**self.url_params)
+        if self.endpoint:
+            self.endpoint = self.endpoint.format(**self.url_params )
 
         self.dataframe = self._download()
 
@@ -127,7 +126,7 @@ class SourceAdapter(ABC):
         self.dataframe["RAW_OBS_VALUE"] = self.dataframe["RAW_OBS_VALUE"].astype(float)
 
         self.dataframe.to_csv(
-            self.config.indicator_output / str(self.source_id +"_"+ self.indicator_id + ".csv"),
+            self.config.indicator_output / str(self.source_id + "_" + self.indicator_id + ".csv"),
             sep=";",
             index=False,
         )
@@ -139,8 +138,8 @@ class SourceAdapter(ABC):
 
 
 class EmptyExtractor(SourceAdapter):
-    def __init__(self, SOURCE_ID, **kwarg):
-        self.source_id = SOURCE_ID
+    def __init__(self, config,**kwarg):
+        super().__init__(config, **kwarg)
 
     def _download(self):
         raise NotImplementedError(f"For {self.source_id} no download method defined")
@@ -211,6 +210,10 @@ class ManualTransformer(SourceAdapter):
             crba_country_list=country_crba_list,
             country_list_full=country_full_list,
         )
+        #If Time period is set by source selection
+        time_period=None
+        if hasattr(self, 'time_period'):
+            time_period = self.time_period
 
         self.dataframe = cleanse.add_cols_fill_cells(
             grouped_data_iso_filt=self.dataframe,
@@ -229,7 +232,8 @@ class ManualTransformer(SourceAdapter):
             source_title_string=self.source_titel,
             source_api_link_string=self.endpoint,
             attribute_unit_string=self.unit_measure,
-            target_year=self.config.get("TARGET_YEAR")
+            target_year=self.config.get("TARGET_YEAR"),
+            time_period=time_period
         )
 
         self.dataframe = cleanse.map_values(

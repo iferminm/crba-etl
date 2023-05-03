@@ -8,7 +8,7 @@ class EITIIndicatorBuilder(SourceAdapter):
 
     def __init__(self, config, **kwarg):
         super().__init__(config, **kwarg)
-        self.raw_obs_value_column_name = kwarg["RAW_OBS_VALUE_COLUMN_NAME"]
+        self.raw_obs_value_column_name = kwarg.get("RAW_OBS_VALUE_COLUMN_NAME")
 
     _transform = ManualTransformer._transform
 

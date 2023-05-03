@@ -170,7 +170,7 @@ class UN_SDG_UN_POP(SourceAdapter):
             right=self.dataframe,
             how="right",
             # on="ISO3_YEAR"
-            left_on=["COUNTRY_ISO_3", "year"],
+            left_on=["COUNTRY_ISO_3", "TIME_PERIOD"],
             right_on=["COUNTRY_ISO_3", "timePeriodStart"],
         )
 

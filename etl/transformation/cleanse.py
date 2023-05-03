@@ -419,6 +419,7 @@ def add_cols_fill_cells(
     source_api_link_string,
     attribute_unit_string,
     target_year,
+    time_period=datetime.datetime.now().year,
     indicator_name_col="INDICATOR_NAME",
     index_name_col="INDICATOR_INDEX",
     issue_name_col="INDICATOR_ISSUE",
@@ -476,6 +477,7 @@ def add_cols_fill_cells(
     indicator_data_extraction_methodology_col (str): Your desired name for extraction methdology column
     source_api_link_col (str): Your desired name for API link URL (only for API drawn data sources)
     target_year (int) The year the report is build for
+    time_period (int) The year the data origins
     Return:
     Dataframe with added columns and filled in cell values
 
@@ -495,7 +497,7 @@ def add_cols_fill_cells(
 
     # UN Treaty and ILO NORMLEX data does not have a column for TIME_PERIOD, add here
     if len(available_time_list) == 0:
-        grouped_data_iso_filt[time_period_col] = datetime.datetime.now().year
+        grouped_data_iso_filt[time_period_col] = time_period
         available_time_list += [time_period_col]
 
     # 5a Fill in _T For each dimension, where it is NaN
@@ -506,7 +508,7 @@ def add_cols_fill_cells(
     # 5b Fill in current year for time variable
     grouped_data_iso_filt[available_time_list[0]] = grouped_data_iso_filt[
         available_time_list[0]
-    ].fillna(value=datetime.datetime.now().year)
+    ].fillna(value=time_period)
 
     # # # Add additional columns
     # Indicator name

@@ -1,11 +1,8 @@
-import bs4 as bs
 import pandas as pd
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
-import logging
+import requests
 
+from etl.source_adapter import SourceAdapter
+from etl.transformation import cleanse, scaler
 from etl.methology import (
     sdmx_df_columns_all,
     sdmx_df_columns_dims,
@@ -17,49 +14,58 @@ from etl.methology import (
     mapping_dict,
     value_mapper
 )
-from etl.source_adapter import SourceAdapter
-from etl.transformation import cleanse, scaler
 
 
-log = logging.getLogger("")
+class DefaultJsonExtractor(SourceAdapter):
 
-
-class ILO_Extractor(SourceAdapter):
-
-    ## TODO make transform backward with target year
-
-    def __init__(self, config, **kwarg):
+    def __init__(self, config, NA_ENCODING=None, **kwarg):
         super().__init__(config, **kwarg)
 
-        options = Options()
-        options.headless = True
-        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), chrome_options=options)
+        self.na_encoding = NA_ENCODING
 
     def _download(self):
-        response = self.driver.get(self.address)
-        soup = bs.BeautifulSoup(self.driver.page_source, features="lxml")
-        target_table = str(
-            soup.find_all("table", {"cellspacing": "0", "class": "horizontalLine"})
-        )
+        # Extract data and convert to pandas dataframe
+        try:
+            # Most json data is from SDG; which return json with key "data" having the data as value
+            raw_data = pd.json_normalize(requests.get(self.endpoint).json()["data"])
+        except:
+            # However, some of the data is also from World Bank where the command returns list, which must be subset with list index
+            raw_data = pd.json_normalize(
+                requests.get(self.endpoint).json()[1]
+            )  # 0 is metadata, 1 contains actual data)
 
-        # Create dataframe with the data
-        self.dataframe = pd.read_html(io=target_table, header=0)[
-            0
-        ]
-        #self.progress_logger.info(f"Downloaded Source {self.source_id} with {self.dataframe.shape}")
-        return self.dataframe
+        return raw_data
 
     def _transform(self):
-        # Cleansing
+        # Cleansing in
+        self.dataframe = cleanse.extract_who_raw_data(
+            raw_data=self.dataframe,
+            variable_type=self.value_labels,
+            display_value_col="Display Value"
+        )
+
         self.dataframe = cleanse.rename_and_discard_columns(
             raw_data=self.dataframe,
             mapping_dictionary=mapping_dict,
             final_sdmx_col_list=sdmx_df_columns_all
         )
 
-        self.dataframe = cleanse.decompose_country_footnote_ilo_normlex(
+        self.dataframe = cleanse.convert_nan_strings_into_nan(
+            dataframe=self.dataframe
+        )
+
+        self.dataframe = cleanse.extract_year_from_timeperiod(
             dataframe=self.dataframe,
-            country_name_list=country_full_list["COUNTRY_NAME"]
+            year_col="TIME_PERIOD",
+            time_cov_col="COVERAGE_TIME"
+        )
+
+        self.dataframe = cleanse.retrieve_latest_observation(
+            renamed_data=self.dataframe,
+            dim_cols=sdmx_df_columns_dims,
+            country_cols=sdmx_df_columns_country,
+            time_cols=sdmx_df_columns_time,
+            attr_cols=sdmx_df_columns_attr,
         )
 
         self.dataframe = cleanse.add_and_discard_countries(
@@ -88,12 +94,18 @@ class ILO_Extractor(SourceAdapter):
             target_year=self.config.get("TARGET_YEAR")
         )
 
-        self.dataframe = cleanse.encode_ilo_un_treaty_data(
-            dataframe=self.dataframe,
-            treaty_source_body='ILO NORMLEX'
+        self.dataframe = cleanse.map_values(
+            cleansed_data=self.dataframe,
+            value_mapping_dict=value_mapper
         )
 
-        # Create log info
+        self.dataframe = cleanse.encode_categorical_variables(
+            dataframe=self.dataframe,
+            encoding_string=self.value_encoding,
+            encoding_labels=self.value_labels,
+            na_encodings=self.na_encoding
+        )
+
         self.dataframe = cleanse.create_log_report_delete_duplicates(
             cleansed_data=self.dataframe
         )
@@ -109,7 +121,6 @@ class ILO_Extractor(SourceAdapter):
             raw_data_col="RAW_OBS_VALUE",
             scaled_data_col_name="SCALED_OBS_VALUE",
             maximum_score=10,
-            log_info=True,
             time_period=self.config.get("TARGET_YEAR")
         )
 

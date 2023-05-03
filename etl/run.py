@@ -1,13 +1,11 @@
-from inspect import getmembers, isfunction
-import re
-import logging
 import importlib
-from typing import Type
+import logging
 import warnings
+from typing import Type
 
+import pandas as pd
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
-import pandas as pd
 
 from etl.source_adapter import ExtractionError
 
@@ -29,11 +27,7 @@ def build_combined_normalized_csv(config):
     validation_batches = []
     sucesses = 0
 
-    crba_report_definition_to_process = config.crba_report_definition.query(
-        config.build_indicators_filter
-    )
-
-    run_logger.info(f"{len(crba_report_definition_to_process)} sources selected to process")
+    run_logger.info(f"{len(config.crba_report_definition)} sources selected to process")
 
     with logging_redirect_tqdm():
         with warnings.catch_warnings():
@@ -41,24 +35,27 @@ def build_combined_normalized_csv(config):
                 "ignore"
             )  ## TODO:Store Warnings istead of jus supressing them
             for index, row in tqdm(
-                list(crba_report_definition_to_process.iterrows()), dynamic_ncols=True
+                    list(config.crba_report_definition.iterrows()), dynamic_ncols=True
             ):
                 try:
+                    row = row.dropna().to_dict()
                     extractor = dynamic_load(row["EXTRACTOR_CLASS"])(config, **row)
                     extractors[row["SOURCE_ID"]] = extractor
                     extractor.build()
                     # More IMportant then simple INFO logs but less importend the download infos
                     df = extractor.get()
                     run_logger.info(
-                        msg=f"Source {row['SOURCE_ID']} extract with {df.shape if df is not None else 0}::: {extractor.__class__.__name__}",
+                        msg=f"Source {row['SOURCE_ID']} extract with {df.shape[0] if df is not None else 0} rows::: {extractor.__class__.__name__}",
                     )
+                    "S-180, S-181, S-189 S-230 idmc_displacement_all_dataset.xlsm"
+                    "S-180, S-181, S-189 S-230 idmc_displacement_all_dataset.xlsx"
                     extractions_data.append(df)
                     sucesses += 1
                 except ExtractionError as ex:
                     extraction_errors_source_ids.append(row["SOURCE_ID"])
                     run_logger.warning(
                         f"{str(ex)}",
-                    )  # exc_info=True)
+                        exc_info=ex)
                 except ValueError as ex:
                     run_logger.exception(ex)
                 except AttributeError as ex:
