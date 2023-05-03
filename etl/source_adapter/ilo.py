@@ -46,7 +46,7 @@ class ILO_Extractor(SourceAdapter):
         self.dataframe = pd.read_html(io=target_table, header=0)[
             0
         ]
-        self.progress_logger.info(f"Downloaded Source {self.source_id} with {self.dataframe.shape}")
+        #self.progress_logger.info(f"Downloaded Source {self.source_id} with {self.dataframe.shape}")
         return self.dataframe
 
     def _transform(self):
