@@ -41,6 +41,14 @@ configs = {
         "DATA_DOCS_BASE_PATH": "../../config/2020/out/validations/data_docs",
         "TIME_PERIOD_SPAN_LOWER": 2020 - 10,
         "TIME_PERIOD_SPAN_UPPER": 2020
+    },
+    "2023": {
+        "data_path": "config/2023/out/data/indicator",
+        "data_connector_name": "indicators_2023",
+        "VALIDATIONS_STORE_BASE_PATH": "../../config/2023/out/validations/validations",
+        "DATA_DOCS_BASE_PATH": "../../config/2023/out/validations/data_docs",
+        "TIME_PERIOD_SPAN_LOWER": 2023 - 10,
+        "TIME_PERIOD_SPAN_UPPER": 2023
     }
 }
 
