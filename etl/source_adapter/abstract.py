@@ -1,3 +1,4 @@
+import datetime
 import logging
 import re
 from abc import ABC, abstractmethod
@@ -101,7 +102,7 @@ class SourceAdapter(ABC):
 
     def download(self):
         if self.endpoint:
-            self.endpoint = self.endpoint.format(**self.url_params )
+            self.endpoint = self.endpoint.format(**self.url_params)
 
         self.dataframe = self._download()
 
@@ -138,7 +139,7 @@ class SourceAdapter(ABC):
 
 
 class EmptyExtractor(SourceAdapter):
-    def __init__(self, config,**kwarg):
+    def __init__(self, config, **kwarg):
         super().__init__(config, **kwarg)
 
     def _download(self):
@@ -210,8 +211,8 @@ class ManualTransformer(SourceAdapter):
             crba_country_list=country_crba_list,
             country_list_full=country_full_list,
         )
-        #If Time period is set by source selection
-        time_period=None
+        # If Time period is set by source selection
+        time_period = datetime.datetime.now().year
         if hasattr(self, 'time_period'):
             time_period = self.time_period
 
