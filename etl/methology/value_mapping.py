@@ -1,6 +1,3 @@
-import numpy as np
-import pandas as pd
-
 """
 This file contains the list of values to map values to each other
 during when using the Cleanser class. 
@@ -174,8 +171,8 @@ value_mapper = {
         "Agriculture, forestry and fishing": ["ISIC4_A"],
         "Non-agriculture": ["NONAGR"],
         "_T": [""],
-        "Oil and gas": ["Oil and gas"],
-        "Mining": ["Mining"],
+        "Oil and gas": ["Oil and gas", "oil-gas"],
+        "Mining": ["Mining", "mining"],
     },
     "ATTR_SOURCE_UNIT_MEASURE": {
         "PERCENT": ["PT", "PERCENT"],

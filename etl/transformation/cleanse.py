@@ -418,7 +418,7 @@ def add_cols_fill_cells(
     source_title_string,
     source_api_link_string,
     attribute_unit_string,
-    target_year,
+    crba_release_year,
     time_period=datetime.datetime.now().year,
     indicator_name_col="INDICATOR_NAME",
     index_name_col="INDICATOR_INDEX",
@@ -476,7 +476,7 @@ def add_cols_fill_cells(
     indicator_explanation_col (str): Your desired name for the indicator explanation (justification) column
     indicator_data_extraction_methodology_col (str): Your desired name for extraction methdology column
     source_api_link_col (str): Your desired name for API link URL (only for API drawn data sources)
-    target_year (int) The year the report is build for
+    crba_release_year (int) The year the report is build for
     time_period (int) The year the data origins
     Return:
     Dataframe with added columns and filled in cell values
@@ -505,10 +505,10 @@ def add_cols_fill_cells(
         available_dims_list
     ].fillna(value="_T")
 
-    # 5b Fill in current year for time variable
+    # 5b Fill in current year for missing TIME_PERIOD
     grouped_data_iso_filt[available_time_list[0]] = grouped_data_iso_filt[
         available_time_list[0]
-    ].fillna(value=time_period)
+    ].fillna(value=datetime.datetime.now().year)
 
     # # # Add additional columns
     # Indicator name
@@ -553,7 +553,7 @@ def add_cols_fill_cells(
     grouped_data_iso_filt[source_api_link_col] = source_api_link_string
 
     # YEAR_CRBA_RELEASE with current year
-    grouped_data_iso_filt[crba_release_year_col] = target_year
+    grouped_data_iso_filt[crba_release_year_col] = crba_release_year
 
     return grouped_data_iso_filt
 
@@ -613,7 +613,7 @@ def map_values( cleansed_data, value_mapping_dict):
 
             # Convert (map) the values
             cleansed_data[key] = np.select(
-                original_values, mapped_values, "UNMAPPED VALUE - PLEASE MAP"
+                original_values, mapped_values, f"UNMAPPED VALUE - PLEASE MAP - {original_values}"
             )
 
             # log info for user
@@ -774,6 +774,7 @@ def create_log_report_delete_duplicates(
         )
 
         # Drop duplicates
+        # TODO Why drop only on "COUNTRY_ISO_3", "TIME_PERIOD". There are other dimensions
         cleansed_data = cleansed_data.drop_duplicates(
             subset=["COUNTRY_ISO_3", "TIME_PERIOD"]
         )

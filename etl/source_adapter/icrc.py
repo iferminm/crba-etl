@@ -57,7 +57,7 @@ class ICRC_Treaties(SourceAdapter):
             indicator_data_extraction_methodology_string=self.extraction_methodology,
             source_api_link_string=self.endpoint,
             attribute_unit_string=self.unit_measure,
-            target_year=self.config.get("TARGET_YEAR")
+            crba_release_year=self.config.get("CRBA_RELEASE_YEAR")
         )
 
         self.dataframe = cleanse.encode_ilo_un_treaty_data(
@@ -80,7 +80,7 @@ class ICRC_Treaties(SourceAdapter):
             raw_data_col="RAW_OBS_VALUE",
             scaled_data_col_name="SCALED_OBS_VALUE",
             maximum_score=10,
-            time_period=self.config.get("TARGET_YEAR"),
+            time_period=self.config.get("CRBA_RELEASE_YEAR"),
         )
 
         return self.dataframe
@@ -113,6 +113,6 @@ class ICRC_Treaties(SourceAdapter):
         )
 
         # Add year column
-        self.dataframe["TIME_PERIOD"] = self.config.get("TARGET_YEAR")
+        self.dataframe["TIME_PERIOD"] = self.config.get("CRBA_RELEASE_YEAR")
 
         return self.dataframe

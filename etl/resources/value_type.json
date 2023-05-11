@@ -219,8 +219,8 @@
     "VALUE_ID": "V-25",
     "TYPE": "Categorical",
     "RANGE": "[0,1,2,3,4]",
-    "VALUE_ENCODING": "4=Yes, and the NAP addresses children\u2019s rights specifically; 3=Yes, but the NAP does not address children\u2019s rights specifically; 2=No, but the state has committed to doing one or has started the process; 1=No, not listed a having an action plan or developing one ",
-    "VALUE_LABELS": "4=Yes, and the NAP addresses children\u2019s rights specifically; 3=Yes, but the NAP does not address children\u2019s rights specifically; 2=No, but the state has committed to doing one or has started the process; 1=No, not listed a having an action plan or developing one ",
+    "VALUE_ENCODING": "4=Yes, and the NAP addresses children\u2019s rights specifically; 3=Yes, but the NAP does not address children\u2019s rights specifically; 2=No, but the state has committed to doing one or has started the process; 1=No, not listed a having an action plan or developing one",
+    "VALUE_LABELS": "4=Yes, and the NAP addresses children\u2019s rights specifically; 3=Yes, but the NAP does not address children\u2019s rights specifically; 2=No, but the state has committed to doing one or has started the process; 1=No, not listed a having an action plan or developing one",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   },
@@ -372,7 +372,7 @@
     "VALUE_ID": "V-42",
     "TYPE": "Categorical",
     "RANGE": "[0,1,2,3]",
-    "VALUE_ENCODING": "4=https://eiti.org/api/v2.0/country_status/satisfactory-progress; 3=https://eiti.org/api/v2.0/country_status/meaningful-progress; 2=https://eiti.org/api/v2.0/country_status/to-be-assessed; 1=https://eiti.org/api/v2.0/country_status/suspended-inadequate-progress; 1=https://eiti.org/api/v2.0/country_status/suspended-political-instability; 0=https://eiti.org/api/v2.0/country_status/other",
+    "VALUE_ENCODING": "4=https://eiti.org/api/v2.0/country_status/satisfactory-progress; 4=https://eiti.org/api/v2.0/country_status/Very-high; 4=https://eiti.org/api/v2.0/country_status/High;3=https://eiti.org/api/v2.0/country_status/meaningful-progress; 3=https://eiti.org/api/v2.0/country_status/Moderate; 2=https://eiti.org/api/v2.0/country_status/to-be-assessed; 2=https://eiti.org/api/v2.0/country_status/Fairly-low;2=https://eiti.org/api/v2.0/country_status/Low; 1=https://eiti.org/api/v2.0/country_status/suspended-inadequate-progress; 1=https://eiti.org/api/v2.0/country_status/suspended-political-instability;1=https://eiti.org/api/v2.0/country_status/suspended-inadequate-progress;1=https://eiti.org/api/v2.0/country_status/suspended-missing-deadline; 0=https://eiti.org/api/v2.0/country_status/other",
     "VALUE_LABELS": "4=Satisfactory progress; 3=Meaningful progress; 2=To be assessed; 1=Suspended inadequate progress/ suspended political instability; 0=Not a member/ other / no data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
@@ -390,7 +390,7 @@
     "VALUE_ID": "V-44",
     "TYPE": "Categorical",
     "RANGE": "[0,1,2]",
-    "VALUE_ENCODING": "2=Yes, the country has endorsed both the Vancouver Principles and the Paris Commitments; 2=Yes, the country has endorsed the Paris Commitments and Principles; 2=Yes, the country has endorsed the Vancouver Principles ; 1=The country has not endorsed either the Vancouver Principles or the Paris Commitments",
+    "VALUE_ENCODING": "2=Yes, the country has endorsed both the Vancouver Principles and the Paris Commitments; 2=BOTH; 2=Yes, the country has endorsed the Paris Commitments and Principles; 2=One; 2=ONE; 2=one; 2=Yes, the country has endorsed the Vancouver Principles ; 1=NO;1=The country has not endorsed either the Vancouver Principles or the Paris Commitments",
     "VALUE_LABELS": "2=Yes, the country has endorsed both the Vancouver Principles and the Paris Commitments OR Yes, the country has endorsed the Paris Commitments and Principles OR Yes, the country has endorsed the Vancouver Principles ; 1=The country has not endorsed either the Vancouver Principles or the Paris Commitments",
     "NA_ENCODING": NaN,
     "UNITS": NaN
@@ -444,7 +444,7 @@
     "VALUE_ID": "V-50",
     "TYPE": "Categorical",
     "RANGE": "[0,1,2]",
-    "VALUE_ENCODING": "2=No reported use of children; 1=Yes, reports of use by state armed forces AND non-state armed groups ; 1=Yes, reports of use by non-state armed groups; 0=No data ",
+    "VALUE_ENCODING": "2=No; 2=No reported use of children; 1=Yes; 1=Yes, reports of use by state armed forces AND non-state armed groups ; 1=Yes, reports of use by non-state armed groups; 0=No data ;0=No data",
     "VALUE_LABELS": "2=No reported use of children; 1=Yes, reports of use by non-state armed forces OR Yes, reports of use by state armed forces and by non-state armed forces; 0=No data",
     "NA_ENCODING": NaN,
     "UNITS": NaN

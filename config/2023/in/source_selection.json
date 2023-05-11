@@ -35,32 +35,22 @@
     "TIMEPERIOD": "xxx"
   },
   "S-8": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_8, S_9\/WORLD_child_labor_7Mar22.xls"
   },
   "S-9": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_8, S_9\/WORLD_child_labor_7Mar22.xls"
   },
   "S-10": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
   },
   "S-11": {
     "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
   },
   "S-12": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "TIME_PERIOD": 2023
   },
   "S-13": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
   },
   "S-14": {
     "FILE_PATH": "raw\/S-21-total-HIZkLiYK.xlsx"
@@ -136,54 +126,27 @@
     "TIMEPERIOD": "xxx"
   },
   "S-29": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-30": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-31": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-32": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
   },
   "S-33": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-34": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-35": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_42, S_43, S_44\/WORLD_Workplace Discrimination Dataset_3.28.22.xls",
+    "WPA_OBS_RAW_COL": "promdemo_sexor"
   },
   "S-36": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_42, S_43, S_44\/WORLD_Workplace Discrimination Dataset_3.28.22.xls",
+    "WPA_OBS_RAW_COL": "pay_sexor"
   },
   "S-37": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_42, S_43, S_44\/WORLD_Workplace Discrimination Dataset_3.28.22.xls"
   },
   "S-38": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
   },
   "S-39": {
     "STARTPERIOD": "xxx",
@@ -191,9 +154,7 @@
     "TIMEPERIOD": "xxx"
   },
   "S-40": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
   },
   "S-41": {
     "startPeriod": "2020-01-01",
@@ -256,34 +217,22 @@
     "TIMEPERIOD": "xxx"
   },
   "S-54": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-55": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-56": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-57": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-58": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-59": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-60": {
     "STARTPERIOD": "xxx",
@@ -301,11 +250,6 @@
     "TIMEPERIOD": "xxx"
   },
   "S-63": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-64": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
     "TIMEPERIOD": "xxx"
@@ -351,9 +295,8 @@
     "TIMEPERIOD": "xxx"
   },
   "S-73": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-73.xlsx",
+    "TIME_PERIOD": 2016
   },
   "S-74": {
     "STARTPERIOD": "xxx",
@@ -361,9 +304,7 @@
     "TIMEPERIOD": "xxx"
   },
   "S-75": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/raw/S-89 Answers_v2.xlsx"
   },
   "S-76": {
     "STARTPERIOD": "xxx",
@@ -507,13 +448,25 @@
     "TIMEPERIOD": "xxx"
   },
   "S-105": {
-    "FILE_PATH": "raw\/Kids Rights Index.xlsx"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Environment",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Environment Score"
   },
   "S-106": {
-    "FILE_PATH": "raw\/Kids Rights Index.xlsx"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Environment",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Environment Score"
   },
   "S-107": {
-    "FILE_PATH": "raw\/Kids Rights Index.xlsx"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Environment",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Environment Score"
   },
   "S-108": {
     "STARTPERIOD": "xxx",
@@ -621,11 +574,6 @@
     "ENDPERIOD": "xxx",
     "TIMEPERIOD": "xxx"
   },
-  "S-130": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
   "S-131": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
@@ -660,14 +608,12 @@
     "TIMEPERIOD": "xxx"
   },
   "S-138": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "ENDPOINT_URL": "https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021",
+    "EXTRACTOR_CLASS": "etl.source_adapter.nrgi.NRGI"
   },
   "S-139": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "ENDPOINT_URL": "https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021",
+    "EXTRACTOR_CLASS": "etl.source_adapter.nrgi.NRGI"
   },
   "S-140": {
     "STARTPERIOD": "xxx",
@@ -680,7 +626,7 @@
     "TIMEPERIOD": "xxx"
   },
   "S-142": {
-    "FILE_PATH": "raw\/S-159_ghg-emissions.csv"
+    "FILE_PATH": "raw/ghg-emissions.csv"
   },
   "S-143": {
     "STARTPERIOD": "xxx",
@@ -693,11 +639,6 @@
     "TIMEPERIOD": "xxx"
   },
   "S-145": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-146": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
     "TIMEPERIOD": "xxx"
@@ -718,7 +659,7 @@
     "TIMEPERIOD": "xxx"
   },
   "S-150": {
-    "FILE_PATH": "raw\/S_167_Pct_IP_CommunityLands\/Pct_IP_CommunityLands_20170623.xls"
+    "FILE_PATH": "../../../2020/in/data/raw/S_167_Pct_IP_CommunityLands/Pct_IP_CommunityLands_20170623.xls"
   },
   "S-151": {
     "STARTPERIOD": "xxx",
@@ -755,30 +696,19 @@
     "ENDPERIOD": "xxx",
     "TIMEPERIOD": "xxx"
   },
-  "S-158": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-159": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+  "S-219": {
+    "SOMETHING": ""
   },
   "S-160": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
     "TIMEPERIOD": "xxx"
   },
-  "S-161": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
   "S-162": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "STUFF": "xxx"
+  },
+  "S-220": {
+    "STARTPERIOD": "xxx"
   },
   "S-163": {
     "STARTPERIOD": "xxx",
@@ -846,24 +776,33 @@
     "TIMEPERIOD": "xxx"
   },
   "S-176": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Education",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Education Score"
   },
   "S-177": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Health",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Health Score"
   },
   "S-178": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "TIME_PERIOD": 2022,
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Protection",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Protection Score"
   },
   "S-179": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Protection",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Life Score"
   },
   "S-180": {
     "STARTPERIOD": "xxx",
@@ -1012,14 +951,10 @@
     "TIMEPERIOD": "xxx"
   },
   "S-210": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-211": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-212": {
     "STARTPERIOD": "xxx",

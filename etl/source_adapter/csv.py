@@ -59,12 +59,6 @@ class DefaultCSVExtractor(SourceAdapter):
             final_sdmx_col_list=sdmx_df_columns_all,
         )
 
-        # Specific to data from API (NRGI) --> Only two sources
-        if self.source_type == "API (NRGI)":
-            self.dataframe["RAW_OBS_VALUE"] = self.dataframe["RAW_OBS_VALUE"].apply(
-                lambda x: np.nan if x == "." else x
-            )
-
         self.dataframe = cleanse.extract_year_from_timeperiod(
             dataframe=self.dataframe, year_col="TIME_PERIOD", time_cov_col="COVERAGE_TIME"
         )
@@ -100,7 +94,7 @@ class DefaultCSVExtractor(SourceAdapter):
             source_title_string=self.source_titel,
             source_api_link_string=self.endpoint,
             attribute_unit_string=self.unit_measure,
-            target_year=self.config.get("TARGET_YEAR")
+            crba_release_year=self.config.get("CRBA_RELEASE_YEAR")
         )
 
         self.dataframe = cleanse.map_values(
@@ -128,7 +122,7 @@ class DefaultCSVExtractor(SourceAdapter):
             raw_data_col="RAW_OBS_VALUE",
             scaled_data_col_name="SCALED_OBS_VALUE",
             maximum_score=10,
-            time_period=self.config.get("TARGET_YEAR")
+            time_period=self.config.get("CRBA_RELEASE_YEAR")
         )
 
         return self.dataframe

@@ -91,6 +91,8 @@ class Config:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.output_dir_data = self.output_dir / "data"
         self.output_dir_data.mkdir(parents=True, exist_ok=True)
+        self.raw_output = self.output_dir_data / "raw"
+        self.raw_output.mkdir(parents=True, exist_ok=True)
         self.staging_output = self.output_dir_data / "staging"
         self.staging_output.mkdir(parents=True, exist_ok=True)
         self.indicator_output = self.output_dir_data / "indicator"
@@ -170,7 +172,7 @@ class Config:
             self.output_dir / "crba_report_definition.json", orient="index", indent=2
         )
 
-        self.crba_report_definition["TARGET_YEAR"] = self.get("TARGET_YEAR")
+        self.crba_report_definition["CRBA_RELEASE_YEAR"] = self.get("CRBA_RELEASE_YEAR")
 
         self.crba_report_definition.to_csv(
             self.output_dir / "crba_report_definition.csv",
@@ -213,7 +215,7 @@ class Config:
         # TODO Use pandas sdmx to contruct adress.
         # This adress querys the Total population over all ages and sexes for the selected countrys.
         # https://sdmx.data.unicef.org/databrowser/index.html?q=UNICEF:DM(1.0)
-        adress = f"https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,DM,1.0/{'+'.join(list(country_crba_list['COUNTRY_ISO_3']))}.DM_POP_TOT.._T.?format=fusion-json&endPeriod={self.get('TARGET_YEAR')}&startPeriod={self.get('TARGET_YEAR') - 10}&includeHistory=true&includeMetadata=true&dimensionAtObservation=AllDimensions&includeAllAnnotations=true"
+        adress = f"https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/data/UNICEF,DM,1.0/{'+'.join(list(country_crba_list['COUNTRY_ISO_3']))}.DM_POP_TOT.._T.?format=fusion-json&endPeriod={self.get('CRBA_RELEASE_YEAR')}&startPeriod={self.get('CRBA_RELEASE_YEAR') - 10}&includeHistory=true&includeMetadata=true&dimensionAtObservation=AllDimensions&includeAllAnnotations=true"
 
         # TODO replace with string io wrapper
         req = requests.get(adress)
