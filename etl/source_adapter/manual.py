@@ -28,28 +28,28 @@ class HumanEnteredBlueprintIndicatorBuilder(SourceAdapter):
                 self.config.input_data_staging / f"{self.source_id}.xlsx",
                 sheet_name="Blueprint",
             )
-        raw_obs_value_col = "RAW_OBS_VALUE"
+        raw_obs_value_col_name = "RAW_OBS_VALUE"
         if self.raw_obs_value_type == "categorical":
             # Delete trailing whitespace and numbers of parentheses in raw_OBS_VALUE
-            self.dataframe[raw_obs_value_col] = (
-                self.dataframe[raw_obs_value_col]
+            self.dataframe[raw_obs_value_col_name] = (
+                self.dataframe[raw_obs_value_col_name]
                 .apply(lambda x: re.sub(" \(\d+\)", "", x) if type(x) == str else x)
                 .apply(lambda x: x.strip() if type(x) == str else x)
             )
 
             # Encode missing data as "No data"
             self.dataframe.loc[
-                self.dataframe[raw_obs_value_col].isnull(), "RAW_OBS_VALUE"
+                self.dataframe[raw_obs_value_col_name].isnull(), "RAW_OBS_VALUE"
             ] = "No data"
 
         # Section dealing with numeric variables
         elif self.raw_obs_value_type == "continuous":
             self.dataframe.loc[
-                (self.dataframe[raw_obs_value_col] == "No data")
-                | (self.dataframe[raw_obs_value_col] == "Insufficient data")
-                | (self.dataframe[raw_obs_value_col] == "No legal measures ")
-                | (self.dataframe[raw_obs_value_col] == "x"),
-                raw_obs_value_col,
+                (self.dataframe[raw_obs_value_col_name] == "No data")
+                | (self.dataframe[raw_obs_value_col_name] == "Insufficient data")
+                | (self.dataframe[raw_obs_value_col_name] == "No legal measures ")
+                | (self.dataframe[raw_obs_value_col_name] == "x"),
+                raw_obs_value_col_name,
             ] = np.nan
 
         else:
@@ -75,65 +75,7 @@ class HumanEnteredBlueprintIndicatorBuilder(SourceAdapter):
         return self.dataframe
 
 
-class IDMC_Extractor(SourceAdapter):
-    """
-    S-180, S-181, S-189, S-230
-    """
 
-    IDMC_Extractor_Source = dict()
-
-    avaiable_years_configurations = [2019, 2021]
-
-    def __init__(self, config, ATTR_UNIT_MEASURE, **kwarg):
-        super().__init__(config, **kwarg)
-        self.attr_unit_measure = ATTR_UNIT_MEASURE
-
-    _transform = ManualTransformer._transform
-
-    def _download(self):
-        if self.source_id not in IDMC_Extractor.IDMC_Extractor_Source.keys():
-            # TODO change loop into indicator Excel...
-            S_180_S_181_S189_S_230 = pd.read_excel(self.config.input_data_data / self.file_path).drop(
-                0
-            )  # delete first row containing strings
-
-            # Cast year as string, required for merge command later
-            S_180_S_181_S189_S_230["Year"] = S_180_S_181_S189_S_230["Year"].astype(str)
-
-            # Join raw data and population data together
-            S_180_S_181_S189_S_230_raw = self.config.un_pop_tot.merge(
-                right=S_180_S_181_S189_S_230,
-                how="right",
-                # on="ISO3_YEAR"
-                left_on=["COUNTRY_ISO_3", "TIME_PERIOD"],
-                right_on=["ISO3", "Year"],
-            )
-
-            # Create list to loop through
-            idmc_list = [
-                ["S-162", "Conflict Stock Displacement"],
-                ["S-163", "Conflict New Displacements"],
-                ["S-171", "Disaster New Displacements"],
-                ["S-209", "Disaster Stock Displacement"],
-            ]
-
-            # Loop through list
-            for element in idmc_list:
-                # Extract right columns
-                dataframe = S_180_S_181_S189_S_230_raw.loc[
-                            :, ["ISO3", "Year", "population", element[1]]
-                            ]
-
-                # Calculate target kpi --> Normalize to per 100.000 persons
-                dataframe["RAW_OBS_VALUE"] = (
-                        dataframe[element[1]] / (dataframe["population"]) * 100
-                )  # Pop given inthousands, we want number per 100.000 pop
-
-                # Add unit measure
-                dataframe["ATTR_UNIT_MEASURE"] = self.attr_unit_measure
-                IDMC_Extractor.IDMC_Extractor_Source[element[0]] = dataframe
-
-        return IDMC_Extractor.IDMC_Extractor_Source[self.source_id]
 
 
 class Economist_Intelligence_Unit(SourceAdapter):
@@ -200,7 +142,7 @@ class FCTC_Data(SourceAdapter):
 
     def _download(self):
         self.dataframe = pd.read_excel(
-            self.config.manual_raw / "S-89 Answers_v2.xlsx",
+            self.config.input_data_data / self.file_path,
         )
 
         self.dataframe = self.dataframe.melt(
