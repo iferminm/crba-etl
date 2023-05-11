@@ -1,0 +1,583 @@
+GHO;PUBLISHSTATE;YEAR;REGION;COUNTRY;ALCOHOLTYPE;Display Value;Numeric;Low;High;StdErr;StdDev;Comments;ATTR_ENDPOINT
+SA_0000001518;PUBLISHED;2016;AFR;LSO;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BEN;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MOZ;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;RWA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;USA;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;LVA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SWE;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;MNG;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;MMR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ETH;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BDI;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;ATG;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BRB;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MCO;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;NOR;SA_SPIRITS;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ARM;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;AZE;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;PRK;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CAN;SA_SPIRITS;subnational;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;JOR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SAU;SA_WINE;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SYR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;TLS;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BWA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;TTO;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ISL;SA_WINE;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SDN;SA_BEER;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MNE;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;POL;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SVN;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;NZL;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;KEN;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MWI;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;TCD;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SYC;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;AFG;SA_BEER;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BGR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;DNK;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;HUN;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ITA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;THA;SA_SPIRITS;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;MYS;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;COG;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;TCD;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CUB;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;ECU;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;DNK;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;FRA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;OMN;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;THA;SA_WINE;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;MDV;SA_BEER;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CRI;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;DOM;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;KNA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;AFG;SA_WINE;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;JOR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;LBY;SA_BEER;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;PRT;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;RUS;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;SGP;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;DZA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;TGO;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ZMB;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BRA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MDA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SVN;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;UKR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ESP;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;TUV;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;FSM;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;NIU;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;FJI;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;COD;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;COD;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;NPL;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CAF;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CPV;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;SLV;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;ATG;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;JAM;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SOM;SA_WINE;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;LTU;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;HRV;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ROU;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;JPN;SA_SPIRITS;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;LAO;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;KOR;SA_WINE;19;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BEN;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MLI;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;AGO;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CAN;SA_WINE;subnational;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CUB;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;LAO;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;MYS;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MKD;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GMB;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MUS;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ZWE;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BHS;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;SUR;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;SUR;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;PAN;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;GRC;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;KIR;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;MHL;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;TJK;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;TJK;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;TKM;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;UZB;SA_BEER;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BRA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BRA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;CZE;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;FIN;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;VEN;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;AUT;SA_WINE;Subnational;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;IND;SA_BEER;Subnational;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;IND;SA_SPIRITS;Subnational;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;CHE;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GIN;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;NAM;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;UGA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;OMN;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;PAK;SA_WINE;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;GRC;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;POL;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MDA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CAF;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;GTM;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CHL;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;IRN;SA_BEER;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;IRQ;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;NOR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;KHM;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;LAO;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;KOR;SA_BEER;19;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GNB;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;NER;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;STP;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;JOR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;TLS;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;TLS;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;NAM;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;NIC;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MNE;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;IND;SA_WINE;Subnational;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;TUR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;NRU;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BOL;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;PNG;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;QAT;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CIV;SA_SPIRITS;14;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GMB;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;SLV;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BLZ;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;LBN;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;NOR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;BTN;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;PHL;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;LSO;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MDG;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;NGA;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;URY;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ITA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;PAK;SA_BEER;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MLT;SA_WINE;17;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;UKR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GNB;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;LBR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;NER;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;DOM;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;KNA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;PAN;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;IRL;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;KAZ;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;PRT;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;IDN;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BWA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;DZA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;ATG;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;COL;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BEL;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;IRN;SA_SPIRITS;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;BGD;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;LKA;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;VUT;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;NIC;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;ARG;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;AND;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MLT;SA_BEER;17;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;GBR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;VNM;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SLE;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;JAM;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BLR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MDA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;RUS;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SWE;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ERI;SA_SPIRITS;25;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GMB;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SLE;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SSD;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;EST;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;FRA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;CYP;SA_BEER;17;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SYR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;KAZ;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;COG;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;RWA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;GTM;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;HND;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;PER;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;TTO;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;DEU;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BEL;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;BGD;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;MMR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ESP;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;TUN;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;FJI;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;SLB;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;NRU;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;KGZ;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;SLB;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;PNG;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;FSM;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GHA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SAU;SA_BEER;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;AZE;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;FRA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;PRK;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GHA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;KEN;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MOZ;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;PER;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;VCT;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;LTU;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BGR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;UZB;SA_SPIRITS;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;PHL;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;LBR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MLI;SA_BEER;15;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CRI;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;YEM;SA_WINE;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;AZE;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;KAZ;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;LTU;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;PHL;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;SGP;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MLT;SA_SPIRITS;17;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;NLD;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GNQ;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CPV;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;LCA;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;MAR;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SMR;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;PRY;SA_WINE;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;GUY;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CAN;SA_BEER;subnational;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;IRQ;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;AND;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;MDV;SA_WINE;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;WSM;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;RWA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SSD;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;HRV;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;VUT;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BFA;SA_WINE;13;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CMR;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;UGA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;GRD;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BHS;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;GRC;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;IRL;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;NLD;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;KHM;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MRT;SA_BEER;total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GAB;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BWA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CPV;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ZAF;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;COL;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;VEN;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;DJI;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;AUT;SA_SPIRITS;Subnational;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;WSM;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ESP;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;COK;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;BRN;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;TON;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BOL;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;KGZ;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;NPL;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;KWT;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;QAT;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;SLB;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;BRN;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;TUV;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;KGZ;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CIV;SA_BEER;14;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;MEX;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;LBY;SA_WINE;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;NLD;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;TUR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CHL;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SOM;SA_BEER;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SDN;SA_WINE;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;MDV;SA_SPIRITS;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ZWE;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;CYP;SA_SPIRITS;17;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;MHL;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;BTN;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;TKM;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MDG;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;NIC;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BRB;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;DEU;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;VEN;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;DJI;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ALB;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;NZL;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;WSM;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ETH;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;NGA;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;TZA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;VCT;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;VCT;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SDN;SA_SPIRITS;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;GBR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BDI;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;GUY;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;HUN;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;LBN;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MCO;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;POL;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;NER;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;STP;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;GRD;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;JAM;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;EGY;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;EGY;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SVK;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;TJK;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GNQ;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MRT;SA_SPIRITS;total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BRB;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;HND;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;HRV;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;CZE;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SMR;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;CHN;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;CHE;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;COK;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;ARE;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;ARE;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;NIU;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;PLW;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;COM;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;TUN;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;NIU;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;HTI;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;COM;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;HTI;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;TUN;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SWZ;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;URY;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;PER;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;LBN;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BLR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ISR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;KHM;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;KIR;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;LBR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;ARG;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;PRY;SA_BEER;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;HUN;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;MNG;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;GBR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GNB;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CMR;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;UGA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;URY;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;IRL;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;PRK;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CAF;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GAB;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;GTM;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;HND;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;TGO;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;DEU;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ISR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ALB;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;MMR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;CHN;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ERI;SA_BEER;25;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MWI;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;TCD;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SYC;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;ARG;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CHL;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;DNK;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ITA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SRB;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;IDN;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MKD;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;VNM;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CIV;SA_WINE;14;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MOZ;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;GRD;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;DMA;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;EST;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;LBY;SA_SPIRITS;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ROU;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;LKA;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MKD;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;PAN;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;DOM;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;EST;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;OMN;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;CYP;SA_WINE;17;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;RUS;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;IDN;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MDG;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SEN;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;COL;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ISL;SA_BEER;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MNE;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;AUS;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;VUT;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;ARE;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;NRU;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;BHR;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;PLW;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;BHR;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;TON;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;COM;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;KWT;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;TON;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;AGO;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MUS;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ZMB;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BLZ;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CUB;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;IRN;SA_WINE;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;LVA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ROU;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;MNG;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MWI;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;TZA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BLZ;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;MEX;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;USA;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ISR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;AND;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;YEM;SA_SPIRITS;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;BTN;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SWE;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;TUR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BFA;SA_SPIRITS;13;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;STP;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BHS;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;KNA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;USA;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;EGY;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SYR;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BIH;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;UZB;SA_WINE;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;COG;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GIN;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;NAM;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SEN;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ZMB;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;LUX;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;AUS;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;MYS;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MLI;SA_WINE;15;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;DMA;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;MCO;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ETH;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ERI;SA_WINE;25;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SYC;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;PRY;SA_SPIRITS;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;MEX;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;SLV;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;GEO;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;PAK;SA_SPIRITS;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SRB;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;AUS;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SLE;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BIH;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BIH;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;PRT;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;MHL;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;TKM;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;KEN;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GAB;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;DZA;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;TTO;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;MAR;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;FIN;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;LUX;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;JPN;SA_BEER;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;BGD;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SVN;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;COK;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;BOL;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;BRN;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;FSM;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;HTI;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;KWT;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;COD;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;NPL;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;QAT;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;LSO;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SSD;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;CRI;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;DJI;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;GEO;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ISL;SA_SPIRITS;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;LKA;SA_WINE;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GIN;SA_WINE;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MUS;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;LCA;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;SUR;SA_SPIRITS;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;LVA;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BLR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;KOR;SA_SPIRITS;19;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;AGO;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BEN;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;YEM;SA_BEER;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;AFG;SA_SPIRITS;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ARM;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GNQ;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;MRT;SA_WINE;total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ZAF;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;TGO;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;DMA;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;LUX;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;MAR;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SMR;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;CHN;SA_SPIRITS;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;JPN;SA_WINE;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;UKR;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BFA;SA_BEER;13;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;BDI;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;ECU;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;GUY;SA_BEER;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;IRQ;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ARM;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BEL;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SRB;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;SEAR;THA;SA_BEER;20;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SVK;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;CHE;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;GHA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;NGA;SA_BEER;None;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SEN;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SWZ;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;TZA;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;BGR;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;CZE;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SOM;SA_SPIRITS;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;SVK;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;VNM;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;CMR;SA_BEER;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;SWZ;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ZWE;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;GEO;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;SAU;SA_SPIRITS;Total ban;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;KIR;SA_SPIRITS;21;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;SGP;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AFR;ZAF;SA_BEER;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;ECU;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;AMR;LCA;SA_WINE;16;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;ALB;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;AUT;SA_BEER;Subnational;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EUR;FIN;SA_SPIRITS;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;NZL;SA_WINE;18;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;EMR;BHR;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;PLW;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;FJI;SA_SPIRITS;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;TUV;SA_WINE;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv
+SA_0000001518;PUBLISHED;2016;WPR;PNG;SA_BEER;No data;;;;;;;http://apps.who.int/gho/athena/api/GHO/SA_0000001518.csv

@@ -1,0 +1,1680 @@
+2023-05-11 09:34:56,691 INFO build_combined_normalized_csv(30) 211 sources selected to process
+2023-05-11 09:35:01,210 INFO build_combined_normalized_csv(47) Source S-1 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:05,091 INFO build_combined_normalized_csv(47) Source S-2 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:05,334 INFO build_combined_normalized_csv(47) Source S-3 extract with 195 rows::: UnTreaties
+2023-05-11 09:35:05,522 INFO build_combined_normalized_csv(47) Source S-4 extract with 195 rows::: UnTreaties
+2023-05-11 09:35:09,683 INFO build_combined_normalized_csv(47) Source S-5 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:13,635 INFO build_combined_normalized_csv(47) Source S-6 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:16,333 INFO build_combined_normalized_csv(47) Source S-7 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:17,057 INFO build_combined_normalized_csv(47) Source S-15 extract with 954 rows::: DefaultJsonExtractor
+2023-05-11 09:35:17,673 INFO build_combined_normalized_csv(47) Source S-16 extract with 954 rows::: DefaultJsonExtractor
+2023-05-11 09:35:17,926 INFO build_combined_normalized_csv(47) Source S-17 extract with 381 rows::: DefaultJsonExtractor
+2023-05-11 09:35:21,290 INFO build_combined_normalized_csv(47) Source S-18 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:23,890 INFO build_combined_normalized_csv(47) Source S-19 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:26,555 INFO build_combined_normalized_csv(47) Source S-20 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:29,143 INFO build_combined_normalized_csv(47) Source S-21 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:32,708 INFO build_combined_normalized_csv(47) Source S-22 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:36,408 INFO build_combined_normalized_csv(47) Source S-23 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:36,570 INFO build_combined_normalized_csv(47) Source S-24 extract with 195 rows::: UnTreaties
+2023-05-11 09:35:40,150 INFO build_combined_normalized_csv(47) Source S-25 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:43,808 INFO build_combined_normalized_csv(47) Source S-26 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:47,561 INFO build_combined_normalized_csv(47) Source S-27 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:50,452 INFO build_combined_normalized_csv(47) Source S-28 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:50,460 WARNING build_combined_normalized_csv(56) Source S-39 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-39.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-39.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-39 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-39.xlsx'
+2023-05-11 09:35:50,670 INFO build_combined_normalized_csv(47) Source S-43 extract with 541 rows::: DefaultCSVExtractor
+2023-05-11 09:35:50,671 WARNING build_combined_normalized_csv(56) Source S-45 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-45.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-45.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-45 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-45.xlsx'
+2023-05-11 09:35:50,794 INFO build_combined_normalized_csv(47) Source S-46 extract with 379 rows::: DefaultCSVExtractor
+2023-05-11 09:35:50,919 INFO build_combined_normalized_csv(47) Source S-47 extract with 409 rows::: DefaultCSVExtractor
+2023-05-11 09:35:53,643 INFO build_combined_normalized_csv(47) Source S-48 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:56,378 INFO build_combined_normalized_csv(47) Source S-49 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:35:56,744 INFO build_combined_normalized_csv(47) Source S-50 extract with 195 rows::: UnTreaties
+2023-05-11 09:35:56,897 INFO build_combined_normalized_csv(47) Source S-52 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:35:57,200 WARNING create_log_report_delete_duplicates(770) WARNING: There are 72 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
+2023-05-11 09:35:57,210 WARNING build_combined_normalized_csv(56) Source S-53 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/json.py", line 114, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 123, in normalizer
+    sum(cleansed_data_subset[country_iso_3_col].duplicated()) == 0
+AssertionError: There are duplicated countries in the defined dimension-subgroup dataframe.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-53 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+2023-05-11 09:35:57,211 WARNING build_combined_normalized_csv(56) Source S-60 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-60.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-60.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-60 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-60.xlsx'
+2023-05-11 09:35:57,212 WARNING build_combined_normalized_csv(56) Source S-61 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-61.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-61.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-61 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-61.xlsx'
+2023-05-11 09:35:57,316 INFO build_combined_normalized_csv(47) Source S-62 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:35:57,445 INFO build_combined_normalized_csv(47) Source S-63 extract with 312 rows::: DefaultJsonExtractor
+2023-05-11 09:35:57,576 INFO build_combined_normalized_csv(47) Source S-65 extract with 312 rows::: DefaultJsonExtractor
+2023-05-11 09:35:57,689 INFO build_combined_normalized_csv(47) Source S-66 extract with 265 rows::: DefaultJsonExtractor
+2023-05-11 09:35:57,800 INFO build_combined_normalized_csv(47) Source S-67 extract with 265 rows::: DefaultJsonExtractor
+2023-05-11 09:35:57,844 INFO build_combined_normalized_csv(47) Source S-68 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:35:57,888 INFO build_combined_normalized_csv(47) Source S-69 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:35:57,932 INFO build_combined_normalized_csv(47) Source S-70 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:35:57,977 INFO build_combined_normalized_csv(47) Source S-71 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:35:58,138 INFO build_combined_normalized_csv(47) Source S-72 extract with 195 rows::: UnTreaties
+2023-05-11 09:35:58,183 INFO build_combined_normalized_csv(47) Source S-74 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:35:58,236 INFO build_combined_normalized_csv(47) Source S-76 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:35:58,290 INFO build_combined_normalized_csv(47) Source S-77 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:35:58,348 INFO build_combined_normalized_csv(47) Source S-78 extract with 579 rows::: DefaultCSVExtractor
+2023-05-11 09:35:58,405 INFO build_combined_normalized_csv(47) Source S-79 extract with 579 rows::: DefaultCSVExtractor
+2023-05-11 09:35:58,447 INFO build_combined_normalized_csv(47) Source S-80 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:35:58,732 INFO build_combined_normalized_csv(47) Source S-81 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:35:58,805 INFO build_combined_normalized_csv(47) Source S-82 extract with 461 rows::: DefaultCSVExtractor
+2023-05-11 09:35:58,875 INFO build_combined_normalized_csv(47) Source S-83 extract with 331 rows::: DefaultCSVExtractor
+2023-05-11 09:35:58,881 WARNING build_combined_normalized_csv(56) Source S-84 failed to extract cause of: The source has not provided any data  
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 120, in download
+    assert len(self.dataframe) > 0, "The source has not provided any data  "
+AssertionError: The source has not provided any data  
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-84 failed to extract cause of: The source has not provided any data  
+2023-05-11 09:35:59,871 INFO build_combined_normalized_csv(47) Source S-85 extract with 1699 rows::: DefaultCSVExtractor
+2023-05-11 09:35:59,912 WARNING build_combined_normalized_csv(56) Source S-86 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/csv.py", line 115, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 123, in normalizer
+    sum(cleansed_data_subset[country_iso_3_col].duplicated()) == 0
+AssertionError: There are duplicated countries in the defined dimension-subgroup dataframe.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-86 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+2023-05-11 09:35:59,952 WARNING build_combined_normalized_csv(56) Source S-87 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/csv.py", line 115, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 123, in normalizer
+    sum(cleansed_data_subset[country_iso_3_col].duplicated()) == 0
+AssertionError: There are duplicated countries in the defined dimension-subgroup dataframe.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-87 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+2023-05-11 09:36:00,096 INFO build_combined_normalized_csv(47) Source S-88 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:00,227 WARNING build_combined_normalized_csv(56) Source S-89 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 167
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 251, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 63, in normalizer
+    cleansed_data[raw_data_col] = pd.to_numeric(raw_obs_value)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/tools/numeric.py", line 185, in to_numeric
+    values, _ = lib.maybe_convert_numeric(
+  File "pandas/_libs/lib.pyx", line 2411, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 167
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-89 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 167
+2023-05-11 09:36:00,357 WARNING build_combined_normalized_csv(56) Source S-90 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 251, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 63, in normalizer
+    cleansed_data[raw_data_col] = pd.to_numeric(raw_obs_value)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/tools/numeric.py", line 185, in to_numeric
+    values, _ = lib.maybe_convert_numeric(
+  File "pandas/_libs/lib.pyx", line 2411, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-90 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+2023-05-11 09:36:00,545 INFO build_combined_normalized_csv(47) Source S-91 extract with 561 rows::: DefaultCSVExtractor
+2023-05-11 09:36:00,776 INFO build_combined_normalized_csv(47) Source S-92 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:00,872 INFO build_combined_normalized_csv(47) Source S-93 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:00,873 WARNING build_combined_normalized_csv(56) Source S-94 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-94.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-94.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-94 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-94.xlsx'
+2023-05-11 09:36:00,874 WARNING build_combined_normalized_csv(56) Source S-95 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-95.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-95.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-95 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-95.xlsx'
+2023-05-11 09:36:00,875 WARNING build_combined_normalized_csv(56) Source S-96 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-96.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-96.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-96 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-96.xlsx'
+2023-05-11 09:36:01,014 INFO build_combined_normalized_csv(47) Source S-98 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:01,164 INFO build_combined_normalized_csv(47) Source S-99 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:01,165 WARNING build_combined_normalized_csv(56) Source S-100 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-100.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-100.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-100 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-100.xlsx'
+2023-05-11 09:36:01,297 INFO build_combined_normalized_csv(47) Source S-102 extract with 207 rows::: DefaultJsonExtractor
+2023-05-11 09:36:01,322 WARNING build_combined_normalized_csv(56) Source S-103 failed to extract cause of: Columns must be same length as key
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/csv.py", line 66, in _transform
+    self.dataframe = cleanse.retrieve_latest_observation(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/cleanse.py", line 262, in retrieve_latest_observation
+    renamed_data[available_dims_list] = renamed_data[available_dims_list].astype(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 3968, in __setitem__
+    self._setitem_array(key, value)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 4012, in _setitem_array
+    self[k1] = value[k2]
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 3970, in __setitem__
+    self._set_item_frame_value(key, value)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 4100, in _set_item_frame_value
+    raise ValueError("Columns must be same length as key")
+ValueError: Columns must be same length as key
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-103 failed to extract cause of: Columns must be same length as key
+2023-05-11 09:36:01,325 WARNING build_combined_normalized_csv(56) Source S-104 failed to extract cause of: For S-104 no download method defined
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 148, in _download
+    raise NotImplementedError(f"For {self.source_id} no download method defined")
+NotImplementedError: For S-104 no download method defined
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-104 failed to extract cause of: For S-104 no download method defined
+2023-05-11 09:36:01,497 INFO build_combined_normalized_csv(47) Source S-108 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:01,661 INFO build_combined_normalized_csv(47) Source S-109 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:01,823 INFO build_combined_normalized_csv(47) Source S-110 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:02,054 INFO build_combined_normalized_csv(47) Source S-111 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:02,215 INFO build_combined_normalized_csv(47) Source S-112 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:02,377 INFO build_combined_normalized_csv(47) Source S-113 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:03,002 INFO build_combined_normalized_csv(47) Source S-114 extract with 195 rows::: CRIN_Treaties
+2023-05-11 09:36:03,283 INFO build_combined_normalized_csv(47) Source S-115 extract with 195 rows::: CRIN_Treaties
+2023-05-11 09:36:03,568 INFO build_combined_normalized_csv(47) Source S-116 extract with 195 rows::: CRIN_Treaties
+2023-05-11 09:36:03,613 INFO build_combined_normalized_csv(47) Source S-119 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:36:03,658 INFO build_combined_normalized_csv(47) Source S-120 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:36:03,758 INFO build_combined_normalized_csv(47) Source S-121 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:03,853 WARNING build_combined_normalized_csv(56) Source S-122 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 251, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 63, in normalizer
+    cleansed_data[raw_data_col] = pd.to_numeric(raw_obs_value)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/tools/numeric.py", line 185, in to_numeric
+    values, _ = lib.maybe_convert_numeric(
+  File "pandas/_libs/lib.pyx", line 2411, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-122 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+2023-05-11 09:36:03,956 INFO build_combined_normalized_csv(47) Source S-123 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:04,129 INFO build_combined_normalized_csv(47) Source S-124 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:04,354 INFO build_combined_normalized_csv(47) Source S-125 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:04,528 INFO build_combined_normalized_csv(47) Source S-126 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:04,714 INFO build_combined_normalized_csv(47) Source S-127 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:04,809 INFO build_combined_normalized_csv(47) Source S-128 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:04,809 WARNING build_combined_normalized_csv(56) Source S-129 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-129.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-129.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-129 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-129.xlsx'
+2023-05-11 09:36:04,810 WARNING build_combined_normalized_csv(56) Source S-131 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-131.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-131.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-131 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-131.xlsx'
+2023-05-11 09:36:04,811 WARNING build_combined_normalized_csv(56) Source S-132 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-132.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-132.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-132 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-132.xlsx'
+2023-05-11 09:36:04,812 WARNING build_combined_normalized_csv(56) Source S-133 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-133.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-133.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-133 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-133.xlsx'
+2023-05-11 09:36:04,813 WARNING build_combined_normalized_csv(56) Source S-134 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-134.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-134.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-134 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-134.xlsx'
+2023-05-11 09:36:04,814 WARNING build_combined_normalized_csv(56) Source S-135 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-135.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-135.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-135 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-135.xlsx'
+2023-05-11 09:36:04,861 INFO build_combined_normalized_csv(47) Source S-137 extract with 195 rows::: EITIIndicatorBuilder
+2023-05-11 09:36:04,867 WARNING build_combined_normalized_csv(56) Source S-140 failed to extract cause of: 'Year'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/who.py", line 23, in _download
+    s_157 = self.config.un_pop_tot.merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 10093, in merge
+    return merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 110, in merge
+    op = _MergeOperation(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 703, in __init__
+    ) = self._get_merge_keys()
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 1162, in _get_merge_keys
+    right_keys.append(right._get_label_or_level_values(rk))
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/generic.py", line 1850, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'Year'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-140 failed to extract cause of: 'Year'
+2023-05-11 09:36:05,068 INFO build_combined_normalized_csv(47) Source S-141 extract with 941 rows::: DefaultCSVExtractor
+2023-05-11 09:36:05,073 WARNING build_combined_normalized_csv(56) Source S-143 failed to extract cause of: The source has not provided any data  
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 120, in download
+    assert len(self.dataframe) > 0, "The source has not provided any data  "
+AssertionError: The source has not provided any data  
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-143 failed to extract cause of: The source has not provided any data  
+2023-05-11 09:36:05,158 INFO build_combined_normalized_csv(47) Source S-144 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:05,379 INFO build_combined_normalized_csv(47) Source S-145 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:05,559 INFO build_combined_normalized_csv(47) Source S-147 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:05,560 WARNING build_combined_normalized_csv(56) Source S-148 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-148.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-148.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-148 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-148.xlsx'
+2023-05-11 09:36:05,681 WARNING create_log_report_delete_duplicates(770) WARNING: There are 8 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
+2023-05-11 09:36:05,698 INFO build_combined_normalized_csv(47) Source S-149 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:06,341 INFO build_combined_normalized_csv(47) Source S-151 extract with 195 rows::: ICRC_Treaties
+2023-05-11 09:36:06,944 INFO build_combined_normalized_csv(47) Source S-152 extract with 195 rows::: ICRC_Treaties
+2023-05-11 09:36:07,539 INFO build_combined_normalized_csv(47) Source S-153 extract with 195 rows::: ICRC_Treaties
+2023-05-11 09:36:07,627 INFO build_combined_normalized_csv(47) Source S-154 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:07,718 INFO build_combined_normalized_csv(47) Source S-155 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:08,024 INFO build_combined_normalized_csv(47) Source S-156 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:12,189 INFO build_combined_normalized_csv(47) Source S-157 extract with 195 rows::: ILO_Extractor
+2023-05-11 09:36:12,282 INFO build_combined_normalized_csv(47) Source S-160 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:12,374 INFO build_combined_normalized_csv(47) Source S-220 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:13,692 WARNING build_combined_normalized_csv(56) Source S-163 failed to extract cause of: "['Conflict New Displacements'] not in index"
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/idmc.py", line 38, in _download
+    self.dataframe = self.dataframe[["ISO3","Year","population",self.raw_obs_value_column_name]]
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 3813, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['Conflict New Displacements'] not in index"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-163 failed to extract cause of: "['Conflict New Displacements'] not in index"
+2023-05-11 09:36:13,779 INFO build_combined_normalized_csv(47) Source S-164 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:13,918 INFO build_combined_normalized_csv(47) Source S-165 extract with 417 rows::: DefaultJsonExtractor
+2023-05-11 09:36:14,299 INFO build_combined_normalized_csv(47) Source S-166 extract with 509 rows::: DefaultJsonExtractor
+2023-05-11 09:36:14,395 WARNING build_combined_normalized_csv(56) Source S-167 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/un.py", line 169, in _download
+    self.dataframe = self.config.un_pop_tot.merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 10093, in merge
+    return merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 110, in merge
+    op = _MergeOperation(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 707, in __init__
+    self._maybe_coerce_merge_keys()
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 1340, in _maybe_coerce_merge_keys
+    raise ValueError(msg)
+ValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-167 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+2023-05-11 09:36:14,432 WARNING build_combined_normalized_csv(56) Source S-168 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/un.py", line 169, in _download
+    self.dataframe = self.config.un_pop_tot.merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 10093, in merge
+    return merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 110, in merge
+    op = _MergeOperation(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 707, in __init__
+    self._maybe_coerce_merge_keys()
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 1340, in _maybe_coerce_merge_keys
+    raise ValueError(msg)
+ValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-168 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+2023-05-11 09:36:14,469 WARNING build_combined_normalized_csv(56) Source S-169 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/un.py", line 169, in _download
+    self.dataframe = self.config.un_pop_tot.merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 10093, in merge
+    return merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 110, in merge
+    op = _MergeOperation(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 707, in __init__
+    self._maybe_coerce_merge_keys()
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 1340, in _maybe_coerce_merge_keys
+    raise ValueError(msg)
+ValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-169 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+2023-05-11 09:36:14,535 WARNING build_combined_normalized_csv(56) Source S-170 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/un.py", line 169, in _download
+    self.dataframe = self.config.un_pop_tot.merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 10093, in merge
+    return merge(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 110, in merge
+    op = _MergeOperation(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 707, in __init__
+    self._maybe_coerce_merge_keys()
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/reshape/merge.py", line 1340, in _maybe_coerce_merge_keys
+    raise ValueError(msg)
+ValueError: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-170 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+2023-05-11 09:36:15,758 WARNING build_combined_normalized_csv(56) Source S-171 failed to extract cause of: "['Disaster New Displacements'] not in index"
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/idmc.py", line 38, in _download
+    self.dataframe = self.dataframe[["ISO3","Year","population",self.raw_obs_value_column_name]]
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 3813, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['Disaster New Displacements'] not in index"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-171 failed to extract cause of: "['Disaster New Displacements'] not in index"
+2023-05-11 09:36:17,616 INFO build_combined_normalized_csv(47) Source S-172 extract with 195 rows::: Inform_Risk_Index_Data
+2023-05-11 09:36:17,855 INFO build_combined_normalized_csv(47) Source S-173 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:17,952 INFO build_combined_normalized_csv(47) Source S-174 extract with 195 rows::: UnTreaties
+2023-05-11 09:36:18,332 INFO build_combined_normalized_csv(47) Source S-175 extract with 195 rows::: CRIN_Treaties
+2023-05-11 09:36:18,486 INFO build_combined_normalized_csv(47) Source S-180 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:18,564 INFO build_combined_normalized_csv(47) Source S-181 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:36:18,673 WARNING build_combined_normalized_csv(56) Source S-182 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/json.py", line 114, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 123, in normalizer
+    sum(cleansed_data_subset[country_iso_3_col].duplicated()) == 0
+AssertionError: There are duplicated countries in the defined dimension-subgroup dataframe.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-182 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+2023-05-11 09:36:18,677 WARNING build_combined_normalized_csv(56) Source S-183 failed to extract cause of: The source has not provided any data  
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 120, in download
+    assert len(self.dataframe) > 0, "The source has not provided any data  "
+AssertionError: The source has not provided any data  
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-183 failed to extract cause of: The source has not provided any data  
+2023-05-11 09:36:20,727 INFO build_combined_normalized_csv(47) Source S-184 extract with 1259 rows::: DefaultJsonExtractor
+2023-05-11 09:36:20,784 INFO build_combined_normalized_csv(47) Source S-186 extract with 579 rows::: DefaultCSVExtractor
+2023-05-11 09:36:20,905 INFO build_combined_normalized_csv(47) Source S-187 extract with 363 rows::: DefaultCSVExtractor
+2023-05-11 09:36:20,961 INFO build_combined_normalized_csv(47) Source S-188 extract with 579 rows::: DefaultCSVExtractor
+2023-05-11 09:36:21,016 INFO build_combined_normalized_csv(47) Source S-189 extract with 579 rows::: DefaultCSVExtractor
+2023-05-11 09:36:21,019 WARNING build_combined_normalized_csv(56) Source S-191 failed to extract cause of: list index out of range
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/json.py", line 30, in _download
+    raw_data = pd.json_normalize(requests.get(self.endpoint).json()["data"])
+TypeError: list indices must be integers or slices, not str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/json.py", line 34, in _download
+    requests.get(self.endpoint).json()[1]
+IndexError: list index out of range
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-191 failed to extract cause of: list index out of range
+2023-05-11 09:36:21,020 WARNING build_combined_normalized_csv(56) Source S-192 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-192.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-192.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-192 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-192.xlsx'
+2023-05-11 09:36:21,165 WARNING create_log_report_delete_duplicates(770) WARNING: There are 54 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
+2023-05-11 09:36:21,191 INFO build_combined_normalized_csv(47) Source S-193 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:22,205 INFO build_combined_normalized_csv(47) Source S-194 extract with 4945 rows::: DefaultCSVExtractor
+2023-05-11 09:36:22,288 WARNING build_combined_normalized_csv(56) Source S-195 failed to extract cause of: division by zero
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/json.py", line 114, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 149, in normalizer
+    distance = maximum_score / (length_unique_values - divisor)
+ZeroDivisionError: division by zero
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-195 failed to extract cause of: division by zero
+2023-05-11 09:36:22,364 WARNING build_combined_normalized_csv(56) Source S-196 failed to extract cause of: division by zero
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/json.py", line 114, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 100, in normalizer
+    average_country_number = sum(temp_grouped_series) / len(temp_grouped_series)
+ZeroDivisionError: division by zero
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-196 failed to extract cause of: division by zero
+2023-05-11 09:36:22,443 INFO build_combined_normalized_csv(47) Source S-197 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:22,607 INFO build_combined_normalized_csv(47) Source S-198 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:22,766 INFO build_combined_normalized_csv(47) Source S-199 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:23,764 INFO build_combined_normalized_csv(47) Source S-200 extract with 3187 rows::: DefaultCSVExtractor
+2023-05-11 09:36:24,107 INFO build_combined_normalized_csv(47) Source S-201 extract with 445 rows::: DefaultJsonExtractor
+2023-05-11 09:36:24,269 INFO build_combined_normalized_csv(47) Source S-202 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:24,360 INFO build_combined_normalized_csv(47) Source S-203 extract with 196 rows::: DefaultJsonExtractor
+2023-05-11 09:36:24,451 INFO build_combined_normalized_csv(47) Source S-204 extract with 196 rows::: DefaultJsonExtractor
+2023-05-11 09:36:24,619 INFO build_combined_normalized_csv(47) Source S-205 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:24,779 INFO build_combined_normalized_csv(47) Source S-206 extract with 453 rows::: DefaultJsonExtractor
+2023-05-11 09:36:24,875 INFO build_combined_normalized_csv(47) Source S-207 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:26,044 INFO build_combined_normalized_csv(47) Source S-209 extract with 195 rows::: IDMC_Extractor
+2023-05-11 09:36:26,045 WARNING build_combined_normalized_csv(56) Source S-212 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-212.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-212.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-212 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-212.xlsx'
+2023-05-11 09:36:26,133 WARNING build_combined_normalized_csv(56) Source S-213 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 251, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 63, in normalizer
+    cleansed_data[raw_data_col] = pd.to_numeric(raw_obs_value)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/tools/numeric.py", line 185, in to_numeric
+    values, _ = lib.maybe_convert_numeric(
+  File "pandas/_libs/lib.pyx", line 2411, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-213 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+2023-05-11 09:36:26,134 WARNING build_combined_normalized_csv(56) Source S-214 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-214.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-214.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-214 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-214.xlsx'
+2023-05-11 09:36:26,135 WARNING build_combined_normalized_csv(56) Source S-215 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-215.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-215.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-215 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-215.xlsx'
+2023-05-11 09:36:26,232 INFO build_combined_normalized_csv(47) Source S-216 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:26,233 WARNING build_combined_normalized_csv(56) Source S-217 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-217.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 27, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-217.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-217 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-217.xlsx'
+2023-05-11 09:36:26,567 INFO build_combined_normalized_csv(47) Source S-218 extract with 195 rows::: DefaultJsonExtractor
+2023-05-11 09:36:26,618 INFO build_combined_normalized_csv(47) Source S-8 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:26,667 INFO build_combined_normalized_csv(47) Source S-9 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:27,032 INFO build_combined_normalized_csv(47) Source S-10 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:27,466 WARNING build_combined_normalized_csv(56) Source S-11 failed to extract cause of: '[None] not in index'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 115, in _download
+    self.dataframe = self.dataframe.loc[
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: '[None] not in index'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-11 failed to extract cause of: '[None] not in index'
+2023-05-11 09:36:27,829 INFO build_combined_normalized_csv(47) Source S-13 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:27,830 WARNING build_combined_normalized_csv(56) Source S-14 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-21-total-HIZkLiYK.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 252, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-21-total-HIZkLiYK.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-14 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-21-total-HIZkLiYK.xlsx'
+2023-05-11 09:36:28,196 INFO build_combined_normalized_csv(47) Source S-29 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:28,340 INFO build_combined_normalized_csv(47) Source S-33 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:28,400 INFO build_combined_normalized_csv(47) Source S-34 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:28,487 WARNING build_combined_normalized_csv(56) Source S-35 failed to extract cause of: 'RAW_OBS_VALUE'
+Traceback (most recent call last):
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3802, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RAW_OBS_VALUE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/wpa.py", line 121, in _transform
+    self.dataframe_cleansed = cleanse.encode_categorical_variables(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/cleanse.py", line 701, in encode_categorical_variables
+    dataframe[obs_raw_value_source].astype(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 3807, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3804, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RAW_OBS_VALUE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-35 failed to extract cause of: 'RAW_OBS_VALUE'
+2023-05-11 09:36:28,575 WARNING build_combined_normalized_csv(56) Source S-36 failed to extract cause of: 'RAW_OBS_VALUE'
+Traceback (most recent call last):
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3802, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RAW_OBS_VALUE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/wpa.py", line 121, in _transform
+    self.dataframe_cleansed = cleanse.encode_categorical_variables(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/cleanse.py", line 701, in encode_categorical_variables
+    dataframe[obs_raw_value_source].astype(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 3807, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3804, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RAW_OBS_VALUE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-36 failed to extract cause of: 'RAW_OBS_VALUE'
+2023-05-11 09:36:28,651 WARNING build_combined_normalized_csv(56) Source S-37 failed to extract cause of: "['sh_covered'] not in index"
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/wpa.py", line 27, in _download
+    self.dataframe = self.dataframe[['iso3', self.wpa_obs_raw_col]]
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/frame.py", line 3813, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['sh_covered'] not in index"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-37 failed to extract cause of: "['sh_covered'] not in index"
+2023-05-11 09:36:29,023 INFO build_combined_normalized_csv(47) Source S-38 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:29,392 INFO build_combined_normalized_csv(47) Source S-40 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:29,393 WARNING build_combined_normalized_csv(56) Source S-51 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 284, in _download
+    self.dataframe = pd.read_excel(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 482, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-51 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx'
+2023-05-11 09:36:29,456 INFO build_combined_normalized_csv(47) Source S-54 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:29,519 INFO build_combined_normalized_csv(47) Source S-55 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:29,585 INFO build_combined_normalized_csv(47) Source S-56 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:29,648 INFO build_combined_normalized_csv(47) Source S-57 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:29,711 INFO build_combined_normalized_csv(47) Source S-58 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:29,774 INFO build_combined_normalized_csv(47) Source S-59 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:29,952 INFO build_combined_normalized_csv(47) Source S-73 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:30,031 INFO build_combined_normalized_csv(47) Source S-75 extract with 195 rows::: FCTC_Data
+2023-05-11 09:36:30,401 WARNING build_combined_normalized_csv(56) Source S-97 failed to extract cause of: '[None] not in index'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 115, in _download
+    self.dataframe = self.dataframe.loc[
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: '[None] not in index'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-97 failed to extract cause of: '[None] not in index'
+2023-05-11 09:36:30,771 WARNING build_combined_normalized_csv(56) Source S-101 failed to extract cause of: '[None] not in index'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 115, in _download
+    self.dataframe = self.dataframe.loc[
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: '[None] not in index'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-101 failed to extract cause of: '[None] not in index'
+2023-05-11 09:36:30,866 INFO build_combined_normalized_csv(47) Source S-105 extract with 195 rows::: KidsRightsIndex
+2023-05-11 09:36:30,960 INFO build_combined_normalized_csv(47) Source S-106 extract with 195 rows::: KidsRightsIndex
+2023-05-11 09:36:31,053 INFO build_combined_normalized_csv(47) Source S-107 extract with 195 rows::: KidsRightsIndex
+2023-05-11 09:36:31,505 WARNING build_combined_normalized_csv(56) Source S-117 failed to extract cause of: '[None] not in index'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 115, in _download
+    self.dataframe = self.dataframe.loc[
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: '[None] not in index'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-117 failed to extract cause of: '[None] not in index'
+2023-05-11 09:36:31,552 INFO build_combined_normalized_csv(47) Source S-118 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:36:31,553 WARNING build_combined_normalized_csv(56) Source S-136 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-153_ndc_content.csv'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 321, in _download
+    self.dataframe = pd.read_csv(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 950, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 605, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1442, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1735, in _make_engine
+    self.handles = get_handle(
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/io/common.py", line 856, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-153_ndc_content.csv'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-136 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-153_ndc_content.csv'
+2023-05-11 09:36:31,620 WARNING build_combined_normalized_csv(56) Source S-142 failed to extract cause of: Unable to parse string "false" at position 54
+Traceback (most recent call last):
+  File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "false"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 126, in transform
+    self.dataframe = self._transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 251, in _transform
+    self.dataframe = scaler.normalizer(
+  File "/home/lasse/Development/crba-allinone/etl/transformation/scaler.py", line 63, in normalizer
+    cleansed_data[raw_data_col] = pd.to_numeric(raw_obs_value)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/tools/numeric.py", line 185, in to_numeric
+    values, _ = lib.maybe_convert_numeric(
+  File "pandas/_libs/lib.pyx", line 2411, in pandas._libs.lib.maybe_convert_numeric
+ValueError: Unable to parse string "false" at position 54
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-142 failed to extract cause of: Unable to parse string "false" at position 54
+2023-05-11 09:36:31,680 INFO build_combined_normalized_csv(47) Source S-150 extract with 195 rows::: Landmark_Data
+2023-05-11 09:36:31,775 INFO build_combined_normalized_csv(47) Source S-176 extract with 195 rows::: KidsRightsIndex
+2023-05-11 09:36:31,870 INFO build_combined_normalized_csv(47) Source S-177 extract with 195 rows::: KidsRightsIndex
+2023-05-11 09:36:31,964 INFO build_combined_normalized_csv(47) Source S-178 extract with 195 rows::: KidsRightsIndex
+2023-05-11 09:36:32,060 INFO build_combined_normalized_csv(47) Source S-179 extract with 195 rows::: KidsRightsIndex
+2023-05-11 09:36:32,432 WARNING build_combined_normalized_csv(56) Source S-208 failed to extract cause of: '[None] not in index'
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
+    self.download().transform()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
+    self.dataframe = self._download()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 115, in _download
+    self.dataframe = self.dataframe.loc[
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
+    return self._getitem_tuple(key)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
+    keyarr, indexer = self._get_listlike_indexer(key, axis)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
+    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: '[None] not in index'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
+    extractor.build()
+  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
+    raise ExtractionError(
+etl.source_adapter.abstract.ExtractionError: Source S-208 failed to extract cause of: '[None] not in index'
+2023-05-11 09:36:32,496 INFO build_combined_normalized_csv(47) Source S-210 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:32,560 INFO build_combined_normalized_csv(47) Source S-211 extract with 195 rows::: WPA_Extractor
+2023-05-11 09:36:32,671 INFO build_combined_normalized_csv(47) Source S-12 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:32,781 INFO build_combined_normalized_csv(47) Source S-41 extract with 739 rows::: DefaultCSVExtractor
+2023-05-11 09:36:32,852 INFO build_combined_normalized_csv(47) Source S-42 extract with 310 rows::: DefaultCSVExtractor
+2023-05-11 09:36:32,903 INFO build_combined_normalized_csv(47) Source S-44 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:36:32,943 INFO build_combined_normalized_csv(47) Source S-185 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:36:32,985 INFO build_combined_normalized_csv(47) Source S-190 extract with 195 rows::: DefaultCSVExtractor
+2023-05-11 09:36:33,685 INFO build_combined_normalized_csv(47) Source S-138 extract with 195 rows::: NRGI
+2023-05-11 09:36:34,352 INFO build_combined_normalized_csv(47) Source S-139 extract with 195 rows::: NRGI
+2023-05-11 09:36:34,438 INFO build_combined_normalized_csv(47) Source S-219 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-11 09:36:35,482 INFO build_combined_normalized_csv(47) Source S-162 extract with 195 rows::: IDMC_Extractor

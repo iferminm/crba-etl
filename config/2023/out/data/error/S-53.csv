@@ -1,0 +1,1961 @@
+;DIM_SDG_INDICATOR;ATTR_SDG_INDICATOR_DESCRIPTION;COUNTRY_NAME;TIME_PERIOD;RAW_OBS_VALUE;ATTR_SOURCE_OF_SOURCE;ATTR_FOOTNOTE_OF_SOURCE;DIM_AGE_GROUP;DIM_SEX;DIM_REP_TYPE;COUNTRY_ISO_2;COUNTRY_ISO_3;_merge;INDICATOR_NAME;INDICATOR_INDEX;INDICATOR_ISSUE;INDICATOR_CATEGORY;INDICATOR_CODE;ATTR_SOURCE;ATTR_SOURCE_BODY;ATTR_INDICATOR_DESCRIPTION;ATTR_INDICATOR_EXPLANATION;ATTR_UNIT_MEASURE;ATTR_DATA_EXTRACTION_METHDOLOGY;ATTR_SOURCE_TITLE;ATTR_API_ENDPOINT_URL;CRBA_RELEASE_YEAR
+0;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;AFG;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+1;1.1.1;Proportion of population below international poverty line (%);Albania;2018.0;4.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: SILC-C. Uses an income aggregate, which is not spatially deflated.'];"UNMAPPED VALUE - PLEASE MAP - [0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3       True
+4       True
+       ...  
+957     True
+958    False
+959    False
+960    False
+961     True
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool]";BOTH_SEXES;Global;AL;ALB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+6;1.1.1;Proportion of population below international poverty line (%);Albania;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;AL;ALB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+7;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;AND;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+8;1.1.1;Proportion of population below international poverty line (%);Algeria;2011.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ENCNVM. Estimated from grouped consumption data. '];ALL AGES;BOTH_SEXES;Global;DZ;DZA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+9;1.1.1;Proportion of population below international poverty line (%);Angola;2018.0;31.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from IDREA. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;AO;AGO;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+17;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;ATG;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+18;1.1.1;Proportion of population below international poverty line (%);Argentina;2020.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EPHC-S2. Estimated from unit-record income data. Urban only. '];ALL AGES;BOTH_SEXES;Global;AR;ARG;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+25;1.1.1;Proportion of population below international poverty line (%);Armenia;2020.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ILCS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;AM;ARM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+33;1.1.1;Proportion of population below international poverty line (%);Australia;2018.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from SIH-LIS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;AU;AUS;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+34;1.1.1;Proportion of population below international poverty line (%);Austria;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;AT;AUT;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+35;1.1.1;Proportion of population below international poverty line (%);Azerbaijan;2005.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;AZ;AZE;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+36;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;BHS;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+37;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;BHR;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+38;1.1.1;Proportion of population below international poverty line (%);Bangladesh;2016.0;14.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;BD;BGD;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+46;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;BRB;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+47;1.1.1;Proportion of population below international poverty line (%);Belarus;2020.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HHS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;BY;BLR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+55;1.1.1;Proportion of population below international poverty line (%);Belgium;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;BE;BEL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+56;1.1.1;Proportion of population below international poverty line (%);Belize;1999.0;18.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from LFS. Estimated from unit-record income data. PPP is partially imputed.'];ALL AGES;BOTH_SEXES;Global;BZ;BLZ;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+57;1.1.1;Proportion of population below international poverty line (%);Benin;2018.0;20.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;BJ;BEN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+65;1.1.1;Proportion of population below international poverty line (%);Bhutan;2017.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from BLSS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;BT;BTN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+73;1.1.1;Proportion of population below international poverty line (%);Bolivia (Plurinational State of);2020.0;3.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EH. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;BO;BOL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+81;1.1.1;Proportion of population below international poverty line (%);Bosnia and Herzegovina;2011.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;BA;BIH;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+82;1.1.1;Proportion of population below international poverty line (%);Botswana;2015.0;15.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from BMTHS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;BW;BWA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+90;1.1.1;Proportion of population below international poverty line (%);Brazil;2020.0;2.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from PNADC-E5. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;BR;BRA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+98;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;BRN;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+99;1.1.1;Proportion of population below international poverty line (%);Bulgaria;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;BG;BGR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+107;1.1.1;Proportion of population below international poverty line (%);Burkina Faso;2018.0;31.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;BF;BFA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+115;1.1.1;Proportion of population below international poverty line (%);Burundi;2013.0;65.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ECVMB. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;BI;BDI;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+123;1.1.1;Proportion of population below international poverty line (%);Cabo Verde;2015.0;5.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from IDRF. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;CV;CPV;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+131;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;KHM;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+132;1.1.1;Proportion of population below international poverty line (%);Cameroon;2014.0;26.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ECAM-IV. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;CM;CMR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+140;1.1.1;Proportion of population below international poverty line (%);Canada;2017.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from CIS-LIS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;CA;CAN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+141;1.1.1;Proportion of population below international poverty line (%);Central African Republic;2008.0;62.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ECASEB. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;CF;CAF;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+149;1.1.1;Proportion of population below international poverty line (%);Chad;2018.0;31.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;TD;TCD;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+157;1.1.1;Proportion of population below international poverty line (%);Chile;2020.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from CASEN. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;CL;CHL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+165;1.1.1;Proportion of population below international poverty line (%);China;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from CNIHS. Estimated from grouped consumption data. '];ALL AGES;BOTH_SEXES;Global;CN;CHN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+166;1.1.1;Proportion of population below international poverty line (%);Colombia;2020.0;11.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from GEIH. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;CO;COL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+174;1.1.1;Proportion of population below international poverty line (%);Comoros;2013.0;25.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: EESIC. Uses a consumption aggregate, which is not spatially deflated.'];"UNMAPPED VALUE - PLEASE MAP - [0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3       True
+4       True
+       ...  
+957     True
+958    False
+959    False
+960    False
+961     True
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool]";BOTH_SEXES;Global;KM;COM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+179;1.1.1;Proportion of population below international poverty line (%);Comoros;2014.0;19.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EESIC. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;KM;COM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+180;1.1.1;Proportion of population below international poverty line (%);Congo;2011.0;35.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ECOM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;CG;COG;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+188;1.1.1;Proportion of population below international poverty line (%);Democratic Republic of the Congo;2012.0;70.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from E123. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;CD;COD;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+196;1.1.1;Proportion of population below international poverty line (%);Costa Rica;2020.0;2.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ENAHO. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;CR;CRI;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+204;1.1.1;Proportion of population below international poverty line (%);Côte d'Ivoire;2018.0;11.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;CI;CIV;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+212;1.1.1;Proportion of population below international poverty line (%);Croatia;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;HR;HRV;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+220;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;CUB;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+221;1.1.1;Proportion of population below international poverty line (%);Cyprus;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;CY;CYP;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+222;1.1.1;Proportion of population below international poverty line (%);Czechia;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;CZ;CZE;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+223;1.1.1;Proportion of population below international poverty line (%);Denmark;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;DK;DNK;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+224;1.1.1;Proportion of population below international poverty line (%);Djibouti;2017.0;19.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EDAM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;DJ;DJI;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+231;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;DMA;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+232;1.1.1;Proportion of population below international poverty line (%);Dominican Republic;2020.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ECNFT-Q03. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;DO;DOM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+240;1.1.1;Proportion of population below international poverty line (%);Ecuador;2020.0;7.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ENEMDU. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;EC;ECU;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+248;1.1.1;Proportion of population below international poverty line (%);Egypt;2017.0;3.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIECS. Estimated from unit-record consumption data. PPP is partially imputed.'];ALL AGES;BOTH_SEXES;Global;EG;EGY;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+256;1.1.1;Proportion of population below international poverty line (%);El Salvador;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHPM. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;SV;SLV;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+264;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;GNQ;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+265;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;ERI;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+266;1.1.1;Proportion of population below international poverty line (%);Estonia;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;EE;EST;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+267;1.1.1;Proportion of population below international poverty line (%);Eswatini;2016.0;36.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;SZ;SWZ;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+275;1.1.1;Proportion of population below international poverty line (%);Ethiopia;2015.0;27.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HICES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;ET;ETH;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+283;1.1.1;Proportion of population below international poverty line (%);Fiji;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;FJ;FJI;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+289;1.1.1;Proportion of population below international poverty line (%);Finland;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;FI;FIN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+290;1.1.1;Proportion of population below international poverty line (%);France;2018.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;FR;FRA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+291;1.1.1;Proportion of population below international poverty line (%);Gabon;2017.0;3.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EGEP. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;GA;GAB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+299;1.1.1;Proportion of population below international poverty line (%);Gambia;2015.0;13.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from IHS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;GM;GMB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+307;1.1.1;Proportion of population below international poverty line (%);Georgia;2020.0;6.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;GE;GEO;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+315;1.1.1;Proportion of population below international poverty line (%);Germany;2018.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from GSOEP-LIS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;DE;DEU;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+316;1.1.1;Proportion of population below international poverty line (%);Ghana;2016.0;25.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from GLSS-VII. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;GH;GHA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+324;1.1.1;Proportion of population below international poverty line (%);Greece;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;GR;GRC;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+325;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;GRD;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+326;1.1.1;Proportion of population below international poverty line (%);Guatemala;2014.0;10.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ENCOVI. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;GT;GTM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+334;1.1.1;Proportion of population below international poverty line (%);Guinea;2012.0;28.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: ELEP. Uses a consumption aggregate, which is not spatially deflated.'];"UNMAPPED VALUE - PLEASE MAP - [0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3       True
+4       True
+       ...  
+957     True
+958    False
+959    False
+960    False
+961     True
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool]";BOTH_SEXES;Global;GN;GIN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+339;1.1.1;Proportion of population below international poverty line (%);Guinea;2018.0;14.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. PPP is partially imputed.'];ALL AGES;BOTH_SEXES;Global;GN;GIN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+340;1.1.1;Proportion of population below international poverty line (%);Guinea-Bissau;2018.0;22.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;GW;GNB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+348;1.1.1;Proportion of population below international poverty line (%);Guyana;1998.0;12.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from GLSMS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;GY;GUY;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+349;1.1.1;Proportion of population below international poverty line (%);Haiti;2012.0;29.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ECVMAS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;HT;HTI;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+357;1.1.1;Proportion of population below international poverty line (%);Honduras;2019.0;13.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EPHPM. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;HN;HND;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+365;1.1.1;Proportion of population below international poverty line (%);Hungary;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;HU;HUN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+366;1.1.1;Proportion of population below international poverty line (%);Iceland;2017.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;IS;ISL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+367;1.1.1;Proportion of population below international poverty line (%);India;2011.0;23.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: NSS-SCH1. Uses a consumption aggregate, which is not spatially deflated.'];ALL AGES;FEMALE;Global;IN;IND;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+371;1.1.1;Proportion of population below international poverty line (%);India;2019.0;10.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from CPHS. Estimated from imputed unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;IN;IND;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+372;1.1.1;Proportion of population below international poverty line (%);Indonesia;2021.0;4.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from SUSENAS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;ID;IDN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+380;1.1.1;Proportion of population below international poverty line (%);Iran (Islamic Republic of);2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HEIS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;IR;IRN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+388;1.1.1;Proportion of population below international poverty line (%);Iraq;2012.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from IHSES. Estimated from unit-record consumption data. PPP is partially imputed.'];ALL AGES;BOTH_SEXES;Global;IQ;IRQ;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+396;1.1.1;Proportion of population below international poverty line (%);Ireland;2018.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;IE;IRL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+397;1.1.1;Proportion of population below international poverty line (%);Israel;2018.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HES-LIS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;IL;ISR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+398;1.1.1;Proportion of population below international poverty line (%);Italy;2018.0;2.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;IT;ITA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+399;1.1.1;Proportion of population below international poverty line (%);Jamaica;2004.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from SLC. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;JM;JAM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+400;1.1.1;Proportion of population below international poverty line (%);Japan;2013.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from JHPS-LIS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;JP;JPN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+401;1.1.1;Proportion of population below international poverty line (%);Jordan;2010.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HEIS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;JO;JOR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+409;1.1.1;Proportion of population below international poverty line (%);Kazakhstan;2018.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;KZ;KAZ;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+417;1.1.1;Proportion of population below international poverty line (%);Kenya;2015.0;29.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from IHBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;KE;KEN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+425;1.1.1;Proportion of population below international poverty line (%);Kiribati;2019.0;2.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. PPP is extrapolated from 2011.'];ALL AGES;BOTH_SEXES;Global;KI;KIR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+431;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;PRK;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+432;1.1.1;Proportion of population below international poverty line (%);Republic of Korea;2016.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES-FHES-LIS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;KR;KOR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+433;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;XKX;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+434;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;KWT;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+435;1.1.1;Proportion of population below international poverty line (%);Kyrgyzstan;2020.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from KIHS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;KG;KGZ;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+443;1.1.1;Proportion of population below international poverty line (%);Lao People's Democratic Republic;2018.0;7.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from LECS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;LA;LAO;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+451;1.1.1;Proportion of population below international poverty line (%);Latvia;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;LV;LVA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+452;1.1.1;Proportion of population below international poverty line (%);Lebanon;2011.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;LB;LBN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+453;1.1.1;Proportion of population below international poverty line (%);Lesotho;2017.0;32.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from CMSHBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;LS;LSO;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+461;1.1.1;Proportion of population below international poverty line (%);Liberia;2016.0;28.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;LR;LBR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+469;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;LBY;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+470;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;LIE;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+471;1.1.1;Proportion of population below international poverty line (%);Lithuania;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;LT;LTU;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+472;1.1.1;Proportion of population below international poverty line (%);Luxembourg;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;LU;LUX;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+473;1.1.1;Proportion of population below international poverty line (%);North Macedonia;2018.0;3.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from SILC-C. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;MK;MKD;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+481;1.1.1;Proportion of population below international poverty line (%);Madagascar;2012.0;81.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ENSOMD. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MG;MDG;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+489;1.1.1;Proportion of population below international poverty line (%);Malawi;2019.0;70.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from IHS-V. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MW;MWI;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+497;1.1.1;Proportion of population below international poverty line (%);Malaysia;2015.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;MY;MYS;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+505;1.1.1;Proportion of population below international poverty line (%);Maldives;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MV;MDV;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+506;1.1.1;Proportion of population below international poverty line (%);Mali;2018.0;15.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;ML;MLI;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+514;1.1.1;Proportion of population below international poverty line (%);Malta;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;MT;MLT;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+515;1.1.1;Proportion of population below international poverty line (%);Marshall Islands;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MH;MHL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+521;1.1.1;Proportion of population below international poverty line (%);Mauritania;2014.0;7.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EPCV. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MR;MRT;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+529;1.1.1;Proportion of population below international poverty line (%);Mauritius;2017.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MU;MUS;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+536;1.1.1;Proportion of population below international poverty line (%);Mexico;2020.0;3.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ENIGHNS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;MX;MEX;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+544;1.1.1;Proportion of population below international poverty line (%);Micronesia (Federated States of);2013.0;16.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;FM;FSM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+550;1.1.1;Proportion of population below international poverty line (%);Republic of Moldova;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MD;MDA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+558;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;MCO;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+559;1.1.1;Proportion of population below international poverty line (%);Mongolia;2018.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HSES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MN;MNG;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+567;1.1.1;Proportion of population below international poverty line (%);Montenegro;2018.0;3.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from SILC-C. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;ME;MNE;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+572;1.1.1;Proportion of population below international poverty line (%);Morocco;2013.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ENCDM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MA;MAR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+580;1.1.1;Proportion of population below international poverty line (%);Mozambique;2014.0;65.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from IOF. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MZ;MOZ;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+588;1.1.1;Proportion of population below international poverty line (%);Myanmar;2017.0;2.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from MLCS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;MM;MMR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+589;1.1.1;Proportion of population below international poverty line (%);Namibia;2015.0;16.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from NHIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;NA;NAM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+597;1.1.1;Proportion of population below international poverty line (%);Nauru;2012.0;2.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: HIES. Uses a consumption aggregate, which is not spatially deflated.'];ALL AGES;FEMALE;Global;NR;NRU;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+600;1.1.1;Proportion of population below international poverty line (%);Nepal;2010.0;8.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from LSS-III. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;NP;NPL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+608;1.1.1;Proportion of population below international poverty line (%);Netherlands;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;NL;NLD;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+609;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;NZL;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+610;1.1.1;Proportion of population below international poverty line (%);Nicaragua;2014.0;4.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EMNV. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;NI;NIC;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+618;1.1.1;Proportion of population below international poverty line (%);Niger;2018.0;51.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;NE;NER;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+626;1.1.1;Proportion of population below international poverty line (%);Nigeria;2018.0;31.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from LSS. Estimated from unit-record consumption data. PPP is partially imputed.'];ALL AGES;BOTH_SEXES;Global;NG;NGA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+634;1.1.1;Proportion of population below international poverty line (%);Norway;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;NO;NOR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+635;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;OMN;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+636;1.1.1;Proportion of population below international poverty line (%);Pakistan;2018.0;5.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;PK;PAK;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+644;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;PLW;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+645;1.1.1;Proportion of population below international poverty line (%);State of Palestine;2016.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from PECS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;PS;PSE;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+653;1.1.1;Proportion of population below international poverty line (%);Panama;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EH. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;PA;PAN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+661;1.1.1;Proportion of population below international poverty line (%);Papua New Guinea;2009.0;40.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;PG;PNG;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+669;1.1.1;Proportion of population below international poverty line (%);Paraguay;2020.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EPH. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;PY;PRY;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+677;1.1.1;Proportion of population below international poverty line (%);Peru;2020.0;6.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ENAHO. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;PE;PER;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+685;1.1.1;Proportion of population below international poverty line (%);Philippines;2015.0;11.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: FIES. Uses an income aggregate, which is not spatially deflated.'];"UNMAPPED VALUE - PLEASE MAP - [0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3       True
+4       True
+       ...  
+957     True
+958    False
+959    False
+960    False
+961     True
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool]";BOTH_SEXES;Global;PH;PHL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+690;1.1.1;Proportion of population below international poverty line (%);Philippines;2018.0;3.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from FIES. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;PH;PHL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+691;1.1.1;Proportion of population below international poverty line (%);Poland;2018.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;PL;POL;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+699;1.1.1;Proportion of population below international poverty line (%);Portugal;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;PT;PRT;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+700;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;QAT;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+701;1.1.1;Proportion of population below international poverty line (%);Romania;2019.0;2.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;RO;ROU;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+709;1.1.1;Proportion of population below international poverty line (%);Russian Federation;2020.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;RU;RUS;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+717;1.1.1;Proportion of population below international poverty line (%);Rwanda;2016.0;52.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EICV-V. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;RW;RWA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+725;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;KNA;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+726;1.1.1;Proportion of population below international poverty line (%);Saint Lucia;2016.0;5.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from SLC-HBS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;LC;LCA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+734;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;VCT;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+735;1.1.1;Proportion of population below international poverty line (%);Samoa;2013.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;WS;WSM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+743;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;SMR;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+744;1.1.1;Proportion of population below international poverty line (%);Sao Tome and Principe;2017.0;16.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from IOF. Estimated from unit-record consumption data. PPP is partially imputed.'];ALL AGES;BOTH_SEXES;Global;ST;STP;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+752;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;SAU;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+753;1.1.1;Proportion of population below international poverty line (%);Senegal;2018.0;9.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;SN;SEN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+761;1.1.1;Proportion of population below international poverty line (%);Serbia;2019.0;2.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;RS;SRB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+767;1.1.1;Proportion of population below international poverty line (%);Seychelles;2018.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;SC;SYC;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+773;1.1.1;Proportion of population below international poverty line (%);Sierra Leone;2018.0;26.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from SLIHS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;SL;SLE;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+781;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;SGP;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+782;1.1.1;Proportion of population below international poverty line (%);Slovakia;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;SK;SVK;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+783;1.1.1;Proportion of population below international poverty line (%);Slovenia;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;SI;SVN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+784;1.1.1;Proportion of population below international poverty line (%);Solomon Islands;2012.0;27.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;SB;SLB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+792;1.1.1;Proportion of population below international poverty line (%);Somalia;2017.0;71.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from SHFS-W2. Estimated from imputed unit-record consumption data. PPP is extrapolated from 2011.'];ALL AGES;BOTH_SEXES;Global;SO;SOM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+800;1.1.1;Proportion of population below international poverty line (%);South Africa;2014.0;38.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: LCS. Uses a consumption aggregate.'];ALL AGES;BOTH_SEXES;Global;ZA;ZAF;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+808;1.1.1;Proportion of population below international poverty line (%);South Sudan;2016.0;71.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: HFS-W3. Uses a consumption aggregate, which is not spatially deflated.'];"UNMAPPED VALUE - PLEASE MAP - [0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3       True
+4       True
+       ...  
+957     True
+958    False
+959    False
+960    False
+961     True
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0       True
+1      False
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool]";BOTH_SEXES;Global;SS;SSD;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+816;1.1.1;Proportion of population below international poverty line (%);Spain;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;ES;ESP;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+817;1.1.1;Proportion of population below international poverty line (%);Sri Lanka;2016.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;LK;LKA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+825;1.1.1;Proportion of population below international poverty line (%);Sudan;2014.0;15.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from NBHS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;SD;SDN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+833;1.1.1;Proportion of population below international poverty line (%);Suriname;1999.0;18.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHS. Estimated from unit-record income data. Urban only. '];ALL AGES;BOTH_SEXES;Global;SR;SUR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+834;1.1.1;Proportion of population below international poverty line (%);Sweden;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;SE;SWE;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+835;1.1.1;Proportion of population below international poverty line (%);Switzerland;2018.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;CH;CHE;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+836;1.1.1;Proportion of population below international poverty line (%);Syrian Arab Republic;2003.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. PPP is extrapolated from 2011.'];ALL AGES;BOTH_SEXES;Global;SY;SYR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+837;1.1.1;Proportion of population below international poverty line (%);Tajikistan;2015.0;6.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HSITAFIEN. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;TJ;TJK;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+845;1.1.1;Proportion of population below international poverty line (%);United Republic of Tanzania;2018.0;45.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;TZ;TZA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+853;1.1.1;Proportion of population below international poverty line (%);Thailand;2020.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from SES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;TH;THA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+859;1.1.1;Proportion of population below international poverty line (%);Timor-Leste;2014.0;8.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from TLSLS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;TL;TLS;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+863;1.1.1;Proportion of population below international poverty line (%);Togo;2018.0;28.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHCVM. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;TG;TGO;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+871;1.1.1;Proportion of population below international poverty line (%);Tonga;2015.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;TO;TON;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+879;1.1.1;Proportion of population below international poverty line (%);Trinidad and Tobago;1992.0;2.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from PHC. Estimated from grouped income data. PPP is partially imputed.'];ALL AGES;BOTH_SEXES;Global;TT;TTO;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+880;1.1.1;Proportion of population below international poverty line (%);Tunisia;2015.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from NSHBCSL. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;TN;TUN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+888;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;TUR;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+889;1.1.1;Proportion of population below international poverty line (%);Turkmenistan;1998.0;43.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from LSMS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;TM;TKM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+890;1.1.1;Proportion of population below international poverty line (%);Tuvalu;2010.0;4.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from unit-record consumption data. PPP is extrapolated from 2011.'];ALL AGES;BOTH_SEXES;Global;TV;TUV;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+898;1.1.1;Proportion of population below international poverty line (%);Uganda;2019.0;42.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from UNHS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;UG;UGA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+906;1.1.1;Proportion of population below international poverty line (%);Ukraine;2020.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HLCS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;UA;UKR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+911;1.1.1;Proportion of population below international poverty line (%);United Arab Emirates;2018.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HIES. Estimated from grouped income data. '];ALL AGES;BOTH_SEXES;Global;AE;ARE;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+912;1.1.1;Proportion of population below international poverty line (%);United Kingdom of Great Britain and Northern Ireland;2017.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EU-SILC. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;GB;GBR;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+913;1.1.1;Proportion of population below international poverty line (%);United States of America;2019.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from CPS-ASEC-LIS. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;US;USA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+914;1.1.1;Proportion of population below international poverty line (%);Uruguay;2020.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ECH. Estimated from unit-record income data. '];ALL AGES;BOTH_SEXES;Global;UY;URY;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+922;1.1.1;Proportion of population below international poverty line (%);Uzbekistan;2003.0;82.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;UZ;UZB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+923;1.1.1;Proportion of population below international poverty line (%);Vanuatu;2019.0;10.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from NSDP. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;VU;VUT;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+929;1.1.1;Proportion of population below international poverty line (%);Venezuela (Bolivarian Republic of);2006.0;7.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from EHM. Estimated from unit-record income data. PPP is extrapolated from 2011.'];ALL AGES;BOTH_SEXES;Global;VE;VEN;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+930;1.1.1;Proportion of population below international poverty line (%);Viet Nam;2018.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from VHLSS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;VN;VNM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+938;1.1.1;Proportion of population below international poverty line (%);Yemen;2014.0;20.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. PPP is extrapolated from 2011.'];ALL AGES;BOTH_SEXES;Global;YE;YEM;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+946;1.1.1;Proportion of population below international poverty line (%);Zambia;2015.0;61.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from LCMS-VII. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;ZM;ZMB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+954;1.1.1;Proportion of population below international poverty line (%);Zimbabwe;2019.0;40.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from PICES. Estimated from imputed unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;ZW;ZWE;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023

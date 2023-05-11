@@ -1,0 +1,59 @@
+name,sector,region,Composite/component,Subcomponent,Indicator,Score2017,Score2021
+Senegal ,oil-gas,SSA,Composite,,,,82
+Ghana ,oil-gas,SSA-AF,Composite,,,67,78
+Colombia ,oil-gas,LAC,Composite,,,71,76
+Mexico ,oil-gas,LAC,Composite,,,61,71
+Azerbaijan ,oil-gas,EURA,Composite,,,47,56
+Guyana ,oil-gas,LAC,Composite,,,,56
+Tanzania ,oil-gas,SSA-AF,Composite,,,53,55
+Lebanon ,oil-gas,MENA,Composite,,,,53
+Nigeria ,oil-gas,SSA-AF,Composite,,,42,53
+Tunisia ,oil-gas,MENA-AF,Composite,,,56,53
+Uganda ,oil-gas,SSA-AF,Composite,,,44,49
+Qatar ,oil-gas,MENA,Composite,,,43,45
+Democratic Republic of Congo ,oil-gas,SSA-AF,Composite,,,25,38
+Algeria ,oil-gas,MENA-AF,Composite,,,33,
+Angola ,oil-gas,SSA-AF,Composite,,,35,
+Argentina ,oil-gas,LAC,Composite,,,57,
+Bahrain ,oil-gas,MENA,Composite,,,39,
+Bangladesh ,oil-gas,ASIAP,Composite,,,36,
+Bolivia ,oil-gas,LAC,Composite,,,54,
+Brazil ,oil-gas,LAC,Composite,,,71,
+Cameroon ,oil-gas,SSA-AF,Composite,,,54,
+Canada (Alberta) ,oil-gas,NA,Composite,,,75,
+Chad ,oil-gas,SSA-AF,Composite,,,34,
+China ,oil-gas,ASIAP,Composite,,,55,
+Congo ,oil-gas,SSA-AF,Composite,,,39,
+Cote d'Ivoire ,oil-gas,SSA-AF,Composite,,,55,
+Cuba ,oil-gas,LAC,Composite,,,36,
+Ecuador ,oil-gas,LAC,Composite,,,54,
+Egypt ,oil-gas,MENA-AF,Composite,,,39,
+Equatorial Guinea ,oil-gas,SSA-AF,Composite,,,22,
+Gabon ,oil-gas,SSA-AF,Composite,,,36,
+India ,oil-gas,ASIAP,Composite,,,70,
+Indonesia ,oil-gas,ASIAP,Composite,,,68,
+Iran ,oil-gas,MENA,Composite,,,38,
+Iraq ,oil-gas,MENA,Composite,,,38,
+Kazakhstan ,oil-gas,EURA,Composite,,,56,
+Kuwait ,oil-gas,MENA,Composite,,,54,
+Libya ,oil-gas,MENA-AF,Composite,,,18,
+Malaysia ,oil-gas,ASIAP,Composite,,,56,
+Mozambique ,oil-gas,SSA-AF,Composite,,,50,
+Myanmar ,oil-gas,ASIAP,Composite,,,31,
+Norway ,oil-gas,WE,Composite,,,86,
+Oman ,oil-gas,MENA,Composite,,,50,
+Russia ,oil-gas,EURA,Composite,,,45,
+Saudi Arabia ,oil-gas,MENA,Composite,,,36,
+South Sudan ,oil-gas,SSA-AF,Composite,,,32,
+Sudan ,oil-gas,SSA-AF,Composite,,,21,
+Timor-Leste ,oil-gas,ASIAP,Composite,,,49,
+Trinidad and Tobago ,oil-gas,LAC,Composite,,,64,
+Turkmenistan ,oil-gas,EURA,Composite,,,11,
+Ukraine ,oil-gas,EURA,Composite,,,49,
+United Arab Emirates ,oil-gas,MENA-AF,Composite,,,42,
+United Kingdom ,oil-gas,WE,Composite,,,77,
+United States of America (Gulf of Mexico) ,oil-gas,NA,Composite,,,74,
+Uzbekistan ,oil-gas,EURA,Composite,,,29,
+Venezuela ,oil-gas,LAC,Composite,,,33,
+Vietnam ,oil-gas,ASIAP,Composite,,,48,
+Yemen ,oil-gas,MENA,Composite,,,30,
