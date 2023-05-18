@@ -231,6 +231,7 @@ class Config:
         # TODO: Select observation of target_year
         df = df.reset_index(['TIME_PERIOD', "REF_AREA"])
         df.rename(columns={"REF_AREA": "COUNTRY_ISO_3", "value": 'population'}, inplace=True)
+        df["TIME_PERIOD"] = df["TIME_PERIOD"].astype('Int64')
         self.unicef_population_total = df.groupby(level=0).last()
         self.unicef_population_total.to_csv(self.output_dir / "unicef_population_total.csv")
         self.un_pop_tot = self.unicef_population_total

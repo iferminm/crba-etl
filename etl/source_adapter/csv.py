@@ -111,6 +111,8 @@ class DefaultCSVExtractor(SourceAdapter):
             cleansed_data=self.dataframe
         )
 
+
+
         # Normalizing
         self.dataframe = scaler.normalizer(
             cleansed_data=self.dataframe,
