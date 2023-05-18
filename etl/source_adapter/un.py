@@ -131,9 +131,9 @@ class UnTreaties(SourceAdapter):
 
 
 class UN_SDG_UN_POP(SourceAdapter):
-    """""
+    """"
     S-185, S-186, S-187, S-188
-    """ ""
+    """
 
     def __init__(self, config, ATTR_UNIT_MEASURE, **kwarg):
         super().__init__(config, **kwarg)
@@ -187,7 +187,7 @@ class UN_SDG_UN_POP(SourceAdapter):
             columns={
                 "COUNTRY": "COUNTRY_ISO_3",
                 "geoAreaName": "country_col_not_used",
-                "year": "year_not_used",
+                "timePeriodStart": "year_not_used",
                 "COUNTRY_NAME": "country_col_2_not_used",
                 "COUNTRY_ISO_2": "country_col_3_not_used",
                 "value": "raw_value_before_normalisation",
