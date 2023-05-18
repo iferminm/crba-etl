@@ -28,6 +28,7 @@ Backup of *.doc*
 
 # Excel temporary
 ~$*.xls*
+.*xlsx#
 
 # Excel Backup File
 *.xlk
@@ -348,3 +349,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,windows,jupyternotebooks,python,microsoftoffice
 
+scripts/unknown_issus.csv
