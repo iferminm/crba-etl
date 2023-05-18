@@ -17,6 +17,14 @@ Snapshot_2020["INDICATOR"] = Snapshot_2020.index.map(
     lambda idx: f"=VLOOKUP($Snapshot_2020.C{idx + 2},$Indicator.$A$2:$G$200,7,0)")
 Snapshot_2020.to_excel(writer, sheet_name="Snapshot_2020", header=True, index=False)
 
+Snapshot_2023 = pd.read_json("config/2023/in/source_selection.json", orient="index").reset_index(names="SOURCE_ID")
+Snapshot_2023["INDICATOR"] = Snapshot_2023.index.map(
+    lambda idx: f"=VLOOKUP($Snapshot_2023.C{idx + 2},$Indicator.$A$2:$G$200,7,0)")
+Snapshot_2023.to_excel(writer, sheet_name="Snapshot_2020", header=True, index=False)
+
+
+
+####Markdown Version. In Excel is done ver VSLookUP
 crba_report_definition = (
     source_definition.merge(
         right=indicator_definitions,
