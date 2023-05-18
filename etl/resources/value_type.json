@@ -219,7 +219,7 @@
     "VALUE_ID": "V-25",
     "TYPE": "Categorical",
     "RANGE": "[0,1,2,3,4]",
-    "VALUE_ENCODING": "4=Yes, and the NAP addresses children\u2019s rights specifically; 3=Yes, but the NAP does not address children\u2019s rights specifically; 2=No, but the state has committed to doing one or has started the process; 1=No, not listed a having an action plan or developing one",
+    "VALUE_ENCODING": "4=Yes, and the NAP addresses children\u2019s rights specifically; 3=Yes, there is a NAP; 3=Yes, but the NAP does not address children\u2019s rights specifically; 2=In progress; 2=No, but the state has committed to doing one or has started the process; 1=No; 1=No, not listed a having an action plan or developing one; 0=No data",
     "VALUE_LABELS": "4=Yes, and the NAP addresses children\u2019s rights specifically; 3=Yes, but the NAP does not address children\u2019s rights specifically; 2=No, but the state has committed to doing one or has started the process; 1=No, not listed a having an action plan or developing one",
     "NA_ENCODING": NaN,
     "UNITS": NaN
