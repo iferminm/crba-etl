@@ -967,9 +967,7 @@
     "TIMEPERIOD": "xxx"
   },
   "S-214": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-214.xlsx"
   },
   "S-215": {
     "STARTPERIOD": "xxx",
