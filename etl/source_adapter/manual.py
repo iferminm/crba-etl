@@ -352,7 +352,10 @@ class Climate_Watch_Data_S_159(ManualTransformer):
     def _download(self):
         self.dataframe = pd.read_csv(
             self.config.input_data_data / self.file_path,
+            sep=",",
+            na_values="false"
         )
+
 
         # Unpivot the data
         self.dataframe = self.dataframe.melt(
