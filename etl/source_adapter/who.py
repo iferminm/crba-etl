@@ -1,10 +1,41 @@
-import re
 from io import StringIO
 
 import pandas as pd
 
-from etl.source_adapter import SourceAdapter
 from etl.source_adapter import ManualTransformer
+from etl.source_adapter import SourceAdapter
+from etl.source_adapter.csv import DefaultCSVExtractor
+
+
+class GlobalHealthObservatory(SourceAdapter):
+
+    def __init__(self, config, **kwarg):
+        super().__init__(config, **kwarg)
+
+    _transform = DefaultCSVExtractor._transform
+
+    def _download(self):
+        csv_data = SourceAdapter.api_request(self.endpoint).text
+        self.dataframe = pd.read_csv(StringIO(csv_data), sep=",")
+
+        # There are Duplicate Obersations. Both of which are valid.
+        merge_comments = lambda x: "Mean from:" + "AND".join(x)
+        self.dataframe = self.dataframe.groupby(["YEAR", "COUNTRY"]).agg(
+            {
+                "Numeric": 'mean',
+                "Display Value": lambda rows: "Mean from:" + "AND".join(rows),
+                "Comments": lambda rows: "Mean from:" + "AND".join(rows),
+            }
+        ).reset_index()
+
+        self.dataframe = self.dataframe.rename(
+            columns={
+                "Display Value": "obs_value_no_used_2",
+                "Numeric": "RAW_OBS_VALUE",
+            }
+        )
+
+        return self.dataframe
 
 
 class S_157(SourceAdapter):
@@ -50,5 +81,12 @@ class S_157(SourceAdapter):
                 "Display Value": "obs_value_no_used_2",
             }
         )
+
+        # TODO
+        # self.dataframe = cleanse.extract_who_raw_data(
+        #     raw_data=self.dataframe,
+        #     variable_type=self.value_labels,
+        #     display_value_col="Display Value",
+        # )
 
         return s_157
