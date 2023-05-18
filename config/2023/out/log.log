@@ -1,26 +1,26 @@
-2023-05-11 09:34:56,691 INFO build_combined_normalized_csv(30) 211 sources selected to process
-2023-05-11 09:35:01,210 INFO build_combined_normalized_csv(47) Source S-1 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:05,091 INFO build_combined_normalized_csv(47) Source S-2 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:05,334 INFO build_combined_normalized_csv(47) Source S-3 extract with 195 rows::: UnTreaties
-2023-05-11 09:35:05,522 INFO build_combined_normalized_csv(47) Source S-4 extract with 195 rows::: UnTreaties
-2023-05-11 09:35:09,683 INFO build_combined_normalized_csv(47) Source S-5 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:13,635 INFO build_combined_normalized_csv(47) Source S-6 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:16,333 INFO build_combined_normalized_csv(47) Source S-7 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:17,057 INFO build_combined_normalized_csv(47) Source S-15 extract with 954 rows::: DefaultJsonExtractor
-2023-05-11 09:35:17,673 INFO build_combined_normalized_csv(47) Source S-16 extract with 954 rows::: DefaultJsonExtractor
-2023-05-11 09:35:17,926 INFO build_combined_normalized_csv(47) Source S-17 extract with 381 rows::: DefaultJsonExtractor
-2023-05-11 09:35:21,290 INFO build_combined_normalized_csv(47) Source S-18 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:23,890 INFO build_combined_normalized_csv(47) Source S-19 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:26,555 INFO build_combined_normalized_csv(47) Source S-20 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:29,143 INFO build_combined_normalized_csv(47) Source S-21 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:32,708 INFO build_combined_normalized_csv(47) Source S-22 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:36,408 INFO build_combined_normalized_csv(47) Source S-23 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:36,570 INFO build_combined_normalized_csv(47) Source S-24 extract with 195 rows::: UnTreaties
-2023-05-11 09:35:40,150 INFO build_combined_normalized_csv(47) Source S-25 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:43,808 INFO build_combined_normalized_csv(47) Source S-26 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:47,561 INFO build_combined_normalized_csv(47) Source S-27 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:50,452 INFO build_combined_normalized_csv(47) Source S-28 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:50,460 WARNING build_combined_normalized_csv(56) Source S-39 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-39.xlsx'
+2023-05-18 12:17:46,103 INFO build_combined_normalized_csv(30) 211 sources selected to process
+2023-05-18 12:17:50,586 INFO build_combined_normalized_csv(47) Source S-1 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:17:54,463 INFO build_combined_normalized_csv(47) Source S-2 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:17:54,856 INFO build_combined_normalized_csv(47) Source S-3 extract with 195 rows::: UnTreaties
+2023-05-18 12:17:55,145 INFO build_combined_normalized_csv(47) Source S-4 extract with 195 rows::: UnTreaties
+2023-05-18 12:17:58,564 INFO build_combined_normalized_csv(47) Source S-5 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:02,763 INFO build_combined_normalized_csv(47) Source S-6 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:05,363 INFO build_combined_normalized_csv(47) Source S-7 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:06,148 INFO build_combined_normalized_csv(47) Source S-15 extract with 954 rows::: DefaultJsonExtractor
+2023-05-18 12:18:07,489 INFO build_combined_normalized_csv(47) Source S-16 extract with 954 rows::: DefaultJsonExtractor
+2023-05-18 12:18:08,074 INFO build_combined_normalized_csv(47) Source S-17 extract with 381 rows::: DefaultJsonExtractor
+2023-05-18 12:18:11,458 INFO build_combined_normalized_csv(47) Source S-18 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:13,908 INFO build_combined_normalized_csv(47) Source S-19 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:16,898 INFO build_combined_normalized_csv(47) Source S-20 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:19,791 INFO build_combined_normalized_csv(47) Source S-21 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:24,084 INFO build_combined_normalized_csv(47) Source S-22 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:28,098 INFO build_combined_normalized_csv(47) Source S-23 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:28,383 INFO build_combined_normalized_csv(47) Source S-24 extract with 195 rows::: UnTreaties
+2023-05-18 12:18:32,246 INFO build_combined_normalized_csv(47) Source S-25 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:36,322 INFO build_combined_normalized_csv(47) Source S-26 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:40,589 INFO build_combined_normalized_csv(47) Source S-27 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:44,202 INFO build_combined_normalized_csv(47) Source S-28 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:44,210 WARNING build_combined_normalized_csv(56) Source S-39 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-39.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -50,8 +50,8 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-39 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-39.xlsx'
-2023-05-11 09:35:50,670 INFO build_combined_normalized_csv(47) Source S-43 extract with 541 rows::: DefaultCSVExtractor
-2023-05-11 09:35:50,671 WARNING build_combined_normalized_csv(56) Source S-45 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-45.xlsx'
+2023-05-18 12:18:44,782 INFO build_combined_normalized_csv(47) Source S-43 extract with 541 rows::: DefaultCSVExtractor
+2023-05-18 12:18:44,784 WARNING build_combined_normalized_csv(56) Source S-45 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-45.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -81,14 +81,14 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-45 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-45.xlsx'
-2023-05-11 09:35:50,794 INFO build_combined_normalized_csv(47) Source S-46 extract with 379 rows::: DefaultCSVExtractor
-2023-05-11 09:35:50,919 INFO build_combined_normalized_csv(47) Source S-47 extract with 409 rows::: DefaultCSVExtractor
-2023-05-11 09:35:53,643 INFO build_combined_normalized_csv(47) Source S-48 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:56,378 INFO build_combined_normalized_csv(47) Source S-49 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:35:56,744 INFO build_combined_normalized_csv(47) Source S-50 extract with 195 rows::: UnTreaties
-2023-05-11 09:35:56,897 INFO build_combined_normalized_csv(47) Source S-52 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:35:57,200 WARNING create_log_report_delete_duplicates(770) WARNING: There are 72 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
-2023-05-11 09:35:57,210 WARNING build_combined_normalized_csv(56) Source S-53 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+2023-05-18 12:18:45,150 INFO build_combined_normalized_csv(47) Source S-46 extract with 379 rows::: DefaultCSVExtractor
+2023-05-18 12:18:45,444 INFO build_combined_normalized_csv(47) Source S-47 extract with 409 rows::: DefaultCSVExtractor
+2023-05-18 12:18:48,319 INFO build_combined_normalized_csv(47) Source S-48 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:51,118 INFO build_combined_normalized_csv(47) Source S-49 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:18:51,792 INFO build_combined_normalized_csv(47) Source S-50 extract with 195 rows::: UnTreaties
+2023-05-18 12:18:52,218 INFO build_combined_normalized_csv(47) Source S-52 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:18:52,996 WARNING create_log_report_delete_duplicates(770) WARNING: There are 34 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
+2023-05-18 12:18:53,026 WARNING build_combined_normalized_csv(56) Source S-53 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -108,7 +108,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-53 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
-2023-05-11 09:35:57,211 WARNING build_combined_normalized_csv(56) Source S-60 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-60.xlsx'
+2023-05-18 12:18:53,028 WARNING build_combined_normalized_csv(56) Source S-60 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-60.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -138,7 +138,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-60 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-60.xlsx'
-2023-05-11 09:35:57,212 WARNING build_combined_normalized_csv(56) Source S-61 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-61.xlsx'
+2023-05-18 12:18:53,030 WARNING build_combined_normalized_csv(56) Source S-61 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-61.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -168,26 +168,26 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-61 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-61.xlsx'
-2023-05-11 09:35:57,316 INFO build_combined_normalized_csv(47) Source S-62 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:35:57,445 INFO build_combined_normalized_csv(47) Source S-63 extract with 312 rows::: DefaultJsonExtractor
-2023-05-11 09:35:57,576 INFO build_combined_normalized_csv(47) Source S-65 extract with 312 rows::: DefaultJsonExtractor
-2023-05-11 09:35:57,689 INFO build_combined_normalized_csv(47) Source S-66 extract with 265 rows::: DefaultJsonExtractor
-2023-05-11 09:35:57,800 INFO build_combined_normalized_csv(47) Source S-67 extract with 265 rows::: DefaultJsonExtractor
-2023-05-11 09:35:57,844 INFO build_combined_normalized_csv(47) Source S-68 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:35:57,888 INFO build_combined_normalized_csv(47) Source S-69 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:35:57,932 INFO build_combined_normalized_csv(47) Source S-70 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:35:57,977 INFO build_combined_normalized_csv(47) Source S-71 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:35:58,138 INFO build_combined_normalized_csv(47) Source S-72 extract with 195 rows::: UnTreaties
-2023-05-11 09:35:58,183 INFO build_combined_normalized_csv(47) Source S-74 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:35:58,236 INFO build_combined_normalized_csv(47) Source S-76 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:35:58,290 INFO build_combined_normalized_csv(47) Source S-77 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:35:58,348 INFO build_combined_normalized_csv(47) Source S-78 extract with 579 rows::: DefaultCSVExtractor
-2023-05-11 09:35:58,405 INFO build_combined_normalized_csv(47) Source S-79 extract with 579 rows::: DefaultCSVExtractor
-2023-05-11 09:35:58,447 INFO build_combined_normalized_csv(47) Source S-80 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:35:58,732 INFO build_combined_normalized_csv(47) Source S-81 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:35:58,805 INFO build_combined_normalized_csv(47) Source S-82 extract with 461 rows::: DefaultCSVExtractor
-2023-05-11 09:35:58,875 INFO build_combined_normalized_csv(47) Source S-83 extract with 331 rows::: DefaultCSVExtractor
-2023-05-11 09:35:58,881 WARNING build_combined_normalized_csv(56) Source S-84 failed to extract cause of: The source has not provided any data  
+2023-05-18 12:18:53,279 INFO build_combined_normalized_csv(47) Source S-62 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:18:53,560 INFO build_combined_normalized_csv(47) Source S-63 extract with 312 rows::: DefaultJsonExtractor
+2023-05-18 12:18:53,840 INFO build_combined_normalized_csv(47) Source S-65 extract with 312 rows::: DefaultJsonExtractor
+2023-05-18 12:18:54,077 INFO build_combined_normalized_csv(47) Source S-66 extract with 265 rows::: DefaultJsonExtractor
+2023-05-18 12:18:54,348 INFO build_combined_normalized_csv(47) Source S-67 extract with 265 rows::: DefaultJsonExtractor
+2023-05-18 12:18:54,453 INFO build_combined_normalized_csv(47) Source S-68 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:18:54,551 INFO build_combined_normalized_csv(47) Source S-69 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:18:54,650 INFO build_combined_normalized_csv(47) Source S-70 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:18:54,763 INFO build_combined_normalized_csv(47) Source S-71 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:18:55,082 INFO build_combined_normalized_csv(47) Source S-72 extract with 195 rows::: UnTreaties
+2023-05-18 12:18:55,181 INFO build_combined_normalized_csv(47) Source S-74 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:18:55,295 INFO build_combined_normalized_csv(47) Source S-76 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:18:55,420 INFO build_combined_normalized_csv(47) Source S-77 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:18:55,531 INFO build_combined_normalized_csv(47) Source S-78 extract with 579 rows::: DefaultCSVExtractor
+2023-05-18 12:18:55,648 INFO build_combined_normalized_csv(47) Source S-79 extract with 579 rows::: DefaultCSVExtractor
+2023-05-18 12:18:55,729 INFO build_combined_normalized_csv(47) Source S-80 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:18:56,222 INFO build_combined_normalized_csv(47) Source S-81 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:18:56,364 INFO build_combined_normalized_csv(47) Source S-82 extract with 461 rows::: DefaultCSVExtractor
+2023-05-18 12:18:56,484 INFO build_combined_normalized_csv(47) Source S-83 extract with 331 rows::: DefaultCSVExtractor
+2023-05-18 12:18:56,493 WARNING build_combined_normalized_csv(56) Source S-84 failed to extract cause of: The source has not provided any data  
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -203,8 +203,8 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-84 failed to extract cause of: The source has not provided any data  
-2023-05-11 09:35:59,871 INFO build_combined_normalized_csv(47) Source S-85 extract with 1699 rows::: DefaultCSVExtractor
-2023-05-11 09:35:59,912 WARNING build_combined_normalized_csv(56) Source S-86 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+2023-05-18 12:18:58,398 INFO build_combined_normalized_csv(47) Source S-85 extract with 1699 rows::: DefaultCSVExtractor
+2023-05-18 12:18:58,486 WARNING build_combined_normalized_csv(56) Source S-86 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -224,7 +224,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-86 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
-2023-05-11 09:35:59,952 WARNING build_combined_normalized_csv(56) Source S-87 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+2023-05-18 12:18:58,569 WARNING build_combined_normalized_csv(56) Source S-87 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -244,8 +244,8 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-87 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
-2023-05-11 09:36:00,096 INFO build_combined_normalized_csv(47) Source S-88 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:00,227 WARNING build_combined_normalized_csv(56) Source S-89 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 167
+2023-05-18 12:18:58,820 INFO build_combined_normalized_csv(47) Source S-88 extract with 195 rows::: UnTreaties
+2023-05-18 12:18:59,079 WARNING build_combined_normalized_csv(56) Source S-89 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 167
 Traceback (most recent call last):
   File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
 ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP"
@@ -274,7 +274,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-89 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 167
-2023-05-11 09:36:00,357 WARNING build_combined_normalized_csv(56) Source S-90 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+2023-05-18 12:18:59,300 WARNING build_combined_normalized_csv(56) Source S-90 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
 Traceback (most recent call last):
   File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
 ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP"
@@ -303,10 +303,10 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-90 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
-2023-05-11 09:36:00,545 INFO build_combined_normalized_csv(47) Source S-91 extract with 561 rows::: DefaultCSVExtractor
-2023-05-11 09:36:00,776 INFO build_combined_normalized_csv(47) Source S-92 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:00,872 INFO build_combined_normalized_csv(47) Source S-93 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:00,873 WARNING build_combined_normalized_csv(56) Source S-94 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-94.xlsx'
+2023-05-18 12:18:59,612 INFO build_combined_normalized_csv(47) Source S-91 extract with 561 rows::: DefaultCSVExtractor
+2023-05-18 12:18:59,997 INFO build_combined_normalized_csv(47) Source S-92 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:00,200 INFO build_combined_normalized_csv(47) Source S-93 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:00,203 WARNING build_combined_normalized_csv(56) Source S-94 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-94.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -336,7 +336,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-94 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-94.xlsx'
-2023-05-11 09:36:00,874 WARNING build_combined_normalized_csv(56) Source S-95 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-95.xlsx'
+2023-05-18 12:19:00,204 WARNING build_combined_normalized_csv(56) Source S-95 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-95.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -366,7 +366,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-95 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-95.xlsx'
-2023-05-11 09:36:00,875 WARNING build_combined_normalized_csv(56) Source S-96 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-96.xlsx'
+2023-05-18 12:19:00,206 WARNING build_combined_normalized_csv(56) Source S-96 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-96.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -396,9 +396,9 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-96 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-96.xlsx'
-2023-05-11 09:36:01,014 INFO build_combined_normalized_csv(47) Source S-98 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:01,164 INFO build_combined_normalized_csv(47) Source S-99 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:01,165 WARNING build_combined_normalized_csv(56) Source S-100 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-100.xlsx'
+2023-05-18 12:19:00,452 INFO build_combined_normalized_csv(47) Source S-98 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:00,711 INFO build_combined_normalized_csv(47) Source S-99 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:00,713 WARNING build_combined_normalized_csv(56) Source S-100 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-100.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -428,8 +428,8 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-100 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-100.xlsx'
-2023-05-11 09:36:01,297 INFO build_combined_normalized_csv(47) Source S-102 extract with 207 rows::: DefaultJsonExtractor
-2023-05-11 09:36:01,322 WARNING build_combined_normalized_csv(56) Source S-103 failed to extract cause of: Columns must be same length as key
+2023-05-18 12:19:00,951 INFO build_combined_normalized_csv(47) Source S-102 extract with 207 rows::: DefaultJsonExtractor
+2023-05-18 12:19:00,995 WARNING build_combined_normalized_csv(56) Source S-103 failed to extract cause of: Columns must be same length as key
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -457,7 +457,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-103 failed to extract cause of: Columns must be same length as key
-2023-05-11 09:36:01,325 WARNING build_combined_normalized_csv(56) Source S-104 failed to extract cause of: For S-104 no download method defined
+2023-05-18 12:19:00,998 WARNING build_combined_normalized_csv(56) Source S-104 failed to extract cause of: For S-104 no download method defined
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -475,19 +475,19 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-104 failed to extract cause of: For S-104 no download method defined
-2023-05-11 09:36:01,497 INFO build_combined_normalized_csv(47) Source S-108 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:01,661 INFO build_combined_normalized_csv(47) Source S-109 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:01,823 INFO build_combined_normalized_csv(47) Source S-110 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:02,054 INFO build_combined_normalized_csv(47) Source S-111 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:02,215 INFO build_combined_normalized_csv(47) Source S-112 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:02,377 INFO build_combined_normalized_csv(47) Source S-113 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:03,002 INFO build_combined_normalized_csv(47) Source S-114 extract with 195 rows::: CRIN_Treaties
-2023-05-11 09:36:03,283 INFO build_combined_normalized_csv(47) Source S-115 extract with 195 rows::: CRIN_Treaties
-2023-05-11 09:36:03,568 INFO build_combined_normalized_csv(47) Source S-116 extract with 195 rows::: CRIN_Treaties
-2023-05-11 09:36:03,613 INFO build_combined_normalized_csv(47) Source S-119 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:36:03,658 INFO build_combined_normalized_csv(47) Source S-120 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:36:03,758 INFO build_combined_normalized_csv(47) Source S-121 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:03,853 WARNING build_combined_normalized_csv(56) Source S-122 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+2023-05-18 12:19:01,299 INFO build_combined_normalized_csv(47) Source S-108 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:01,595 INFO build_combined_normalized_csv(47) Source S-109 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:01,889 INFO build_combined_normalized_csv(47) Source S-110 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:02,281 INFO build_combined_normalized_csv(47) Source S-111 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:02,547 INFO build_combined_normalized_csv(47) Source S-112 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:02,840 INFO build_combined_normalized_csv(47) Source S-113 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:03,779 INFO build_combined_normalized_csv(47) Source S-114 extract with 195 rows::: CRIN_Treaties
+2023-05-18 12:19:04,113 INFO build_combined_normalized_csv(47) Source S-115 extract with 195 rows::: CRIN_Treaties
+2023-05-18 12:19:04,425 INFO build_combined_normalized_csv(47) Source S-116 extract with 195 rows::: CRIN_Treaties
+2023-05-18 12:19:04,511 INFO build_combined_normalized_csv(47) Source S-119 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:19:04,594 INFO build_combined_normalized_csv(47) Source S-120 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:19:04,778 INFO build_combined_normalized_csv(47) Source S-121 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:04,960 WARNING build_combined_normalized_csv(56) Source S-122 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
 Traceback (most recent call last):
   File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
 ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP"
@@ -516,13 +516,13 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-122 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
-2023-05-11 09:36:03,956 INFO build_combined_normalized_csv(47) Source S-123 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:04,129 INFO build_combined_normalized_csv(47) Source S-124 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:04,354 INFO build_combined_normalized_csv(47) Source S-125 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:04,528 INFO build_combined_normalized_csv(47) Source S-126 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:04,714 INFO build_combined_normalized_csv(47) Source S-127 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:04,809 INFO build_combined_normalized_csv(47) Source S-128 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:04,809 WARNING build_combined_normalized_csv(56) Source S-129 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-129.xlsx'
+2023-05-18 12:19:05,169 INFO build_combined_normalized_csv(47) Source S-123 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:05,456 INFO build_combined_normalized_csv(47) Source S-124 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:05,835 INFO build_combined_normalized_csv(47) Source S-125 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:06,162 INFO build_combined_normalized_csv(47) Source S-126 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:06,514 INFO build_combined_normalized_csv(47) Source S-127 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:06,692 INFO build_combined_normalized_csv(47) Source S-128 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:06,694 WARNING build_combined_normalized_csv(56) Source S-129 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-129.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -552,7 +552,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-129 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-129.xlsx'
-2023-05-11 09:36:04,810 WARNING build_combined_normalized_csv(56) Source S-131 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-131.xlsx'
+2023-05-18 12:19:06,695 WARNING build_combined_normalized_csv(56) Source S-131 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-131.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -582,7 +582,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-131 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-131.xlsx'
-2023-05-11 09:36:04,811 WARNING build_combined_normalized_csv(56) Source S-132 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-132.xlsx'
+2023-05-18 12:19:06,697 WARNING build_combined_normalized_csv(56) Source S-132 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-132.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -612,7 +612,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-132 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-132.xlsx'
-2023-05-11 09:36:04,812 WARNING build_combined_normalized_csv(56) Source S-133 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-133.xlsx'
+2023-05-18 12:19:06,698 WARNING build_combined_normalized_csv(56) Source S-133 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-133.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -642,7 +642,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-133 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-133.xlsx'
-2023-05-11 09:36:04,813 WARNING build_combined_normalized_csv(56) Source S-134 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-134.xlsx'
+2023-05-18 12:19:06,701 WARNING build_combined_normalized_csv(56) Source S-134 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-134.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -672,7 +672,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-134 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-134.xlsx'
-2023-05-11 09:36:04,814 WARNING build_combined_normalized_csv(56) Source S-135 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-135.xlsx'
+2023-05-18 12:19:06,705 WARNING build_combined_normalized_csv(56) Source S-135 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-135.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -702,8 +702,8 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-135 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-135.xlsx'
-2023-05-11 09:36:04,861 INFO build_combined_normalized_csv(47) Source S-137 extract with 195 rows::: EITIIndicatorBuilder
-2023-05-11 09:36:04,867 WARNING build_combined_normalized_csv(56) Source S-140 failed to extract cause of: 'Year'
+2023-05-18 12:19:06,794 INFO build_combined_normalized_csv(47) Source S-137 extract with 195 rows::: EITIIndicatorBuilder
+2023-05-18 12:19:06,802 WARNING build_combined_normalized_csv(56) Source S-140 failed to extract cause of: 'Year'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -731,8 +731,8 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-140 failed to extract cause of: 'Year'
-2023-05-11 09:36:05,068 INFO build_combined_normalized_csv(47) Source S-141 extract with 941 rows::: DefaultCSVExtractor
-2023-05-11 09:36:05,073 WARNING build_combined_normalized_csv(56) Source S-143 failed to extract cause of: The source has not provided any data  
+2023-05-18 12:19:07,214 INFO build_combined_normalized_csv(47) Source S-141 extract with 941 rows::: DefaultCSVExtractor
+2023-05-18 12:19:07,223 WARNING build_combined_normalized_csv(56) Source S-143 failed to extract cause of: The source has not provided any data  
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -748,10 +748,10 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-143 failed to extract cause of: The source has not provided any data  
-2023-05-11 09:36:05,158 INFO build_combined_normalized_csv(47) Source S-144 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:05,379 INFO build_combined_normalized_csv(47) Source S-145 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:05,559 INFO build_combined_normalized_csv(47) Source S-147 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:05,560 WARNING build_combined_normalized_csv(56) Source S-148 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-148.xlsx'
+2023-05-18 12:19:07,388 INFO build_combined_normalized_csv(47) Source S-144 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:07,794 INFO build_combined_normalized_csv(47) Source S-145 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:08,090 INFO build_combined_normalized_csv(47) Source S-147 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:08,091 WARNING build_combined_normalized_csv(56) Source S-148 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-148.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -781,18 +781,18 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-148 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-148.xlsx'
-2023-05-11 09:36:05,681 WARNING create_log_report_delete_duplicates(770) WARNING: There are 8 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
-2023-05-11 09:36:05,698 INFO build_combined_normalized_csv(47) Source S-149 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:06,341 INFO build_combined_normalized_csv(47) Source S-151 extract with 195 rows::: ICRC_Treaties
-2023-05-11 09:36:06,944 INFO build_combined_normalized_csv(47) Source S-152 extract with 195 rows::: ICRC_Treaties
-2023-05-11 09:36:07,539 INFO build_combined_normalized_csv(47) Source S-153 extract with 195 rows::: ICRC_Treaties
-2023-05-11 09:36:07,627 INFO build_combined_normalized_csv(47) Source S-154 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:07,718 INFO build_combined_normalized_csv(47) Source S-155 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:08,024 INFO build_combined_normalized_csv(47) Source S-156 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:12,189 INFO build_combined_normalized_csv(47) Source S-157 extract with 195 rows::: ILO_Extractor
-2023-05-11 09:36:12,282 INFO build_combined_normalized_csv(47) Source S-160 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:12,374 INFO build_combined_normalized_csv(47) Source S-220 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:13,692 WARNING build_combined_normalized_csv(56) Source S-163 failed to extract cause of: "['Conflict New Displacements'] not in index"
+2023-05-18 12:19:08,277 WARNING create_log_report_delete_duplicates(770) WARNING: There are 8 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
+2023-05-18 12:19:08,309 INFO build_combined_normalized_csv(47) Source S-149 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:09,387 INFO build_combined_normalized_csv(47) Source S-151 extract with 195 rows::: ICRC_Treaties
+2023-05-18 12:19:10,083 INFO build_combined_normalized_csv(47) Source S-152 extract with 195 rows::: ICRC_Treaties
+2023-05-18 12:19:10,792 INFO build_combined_normalized_csv(47) Source S-153 extract with 195 rows::: ICRC_Treaties
+2023-05-18 12:19:10,963 INFO build_combined_normalized_csv(47) Source S-154 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:11,134 INFO build_combined_normalized_csv(47) Source S-155 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:11,696 INFO build_combined_normalized_csv(47) Source S-156 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:15,612 INFO build_combined_normalized_csv(47) Source S-157 extract with 195 rows::: ILO_Extractor
+2023-05-18 12:19:15,797 INFO build_combined_normalized_csv(47) Source S-160 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:15,988 INFO build_combined_normalized_csv(47) Source S-220 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:17,644 WARNING build_combined_normalized_csv(56) Source S-163 failed to extract cause of: "['Conflict New Displacements'] not in index"
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -816,10 +816,10 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-163 failed to extract cause of: "['Conflict New Displacements'] not in index"
-2023-05-11 09:36:13,779 INFO build_combined_normalized_csv(47) Source S-164 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:13,918 INFO build_combined_normalized_csv(47) Source S-165 extract with 417 rows::: DefaultJsonExtractor
-2023-05-11 09:36:14,299 INFO build_combined_normalized_csv(47) Source S-166 extract with 509 rows::: DefaultJsonExtractor
-2023-05-11 09:36:14,395 WARNING build_combined_normalized_csv(56) Source S-167 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+2023-05-18 12:19:17,836 INFO build_combined_normalized_csv(47) Source S-164 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:18,236 INFO build_combined_normalized_csv(47) Source S-165 extract with 417 rows::: DefaultJsonExtractor
+2023-05-18 12:19:19,409 INFO build_combined_normalized_csv(47) Source S-166 extract with 509 rows::: DefaultJsonExtractor
+2023-05-18 12:19:19,690 WARNING build_combined_normalized_csv(56) Source S-167 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -845,7 +845,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-167 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
-2023-05-11 09:36:14,432 WARNING build_combined_normalized_csv(56) Source S-168 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+2023-05-18 12:19:19,826 WARNING build_combined_normalized_csv(56) Source S-168 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -871,7 +871,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-168 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
-2023-05-11 09:36:14,469 WARNING build_combined_normalized_csv(56) Source S-169 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+2023-05-18 12:19:19,964 WARNING build_combined_normalized_csv(56) Source S-169 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -897,7 +897,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-169 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
-2023-05-11 09:36:14,535 WARNING build_combined_normalized_csv(56) Source S-170 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
+2023-05-18 12:19:20,194 WARNING build_combined_normalized_csv(56) Source S-170 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -923,7 +923,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-170 failed to extract cause of: You are trying to merge on object and int64 columns. If you wish to proceed you should use pd.concat
-2023-05-11 09:36:15,758 WARNING build_combined_normalized_csv(56) Source S-171 failed to extract cause of: "['Disaster New Displacements'] not in index"
+2023-05-18 12:19:21,379 WARNING build_combined_normalized_csv(56) Source S-171 failed to extract cause of: "['Disaster New Displacements'] not in index"
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -947,13 +947,13 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-171 failed to extract cause of: "['Disaster New Displacements'] not in index"
-2023-05-11 09:36:17,616 INFO build_combined_normalized_csv(47) Source S-172 extract with 195 rows::: Inform_Risk_Index_Data
-2023-05-11 09:36:17,855 INFO build_combined_normalized_csv(47) Source S-173 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:17,952 INFO build_combined_normalized_csv(47) Source S-174 extract with 195 rows::: UnTreaties
-2023-05-11 09:36:18,332 INFO build_combined_normalized_csv(47) Source S-175 extract with 195 rows::: CRIN_Treaties
-2023-05-11 09:36:18,486 INFO build_combined_normalized_csv(47) Source S-180 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:18,564 INFO build_combined_normalized_csv(47) Source S-181 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:36:18,673 WARNING build_combined_normalized_csv(56) Source S-182 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
+2023-05-18 12:19:23,562 INFO build_combined_normalized_csv(47) Source S-172 extract with 195 rows::: Inform_Risk_Index_Data
+2023-05-18 12:19:23,983 INFO build_combined_normalized_csv(47) Source S-173 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:24,148 INFO build_combined_normalized_csv(47) Source S-174 extract with 195 rows::: UnTreaties
+2023-05-18 12:19:24,599 INFO build_combined_normalized_csv(47) Source S-175 extract with 195 rows::: CRIN_Treaties
+2023-05-18 12:19:24,916 INFO build_combined_normalized_csv(47) Source S-180 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:25,064 INFO build_combined_normalized_csv(47) Source S-181 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:19:25,349 WARNING build_combined_normalized_csv(56) Source S-182 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -973,7 +973,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-182 failed to extract cause of: There are duplicated countries in the defined dimension-subgroup dataframe.
-2023-05-11 09:36:18,677 WARNING build_combined_normalized_csv(56) Source S-183 failed to extract cause of: The source has not provided any data  
+2023-05-18 12:19:25,353 WARNING build_combined_normalized_csv(56) Source S-183 failed to extract cause of: The source has not provided any data  
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -989,12 +989,12 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-183 failed to extract cause of: The source has not provided any data  
-2023-05-11 09:36:20,727 INFO build_combined_normalized_csv(47) Source S-184 extract with 1259 rows::: DefaultJsonExtractor
-2023-05-11 09:36:20,784 INFO build_combined_normalized_csv(47) Source S-186 extract with 579 rows::: DefaultCSVExtractor
-2023-05-11 09:36:20,905 INFO build_combined_normalized_csv(47) Source S-187 extract with 363 rows::: DefaultCSVExtractor
-2023-05-11 09:36:20,961 INFO build_combined_normalized_csv(47) Source S-188 extract with 579 rows::: DefaultCSVExtractor
-2023-05-11 09:36:21,016 INFO build_combined_normalized_csv(47) Source S-189 extract with 579 rows::: DefaultCSVExtractor
-2023-05-11 09:36:21,019 WARNING build_combined_normalized_csv(56) Source S-191 failed to extract cause of: list index out of range
+2023-05-18 12:19:29,281 INFO build_combined_normalized_csv(47) Source S-184 extract with 1259 rows::: DefaultJsonExtractor
+2023-05-18 12:19:29,408 INFO build_combined_normalized_csv(47) Source S-186 extract with 579 rows::: DefaultCSVExtractor
+2023-05-18 12:19:29,673 INFO build_combined_normalized_csv(47) Source S-187 extract with 363 rows::: DefaultCSVExtractor
+2023-05-18 12:19:29,815 INFO build_combined_normalized_csv(47) Source S-188 extract with 579 rows::: DefaultCSVExtractor
+2023-05-18 12:19:29,926 INFO build_combined_normalized_csv(47) Source S-189 extract with 579 rows::: DefaultCSVExtractor
+2023-05-18 12:19:29,931 WARNING build_combined_normalized_csv(56) Source S-191 failed to extract cause of: list index out of range
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/json.py", line 30, in _download
     raw_data = pd.json_normalize(requests.get(self.endpoint).json()["data"])
@@ -1019,7 +1019,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-191 failed to extract cause of: list index out of range
-2023-05-11 09:36:21,020 WARNING build_combined_normalized_csv(56) Source S-192 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-192.xlsx'
+2023-05-18 12:19:29,932 WARNING build_combined_normalized_csv(56) Source S-192 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-192.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1049,10 +1049,10 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-192 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-192.xlsx'
-2023-05-11 09:36:21,165 WARNING create_log_report_delete_duplicates(770) WARNING: There are 54 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
-2023-05-11 09:36:21,191 INFO build_combined_normalized_csv(47) Source S-193 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:22,205 INFO build_combined_normalized_csv(47) Source S-194 extract with 4945 rows::: DefaultCSVExtractor
-2023-05-11 09:36:22,288 WARNING build_combined_normalized_csv(56) Source S-195 failed to extract cause of: division by zero
+2023-05-18 12:19:30,223 WARNING create_log_report_delete_duplicates(770) WARNING: There are 54 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
+2023-05-18 12:19:30,280 INFO build_combined_normalized_csv(47) Source S-193 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:32,502 INFO build_combined_normalized_csv(47) Source S-194 extract with 4945 rows::: DefaultCSVExtractor
+2023-05-18 12:19:32,668 WARNING build_combined_normalized_csv(56) Source S-195 failed to extract cause of: division by zero
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1072,7 +1072,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-195 failed to extract cause of: division by zero
-2023-05-11 09:36:22,364 WARNING build_combined_normalized_csv(56) Source S-196 failed to extract cause of: division by zero
+2023-05-18 12:19:32,827 WARNING build_combined_normalized_csv(56) Source S-196 failed to extract cause of: division by zero
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1092,19 +1092,19 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-196 failed to extract cause of: division by zero
-2023-05-11 09:36:22,443 INFO build_combined_normalized_csv(47) Source S-197 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:22,607 INFO build_combined_normalized_csv(47) Source S-198 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:22,766 INFO build_combined_normalized_csv(47) Source S-199 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:23,764 INFO build_combined_normalized_csv(47) Source S-200 extract with 3187 rows::: DefaultCSVExtractor
-2023-05-11 09:36:24,107 INFO build_combined_normalized_csv(47) Source S-201 extract with 445 rows::: DefaultJsonExtractor
-2023-05-11 09:36:24,269 INFO build_combined_normalized_csv(47) Source S-202 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:24,360 INFO build_combined_normalized_csv(47) Source S-203 extract with 196 rows::: DefaultJsonExtractor
-2023-05-11 09:36:24,451 INFO build_combined_normalized_csv(47) Source S-204 extract with 196 rows::: DefaultJsonExtractor
-2023-05-11 09:36:24,619 INFO build_combined_normalized_csv(47) Source S-205 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:24,779 INFO build_combined_normalized_csv(47) Source S-206 extract with 453 rows::: DefaultJsonExtractor
-2023-05-11 09:36:24,875 INFO build_combined_normalized_csv(47) Source S-207 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:26,044 INFO build_combined_normalized_csv(47) Source S-209 extract with 195 rows::: IDMC_Extractor
-2023-05-11 09:36:26,045 WARNING build_combined_normalized_csv(56) Source S-212 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-212.xlsx'
+2023-05-18 12:19:32,999 INFO build_combined_normalized_csv(47) Source S-197 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:33,315 INFO build_combined_normalized_csv(47) Source S-198 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:33,633 INFO build_combined_normalized_csv(47) Source S-199 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:35,502 INFO build_combined_normalized_csv(47) Source S-200 extract with 3187 rows::: DefaultCSVExtractor
+2023-05-18 12:19:36,244 INFO build_combined_normalized_csv(47) Source S-201 extract with 445 rows::: DefaultJsonExtractor
+2023-05-18 12:19:36,522 INFO build_combined_normalized_csv(47) Source S-202 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:36,703 INFO build_combined_normalized_csv(47) Source S-203 extract with 196 rows::: DefaultJsonExtractor
+2023-05-18 12:19:36,921 INFO build_combined_normalized_csv(47) Source S-204 extract with 196 rows::: DefaultJsonExtractor
+2023-05-18 12:19:37,219 INFO build_combined_normalized_csv(47) Source S-205 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:37,586 INFO build_combined_normalized_csv(47) Source S-206 extract with 453 rows::: DefaultJsonExtractor
+2023-05-18 12:19:37,773 INFO build_combined_normalized_csv(47) Source S-207 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:38,929 INFO build_combined_normalized_csv(47) Source S-209 extract with 195 rows::: IDMC_Extractor
+2023-05-18 12:19:38,930 WARNING build_combined_normalized_csv(56) Source S-212 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-212.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1134,7 +1134,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-212 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-212.xlsx'
-2023-05-11 09:36:26,133 WARNING build_combined_normalized_csv(56) Source S-213 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
+2023-05-18 12:19:39,068 WARNING build_combined_normalized_csv(56) Source S-213 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
 Traceback (most recent call last):
   File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
 ValueError: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP"
@@ -1163,7 +1163,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-213 failed to extract cause of: Unable to parse string "VALUE WITHOUT MAPPING - PLEASE MAP" at position 0
-2023-05-11 09:36:26,134 WARNING build_combined_normalized_csv(56) Source S-214 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-214.xlsx'
+2023-05-18 12:19:39,070 WARNING build_combined_normalized_csv(56) Source S-214 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-214.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1193,7 +1193,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-214 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-214.xlsx'
-2023-05-11 09:36:26,135 WARNING build_combined_normalized_csv(56) Source S-215 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-215.xlsx'
+2023-05-18 12:19:39,072 WARNING build_combined_normalized_csv(56) Source S-215 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-215.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1223,8 +1223,8 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-215 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-215.xlsx'
-2023-05-11 09:36:26,232 INFO build_combined_normalized_csv(47) Source S-216 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:26,233 WARNING build_combined_normalized_csv(56) Source S-217 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-217.xlsx'
+2023-05-18 12:19:39,230 INFO build_combined_normalized_csv(47) Source S-216 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:39,232 WARNING build_combined_normalized_csv(56) Source S-217 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-217.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1254,11 +1254,11 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-217 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/staging/S-217.xlsx'
-2023-05-11 09:36:26,567 INFO build_combined_normalized_csv(47) Source S-218 extract with 195 rows::: DefaultJsonExtractor
-2023-05-11 09:36:26,618 INFO build_combined_normalized_csv(47) Source S-8 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:26,667 INFO build_combined_normalized_csv(47) Source S-9 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:27,032 INFO build_combined_normalized_csv(47) Source S-10 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:27,466 WARNING build_combined_normalized_csv(56) Source S-11 failed to extract cause of: '[None] not in index'
+2023-05-18 12:19:39,809 INFO build_combined_normalized_csv(47) Source S-218 extract with 195 rows::: DefaultJsonExtractor
+2023-05-18 12:19:39,902 INFO build_combined_normalized_csv(47) Source S-8 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:39,996 INFO build_combined_normalized_csv(47) Source S-9 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:40,648 INFO build_combined_normalized_csv(47) Source S-10 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:41,379 WARNING build_combined_normalized_csv(56) Source S-11 failed to extract cause of: '[None] not in index'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1292,8 +1292,8 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-11 failed to extract cause of: '[None] not in index'
-2023-05-11 09:36:27,829 INFO build_combined_normalized_csv(47) Source S-13 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:27,830 WARNING build_combined_normalized_csv(56) Source S-14 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-21-total-HIZkLiYK.xlsx'
+2023-05-18 12:19:42,072 INFO build_combined_normalized_csv(47) Source S-13 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:42,074 WARNING build_combined_normalized_csv(56) Source S-14 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-21-total-HIZkLiYK.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1323,10 +1323,10 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-14 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-21-total-HIZkLiYK.xlsx'
-2023-05-11 09:36:28,196 INFO build_combined_normalized_csv(47) Source S-29 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:28,340 INFO build_combined_normalized_csv(47) Source S-33 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:28,400 INFO build_combined_normalized_csv(47) Source S-34 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:28,487 WARNING build_combined_normalized_csv(56) Source S-35 failed to extract cause of: 'RAW_OBS_VALUE'
+2023-05-18 12:19:42,816 INFO build_combined_normalized_csv(47) Source S-29 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:43,029 INFO build_combined_normalized_csv(47) Source S-33 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:43,126 INFO build_combined_normalized_csv(47) Source S-34 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:43,277 WARNING build_combined_normalized_csv(56) Source S-35 failed to extract cause of: 'RAW_OBS_VALUE'
 Traceback (most recent call last):
   File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3802, in get_loc
     return self._engine.get_loc(casted_key)
@@ -1361,7 +1361,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-35 failed to extract cause of: 'RAW_OBS_VALUE'
-2023-05-11 09:36:28,575 WARNING build_combined_normalized_csv(56) Source S-36 failed to extract cause of: 'RAW_OBS_VALUE'
+2023-05-18 12:19:43,431 WARNING build_combined_normalized_csv(56) Source S-36 failed to extract cause of: 'RAW_OBS_VALUE'
 Traceback (most recent call last):
   File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3802, in get_loc
     return self._engine.get_loc(casted_key)
@@ -1396,7 +1396,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-36 failed to extract cause of: 'RAW_OBS_VALUE'
-2023-05-11 09:36:28,651 WARNING build_combined_normalized_csv(56) Source S-37 failed to extract cause of: "['sh_covered'] not in index"
+2023-05-18 12:19:43,571 WARNING build_combined_normalized_csv(56) Source S-37 failed to extract cause of: "['sh_covered'] not in index"
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1420,9 +1420,9 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-37 failed to extract cause of: "['sh_covered'] not in index"
-2023-05-11 09:36:29,023 INFO build_combined_normalized_csv(47) Source S-38 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:29,392 INFO build_combined_normalized_csv(47) Source S-40 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:29,393 WARNING build_combined_normalized_csv(56) Source S-51 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx'
+2023-05-18 12:19:44,162 INFO build_combined_normalized_csv(47) Source S-38 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:44,881 INFO build_combined_normalized_csv(47) Source S-40 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:44,884 WARNING build_combined_normalized_csv(56) Source S-51 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1452,15 +1452,15 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-51 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx'
-2023-05-11 09:36:29,456 INFO build_combined_normalized_csv(47) Source S-54 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:29,519 INFO build_combined_normalized_csv(47) Source S-55 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:29,585 INFO build_combined_normalized_csv(47) Source S-56 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:29,648 INFO build_combined_normalized_csv(47) Source S-57 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:29,711 INFO build_combined_normalized_csv(47) Source S-58 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:29,774 INFO build_combined_normalized_csv(47) Source S-59 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:29,952 INFO build_combined_normalized_csv(47) Source S-73 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:30,031 INFO build_combined_normalized_csv(47) Source S-75 extract with 195 rows::: FCTC_Data
-2023-05-11 09:36:30,401 WARNING build_combined_normalized_csv(56) Source S-97 failed to extract cause of: '[None] not in index'
+2023-05-18 12:19:45,020 INFO build_combined_normalized_csv(47) Source S-54 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:45,188 INFO build_combined_normalized_csv(47) Source S-55 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:45,335 INFO build_combined_normalized_csv(47) Source S-56 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:45,461 INFO build_combined_normalized_csv(47) Source S-57 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:45,587 INFO build_combined_normalized_csv(47) Source S-58 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:45,696 INFO build_combined_normalized_csv(47) Source S-59 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:45,959 INFO build_combined_normalized_csv(47) Source S-73 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:46,156 INFO build_combined_normalized_csv(47) Source S-75 extract with 195 rows::: FCTC_Data
+2023-05-18 12:19:46,941 WARNING build_combined_normalized_csv(56) Source S-97 failed to extract cause of: '[None] not in index'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1494,7 +1494,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-97 failed to extract cause of: '[None] not in index'
-2023-05-11 09:36:30,771 WARNING build_combined_normalized_csv(56) Source S-101 failed to extract cause of: '[None] not in index'
+2023-05-18 12:19:47,698 WARNING build_combined_normalized_csv(56) Source S-101 failed to extract cause of: '[None] not in index'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1528,10 +1528,10 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-101 failed to extract cause of: '[None] not in index'
-2023-05-11 09:36:30,866 INFO build_combined_normalized_csv(47) Source S-105 extract with 195 rows::: KidsRightsIndex
-2023-05-11 09:36:30,960 INFO build_combined_normalized_csv(47) Source S-106 extract with 195 rows::: KidsRightsIndex
-2023-05-11 09:36:31,053 INFO build_combined_normalized_csv(47) Source S-107 extract with 195 rows::: KidsRightsIndex
-2023-05-11 09:36:31,505 WARNING build_combined_normalized_csv(56) Source S-117 failed to extract cause of: '[None] not in index'
+2023-05-18 12:19:47,878 INFO build_combined_normalized_csv(47) Source S-105 extract with 195 rows::: KidsRightsIndex
+2023-05-18 12:19:48,087 INFO build_combined_normalized_csv(47) Source S-106 extract with 195 rows::: KidsRightsIndex
+2023-05-18 12:19:48,263 INFO build_combined_normalized_csv(47) Source S-107 extract with 195 rows::: KidsRightsIndex
+2023-05-18 12:19:49,056 WARNING build_combined_normalized_csv(56) Source S-117 failed to extract cause of: '[None] not in index'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1565,8 +1565,8 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-117 failed to extract cause of: '[None] not in index'
-2023-05-11 09:36:31,552 INFO build_combined_normalized_csv(47) Source S-118 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:36:31,553 WARNING build_combined_normalized_csv(56) Source S-136 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-153_ndc_content.csv'
+2023-05-18 12:19:49,176 INFO build_combined_normalized_csv(47) Source S-118 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:19:49,177 WARNING build_combined_normalized_csv(56) Source S-136 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-153_ndc_content.csv'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1598,7 +1598,7 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-136 failed to extract cause of: [Errno 2] No such file or directory: 'config/2023/in/data/raw/S-153_ndc_content.csv'
-2023-05-11 09:36:31,620 WARNING build_combined_normalized_csv(56) Source S-142 failed to extract cause of: Unable to parse string "false" at position 54
+2023-05-18 12:19:49,316 WARNING build_combined_normalized_csv(56) Source S-142 failed to extract cause of: Unable to parse string "false" at position 54
 Traceback (most recent call last):
   File "pandas/_libs/lib.pyx", line 2369, in pandas._libs.lib.maybe_convert_numeric
 ValueError: Unable to parse string "false"
@@ -1627,12 +1627,12 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-142 failed to extract cause of: Unable to parse string "false" at position 54
-2023-05-11 09:36:31,680 INFO build_combined_normalized_csv(47) Source S-150 extract with 195 rows::: Landmark_Data
-2023-05-11 09:36:31,775 INFO build_combined_normalized_csv(47) Source S-176 extract with 195 rows::: KidsRightsIndex
-2023-05-11 09:36:31,870 INFO build_combined_normalized_csv(47) Source S-177 extract with 195 rows::: KidsRightsIndex
-2023-05-11 09:36:31,964 INFO build_combined_normalized_csv(47) Source S-178 extract with 195 rows::: KidsRightsIndex
-2023-05-11 09:36:32,060 INFO build_combined_normalized_csv(47) Source S-179 extract with 195 rows::: KidsRightsIndex
-2023-05-11 09:36:32,432 WARNING build_combined_normalized_csv(56) Source S-208 failed to extract cause of: '[None] not in index'
+2023-05-18 12:19:49,464 INFO build_combined_normalized_csv(47) Source S-150 extract with 195 rows::: Landmark_Data
+2023-05-18 12:19:49,672 INFO build_combined_normalized_csv(47) Source S-176 extract with 195 rows::: KidsRightsIndex
+2023-05-18 12:19:49,878 INFO build_combined_normalized_csv(47) Source S-177 extract with 195 rows::: KidsRightsIndex
+2023-05-18 12:19:50,049 INFO build_combined_normalized_csv(47) Source S-178 extract with 195 rows::: KidsRightsIndex
+2023-05-18 12:19:50,224 INFO build_combined_normalized_csv(47) Source S-179 extract with 195 rows::: KidsRightsIndex
+2023-05-18 12:19:50,862 WARNING build_combined_normalized_csv(56) Source S-208 failed to extract cause of: '[None] not in index'
 Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
     self.download().transform()
@@ -1666,15 +1666,15 @@ Traceback (most recent call last):
   File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
     raise ExtractionError(
 etl.source_adapter.abstract.ExtractionError: Source S-208 failed to extract cause of: '[None] not in index'
-2023-05-11 09:36:32,496 INFO build_combined_normalized_csv(47) Source S-210 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:32,560 INFO build_combined_normalized_csv(47) Source S-211 extract with 195 rows::: WPA_Extractor
-2023-05-11 09:36:32,671 INFO build_combined_normalized_csv(47) Source S-12 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:32,781 INFO build_combined_normalized_csv(47) Source S-41 extract with 739 rows::: DefaultCSVExtractor
-2023-05-11 09:36:32,852 INFO build_combined_normalized_csv(47) Source S-42 extract with 310 rows::: DefaultCSVExtractor
-2023-05-11 09:36:32,903 INFO build_combined_normalized_csv(47) Source S-44 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:36:32,943 INFO build_combined_normalized_csv(47) Source S-185 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:36:32,985 INFO build_combined_normalized_csv(47) Source S-190 extract with 195 rows::: DefaultCSVExtractor
-2023-05-11 09:36:33,685 INFO build_combined_normalized_csv(47) Source S-138 extract with 195 rows::: NRGI
-2023-05-11 09:36:34,352 INFO build_combined_normalized_csv(47) Source S-139 extract with 195 rows::: NRGI
-2023-05-11 09:36:34,438 INFO build_combined_normalized_csv(47) Source S-219 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-11 09:36:35,482 INFO build_combined_normalized_csv(47) Source S-162 extract with 195 rows::: IDMC_Extractor
+2023-05-18 12:19:50,985 INFO build_combined_normalized_csv(47) Source S-210 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:51,112 INFO build_combined_normalized_csv(47) Source S-211 extract with 195 rows::: WPA_Extractor
+2023-05-18 12:19:51,317 INFO build_combined_normalized_csv(47) Source S-12 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:51,533 INFO build_combined_normalized_csv(47) Source S-41 extract with 739 rows::: DefaultCSVExtractor
+2023-05-18 12:19:51,667 INFO build_combined_normalized_csv(47) Source S-42 extract with 310 rows::: DefaultCSVExtractor
+2023-05-18 12:19:51,751 INFO build_combined_normalized_csv(47) Source S-44 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:19:51,820 INFO build_combined_normalized_csv(47) Source S-185 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:19:51,893 INFO build_combined_normalized_csv(47) Source S-190 extract with 195 rows::: DefaultCSVExtractor
+2023-05-18 12:19:52,685 INFO build_combined_normalized_csv(47) Source S-138 extract with 195 rows::: NRGI
+2023-05-18 12:19:53,509 INFO build_combined_normalized_csv(47) Source S-139 extract with 195 rows::: NRGI
+2023-05-18 12:19:53,688 INFO build_combined_normalized_csv(47) Source S-219 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-18 12:19:54,836 INFO build_combined_normalized_csv(47) Source S-162 extract with 195 rows::: IDMC_Extractor

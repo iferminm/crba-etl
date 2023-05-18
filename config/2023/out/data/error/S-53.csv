@@ -1,358 +1,6 @@
 ;DIM_SDG_INDICATOR;ATTR_SDG_INDICATOR_DESCRIPTION;COUNTRY_NAME;TIME_PERIOD;RAW_OBS_VALUE;ATTR_SOURCE_OF_SOURCE;ATTR_FOOTNOTE_OF_SOURCE;DIM_AGE_GROUP;DIM_SEX;DIM_REP_TYPE;COUNTRY_ISO_2;COUNTRY_ISO_3;_merge;INDICATOR_NAME;INDICATOR_INDEX;INDICATOR_ISSUE;INDICATOR_CATEGORY;INDICATOR_CODE;ATTR_SOURCE;ATTR_SOURCE_BODY;ATTR_INDICATOR_DESCRIPTION;ATTR_INDICATOR_EXPLANATION;ATTR_UNIT_MEASURE;ATTR_DATA_EXTRACTION_METHDOLOGY;ATTR_SOURCE_TITLE;ATTR_API_ENDPOINT_URL;CRBA_RELEASE_YEAR
 0;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;AFG;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
-1;1.1.1;Proportion of population below international poverty line (%);Albania;2018.0;4.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: SILC-C. Uses an income aggregate, which is not spatially deflated.'];"UNMAPPED VALUE - PLEASE MAP - [0       True
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3       True
-4       True
-       ...  
-957     True
-958    False
-959    False
-960    False
-961     True
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0       True
-1      False
-2      False
-3      False
-4      False
-       ...  
-957    False
-958    False
-959    False
-960    False
-961    False
-Name: DIM_AGE_GROUP, Length: 962, dtype: bool]";BOTH_SEXES;Global;AL;ALB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
+1;1.1.1;Proportion of population below international poverty line (%);Albania;2018.0;4.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Survey name: SILC-C. Uses an income aggregate, which is not spatially deflated.'];15-64 YEARS;BOTH_SEXES;Global;AL;ALB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
 6;1.1.1;Proportion of population below international poverty line (%);Albania;2019.0;0.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from HBS. Estimated from unit-record consumption data. '];ALL AGES;BOTH_SEXES;Global;AL;ALB;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
 7;_T;;;2023.0;;;;_T;BOTH_SEXES;_T;;AND;right_only;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
 8;1.1.1;Proportion of population below international poverty line (%);Algeria;2011.0;1.0;Poverty and Inequality Portal, World Bank;['The current extreme poverty line is set at $2.15 a day in 2017 PPP terms. Accessed September 14, 2022. Based on data from ENCNVM. Estimated from grouped consumption data. '];ALL AGES;BOTH_SEXES;Global;DZ;DZA;both;Poverty rates;Workplace;Child labour;Enforcement;WP_CL_EN_POVRAT;https://unstats.un.org/sdgs/indicators/database/;UN SDG;Proportion of population below the international poverty line (%);;PCNT;;SDG Indicator 1.1.1. Proportion of population below international poverty line (%) SI_POV_DAY1 ;https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=SI_POV_DAY1&pageSize=999999999;2023
@@ -497,6 +145,17 @@ Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
 957    False
 958    False
 959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1       True
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959     True
 960    False
 961    False
 Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
@@ -882,6 +541,17 @@ Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
 957    False
 958    False
 959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1       True
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959     True
 960    False
 961    False
 Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
@@ -1309,6 +979,17 @@ Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
 960    False
 961    False
 Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1       True
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959     True
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
 1      False
 2      False
 3      False
@@ -1683,6 +1364,17 @@ Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
 957    False
 958    False
 959    False
+960    False
+961    False
+Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
+1       True
+2      False
+3      False
+4      False
+       ...  
+957    False
+958    False
+959     True
 960    False
 961    False
 Name: DIM_AGE_GROUP, Length: 962, dtype: bool, 0      False
