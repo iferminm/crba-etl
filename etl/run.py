@@ -47,8 +47,6 @@ def build_combined_normalized_csv(config):
                     run_logger.info(
                         msg=f"Source {row['SOURCE_ID']} extract with {df.shape[0] if df is not None else 0} rows::: {extractor.__class__.__name__}",
                     )
-                    "S-180, S-181, S-189 S-230 idmc_displacement_all_dataset.xlsm"
-                    "S-180, S-181, S-189 S-230 idmc_displacement_all_dataset.xlsx"
                     extractions_data.append(df)
                     sucesses += 1
                 except ExtractionError as ex:
