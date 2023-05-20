@@ -434,9 +434,9 @@
   {
     "VALUE_ID": "V-49",
     "TYPE": "Categorical",
-    "RANGE": "[1,2,3]",
-    "VALUE_ENCODING": "3=2020 NDC (Updated First NDC); 3=2020 NDC (Second NDC); 2=Only First NDC; 1=Only INDC; 1=No Document Submitted",
-    "VALUE_LABELS": "3=Yes, it has updated its NDC or submitted a new NDC in the 5 year cycle starting in 2020, 2=Yes it has submitted a first NDC, 1=No it has not submitted an NCD and/or is not a signatory to the paris agreement and/or it has only submitted an INDC, 0=No data",
+    "RANGE": "[1,2]",
+    "VALUE_ENCODING": "2=Yes; 1=No",
+    "VALUE_LABELS": "2=Yes it has NDC, 1=No it has not submitted an NCD and/or is not a signatory to the paris agreement and/or it has only submitted an INDC, 0=No data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   },
