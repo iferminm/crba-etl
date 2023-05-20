@@ -3966,6 +3966,7 @@
     "INVERT_NORMALIZATION": "not inverted",
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\" & DIM_OCU_TYPE==\"All occupations (isco-08)\"",
     "UNIT_MEASURE": null,
+    "COMMENT": "Retired with CRBA-123. Without knowlege if average wage is above the living wage not senseful",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
     "FROMER_SOURCE_ID": "S-203"
   },
