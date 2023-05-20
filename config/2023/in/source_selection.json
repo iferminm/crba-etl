@@ -544,34 +544,22 @@
     "TIMEPERIOD": "xxx"
   },
   "S-129": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-129.xlsx"
   },
   "S-131": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-131.xlsx"
   },
   "S-132": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-132.xlsx"
   },
   "S-133": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-133.xlsx"
   },
   "S-134": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-134.xlsx"
   },
   "S-135": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-135.xlsx"
   },
   "S-136": {
     "FILE_PATH": "raw\/S-153_ndc_content.csv"
@@ -618,9 +606,7 @@
     "TIMEPERIOD": "xxx"
   },
   "S-148": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-148.xlsx"
   },
   "S-149": {
     "STARTPERIOD": "xxx",
@@ -906,9 +892,7 @@
     "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-212": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-212.xlsx",
   },
   "S-213": {
     "STARTPERIOD": "xxx",
