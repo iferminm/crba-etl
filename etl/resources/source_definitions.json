@@ -279,6 +279,7 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.UCW_Data",
+    "COMMENT": "Retired cause of insecure credible. CRBA-93",
     "FROMER_SOURCE_ID": "S-21"
   },
   "S-15": {
@@ -796,6 +797,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Replaced by S-221",
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
     "FROMER_SOURCE_ID": "S-45"
   },
@@ -1848,7 +1850,6 @@
     "RAW_OBS_VALUE_TYPE": null,
     "ATTR_RATIFICATION_DATE_COLUMN_NAME": null,
     "ATTR_UNIT_MEASURE": null,
-    "ATTR_UNIT_MEASURE": null,
     "INVERT_NORMALIZATION": "not inverted",
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
@@ -2858,6 +2859,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-149"
   },
@@ -2880,6 +2882,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-150"
   },
@@ -2902,6 +2905,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-151"
   },
@@ -2930,10 +2934,11 @@
   "S-136": {
     "INDICATOR_ID": "I-133",
     "VALUE_ID": "V-49",
-    "SOURCE_TYPE": "Excel (no URL)",
+    "SOURCE_TYPE": "API",
     "SOURCE_BODY": "Climate Watch",
     "SOURCE_TITLE": "CAIT Climate Data Explorer, Paris Contributions, INDC: ",
     "ADDRESS": "https:\/\/www.climatewatchdata.org\/ndcs-explore",
+    "ENDPOINT_URL": "https://www.climatewatchdata.org/api/v1/data/ndc_content?category_ids[]=29884&indicator_ids[]=286571&indicator_ids[]=286570",
     "un_treaty_data_col": null,
     "WPA_OBS_RAW_COL": null,
     "WPA_YEAR_COL": null,
@@ -2945,7 +2950,8 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
-    "EXTRACTOR_CLASS": "etl.source_adapter.manual.Climate_Watch_Data_S_153",
+    "COMMENT": "Use of API: Description in header of https://www.climatewatchdata.org/api/v1/data/ndc_content/meta",
+    "EXTRACTOR_CLASS": "etl.source_adapter.cwd.Climate_Watch_Data_Paris_Contributions",
     "FROMER_SOURCE_ID": "S-153"
   },
   "S-137": {
@@ -3187,6 +3193,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-164"
   },
@@ -3209,6 +3216,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-165"
   },
@@ -3296,6 +3304,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.icrc.ICRC_Treaties",
     "FROMER_SOURCE_ID": "S-169"
   },
@@ -3428,6 +3437,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Replaced by S-219",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-175"
   },
@@ -3495,6 +3505,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Replaced by S-220",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-179"
   },
@@ -3966,6 +3977,7 @@
     "INVERT_NORMALIZATION": "not inverted",
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\" & DIM_OCU_TYPE==\"All occupations (isco-08)\"",
     "UNIT_MEASURE": null,
+    "COMMENT": "Retired with CRBA-123. Without knowlege if average wage is above the living wage not senseful",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
     "FROMER_SOURCE_ID": "S-203"
   },
@@ -4603,6 +4615,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-233"
   },

@@ -199,7 +199,7 @@
     "TIMEPERIOD": "xxx"
   },
   "S-51": {
-    "FILE_PATH": "raw\/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx"
+    "FILE_PATH": "../../../2020/in/data/raw/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx"
   },
   "S-52": {
     "STARTPERIOD": "xxx",
@@ -230,14 +230,10 @@
     "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-60": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH" : "../../../2020/in/data/staging/S-60.xlsx"
   },
   "S-61": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH" : "../../../2020/in/data/staging/S-61.xlsx"
   },
   "S-62": {
     "STARTPERIOD": "xxx",
@@ -392,19 +388,13 @@
     "TIMEPERIOD": "xxx"
   },
   "S-94": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-94.xlsx"
   },
   "S-95": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+     "FILE_PATH": "../../../2020/in/data/staging/S-95.xlsx"
   },
   "S-96": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-96.xlsx"
   },
   "S-97": {
     "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
@@ -550,34 +540,22 @@
     "TIMEPERIOD": "xxx"
   },
   "S-129": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-129.xlsx"
   },
   "S-131": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-131.xlsx"
   },
   "S-132": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-132.xlsx"
   },
   "S-133": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-133.xlsx"
   },
   "S-134": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-134.xlsx"
   },
   "S-135": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-135.xlsx"
   },
   "S-136": {
     "FILE_PATH": "raw\/S-153_ndc_content.csv"
@@ -594,11 +572,6 @@
   "S-139": {
     "ENDPOINT_URL": "https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021",
     "EXTRACTOR_CLASS": "etl.source_adapter.nrgi.NRGI"
-  },
-  "S-140": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
   },
   "S-141": {
     "STARTPERIOD": "xxx",
@@ -629,9 +602,7 @@
     "TIMEPERIOD": "xxx"
   },
   "S-148": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-148.xlsx"
   },
   "S-149": {
     "STARTPERIOD": "xxx",
@@ -917,9 +888,7 @@
     "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_3.28.22.xls"
   },
   "S-212": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "FILE_PATH": "../../../2020/in/data/staging/S-212.xlsx",
   },
   "S-213": {
     "STARTPERIOD": "xxx",
