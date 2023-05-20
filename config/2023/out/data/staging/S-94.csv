@@ -1,0 +1,205 @@
+COUNTRY_ISO_3_original;country_col_not_used;TIME_PERIOD;RAW_OBS_VALUE;ATTR_NOTE_OF_SOURCE;ATTR_SOURCE_COMMENT;ATTR_ENCODING_LABELS;ATTR_SOURCE;ATTR_SOURCE_BODY;INDICATOR_CODE;INDICATOR_NAME;INDIATOR_INDEX;INDICATOR_ISSUE;INDICATOR_CATEGORY;INDICATOR_DESCRIPTION;Unnamed: 35;COUNTRY_ISO_2_country_list;COUNTRY_ISO_3_country_list;COUNTRY_ISO_3;ATTR_ENDPOINT
+AFG;Afghanistan;2018;No legislation;;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;AF;AFG;AFG;nan
+ALB;Albania;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;AL;ALB;ALB;nan
+AND;Andorra;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;AD;AND;AND;nan
+DZA;Algeria;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;DZ;DZA;DZA;nan
+AGO;Angola;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;AO;AGO;AGO;nan
+ATG;Antigua and Barbuda;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;AG;ATG;ATG;nan
+ARG;Argentina;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;AR;ARG;ARG;nan
+ARM;Armenia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;AM;ARM;ARM;nan
+AUS;Australia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;AU;AUS;AUS;nan
+AUT;Austria;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;AT;AUT;AUT;nan
+AZE;Azerbaijan;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;AZ;AZE;AZE;nan
+BHS;Bahamas;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BS;BHS;BHS;nan
+BHR;Bahrain;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;Article 10 of Law No. 60 of 2014 on Information Technology Crimes states that in the application of the provisions of this article, “child pornography” means the definition provided in the Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography;;;;;;;;;;;;BH;BHR;BHR;nan
+BGD;Bangladesh;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BD;BGD;BGD;nan
+BRB;Barbados;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BB;BRB;BRB;nan
+BLR;Belarus;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BY;BLR;BLR;nan
+BEL;Belgium;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BE;BEL;BEL;nan
+BLZ;Belize;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BZ;BLZ;BLZ;nan
+BEN;Benin;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BJ;BEN;BEN;nan
+BTN;Bhutan;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BT;BTN;BTN;nan
+BOL;Bolivia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BO;BOL;BOL;nan
+BIH;Bosnia and Herzegovina;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;BA;BIH;BIH;nan
+BWA;Botswana;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BW;BWA;BWA;nan
+BRA;Brazil;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BR;BRA;BRA;nan
+BRN;Brunei;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BN;BRN;BRN;nan
+BGR;Bulgaria;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BG;BGR;BGR;nan
+BFA;Burkina Faso;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;BF;BFA;BFA;nan
+BDI;Burundi;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;BI;BDI;BDI;nan
+CPV;Cabo Verde;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;CV;CPV;CPV;nan
+KHM;Cambodia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;KH;KHM;KHM;nan
+CMR;Cameroon;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;CM;CMR;CMR;nan
+CAN;Canada;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;CAN;nan
+CAF;Central African Republic;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;CF;CAF;CAF;nan
+TCD;Chad;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;TD;TCD;TCD;nan
+CHL;Chile;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;CL;CHL;CHL;nan
+CHN;China;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;"182: CSAM legislation in Hong Kong differs from that in China. Legislation in Hong Kong:
+ defines CSAM;
+ criminalizes technology-facilitated CSAE offenses; and
+ criminalizes simple possession of CSAM.
+Taiwan has legislation specific to CSAM that:
+ defines CSAM;
+ criminalizes technology-facilitated CSAM offenses;
+ criminalizes simple possession of CSAM; and
+ mandates ISPs to report CSAM.
+Macau has legislation specific to CSAM, but has not yet fulfilled the remaining criteria.  183: Article 367 stipulates the definition of “obscene articles”, i.e., sex-propagating books, periodicals, films, video- and audio-tapes, pictures and other obscene articles which concretely describe sexual acts or openly publicize sex. Given that the above provisions in the Criminal Law of China include child pornography, there is no separate law or definition exclusively on child pornography. That said, it is important to note that child pornography is covered by China’s criminal legislation and relevant crimes are subject to severe punishment. Letter from HU Binchen, Police Counselor, Police Liaison Office, Embassy of the People’s Republic of China, Washington D.C., to the International Centre for Missing & Exploited Children (Sep. 4, 2012) (on file with the International Centre for Missing & Exploited Children";;;;;;;;;;;;CN;CHN;CHN;nan
+COL;Colombia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;CO;COL;COL;nan
+COM;Comoros;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;KM;COM;COM;nan
+COG;Congo;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;CG;COG;COG;nan
+COD;DR Congo;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;COD;nan
+CRI;Costa Rica;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;CR;CRI;CRI;nan
+CIV;Côte d'Ivoire;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;CIV;nan
+HRV;Croatia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;HR;HRV;HRV;nan
+CUB;Cuba;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;CU;CUB;CUB;nan
+CYP;Cyprus;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;CY;CYP;CYP;nan
+CZE;Czech Republic;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;CZ;CZE;CZE;nan
+DNK;Denmark;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;DK;DNK;DNK;nan
+DJI;Djibouti;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;DJ;DJI;DJI;nan
+DMA;Dominica;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;DM;DMA;DMA;nan
+DOM;Dominican Republic;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;DO;DOM;DOM;nan
+ECU;Ecuador;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;EC;ECU;ECU;nan
+EGY;Egypt;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;EG;EGY;EGY;nan
+SLV;El Salvador;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;SV;SLV;SLV;nan
+GNQ;Equatorial Guinea;2018;No legislation;;;;;;;;;;;;;GQ;GNQ;GNQ;nan
+ERI;Eritrea;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;ER;ERI;ERI;nan
+EST;Estonia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;EE;EST;EST;nan
+SWZ;Swaziland;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;SWZ;nan
+ETH;Ethiopia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;ET;ETH;ETH;nan
+FJI;Fiji;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;FJ;FJI;FJI;nan
+FIN;Finland;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;FI;FIN;FIN;nan
+FRA;France;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;FR;FRA;FRA;nan
+GAB;Gabon;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;GA;GAB;GAB;nan
+GMB;Gambia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;GM;GMB;GMB;nan
+GEO;Georgia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;GE;GEO;GEO;nan
+DEU;Germany;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;DE;DEU;DEU;nan
+GHA;Ghana;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;GH;GHA;GHA;nan
+GRC;Greece;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;GR;GRC;GRC;nan
+GRD;Grenada;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;GD;GRD;GRD;nan
+GTM;Guatemala;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;GT;GTM;GTM;nan
+GIN;Guinea;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;GN;GIN;GIN;nan
+GNB;Guinea-Bissau;2018;No legislation;;;;;;;;;;;;;;;GNB;nan
+GUY;Guyana;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;GY;GUY;GUY;nan
+HTI;Haiti;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;HT;HTI;HTI;nan
+HND;Honduras;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;HN;HND;HND;nan
+HUN;Hungary;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;HU;HUN;HUN;nan
+ISL;Iceland;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;IS;ISL;ISL;nan
+IND;India;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;IN;IND;IND;nan
+IDN;Indonesia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;ID;IDN;IDN;nan
+IRN;Iran;2018;No legislation;;;;;;;;;;;;;IR;IRN;IRN;nan
+IRQ;Iraq;2018;No legislation;;;;;;;;;;;;;IQ;IRQ;IRQ;nan
+IRL;Ireland;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;IE;IRL;IRL;nan
+ISR;Israel;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;IL;ISR;ISR;nan
+ITA;Italy;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;IT;ITA;ITA;nan
+JAM;Jamaica;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;JM;JAM;JAM;nan
+JPN;Japan;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;JP;JPN;JPN;nan
+JOR;Jordan;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;JO;JOR;JOR;nan
+KAZ;Kazakhstan;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;KZ;KAZ;KAZ;nan
+KEN;Kenya;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;KE;KEN;KEN;nan
+KIR;Kiribati;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;KI;KIR;KIR;nan
+PRK;North Korea;2018;No legislation;;;;;;;;;;;;;;;PRK;nan
+KOR;South Korea;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;KOR;nan
+XK;Kosovo;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;XK;XKX;XK;nan
+KWT;Kuwait;2018;No legislation;;;;;;;;;;;;;KW;KWT;KWT;nan
+KGZ;Kyrgyzstan;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;;;KGZ;nan
+LAO;Laos;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;;;LAO;nan
+LVA;Latvia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;LV;LVA;LVA;nan
+LBN;Lebanon;2018;No legislation;;;;;;;;;;;;;LB;LBN;LBN;nan
+LSO;Lesotho;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;LS;LSO;LSO;nan
+LBR;Liberia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;LR;LBR;LBR;nan
+LBY;Libya;2018;No legislation;;;;;;;;;;;;;LY;LBY;LBY;nan
+LIE;Liechtenstein;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;LI;LIE;LIE;nan
+LTU;Lithuania;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;LT;LTU;LTU;nan
+LUX;Luxembourg;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;LU;LUX;LUX;nan
+MKD;Macedonia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;MKD;nan
+MDG;Madagascar;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;MG;MDG;MDG;nan
+MWI;Malawi;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;MW;MWI;MWI;nan
+MYS;Malaysia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;MY;MYS;MYS;nan
+MDV;Maldives;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;MV;MDV;MDV;nan
+MLI;Mali;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;ML;MLI;MLI;nan
+MLT;Malta;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;MT;MLT;MLT;nan
+MHL;Marshall Islands;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;MH;MHL;MHL;nan
+MRT;Mauritania;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;MR;MRT;MRT;nan
+MUS;Mauritius;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;Following the recommendations of the Committee on the Rights of the Child in 2006, Government has taken measures to prepare a Children’s Bill that will incorporate the spirit of the Convention on the Rights of the Child, include all its main principles and obligations, and bring together the different pieces of legislation dealing with children under one single legislation… Provisions will be made therein to address web related offences where children are involved. Letter from S. Phokeer, Ambassador, Embassy of Mauritius, Washington, D.C., to the International Centre for Missing & Exploited Children (Nov. 9, 2018) (on file with the International Centre for Missing & Exploited Children).;;;;;;;;;;;;MU;MUS;MUS;nan
+MEX;Mexico;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;MX;MEX;MEX;nan
+FSM;Micronesia;2018;No legislation;;;;;;;;;;;;;FM;FSM;FSM;nan
+MDA;Moldova;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;MD;MDA;MDA;nan
+MCO;Monaco;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;MC;MCO;MCO;nan
+MNG;Mongolia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;MN;MNG;MNG;nan
+MNE;Montenegro;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;ME;MNE;MNE;nan
+MAR;Morocco;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;MA;MAR;MAR;nan
+MOZ;Mozambique;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;MZ;MOZ;MOZ;nan
+MMR;Myanmar;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;;;MMR;nan
+NAM;Namibia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;NA;NAM;NAM;nan
+NRU;Nauru;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;NR;NRU;NRU;nan
+NPL;Nepal;2018;No legislation;;;;;;;;;;;;;NP;NPL;NPL;nan
+NLD;Netherlands;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;NL;NLD;NLD;nan
+NZL;New Zealand;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;NZ;NZL;NZL;nan
+NIC;Nicaragua;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;NI;NIC;NIC;nan
+NER;Niger;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;NE;NER;NER;nan
+NGA;Nigeria;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;NG;NGA;NGA;nan
+NOR;Norway;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;NO;NOR;NOR;nan
+OMN;Oman;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;OM;OMN;OMN;nan
+PAK;Pakistan;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;PK;PAK;PAK;nan
+PLW;Palau;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;PW;PLW;PLW;nan
+PSE;State of Palestine;2018;No data;;;;;;;;;;;;;;;PSE;nan
+PAN;Panama;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;PA;PAN;PAN;nan
+PNG;Papua New Guinea;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;PNG;nan
+PRY;Paraguay;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;PY;PRY;PRY;nan
+PER;Peru;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;PE;PER;PER;nan
+PHL;Philippines;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;PH;PHL;PHL;nan
+POL;Poland;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;"Interpretation of the term “child pornography” is based on the case law and a legal doctrine (e.g. a judgment of the Supreme Court of 23 November 2010, ref. IV KK 173/10; M. Mozgawa (edit.) M. Budyn-Kulik, Mr. Kozłowska-Kalisz, M. Kulik, Criminal Code: Reference, ed. Oficyna 2010). Letter from Maciej Pisarski, Charge d’affaires, Embassy of the Republic of Poland, Washington, D.C., to the International Centre for Missing & Exploited Children (Aug. 29, 2012) (on file with the International Centre for Missing & Exploited Children).";;;;;;;;;;;;PL;POL;POL;nan
+PRT;Portugal;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;PT;PRT;PRT;nan
+QAT;Qatar;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;QA;QAT;QAT;nan
+ROU;Romania;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;RO;ROU;ROU;nan
+RUS;Russia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;RU;RUS;RUS;nan
+RWA;Rwanda;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;RW;RWA;RWA;nan
+KNA;Saint Kitts and Nevis;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;KN;KNA;KNA;nan
+LCA;Saint Lucia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;LC;LCA;LCA;nan
+VCT;Saint Vincent and The Grenadines;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;VCT;nan
+WSM;Samoa;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;WS;WSM;WSM;nan
+SMR;San Marino;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;SM;SMR;SMR;nan
+STP;Sao Tome and Principe;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;ST;STP;STP;nan
+SAU;Saudi Arabia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;SA;SAU;SAU;nan
+SEN;Senegal;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;SN;SEN;SEN;nan
+SRB;Serbia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;RS;SRB;SRB;nan
+SYC;Seychelles;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;SC;SYC;SYC;nan
+SLE;Sierra Leone;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;SL;SLE;SLE;nan
+SGP;Singapore;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;A major review of the Penal Code is underway. A key area under review is whether there should be dedicated laws to deal with activities related to child abuse material – from the making of such material to possession and distribution of the material. A related area under review is whether such offences should attract more severe penalties to send a stronger deterrent message. The review proposals will be tabled for public consultation in late 2018. Letter from His Excellency Ashok Kumar Mirpuri, Ambassador of the Republic of Singapore, Embassy of the Republic of Singapore, Washington, D.C., to the International Centre for Missing & Exploited Children (Aug. 31, 2018) (on file with the International Centre for Missing & Exploited Children);;;;;;;;;;;;SG;SGP;SGP;nan
+SVK;Slovakia;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;SVK;nan
+SVN;Slovenia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;SI;SVN;SVN;nan
+SLB;Solomon Islands;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;SB;SLB;SLB;nan
+SOM;Somalia;2018;No legislation;;;;;;;;;;;;;SO;SOM;SOM;nan
+ZAF;South Africa;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;ZA;ZAF;ZAF;nan
+SSD;South Sudan;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;SS;SSD;SSD;nan
+ESP;Spain;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;ES;ESP;ESP;nan
+LKA;Sri Lanka;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;LK;LKA;LKA;nan
+SDN;Sudan;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;SD;SDN;SDN;nan
+SUR;Suriname;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;SR;SUR;SUR;nan
+SWE;Sweden;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;The definition for child pornography is articulated in the Preparatory Work and is referred to and applied by the courts in practice. In Chapter 16, Section 10a, of the Criminal Code there is a definition of the word child. There is no legal definition of child pornography in the legislation. Nevertheless, there are statements in the preparatory works to the effect that an image is to be regarded as pornographic when it, without any scientific or artistic values, depicts a sexual motif in an unconcealed and offensive way. Email from Magdalena Wikstrand Danelius, Legal Adviser, Division for Criminal Law, Ministry of Justice of Sweden, Washington, D.C., to the International Centre for Missing & Exploited Children (Nov. 18, 2011) (on file with the International Centre for Missing & Exploited Children). Government Bill 1997/98: 43 Freedom of the Press Ordinance and Speech Constitution scopes - pornography issue, etc. p. 56 “The image should, according to common use of language and general values, be pornographic in its content for it to be considered criminal in court….By pornographic, according to the statement of grounds in this section, the image under investigation should not have scientific or artistic value. The image is clearly intended to arouse a sexual reaction (Bill 1970:125 P. 79 f.). It is not required that the image depicts a child engaged in sexual conduct in order for it to be covered by the law. The criminal area, which regulates whether an image is considered to be pornographic, also includes images which in any other way portray one or several children in a way that is likely to appeal to an individual’s sex drive.”(translation);;;;;;;;;;;;SE;SWE;SWE;nan
+CHE;Switzerland;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;CH;CHE;CHE;nan
+SYR;Syria;2018;No legislation;;;;;;;;;;;;;SY;SYR;SYR;nan
+TJK;Tajikistan;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;TJ;TJK;TJK;nan
+TZA;Tanzania;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;TZ;TZA;TZA;nan
+THA;Thailand;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;TH;THA;THA;nan
+TLS;Timor-Leste;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;TLS;nan
+TGO;Togo;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;TGO;nan
+TON;Tonga;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;TON;nan
+TTO;Trinidad and Tobago;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;TTO;nan
+TUN;Tunisia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;;;TUN;nan
+TUR;Turkey;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;;;TUR;nan
+TKM;Turkmenistan;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;TM;TKM;TKM;nan
+TUV;Tuvalu;2018;No legislation;;;;;;;;;;;;;TV;TUV;TUV;nan
+UGA;Uganda;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;UGA;nan
+UKR;Ukraine;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;UA;UKR;UKR;nan
+ARE;United Arab Emirates;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;ARE;nan
+GBR;United Kingdom;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;For the purposes of this report, the United Kingdom includes England and Wales. The Protection of Children (Northern Ireland) Order 1978, Section 3, criminalizes one who takes, permits to be taken, distributes, shows, possesses with a view to its distribution, or publishes an indecent photograph or pseudo-photograph of a child under the age of 18. The term “indecent photograph” includes film, a copy of an indecent photograph or film, and an indecent photograph comprised in a film. An “indecent pseudo-photograph” includes a copy of an indecent pseudo-photograph and data stored on a computer disc or by other electronic means which is capable of conversion. A “pseudo-photograph” means an image, whether produced by computergraphics or otherwise, which appears to be a photograph. In Section 52 of the Civic Government (Scotland) Act 1982 (amended), the law criminalizes one who takes, permits to be taken, distributes, shows, possesses with a view to its distribution, or publishes an indecent photograph or pseudo-photograph of a child under the age of 18. The term “indecent photograph” is not defined. A “pseudo-photograph” means an image, whether produced by computergraphics or otherwise, which appears to be a photograph. Section 52A further criminalizes possession of indecent photographs or pseudo-photographs of children.;;;;;;;;;;;;;;GBR;nan
+USA;United States;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;USA;nan
+URY;Uruguay;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;URY;nan
+UZB;Uzbekistan;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;;;UZB;nan
+VUT;Vanuatu;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;VUT;nan
+VEN;Venezuela;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;;;VEN;nan
+VNM;Vietnam;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;;;VNM;nan
+YEM;Yemen;2018;No legislation;;;;;;;;;;;;;;;YEM;nan
+ZMB;Zambia;2018;Yes there is legislation specific to CSAM but it does NOT have an adequate CSAM definition;;;;;;;;;;;;;;;ZMB;nan
+ZWE;Zimbabwe;2018;Yes there is legislation specific to CSAM and it has an adequate CSAM definition;;;;;;;;;;;;;;;ZWE;nan
