@@ -437,11 +437,6 @@
     "ENDPERIOD": "xxx",
     "TIMEPERIOD": "xxx"
   },
-  "S-104": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
   "S-105": {
     "FILE_PATH": "raw\/Kids Rights Index.xlsx",
     "TIME_PERIOD": 2022,
@@ -494,16 +489,6 @@
     "TIMEPERIOD": "xxx"
   },
   "S-114": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-115": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-116": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
     "TIMEPERIOD": "xxx"
@@ -809,16 +794,6 @@
     "ENDPERIOD": "xxx",
     "TIMEPERIOD": "xxx"
   },
-  "S-182": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-183": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
   "S-184": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
@@ -852,11 +827,6 @@
     "startPeriod": "2020-01-01",
     "endPeriod": "2023-12-31"
   },
-  "S-191": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
   "S-192": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
@@ -868,11 +838,6 @@
     "TIMEPERIOD": "xxx"
   },
   "S-194": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
-  },
-  "S-195": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
     "TIMEPERIOD": "xxx"
