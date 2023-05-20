@@ -559,10 +559,10 @@
   },
   {
     "VALUE_ID": "V-63",
-    "TYPE": NaN,
-    "RANGE": NaN,
-    "VALUE_ENCODING": NaN,
-    "VALUE_LABELS": NaN,
+    "TYPE": "Categorical",
+    "RANGE": "[0,1,2,3,4,5]",
+    "VALUE_ENCODING": "5=1.0; 4=2.0; 3=3.0; 2=4.0; 1=5.0; 1=5+; 0=0.0; 5=1; 4=2; 3=3; 2=4; 1=5; 0=0",
+    "VALUE_LABELS": "5=Sporadic violations of rights; 4=Repeated violations of rights; 3=Regular violations of rights; 2=Systematic violations of rights; 1=No guarantee of rights OR No guarantee of rights due to the breakdown of the rule of law; 0=No data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   },
