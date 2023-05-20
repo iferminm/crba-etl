@@ -573,6 +573,11 @@
     "ENDPOINT_URL": "https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021",
     "EXTRACTOR_CLASS": "etl.source_adapter.nrgi.NRGI"
   },
+  "S-140": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
   "S-141": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
