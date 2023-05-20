@@ -98,6 +98,7 @@ iso_2_mapper = {key: "COUNTRY_ISO_2" for key in iso_2_tuple}
 # Iso 3
 iso_3_tuple = (
     "REF_AREA",
+    "COUNTRY (CODE)",
     "COUNTRY",
     "COUNTRY_ISO_3",
     "iso3",
@@ -116,6 +117,7 @@ iso_3_mapper = {key: "COUNTRY_ISO_3" for key in iso_3_tuple}
 # Year column
 year_tuple = (
     "TIME_PERIOD",
+    "YEAR (CODE)",
     "YEAR",
     "timePeriod",
     "timePeriodStart",
