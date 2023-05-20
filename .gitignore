@@ -350,3 +350,10 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,windows,jupyternotebooks,python,microsoftoffice
 
 scripts/unknown_issus.csv
+decomposed_indicator_dictionary_CRBA
+scripts/dummy.ipynb
+.idea/
+.vscode/
+indicator_dictionary_CRBA.xlsx
+scripts/test.xml
+soure_filter1.sql
