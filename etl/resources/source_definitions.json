@@ -279,6 +279,7 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.UCW_Data",
+    "COMMENT": "Retired cause of insecure credible. CRBA-93",
     "FROMER_SOURCE_ID": "S-21"
   },
   "S-15": {
@@ -1848,7 +1849,6 @@
     "RAW_OBS_VALUE_TYPE": null,
     "ATTR_RATIFICATION_DATE_COLUMN_NAME": null,
     "ATTR_UNIT_MEASURE": null,
-    "ATTR_UNIT_MEASURE": null,
     "INVERT_NORMALIZATION": "not inverted",
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
@@ -2858,6 +2858,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-149"
   },
@@ -2880,6 +2881,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-150"
   },
@@ -2902,6 +2904,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-151"
   },
@@ -3187,6 +3190,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-164"
   },
@@ -3209,6 +3213,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-165"
   },
@@ -3296,6 +3301,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.icrc.ICRC_Treaties",
     "FROMER_SOURCE_ID": "S-169"
   },
@@ -4604,6 +4610,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-233"
   },
