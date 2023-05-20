@@ -24,9 +24,9 @@ class IDMC_Extractor(SourceAdapter):
     _transform = ManualTransformer._transform
 
     def _download(self):
-        self.dataframe = pd.read_excel(self.endpoint)
+        self.dataframe = pd.read_excel(self.endpoint).drop(0)
 
-        self.dataframe["Year"] = self.dataframe["Year"].astype(str)
+        self.dataframe["Year"] = self.dataframe["Year"].astype("Int64")
 
         self.dataframe = self.config.un_pop_tot.merge(
                  right=self.dataframe,
