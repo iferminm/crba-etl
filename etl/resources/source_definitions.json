@@ -797,6 +797,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Replaced by S-221",
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
     "FROMER_SOURCE_ID": "S-45"
   },
@@ -3434,6 +3435,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Replaced by S-219",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-175"
   },
@@ -3501,6 +3503,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "Replaced by S-220",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-179"
   },
