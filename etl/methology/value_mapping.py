@@ -59,6 +59,7 @@ value_mapper = {
         "15-24 YEARS": ["15-24"],
         "15+ YEARS": ["15+"],
         "25+ YEARS": ["25+"],
+        "65+ YEARS": ["65+"],
         "13-15 YEARS": ["13 to 15 years old", "Y13T15: 13 to 15 years"],
         "13-17 YEARS": ["13 to 17 years old", "Y13T17: 13 to 17 years old"],
         "15 YEARS": ["15 years old", "Y15: 15 years old"],
@@ -69,6 +70,7 @@ value_mapper = {
         "<5 YEARS": ["<5Y"],
         "<6 YEARS": ["<6Y"],
         "<8 YEARS": ["<8Y"],
+        "<15 YEARS": ["<15Y"],
         "5-59 MONTHS": ["M6T59"],
         "SCHOOL_AGE_POPULATION": ["SCH_AGE_GROUP"],
     },
@@ -78,9 +80,9 @@ value_mapper = {
         "_T": [""],
     },
     "DIM_AREA_TYPE": {
-        "TOTAL": ["TOTL", "_T: Total"],
-        "RURAL": ["RUR", "R: Rural"],
-        "URBAN": ["URB", "U: Urban"],
+        "TOTAL": ["TOTL", "_T: Total", "ALLAREA"],
+        "RURAL": ["RUR", "R: Rural", "RURAL"],
+        "URBAN": ["URB", "U: Urban", "URBAN"],
         "_T": [""],
     },
     "DIM_QUANTILE": {

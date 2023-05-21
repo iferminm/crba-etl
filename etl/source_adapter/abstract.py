@@ -113,6 +113,7 @@ class SourceAdapter(ABC):
         self.dataframe.to_csv(
             self.config.staging_output / str(self.source_id + ".csv"),
             sep=";",
+            quotechar='"',
             index=False,
         )
 

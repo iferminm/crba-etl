@@ -201,7 +201,7 @@ dim_management_level_mapper = {
 }
 
 # Area type (rural vs urban)
-dim_area_type_tuple = ("RESIDENCEAREATYPE", "DIM_AREA_TYPE", "RESIDENCE:Residence")
+dim_area_type_tuple = ("RESIDENCEAREATYPE", "DIM_AREA_TYPE", "RESIDENCE:Residence", "dimensions.Location")
 dim_area_type_mapper = {key: "DIM_AREA_TYPE" for key in dim_area_type_tuple}
 
 # Quantile
