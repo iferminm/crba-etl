@@ -3093,7 +3093,7 @@
     "SOURCE_BODY": "UN SDG",
     "SOURCE_TITLE": "SDG Indicator 3.9.2, Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (per 100,000 population): ",
     "ADDRESS": "https:\/\/unstats.un.org\/sdgs\/indicators\/database\/?indicator=3.9.2",
-    "ENDPOINT_URL": "https:\/\/unstats.un.org\/SDGAPI\/v1\/sdg\/Series\/Data?seriesCode=SH_STA_WASH&pageSize=999999999",
+    "ENDPOINT_URL": "https:\/\/unstats.un.org\/SDGAPI\/v1\/sdg\/Series\/Data?seriesCode=SH_STA_WASHARI&pageSize=999999999",
     "un_treaty_data_col": null,
     "WPA_OBS_RAW_COL": null,
     "WPA_YEAR_COL": null,
