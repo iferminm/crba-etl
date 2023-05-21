@@ -2213,7 +2213,7 @@
     "SOURCE_BODY": "UNICEF",
     "SOURCE_TITLE": "Percentage of students (aged 13-15 years) who reported being bullied on 1 or more days in past 30 days: ",
     "ADDRESS": "https:\/\/data.unicef.org\/resources\/data_explorer\/unicef_f\/?ag=UNICEF&df=GLOBAL_DATAFLOW&ver=1.0&dq=.PT_ST_13-15_BUL_30-DYS..&startPeriod=2014&endPeriod=2019",
-    "ENDPOINT_URL": "https:\/\/sdmx.data.unicef.org\/ws\/public\/sdmxapi\/rest\/data\/UNICEF,PT,1.0\/.PT_ST_13-15_BUL_30-DYS......?format=csv",
+    "ENDPOINT_URL": "https:\/\/sdmx.data.unicef.org\/ws\/public\/sdmxapi\/rest\/data\/UNICEF,PT,1.0\/.PT_ST_13-15_BUL_30-DYS......?format=sdmx-csv",
     "un_treaty_data_col": null,
     "WPA_OBS_RAW_COL": null,
     "WPA_YEAR_COL": null,

@@ -109,6 +109,7 @@ iso_3_tuple = (
     "ISO3",
     "iso3",
     "REF_AREA:Country",
+    "REF_AREA:Geographic area"
 )
 iso_3_mapper = {key: "COUNTRY_ISO_3" for key in iso_3_tuple}
 
