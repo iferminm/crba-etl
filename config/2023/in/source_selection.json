@@ -52,9 +52,6 @@
   "S-13": {
     "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
   },
-  "S-14": {
-    "FILE_PATH": "raw\/S-21-total-HIZkLiYK.xlsx"
-  },
   "S-15": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
@@ -572,6 +569,11 @@
   "S-139": {
     "ENDPOINT_URL": "https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021",
     "EXTRACTOR_CLASS": "etl.source_adapter.nrgi.NRGI"
+  },
+  "S-140": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
   },
   "S-141": {
     "STARTPERIOD": "xxx",

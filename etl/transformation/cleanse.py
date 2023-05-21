@@ -112,7 +112,8 @@ def rename_and_discard_columns(
 
     # One UNICEF source S-221 has a different data structure, which requires extracting the ISO3 code
     try:
-        if "CAF: Central African Republic" in raw_data["COUNTRY_ISO_3"].unique():
+        if re.match("[A-Z]{3}: [a-zA-Z]*",raw_data["COUNTRY_ISO_3"][0]):
+        #if "CAF: Central African Republic" in raw_data["COUNTRY_ISO_3"].unique():
             log.info(
                 "The column COUNTRY_ISO_3 is of a different data structure. This should be the case only for S-221. Now extracting the actual ISO3 code from the column"
             )

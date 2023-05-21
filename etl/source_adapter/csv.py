@@ -42,7 +42,7 @@ class DefaultCSVExtractor(SourceAdapter):
 
         # print(dataframe)
         # Exception: S-126 is a UNICEF API source, but has a different structure (repetitive columns) --> rename them so they are being included in the rename_and_discard_columns function
-        if self.source_id == "S-126":
+        if self.source_id == "S-XXX":
             self.dataframe = self.dataframe.rename(
                 columns={
                     "Geographic area": "Geographic area_unused",
