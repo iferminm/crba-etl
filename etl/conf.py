@@ -219,7 +219,7 @@ class Config:
 
         # TODO replace with string io wrapper
         req = requests.get(adress)
-        with open(self.output_dir / "unicef_population_total.json", "w") as f:
+        with open(self.output_dir / "unicef_population_total.json", "w", encoding="utf-8") as f:
             f.write(req.text)
 
         df = sdmx.read_sdmx(self.output_dir / "unicef_population_total.json").to_pandas()
