@@ -13,7 +13,8 @@ class HumanEnteredBlueprintIndicatorBuilder(SourceAdapter):
     def __init__(self, config, RAW_OBS_VALUE_TYPE, **kwarg):
         super().__init__(config, **kwarg)
         self.raw_obs_value_type = RAW_OBS_VALUE_TYPE
-        self.normalise_to_100000 = kwarg["NORMALISE_TO_100000"]
+        self.normalise_to_100000 = kwarg.get("NORMALISE_TO_100000")
+
     _transform = ManualTransformer._transform
 
     def _download(self):
