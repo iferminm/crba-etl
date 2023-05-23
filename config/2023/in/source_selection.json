@@ -226,12 +226,6 @@
   "S-59": {
     "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
   },
-  "S-60": {
-    "FILE_PATH" : "../../../2020/in/data/staging/S-60.xlsx"
-  },
-  "S-61": {
-    "FILE_PATH" : "../../../2020/in/data/staging/S-61.xlsx"
-  },
   "S-62": {
     "STARTPERIOD": "xxx",
     "ENDPERIOD": "xxx",
@@ -798,11 +792,6 @@
   "S-190": {
     "startPeriod": "2020-01-01",
     "endPeriod": "2023-12-31"
-  },
-  "S-192": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
   },
   "S-193": {
     "STARTPERIOD": "xxx",
