@@ -502,9 +502,7 @@
     "TIMEPERIOD": "xxx"
   },
   "S-122": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+     "VALUE_ID": "V-64"
   },
   "S-123": {
     "STARTPERIOD": "xxx",
