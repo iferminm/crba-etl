@@ -407,9 +407,10 @@
     "TIMEPERIOD": "xxx"
   },
   "S-100": {
-    "STARTPERIOD": "xxx",
-    "ENDPERIOD": "xxx",
-    "TIMEPERIOD": "xxx"
+    "RAW_OBS_VALUE_TYPE": "continuous",
+    "INVERT_NORMALIZATION": "inverted",
+    "NORMALISE_TO_100000": true,
+    "VALUE_ID": "V-5"
   },
   "S-101": {
     "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
