@@ -568,10 +568,10 @@
   },
   {
     "VALUE_ID": "V-64",
-    "TYPE": NaN,
-    "RANGE": NaN,
-    "VALUE_ENCODING": NaN,
-    "VALUE_LABELS": NaN,
+    "TYPE": "Categorical",
+    "RANGE": "[0,1,2,3]",
+    "VALUE_ENCODING": "3=Yes - there is policy/strategy AND legislation.; 2=Partial - legislation but no strategy/policy; 1=No - no policy/strategy or legislation.; 1=No strategy or policy on child online protection; 0 = No data",
+    "VALUE_LABELS": "3=Yes - there is policy/strategy AND legislation; 2=Partial - legislation but no strategy/policy; 1=No - no policy/strategy or legislation; 0 = No data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   },
