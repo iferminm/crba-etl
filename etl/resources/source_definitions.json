@@ -1281,6 +1281,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "RETIRED because latest observation is older than 10 years",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-69"
   },
@@ -1303,6 +1304,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "RETIRED because latest observation is older than 10 years",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-70"
   },
@@ -4176,6 +4178,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "RETIRED because latest observation is older than 10 years",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-213"
   },
