@@ -101,7 +101,9 @@
                     "min_value": {"$PARAMETER": "TIME_PERIOD_SPAN_LOWER"},
                     "mostly": 1.0,
                     "strict_max": false,
-                    "strict_min": false
+                    "strict_min": false,
+                    "condition_parser": "pandas",
+                    "row_condition": "SCALED_OBS_VALUE.notnull()"
                },
                "meta": {
                     "profiler_details": {

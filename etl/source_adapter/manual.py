@@ -13,7 +13,7 @@ class HumanEnteredBlueprintIndicatorBuilder(SourceAdapter):
     def __init__(self, config, RAW_OBS_VALUE_TYPE, **kwarg):
         super().__init__(config, **kwarg)
         self.raw_obs_value_type = RAW_OBS_VALUE_TYPE
-
+        self.normalise_to_100000 = kwarg["NORMALISE_TO_100000"]
     _transform = ManualTransformer._transform
 
     def _download(self):
@@ -73,6 +73,23 @@ class HumanEnteredBlueprintIndicatorBuilder(SourceAdapter):
         # print(dataframe.RAW_OBS_VALUE.unique())
 
         self.dataframe = self.dataframe.dropna(axis="columns", how="all")
+
+        if self.normalise_to_100000:
+            # Join UN Population data to to obtain population size
+            self.dataframe = self.config.un_pop_tot.merge(
+                right=self.dataframe,
+                how="right",
+                # on="ISO3_YEAR"
+                left_on=["COUNTRY_ISO_3", "TIME_PERIOD"],
+                right_on=["COUNTRY_ISO_3", "TIME_PERIOD"],
+            )
+
+            # Calculate target KPI (number of Internally displaced people per 100.000 people)
+            self.dataframe["RAW_OBS_VALUE"] = (
+                    self.dataframe["RAW_OBS_VALUE"].astype(float) / (self.dataframe["population"]) * 100
+            )  # Pop given in thousands, we want number per 100.000 pop
+
+
         return self.dataframe
 
 

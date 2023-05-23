@@ -134,29 +134,11 @@ class Config:
 
         ## Extend the selected sources with additional informations
         ## All default values can be overwritten by the source_selection.config
-        self.crba_report_definition = (
-            self.source_selection.merge(
-                right=source_definitions,
-                on="SOURCE_ID",
-                how="left",
-                suffixes=(None, "_default"),
-            )
-            .merge(
-                right=indicator_definitions,
-                on="INDICATOR_ID",
-                how="left",
-                suffixes=(None, "_default"),
-                # Via source selection there shoulb be one source selected for each indicator
-                validate="one_to_one"
-            )
-            .merge(
-                right=df_value_type,
-                on="VALUE_ID",
-                how="left",
-                suffixes=(None, "_default"),
-                # Multiple Sources can have the same Value ID means can be mapped similarly
-                validate="many_to_one"
-            )
+        self.crba_report_definition = self.source_selection.merge(
+            right=source_definitions,
+            on="SOURCE_ID",
+            how="left",
+            suffixes=(None, "_default"),
         )
         # If a Value is defined in source_selction AND source_defintion
         # Take Value from source selection. If Value in Source selection in nan take Value form source_definition
@@ -167,6 +149,22 @@ class Config:
             if column + "_default" in self.crba_report_definition.columns:
                 self.crba_report_definition[column] = self.crba_report_definition[column].combine_first(
                     self.crba_report_definition[column + "_default"])
+
+        self.crba_report_definition = self.crba_report_definition.merge(
+            right=indicator_definitions,
+            on="INDICATOR_ID",
+            how="left",
+            suffixes=(None, "_default"),
+            # Via source selection there shoulb be one source selected for each indicator
+            validate="one_to_one"
+        ).merge(
+            right=df_value_type,
+            on="VALUE_ID",
+            how="left",
+            suffixes=(None, "_default"),
+            # Multiple Sources can have the same Value ID means can be mapped similarly
+            validate="many_to_one"
+        )
 
         self.crba_report_definition.set_index("SOURCE_ID").to_json(
             self.output_dir / "crba_report_definition.json", orient="index", indent=2
@@ -219,7 +217,7 @@ class Config:
 
         # TODO replace with string io wrapper
         req = requests.get(adress)
-        with open(self.output_dir / "unicef_population_total.json", "w") as f:
+        with open(self.output_dir / "unicef_population_total.json", "w", encoding="utf-8") as f:
             f.write(req.text)
 
         df = sdmx.read_sdmx(self.output_dir / "unicef_population_total.json").to_pandas()

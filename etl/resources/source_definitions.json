@@ -1281,6 +1281,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "RETIRED because latest observation is older than 10 years",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-69"
   },
@@ -1303,6 +1304,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "RETIRED because latest observation is older than 10 years",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-70"
   },
@@ -4176,6 +4178,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
+    "COMMENT": "RETIRED because latest observation is older than 10 years",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FROMER_SOURCE_ID": "S-213"
   },
@@ -4196,7 +4199,7 @@
     "ATTR_RATIFICATION_DATE_COLUMN_NAME": null,
     "ATTR_UNIT_MEASURE": null,
     "INVERT_NORMALIZATION": "not inverted",
-    "DIMENSION_VALUES_NORMALIZATION": null,
+    "DIMENSION_VALUES_NORMALIZATION": "DIM_AGE_GROUP==\"<5 YEARS\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
     "FROMER_SOURCE_ID": "S-214"
