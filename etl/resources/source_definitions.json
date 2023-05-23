@@ -4196,7 +4196,7 @@
     "ATTR_RATIFICATION_DATE_COLUMN_NAME": null,
     "ATTR_UNIT_MEASURE": null,
     "INVERT_NORMALIZATION": "not inverted",
-    "DIMENSION_VALUES_NORMALIZATION": null,
+    "DIMENSION_VALUES_NORMALIZATION": "DIM_AGE_GROUP==\"<5 YEARS\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
     "FROMER_SOURCE_ID": "S-214"
