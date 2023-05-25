@@ -77,6 +77,7 @@ then rerun the main file.
 # # # # # # # # # # # # #
 # Country name
 country_tuple = (
+    "country",
     "geoAreaName",
     "COUNTRY_NAME",
     "Geographic Area",
