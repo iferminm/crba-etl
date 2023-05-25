@@ -11166,7 +11166,7 @@
     "INDICATOR_CODE":"WP_DW_LF_SEXHAR",
     "TYPE":"Categorical",
     "RANGE":"[0,1,2,3]",
-    "VALUE_ENCODING":"3=5.0; 2=3.0; 1=1.0",
+    "VALUE_ENCODING":"3=5.0; 2=3.0; 2=2.0; 1=1.0",
     "VALUE_LABELS":"3=Yes for both women and men; 2=Only harassment of women; 1=No prohibition; 0=No data",
     "NA_ENCODING":null,
     "UNITS":null

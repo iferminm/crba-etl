@@ -1,194 +1,178 @@
-iso3;minwage_ppp;ATTR_ENDPOINT
-AFG;4.0;nan
-ALB;5.0;nan
-DZA;5.0;nan
-AND;;nan
-AGO;3.0;nan
-ATG;5.0;nan
-ARG;5.0;nan
-ARM;4.0;nan
-AUS;5.0;nan
-AUT;5.0;nan
-AZE;4.0;nan
-BHS;5.0;nan
-BHR;1.0;nan
-BGD;2.0;nan
-BRB;5.0;nan
-BLR;5.0;nan
-BEL;5.0;nan
-BLZ;5.0;nan
-BEN;3.0;nan
-BTN;4.0;nan
-BOL;4.0;nan
-BIH;5.0;nan
-BWA;4.0;nan
-BRA;5.0;nan
-BRN;1.0;nan
-BGR;5.0;nan
-BFA;3.0;nan
-BDI;2.0;nan
-KHM;2.0;nan
-CMR;3.0;nan
-CAN;5.0;nan
-CPV;1.0;nan
-CAF;2.0;nan
-TCD;3.0;nan
-CHL;5.0;nan
-CHN;3.0;nan
-COL;5.0;nan
-COM;3.0;nan
-COD;3.0;nan
-COG;4.0;nan
-CRI;5.0;nan
-CIV;3.0;nan
-HRV;5.0;nan
-CUB;;nan
-CYP;5.0;nan
-CZE;5.0;nan
-DNK;999.0;nan
-DJI;1.0;nan
-DMA;5.0;nan
-DOM;4.0;nan
-ECU;5.0;nan
-EGY;4.0;nan
-SLV;4.0;nan
-GNQ;4.0;nan
-ERI;1.0;nan
-EST;5.0;nan
-SWZ;3.0;nan
-ETH;1.0;nan
-FJI;4.0;nan
-FIN;999.0;nan
-FRA;5.0;nan
-GAB;4.0;nan
-GMB;2.0;nan
-GEO;2.0;nan
-DEU;999.0;nan
-GHA;3.0;nan
-GRC;5.0;nan
-GRD;5.0;nan
-GTM;4.0;nan
-GIN;1.0;nan
-GNB;3.0;nan
-GUY;4.0;nan
-HTI;4.0;nan
-HND;5.0;nan
-HUN;5.0;nan
-ISL;999.0;nan
-IND;3.0;nan
-IDN;4.0;nan
-IRN;5.0;nan
-IRQ;4.0;nan
-IRL;5.0;nan
-ISR;5.0;nan
-ITA;999.0;nan
-JAM;5.0;nan
-JPN;5.0;nan
-JOR;4.0;nan
-KAZ;4.0;nan
-KEN;3.0;nan
-KIR;1.0;nan
-PRK;;nan
-KOR;5.0;nan
-KWT;4.0;nan
-KGZ;;nan
-LAO;3.0;nan
-LVA;5.0;nan
-LBN;5.0;nan
-LSO;4.0;nan
-LBR;3.0;nan
-LBY;4.0;nan
-LIE;;nan
-LTU;5.0;nan
-LUX;5.0;nan
-MDG;3.0;nan
-MWI;2.0;nan
-MYS;1.0;nan
-MDV;1.0;nan
-MLI;3.0;nan
-MLT;5.0;nan
-MHL;;nan
-MRT;4.0;nan
-MUS;4.0;nan
-MEX;4.0;nan
-FSM;;nan
-MDA;4.0;nan
-MCO;;nan
-MNG;4.0;nan
-MNE;3.0;nan
-MAR;5.0;nan
-MOZ;4.0;nan
-MMR;2.0;nan
-NAM;1.0;nan
-NRU;1.0;nan
-NPL;4.0;nan
-NLD;5.0;nan
-NZL;5.0;nan
-NIC;4.0;nan
-NER;3.0;nan
-NGA;4.0;nan
-MKD;1.0;nan
-NOR;999.0;nan
-OMN;5.0;nan
-PAK;4.0;nan
-PLW;;nan
-PAN;4.0;nan
-PNG;4.0;nan
-PRY;5.0;nan
-PER;5.0;nan
-PHL;4.0;nan
-POL;5.0;nan
-PRT;5.0;nan
-QAT;1.0;nan
-ROU;5.0;nan
-RUS;4.0;nan
-RWA;;nan
-WSM;4.0;nan
-SMR;;nan
-STP;;nan
-SAU;1.0;nan
-SEN;3.0;nan
-SRB;5.0;nan
-SYC;5.0;nan
-SLE;2.0;nan
-SGP;1.0;nan
-SVK;5.0;nan
-SVN;5.0;nan
-SLB;3.0;nan
-SOM;1.0;nan
-ZAF;4.0;nan
-SSD;;nan
-ESP;5.0;nan
-LKA;3.0;nan
-KNA;5.0;nan
-LCA;3.0;nan
-VCT;5.0;nan
-SDN;3.0;nan
-SUR;1.0;nan
-SWE;999.0;nan
-CHE;999.0;nan
-SYR;4.0;nan
-TJK;2.0;nan
-TZA;4.0;nan
-THA;4.0;nan
-TLS;1.0;nan
-TGO;3.0;nan
-TON;1.0;nan
-TTO;5.0;nan
-TUN;4.0;nan
-TUR;5.0;nan
-TKM;;nan
-TUV;;nan
-UGA;2.0;nan
-UKR;5.0;nan
-ARE;1.0;nan
-GBR;5.0;nan
-USA;5.0;nan
-URY;5.0;nan
-UZB;3.0;nan
-VUT;5.0;nan
-VEN;5.0;nan
-VNM;3.0;nan
-YEM;1.0;nan
-ZMB;3.0;nan
-ZWE;;nan
+country;RAW_OBS_VALUE;ATTR_ENDPOINT
+Afghanistan;4.0;nan
+Albania;5.0;nan
+Algeria;5.0;nan
+Angola;3.0;nan
+Antigua and Barbuda;5.0;nan
+Argentina;5.0;nan
+Armenia;4.0;nan
+Australia;5.0;nan
+Austria;5.0;nan
+Azerbaijan;4.0;nan
+Bahamas;5.0;nan
+Bahrain;1.0;nan
+Bangladesh;2.0;nan
+Barbados;5.0;nan
+Belarus;5.0;nan
+Belgium;5.0;nan
+Belize;5.0;nan
+Benin;3.0;nan
+Bhutan;4.0;nan
+Bolivia;4.0;nan
+Bosnia-Herzogovina;5.0;nan
+Botswana;4.0;nan
+Brazil;5.0;nan
+Brunei;1.0;nan
+Bulgaria;5.0;nan
+Burkina Faso;3.0;nan
+Burundi;2.0;nan
+Cambodia;2.0;nan
+Cameroon;3.0;nan
+Canada;5.0;nan
+Cape Verde;1.0;nan
+Central African Republic;2.0;nan
+Chad;3.0;nan
+Chile;5.0;nan
+China;3.0;nan
+Colombia;5.0;nan
+Comoros;3.0;nan
+Congo, Democratic Republic of the;3.0;nan
+Congo, Republic of the Congo;4.0;nan
+Costa Rica;5.0;nan
+Cote d'Ivoire;3.0;nan
+Croatia;5.0;nan
+Cyprus;5.0;nan
+Czech Republic;5.0;nan
+Denmark;999.0;nan
+Djibouti;1.0;nan
+Dominica;5.0;nan
+Dominican Republic;4.0;nan
+Ecuador;5.0;nan
+Egypt;4.0;nan
+El Salvador;4.0;nan
+Equatorial Guinea;4.0;nan
+Eritrea;1.0;nan
+Estonia;5.0;nan
+Eswatini;3.0;nan
+Ethiopia;1.0;nan
+Fiji;4.0;nan
+Finland;999.0;nan
+France;5.0;nan
+Gabon;4.0;nan
+Gambia, the;2.0;nan
+Georgia;2.0;nan
+Germany;999.0;nan
+Ghana;3.0;nan
+Greece;5.0;nan
+Grenada;5.0;nan
+Guatemala;4.0;nan
+Guinea;1.0;nan
+Guinea-Bissau;3.0;nan
+Guyana;4.0;nan
+Haiti;4.0;nan
+Honduras;5.0;nan
+Hungary;5.0;nan
+Iceland;999.0;nan
+India;3.0;nan
+Indonesia;4.0;nan
+Iran, Islamic Republic of;5.0;nan
+Iraq;4.0;nan
+Ireland;5.0;nan
+Israel;5.0;nan
+Italy;999.0;nan
+Jamaica;5.0;nan
+Japan;5.0;nan
+Jordan;4.0;nan
+Kazakhstan;4.0;nan
+Kenya;3.0;nan
+Kiribati;1.0;nan
+Korea, Republic of;5.0;nan
+Kuwait;4.0;nan
+Laos;3.0;nan
+Latvia;5.0;nan
+Lebanon;5.0;nan
+Lesotho;4.0;nan
+Liberia;3.0;nan
+Libyan Arab Jamahiriya;4.0;nan
+Lithuania;5.0;nan
+Luxembourg;5.0;nan
+Madagascar;3.0;nan
+Malawi;2.0;nan
+Malaysia;1.0;nan
+Maldives;1.0;nan
+Mali;3.0;nan
+Malta;5.0;nan
+Mauritania;4.0;nan
+Mauritius;4.0;nan
+Mexico;4.0;nan
+Moldova, Republic of;4.0;nan
+Mongolia;4.0;nan
+Montenegro;3.0;nan
+Morocco;5.0;nan
+Mozambique;4.0;nan
+Myanmar;2.0;nan
+Namibia;1.0;nan
+Nauru;1.0;nan
+Nepal;4.0;nan
+Netherlands, the;5.0;nan
+New Zealand;5.0;nan
+Nicaragua;4.0;nan
+Niger;3.0;nan
+Nigeria;4.0;nan
+North Macedonia;1.0;nan
+Norway;999.0;nan
+Oman;5.0;nan
+Pakistan;4.0;nan
+Panama;4.0;nan
+Papua New Guinea;4.0;nan
+Paraguay;5.0;nan
+Peru;5.0;nan
+Philippines, the;4.0;nan
+Poland;5.0;nan
+Portugal;5.0;nan
+Qatar;1.0;nan
+Romania;5.0;nan
+Russian Federation;4.0;nan
+Samoa;4.0;nan
+Saudi Arabia;1.0;nan
+Senegal;3.0;nan
+Serbia;5.0;nan
+Seychelles;5.0;nan
+Sierra Leone;2.0;nan
+Singapore;1.0;nan
+Slovakia;5.0;nan
+Slovenia;5.0;nan
+Solomon Islands;3.0;nan
+Somalia;1.0;nan
+South Africa;4.0;nan
+Spain;5.0;nan
+Sri Lanka;3.0;nan
+St. Kitts and Nevis;5.0;nan
+St. Lucia;3.0;nan
+St. Vincent / Grenadines;5.0;nan
+Sudan, the;3.0;nan
+Suriname;1.0;nan
+Sweden;999.0;nan
+Switzerland;999.0;nan
+Syria;4.0;nan
+Tajikistan;2.0;nan
+Tanzania, United Republic of;4.0;nan
+Thailand;4.0;nan
+Timor-Leste;1.0;nan
+Togo;3.0;nan
+Tonga;1.0;nan
+Trinidad and Tobago;5.0;nan
+Tunisia;4.0;nan
+Turkey;5.0;nan
+Uganda;2.0;nan
+Ukraine;5.0;nan
+United Arab Emirates;1.0;nan
+United Kingdom;5.0;nan
+United States of America;5.0;nan
+Uruguay;5.0;nan
+Uzbekistan;3.0;nan
+Vanuatu;5.0;nan
+Venezuela;5.0;nan
+Vietnam;3.0;nan
+Yemen;1.0;nan
+Zambia;3.0;nan

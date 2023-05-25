@@ -1,194 +1,194 @@
-iso3;maternal_min_wrr_ilo;ATTR_ENDPOINT
-AFG;5;nan
-ALB;3;nan
-DZA;5;nan
-AND;5;nan
-AGO;5;nan
-ATG;3;nan
-ARG;5;nan
-ARM;2;nan
-AUS;2;nan
-AUT;2;nan
-AZE;2;nan
-BHS;5;nan
-BHR;5;nan
-BGD;5;nan
-BRB;5;nan
-BLR;3;nan
-BEL;2;nan
-BLZ;5;nan
-BEN;5;nan
-BTN;5;nan
-BOL;2;nan
-BIH;3;nan
-BWA;3;nan
-BRA;5;nan
-BRN;5;nan
-BGR;5;nan
-BFA;5;nan
-BDI;5;nan
-KHM;3;nan
-CMR;5;nan
-CAN;3;nan
-CPV;5;nan
-CAF;3;nan
-TCD;3;nan
-CHL;5;nan
-CHN;2;nan
-COL;5;nan
-COM;5;nan
-CRI;4;nan
-CIV;5;nan
-HRV;2;nan
-CUB;3;nan
-CYP;4;nan
-CZE;4;nan
-PRK;5;nan
-COD;4;nan
-DNK;4;nan
-DJI;5;nan
-DMA;3;nan
-DOM;5;nan
-ECU;5;nan
-EGY;5;nan
-SLV;5;nan
-GNQ;2;nan
-ERI;5;nan
-EST;5;nan
-SWZ;5;nan
-ETH;5;nan
-FJI;3;nan
-FIN;2;nan
-FRA;5;nan
-GAB;5;nan
-GEO;5;nan
-DEU;3;nan
-GHA;5;nan
-GRC;2;nan
-GRD;3;nan
-GTM;5;nan
-GIN;5;nan
-GNB;5;nan
-GUY;4;nan
-HTI;5;nan
-HND;5;nan
-HUN;2;nan
-ISL;5;nan
-IND;5;nan
-IDN;5;nan
-IRN;4;nan
-IRQ;5;nan
-IRL;2;nan
-ISR;5;nan
-ITA;3;nan
-JAM;5;nan
-JPN;3;nan
-JOR;5;nan
-KAZ;5;nan
-KEN;5;nan
-KIR;3;nan
-KWT;5;nan
-KGZ;2;nan
-LAO;5;nan
-LVA;3;nan
-LBN;5;nan
-LSO;5;nan
-LBR;5;nan
-LBY;5;nan
-LIE;5;nan
-LTU;3;nan
-LUX;2;nan
-MDG;5;nan
-MWI;5;nan
-MYS;5;nan
-MDV;5;nan
-MLI;5;nan
-MLT;2;nan
-MHL;1;nan
-MRT;5;nan
-MUS;5;nan
-MEX;5;nan
-FSM;1;nan
-MDA;2;nan
-MCO;5;nan
-MNG;4;nan
-MNE;3;nan
-MAR;5;nan
-MOZ;5;nan
-MMR;4;nan
-NAM;5;nan
-NRU;1;nan
-NPL;5;nan
-NZL;5;nan
-NIC;5;nan
-NER;5;nan
-NGA;3;nan
-MKD;5;nan
-NOR;5;nan
-OMN;5;nan
-PAK;5;nan
-PLW;1;nan
-PAN;5;nan
-PNG;1;nan
-PRY;3;nan
-PER;5;nan
-POL;3;nan
-PRT;3;nan
-QAT;5;nan
-KOR;3;nan
-COG;5;nan
-ROU;4;nan
-RUS;2;nan
-RWA;3;nan
-WSM;4;nan
-SMR;3;nan
-STP;5;nan
-SAU;3;nan
-SEN;5;nan
-SRB;3;nan
-SYC;5;nan
-SLE;5;nan
-SGP;5;nan
-SVK;2;nan
-SVN;2;nan
-SLB;3;nan
-SOM;3;nan
-ZAF;3;nan
-SSD;5;nan
-ESP;5;nan
-LKA;5;nan
-KNA;3;nan
-LCA;3;nan
-VCT;3;nan
-SDN;5;nan
-SUR;1;nan
-SWE;2;nan
-CHE;5;nan
-SYR;5;nan
-TJK;2;nan
-TZA;5;nan
-THA;5;nan
-GMB;5;nan
-NLD;5;nan
-PHL;5;nan
-TLS;5;nan
-TGO;5;nan
-TON;1;nan
-TTO;3;nan
-TUN;4;nan
-TUR;4;nan
-TKM;2;nan
-TUV;3;nan
-UGA;5;nan
-UKR;2;nan
-ARE;3;nan
-GBR;2;nan
-USA;1;nan
-URY;5;nan
-UZB;2;nan
-VUT;4;nan
-VEN;5;nan
-VNM;5;nan
-YEM;5;nan
-ZMB;5;nan
-ZWE;5;nan
+country;RAW_OBS_VALUE;ATTR_ENDPOINT
+Afghanistan;5;nan
+Albania;3;nan
+Algeria;5;nan
+Andorra;5;nan
+Angola;5;nan
+Antigua and Barbuda;3;nan
+Argentina;5;nan
+Armenia;2;nan
+Australia;2;nan
+Austria;2;nan
+Azerbaijan;2;nan
+Bahamas;5;nan
+Bahrain;5;nan
+Bangladesh;5;nan
+Barbados;5;nan
+Belarus;3;nan
+Belgium;2;nan
+Belize;5;nan
+Benin;5;nan
+Bhutan;5;nan
+Bolivia;2;nan
+Bosnia and Herzegovina;3;nan
+Botswana;3;nan
+Brazil;5;nan
+Brunei;5;nan
+Bulgaria;5;nan
+Burkina Faso;5;nan
+Burundi;5;nan
+Cambodia;3;nan
+Cameroon;5;nan
+Canada;3;nan
+Cape Verde;5;nan
+Central African Republic;3;nan
+Chad;3;nan
+Chile;5;nan
+China;2;nan
+Colombia;5;nan
+Comoros;5;nan
+Costa Rica;4;nan
+Cote d'Ivoire;5;nan
+Croatia;2;nan
+Cuba;3;nan
+Cyprus;4;nan
+Czech Republic;4;nan
+Democratic People's Republic of Korea;5;nan
+Democratic Republic of the Congo;4;nan
+Denmark;4;nan
+Djibouti;5;nan
+Dominica;3;nan
+Dominican Republic;5;nan
+Ecuador;5;nan
+Egypt;5;nan
+El Salvador;5;nan
+Equatorial Guinea;2;nan
+Eritrea;5;nan
+Estonia;5;nan
+Eswatini;5;nan
+Ethiopia;5;nan
+Fiji;3;nan
+Finland;2;nan
+France;5;nan
+Gabon;5;nan
+Georgia;5;nan
+Germany;3;nan
+Ghana;5;nan
+Greece;2;nan
+Grenada;3;nan
+Guatemala;5;nan
+Guinea;5;nan
+Guinea-Bissau;5;nan
+Guyana;4;nan
+Haiti;5;nan
+Honduras;5;nan
+Hungary;2;nan
+Iceland;5;nan
+India;5;nan
+Indonesia;5;nan
+Iran;4;nan
+Iraq;5;nan
+Ireland;2;nan
+Israel;5;nan
+Italy;3;nan
+Jamaica;5;nan
+Japan;3;nan
+Jordan;5;nan
+Kazakhstan;5;nan
+Kenya;5;nan
+Kiribati;3;nan
+Kuwait;5;nan
+Kyrgyzstan;2;nan
+Laos;5;nan
+Latvia;3;nan
+Lebanon;5;nan
+Lesotho;5;nan
+Liberia;5;nan
+Libya;5;nan
+Liechtenstein;5;nan
+Lithuania;3;nan
+Luxembourg;2;nan
+Madagascar;5;nan
+Malawi;5;nan
+Malaysia;5;nan
+Maldives;5;nan
+Mali;5;nan
+Malta;2;nan
+Marshall Islands;1;nan
+Mauritania;5;nan
+Mauritius;5;nan
+Mexico;5;nan
+Micronesia, Federated States of;1;nan
+Moldova;2;nan
+Monaco;5;nan
+Mongolia;4;nan
+Montenegro;3;nan
+Morocco;5;nan
+Mozambique;5;nan
+Myanmar;4;nan
+Namibia;5;nan
+Nauru;1;nan
+Nepal;5;nan
+New Zealand;5;nan
+Nicaragua;5;nan
+Niger;5;nan
+Nigeria;3;nan
+North Macedonia;5;nan
+Norway;5;nan
+Oman;5;nan
+Pakistan;5;nan
+Palau;1;nan
+Panama;5;nan
+Papua New Guinea;1;nan
+Paraguay;3;nan
+Peru;5;nan
+Poland;3;nan
+Portugal;3;nan
+Qatar;5;nan
+Republic of Korea;3;nan
+Republic of the Congo;5;nan
+Romania;4;nan
+Russian Federation;2;nan
+Rwanda;3;nan
+Samoa;4;nan
+San Marino;3;nan
+Sao Tome and Principe;5;nan
+Saudi Arabia;3;nan
+Senegal;5;nan
+Serbia;3;nan
+Seychelles;5;nan
+Sierra Leone;5;nan
+Singapore;5;nan
+Slovakia;2;nan
+Slovenia;2;nan
+Solomon Islands;3;nan
+Somalia;3;nan
+South Africa;3;nan
+South Sudan;5;nan
+Spain;5;nan
+Sri Lanka;5;nan
+St. Kitts and Nevis;3;nan
+St. Lucia;3;nan
+St. Vincent and the Grenadines;3;nan
+Sudan;5;nan
+Suriname;1;nan
+Sweden;2;nan
+Switzerland;5;nan
+Syria;5;nan
+Tajikistan;2;nan
+Tanzania;5;nan
+Thailand;5;nan
+The Gambia;5;nan
+The Netherlands;5;nan
+The Philippines;5;nan
+Timor-Leste;5;nan
+Togo;5;nan
+Tonga;1;nan
+Trinidad and Tobago;3;nan
+Tunisia;4;nan
+Türkiye;4;nan
+Turkmenistan;2;nan
+Tuvalu;3;nan
+Uganda;5;nan
+Ukraine;2;nan
+United Arab Emirates;3;nan
+United Kingdom;2;nan
+United States of America;1;nan
+Uruguay;5;nan
+Uzbekistan;2;nan
+Vanuatu;4;nan
+Venezuela;5;nan
+Vietnam;5;nan
+Yemen;5;nan
+Zambia;5;nan
+Zimbabwe;5;nan

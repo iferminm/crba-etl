@@ -1,194 +1,192 @@
-iso3;admiss_age;ATTR_ENDPOINT
-AFG;5.0;nan
-ALB;5.0;nan
-DZA;5.0;nan
-AND;5.0;nan
-AGO;5.0;nan
-ATG;3.0;nan
-ARG;5.0;nan
-ARM;5.0;nan
-AUS;4.0;nan
-AUT;4.0;nan
-AZE;4.0;nan
-BHS;5.0;nan
-BHR;4.0;nan
-BGD;3.0;nan
-BRB;5.0;nan
-BLR;5.0;nan
-BEL;4.0;nan
-BLZ;3.0;nan
-BEN;3.0;nan
-BTN;2.0;nan
-BOL;3.0;nan
-BIH;4.0;nan
-BWA;4.0;nan
-BRA;5.0;nan
-BRN;5.0;nan
-BGR;5.0;nan
-BFA;5.0;nan
-BDI;5.0;nan
-KHM;4.0;nan
-CMR;3.0;nan
-CAN;5.0;nan
-CPV;4.0;nan
-CAF;3.0;nan
-TCD;3.0;nan
-CHL;5.0;nan
-CHN;5.0;nan
-COL;4.0;nan
-COM;4.0;nan
-COD;5.0;nan
-COG;5.0;nan
-CRI;4.0;nan
-CIV;5.0;nan
-HRV;4.0;nan
-CUB;5.0;nan
-CYP;4.0;nan
-CZE;4.0;nan
-DNK;4.0;nan
-DJI;5.0;nan
-DMA;2.0;nan
-DOM;3.0;nan
-ECU;4.0;nan
-EGY;4.0;nan
-SLV;3.0;nan
-GNQ;5.0;nan
-ERI;3.0;nan
-EST;4.0;nan
-ETH;3.0;nan
-FJI;4.0;nan
-FIN;4.0;nan
-FRA;5.0;nan
-GAB;5.0;nan
-GMB;5.0;nan
-GEO;5.0;nan
-DEU;4.0;nan
-GHA;4.0;nan
-GRC;4.0;nan
-GRD;5.0;nan
-GTM;3.0;nan
-GIN;5.0;nan
-GNB;3.0;nan
-GUY;4.0;nan
-HTI;4.0;nan
-HND;3.0;nan
-HUN;5.0;nan
-ISL;5.0;nan
-IND;3.0;nan
-IDN;4.0;nan
-IRN;4.0;nan
-IRQ;4.0;nan
-IRL;5.0;nan
-ISR;4.0;nan
-ITA;4.0;nan
-JAM;4.0;nan
-JPN;4.0;nan
-JOR;5.0;nan
-KAZ;5.0;nan
-KEN;5.0;nan
-KIR;3.0;nan
-PRK;5.0;nan
-KOR;4.0;nan
-KWT;4.0;nan
-KGZ;5.0;nan
-LAO;3.0;nan
-LVA;4.0;nan
-LBN;3.0;nan
-LSO;4.0;nan
-LBR;4.0;nan
-LBY;5.0;nan
-LIE;4.0;nan
-LTU;5.0;nan
-LUX;4.0;nan
-MKD;4.0;nan
-MDG;4.0;nan
-MWI;3.0;nan
-MYS;4.0;nan
-MDV;5.0;nan
-MLI;3.0;nan
-MLT;5.0;nan
-MHL;1.0;nan
-MRT;3.0;nan
-MUS;5.0;nan
-MEX;4.0;nan
-FSM;1.0;nan
-MDA;5.0;nan
-MCO;5.0;nan
-MNG;5.0;nan
-MNE;4.0;nan
-MAR;4.0;nan
-MOZ;4.0;nan
-MMR;5.0;nan
-NAM;5.0;nan
-NRU;;nan
-NPL;3.0;nan
-NLD;5.0;nan
-NZL;1.0;nan
-NIC;5.0;nan
-NER;3.0;nan
-NGA;3.0;nan
-NOR;4.0;nan
-OMN;4.0;nan
-PAK;1.0;nan
-PLW;1.0;nan
-PAN;3.0;nan
-PNG;5.0;nan
-PRY;4.0;nan
-PER;3.0;nan
-PHL;4.0;nan
-POL;5.0;nan
-PRT;5.0;nan
-QAT;5.0;nan
-ROU;5.0;nan
-RUS;5.0;nan
-RWA;5.0;nan
-WSM;4.0;nan
-SMR;1.0;nan
-STP;3.0;nan
-SAU;4.0;nan
-SEN;4.0;nan
-SRB;4.0;nan
-SYC;4.0;nan
-SLE;4.0;nan
-SGP;4.0;nan
-SVK;4.0;nan
-SVN;4.0;nan
-SLB;2.0;nan
-SOM;4.0;nan
-ZAF;4.0;nan
-SSD;3.0;nan
-ESP;5.0;nan
-LKA;3.0;nan
-KNA;;nan
-LCA;4.0;nan
-VCT;3.0;nan
-SDN;3.0;nan
-SUR;3.0;nan
-SWZ;4.0;nan
-SWE;5.0;nan
-CHE;4.0;nan
-SYR;4.0;nan
-TJK;4.0;nan
-TZA;3.0;nan
-THA;4.0;nan
-TLS;4.0;nan
-TGO;4.0;nan
-TON;1.0;nan
-TTO;5.0;nan
-TUN;5.0;nan
-TUR;4.0;nan
-TKM;5.0;nan
-TUV;3.0;nan
-UGA;3.0;nan
-UKR;5.0;nan
-ARE;4.0;nan
-GBR;4.0;nan
-USA;5.0;nan
-URY;4.0;nan
-UZB;5.0;nan
-VUT;4.0;nan
-VEN;3.0;nan
-VNM;4.0;nan
-YEM;4.0;nan
-ZMB;4.0;nan
-ZWE;5.0;nan
+country;RAW_OBS_VALUE;ATTR_ENDPOINT
+Afghanistan;5.0;nan
+Albania;5.0;nan
+Algeria;5.0;nan
+Andorra;5.0;nan
+Angola;5.0;nan
+Antigua and Barbuda;3.0;nan
+Argentina;5.0;nan
+Armenia;5.0;nan
+Australia;4.0;nan
+Austria;4.0;nan
+Azerbaijan;4.0;nan
+Bahamas;5.0;nan
+Bahrain;4.0;nan
+Bangladesh;3.0;nan
+Barbados;5.0;nan
+Belarus;5.0;nan
+Belgium;4.0;nan
+Belize;3.0;nan
+Benin;3.0;nan
+Bhutan;2.0;nan
+Bolivia;3.0;nan
+Bosnia and Herzegovina;4.0;nan
+Botswana;4.0;nan
+Brazil;5.0;nan
+Brunei;5.0;nan
+Bulgaria;5.0;nan
+Burkina Faso;5.0;nan
+Burundi;5.0;nan
+Cambodia;4.0;nan
+Cameroon;3.0;nan
+Canada;5.0;nan
+Cabo Verde;4.0;nan
+Central African Republic;3.0;nan
+Chad;3.0;nan
+Chile;5.0;nan
+China;5.0;nan
+Colombia;4.0;nan
+Comoros;4.0;nan
+Democratic Republic of the Congo;5.0;nan
+Republic of the Congo;5.0;nan
+Costa Rica;4.0;nan
+Cote d'Ivoire;5.0;nan
+Croatia;4.0;nan
+Cuba;5.0;nan
+Cyprus;4.0;nan
+Czech Republic;4.0;nan
+Denmark;4.0;nan
+Djibouti;5.0;nan
+Dominica;2.0;nan
+Dominican Republic;3.0;nan
+Ecuador;4.0;nan
+Egypt;4.0;nan
+El Salvador;3.0;nan
+Equatorial Guinea;5.0;nan
+Eritrea;3.0;nan
+Estonia;4.0;nan
+Ethiopia;3.0;nan
+Fiji;4.0;nan
+Finland;4.0;nan
+France;5.0;nan
+Gabon;5.0;nan
+The Gambia;5.0;nan
+Georgia;5.0;nan
+Germany;4.0;nan
+Ghana;4.0;nan
+Greece;4.0;nan
+Grenada;5.0;nan
+Guatemala;3.0;nan
+Guinea;5.0;nan
+Guinea-Bissau;3.0;nan
+Guyana;4.0;nan
+Haiti;4.0;nan
+Honduras;3.0;nan
+Hungary;5.0;nan
+Iceland;5.0;nan
+India;3.0;nan
+Indonesia;4.0;nan
+Iran;4.0;nan
+Iraq;4.0;nan
+Ireland;5.0;nan
+Israel;4.0;nan
+Italy;4.0;nan
+Jamaica;4.0;nan
+Japan;4.0;nan
+Jordan;5.0;nan
+Kazakhstan;5.0;nan
+Kenya;5.0;nan
+Kiribati;3.0;nan
+Democratic People's Republic of Korea;5.0;nan
+Republic of Korea;4.0;nan
+Kuwait;4.0;nan
+Kyrgyzstan;5.0;nan
+Laos;3.0;nan
+Latvia;4.0;nan
+Lebanon;3.0;nan
+Lesotho;4.0;nan
+Liberia;4.0;nan
+Libya;5.0;nan
+Liechtenstein;4.0;nan
+Lithuania;5.0;nan
+Luxembourg;4.0;nan
+North Macedonia;4.0;nan
+Madagascar;4.0;nan
+Malawi;3.0;nan
+Malaysia;4.0;nan
+Maldives;5.0;nan
+Mali;3.0;nan
+Malta;5.0;nan
+Marshall Islands;1.0;nan
+Mauritania;3.0;nan
+Mauritius;5.0;nan
+Mexico;4.0;nan
+Micronesia, Federated States of;1.0;nan
+Moldova;5.0;nan
+Monaco;5.0;nan
+Mongolia;5.0;nan
+Montenegro;4.0;nan
+Morocco;4.0;nan
+Mozambique;4.0;nan
+Myanmar;5.0;nan
+Namibia;5.0;nan
+Nepal;3.0;nan
+The Netherlands;5.0;nan
+New Zealand;1.0;nan
+Nicaragua;5.0;nan
+Niger;3.0;nan
+Nigeria;3.0;nan
+Norway;4.0;nan
+Oman;4.0;nan
+Pakistan;1.0;nan
+Palau;1.0;nan
+Panama;3.0;nan
+Papua New Guinea;5.0;nan
+Paraguay;4.0;nan
+Peru;3.0;nan
+The Philippines;4.0;nan
+Poland;5.0;nan
+Portugal;5.0;nan
+Qatar;5.0;nan
+Romania;5.0;nan
+Russian Federation;5.0;nan
+Rwanda;5.0;nan
+Samoa;4.0;nan
+San Marino;1.0;nan
+Sao Tome and Principe;3.0;nan
+Saudi Arabia;4.0;nan
+Senegal;4.0;nan
+Serbia;4.0;nan
+Seychelles;4.0;nan
+Sierra Leone;4.0;nan
+Singapore;4.0;nan
+Slovakia;4.0;nan
+Slovenia;4.0;nan
+Solomon Islands;2.0;nan
+Somalia;4.0;nan
+South Africa;4.0;nan
+South Sudan;3.0;nan
+Spain;5.0;nan
+Sri Lanka;3.0;nan
+St. Lucia;4.0;nan
+St. Vincent and the Grenadines;3.0;nan
+Sudan;3.0;nan
+Suriname;3.0;nan
+Eswatini;4.0;nan
+Sweden;5.0;nan
+Switzerland;4.0;nan
+Syria;4.0;nan
+Tajikistan;4.0;nan
+Tanzania;3.0;nan
+Thailand;4.0;nan
+Timor-Leste;4.0;nan
+Togo;4.0;nan
+Tonga;1.0;nan
+Trinidad and Tobago;5.0;nan
+Tunisia;5.0;nan
+Turkey;4.0;nan
+Turkmenistan;5.0;nan
+Tuvalu;3.0;nan
+Uganda;3.0;nan
+Ukraine;5.0;nan
+United Arab Emirates;4.0;nan
+United Kingdom;4.0;nan
+United States of America;5.0;nan
+Uruguay;4.0;nan
+Uzbekistan;5.0;nan
+Vanuatu;4.0;nan
+Venezuela;3.0;nan
+Vietnam;4.0;nan
+Yemen;4.0;nan
+Zambia;4.0;nan
+Zimbabwe;5.0;nan

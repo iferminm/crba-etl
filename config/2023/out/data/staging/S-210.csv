@@ -1,194 +1,191 @@
-iso3;day_of_rest;ATTR_ENDPOINT
-AFG;3.0;nan
-ALB;3.0;nan
-DZA;3.0;nan
-AND;3.0;nan
-AGO;3.0;nan
-ATG;3.0;nan
-ARG;4.0;nan
-ARM;4.0;nan
-AUS;1.0;nan
-AUT;4.0;nan
-AZE;5.0;nan
-BHS;3.0;nan
-BHR;3.0;nan
-BGD;3.0;nan
-BRB;1.0;nan
-BLR;5.0;nan
-BEL;3.0;nan
-BLZ;3.0;nan
-BEN;3.0;nan
-BTN;3.0;nan
-BOL;3.0;nan
-BIH;3.0;nan
-BWA;3.0;nan
-BRA;3.0;nan
-BRN;3.0;nan
-BGR;4.0;nan
-BFA;3.0;nan
-BDI;1.0;nan
-KHM;3.0;nan
-CMR;3.0;nan
-CAN;3.0;nan
-CPV;3.0;nan
-CAF;3.0;nan
-TCD;3.0;nan
-CHL;4.0;nan
-CHN;3.0;nan
-COL;3.0;nan
-COM;3.0;nan
-CRI;3.0;nan
-CIV;3.0;nan
-HRV;3.0;nan
-CUB;3.0;nan
-CYP;3.0;nan
-CZE;4.0;nan
-PRK;3.0;nan
-COD;5.0;nan
-DNK;4.0;nan
-DJI;3.0;nan
-DMA;3.0;nan
-DOM;4.0;nan
-ECU;5.0;nan
-EGY;3.0;nan
-SLV;3.0;nan
-GNQ;3.0;nan
-ERI;3.0;nan
-EST;4.0;nan
-SWZ;1.0;nan
-ETH;3.0;nan
-FJI;3.0;nan
-FIN;4.0;nan
-FRA;3.0;nan
-GAB;3.0;nan
-GEO;1.0;nan
-DEU;4.0;nan
-GHA;5.0;nan
-GRC;3.0;nan
-GRD;3.0;nan
-GTM;3.0;nan
-GIN;3.0;nan
-GNB;3.0;nan
-GUY;1.0;nan
-HTI;3.0;nan
-HND;3.0;nan
-HUN;5.0;nan
-ISL;3.0;nan
-IND;1.0;nan
-IDN;3.0;nan
-IRN;3.0;nan
-IRQ;3.0;nan
-IRL;4.0;nan
-ISR;4.0;nan
-ITA;3.0;nan
-JAM;3.0;nan
-JPN;3.0;nan
-JOR;3.0;nan
-KAZ;3.0;nan
-KEN;3.0;nan
-KIR;1.0;nan
-KWT;3.0;nan
-KGZ;3.0;nan
-LAO;3.0;nan
-LVA;5.0;nan
-LBN;4.0;nan
-LSO;3.0;nan
-LBR;3.0;nan
-LBY;3.0;nan
-LIE;3.0;nan
-LTU;4.0;nan
-LUX;5.0;nan
-MDG;3.0;nan
-MWI;3.0;nan
-MYS;3.0;nan
-MDV;3.0;nan
-MLI;3.0;nan
-MLT;3.0;nan
-MHL;1.0;nan
-MRT;3.0;nan
-MUS;3.0;nan
-MEX;3.0;nan
-FSM;1.0;nan
-MDA;3.0;nan
-MCO;3.0;nan
-MNG;5.0;nan
-MNE;3.0;nan
-MAR;3.0;nan
-MOZ;;nan
-MMR;1.0;nan
-NAM;4.0;nan
-NRU;3.0;nan
-NPL;3.0;nan
-NZL;1.0;nan
-NIC;3.0;nan
-NER;3.0;nan
-NGA;3.0;nan
-MKD;3.0;nan
-NOR;4.0;nan
-OMN;5.0;nan
-PAK;1.0;nan
-PLW;;nan
-PAN;3.0;nan
-PNG;3.0;nan
-PRY;3.0;nan
-PER;3.0;nan
-POL;4.0;nan
-PRT;4.0;nan
-QAT;3.0;nan
-KOR;3.0;nan
-COG;3.0;nan
-ROU;5.0;nan
-RUS;5.0;nan
-RWA;3.0;nan
-WSM;3.0;nan
-SMR;3.0;nan
-STP;3.0;nan
-SAU;3.0;nan
-SEN;3.0;nan
-SRB;3.0;nan
-SYC;3.0;nan
-SLE;1.0;nan
-SGP;3.0;nan
-SVK;5.0;nan
-SVN;3.0;nan
-SLB;3.0;nan
-SOM;3.0;nan
-ZAF;4.0;nan
-SSD;1.0;nan
-ESP;4.0;nan
-LKA;1.0;nan
-KNA;;nan
-LCA;3.0;nan
-VCT;1.0;nan
-SDN;1.0;nan
-SUR;3.0;nan
-SWE;4.0;nan
-CHE;4.0;nan
-SYR;3.0;nan
-TJK;3.0;nan
-TZA;3.0;nan
-THA;3.0;nan
-GMB;1.0;nan
-NLD;4.0;nan
-PHL;3.0;nan
-TLS;3.0;nan
-TGO;3.0;nan
-TON;1.0;nan
-TTO;1.0;nan
-TUN;3.0;nan
-TUR;3.0;nan
-TKM;3.0;nan
-TUV;1.0;nan
-UGA;3.0;nan
-UKR;3.0;nan
-ARE;3.0;nan
-GBR;3.0;nan
-USA;1.0;nan
-URY;3.0;nan
-UZB;3.0;nan
-VUT;3.0;nan
-VEN;5.0;nan
-VNM;3.0;nan
-YEM;3.0;nan
-ZMB;1.0;nan
-ZWE;3.0;nan
+country;RAW_OBS_VALUE;ATTR_ENDPOINT
+Afghanistan;3.0;nan
+Albania;3.0;nan
+Algeria;3.0;nan
+Andorra;3.0;nan
+Angola;3.0;nan
+Antigua and Barbuda;3.0;nan
+Argentina;4.0;nan
+Armenia;4.0;nan
+Australia;1.0;nan
+Austria;4.0;nan
+Azerbaijan;5.0;nan
+Bahamas;3.0;nan
+Bahrain;3.0;nan
+Bangladesh;3.0;nan
+Barbados;1.0;nan
+Belarus;5.0;nan
+Belgium;3.0;nan
+Belize;3.0;nan
+Benin;3.0;nan
+Bhutan;3.0;nan
+Bolivia;3.0;nan
+Bosnia and Herzegovina;3.0;nan
+Botswana;3.0;nan
+Brazil;3.0;nan
+Brunei;3.0;nan
+Bulgaria;4.0;nan
+Burkina Faso;3.0;nan
+Burundi;1.0;nan
+Cambodia;3.0;nan
+Cameroon;3.0;nan
+Canada;3.0;nan
+Cape Verde;3.0;nan
+Central African Republic;3.0;nan
+Chad;3.0;nan
+Chile;4.0;nan
+China;3.0;nan
+Colombia;3.0;nan
+Comoros;3.0;nan
+Costa Rica;3.0;nan
+Cote d'Ivoire;3.0;nan
+Croatia;3.0;nan
+Cuba;3.0;nan
+Cyprus;3.0;nan
+Czech Republic;4.0;nan
+Democratic People's Republic of Korea;3.0;nan
+Democratic Republic of the Congo;5.0;nan
+Denmark;4.0;nan
+Djibouti;3.0;nan
+Dominica;3.0;nan
+Dominican Republic;4.0;nan
+Ecuador;5.0;nan
+Egypt;3.0;nan
+El Salvador;3.0;nan
+Equatorial Guinea;3.0;nan
+Eritrea;3.0;nan
+Estonia;4.0;nan
+Eswatini;1.0;nan
+Ethiopia;3.0;nan
+Fiji;3.0;nan
+Finland;4.0;nan
+France;3.0;nan
+Gabon;3.0;nan
+Georgia;1.0;nan
+Germany;4.0;nan
+Ghana;5.0;nan
+Greece;3.0;nan
+Grenada;3.0;nan
+Guatemala;3.0;nan
+Guinea;3.0;nan
+Guinea-Bissau;3.0;nan
+Guyana;1.0;nan
+Haiti;3.0;nan
+Honduras;3.0;nan
+Hungary;5.0;nan
+Iceland;3.0;nan
+India;1.0;nan
+Indonesia;3.0;nan
+Iran;3.0;nan
+Iraq;3.0;nan
+Ireland;4.0;nan
+Israel;4.0;nan
+Italy;3.0;nan
+Jamaica;3.0;nan
+Japan;3.0;nan
+Jordan;3.0;nan
+Kazakhstan;3.0;nan
+Kenya;3.0;nan
+Kiribati;1.0;nan
+Kuwait;3.0;nan
+Kyrgyzstan;3.0;nan
+Laos;3.0;nan
+Latvia;5.0;nan
+Lebanon;4.0;nan
+Lesotho;3.0;nan
+Liberia;3.0;nan
+Libya;3.0;nan
+Liechtenstein;3.0;nan
+Lithuania;4.0;nan
+Luxembourg;5.0;nan
+Madagascar;3.0;nan
+Malawi;3.0;nan
+Malaysia;3.0;nan
+Maldives;3.0;nan
+Mali;3.0;nan
+Malta;3.0;nan
+Marshall Islands;1.0;nan
+Mauritania;3.0;nan
+Mauritius;3.0;nan
+Mexico;3.0;nan
+Micronesia, Federated States of;1.0;nan
+Moldova;3.0;nan
+Monaco;3.0;nan
+Mongolia;5.0;nan
+Montenegro;3.0;nan
+Morocco;3.0;nan
+Myanmar;1.0;nan
+Namibia;4.0;nan
+Nauru;3.0;nan
+Nepal;3.0;nan
+New Zealand;1.0;nan
+Nicaragua;3.0;nan
+Niger;3.0;nan
+Nigeria;3.0;nan
+North Macedonia;3.0;nan
+Norway;4.0;nan
+Oman;5.0;nan
+Pakistan;1.0;nan
+Panama;3.0;nan
+Papua New Guinea;3.0;nan
+Paraguay;3.0;nan
+Peru;3.0;nan
+Poland;4.0;nan
+Portugal;4.0;nan
+Qatar;3.0;nan
+Republic of Korea;3.0;nan
+Republic of the Congo;3.0;nan
+Romania;5.0;nan
+Russian Federation;5.0;nan
+Rwanda;3.0;nan
+Samoa;3.0;nan
+San Marino;3.0;nan
+Sao Tome and Principe;3.0;nan
+Saudi Arabia;3.0;nan
+Senegal;3.0;nan
+Serbia;3.0;nan
+Seychelles;3.0;nan
+Sierra Leone;1.0;nan
+Singapore;3.0;nan
+Slovakia;5.0;nan
+Slovenia;3.0;nan
+Solomon Islands;3.0;nan
+Somalia;3.0;nan
+South Africa;4.0;nan
+South Sudan;1.0;nan
+Spain;4.0;nan
+Sri Lanka;1.0;nan
+St. Lucia;3.0;nan
+St. Vincent and the Grenadines;1.0;nan
+Sudan;1.0;nan
+Suriname;3.0;nan
+Sweden;4.0;nan
+Switzerland;4.0;nan
+Syria;3.0;nan
+Tajikistan;3.0;nan
+Tanzania;3.0;nan
+Thailand;3.0;nan
+The Gambia;1.0;nan
+The Netherlands;4.0;nan
+The Philippines;3.0;nan
+Timor-Leste;3.0;nan
+Togo;3.0;nan
+Tonga;1.0;nan
+Trinidad and Tobago;1.0;nan
+Tunisia;3.0;nan
+Türkiye;3.0;nan
+Turkmenistan;3.0;nan
+Tuvalu;1.0;nan
+Uganda;3.0;nan
+Ukraine;3.0;nan
+United Arab Emirates;3.0;nan
+United Kingdom;3.0;nan
+United States of America;1.0;nan
+Uruguay;3.0;nan
+Uzbekistan;3.0;nan
+Vanuatu;3.0;nan
+Venezuela;5.0;nan
+Vietnam;3.0;nan
+Yemen;3.0;nan
+Zambia;1.0;nan
+Zimbabwe;3.0;nan
