@@ -42,7 +42,7 @@ def build_combined_normalized_csv(config):
             ):
                 try:
                     #TODO Make as sys arg
-                    cached = True
+                    cached = False
                     if not cached:
                         row = row.dropna().to_dict()
                         extractor = dynamic_load(row["EXTRACTOR_CLASS"])(config, **row)
