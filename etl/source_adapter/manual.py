@@ -293,14 +293,15 @@ class Global_Slavery_Index(SourceAdapter):
 
     def __init__(self, config, **kwarg):
         super().__init__(config, **kwarg)
-
+        self.sheet_name=kwarg.get("SHEET_NAME") 
     _transform = ManualTransformer._transform
 
     def _download(self):
         self.dataframe = pd.read_excel(
             self.config.input_data_data / self.file_path,
             header=2,
-            sheet_name="Global prev, vuln, govt table",
+            sheet_name=self.sheet_name,
+            #sheet_name="Global prev, vuln, govt table",
         )
 
         # THhs daat represents the 2018 global slavery index data. Add time period
@@ -315,7 +316,7 @@ class Global_Slavery_Index(SourceAdapter):
         self.dataframe = self.dataframe.rename(
             columns={
                 "Country ": "COUNTRY_NAME",
-                "Est. prevalence of population in modern slavery (victims per 1,000 population)": "RAW_OBS_VALUE",
+                self.raw_obs_value_column_name: "RAW_OBS_VALUE",
             }
         )
 
