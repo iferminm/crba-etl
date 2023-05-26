@@ -213,6 +213,7 @@
     "INVERT_NORMALIZATION": "not inverted",
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
+    "COMMENT": "RETIRED: covered by other indicators in this category",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Economist_Intelligence_Unit",
     "FROMER_SOURCE_ID": "S-11"
   },
