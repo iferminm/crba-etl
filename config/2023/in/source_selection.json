@@ -196,7 +196,9 @@
     "TIMEPERIOD": "xxx"
   },
   "S-51": {
-    "FILE_PATH": "../../../2020/in/data/raw/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx"
+    "FILE_PATH": "../../../2023/in/data/raw/S-60-2023-Global-Slavery-Index-Data.xlsx",
+    "SHEET_NAME": "GSI 2023 summary data",
+    "RAW_OBS_VALUE_COLUMN_NAME" : "Estimated prevalence of modern slavery per 1,000 population"
   },
   "S-52": {
     "STARTPERIOD": "xxx",
