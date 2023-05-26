@@ -2,7 +2,6 @@ import re
 
 import numpy as np
 import pandas as pd
-import requests
 
 from etl.methology import country_iso_list
 from etl.source_adapter import ManualTransformer
@@ -92,6 +91,9 @@ class HumanEnteredBlueprintIndicatorBuilder(SourceAdapter):
 
 
         return self.dataframe
+
+
+
 
 
 class Economist_Intelligence_Unit(SourceAdapter):
@@ -293,14 +295,16 @@ class Global_Slavery_Index(SourceAdapter):
 
     def __init__(self, config, **kwarg):
         super().__init__(config, **kwarg)
-
+        self.sheet_name=kwarg.get("SHEET_NAME") 
     _transform = ManualTransformer._transform
 
     def _download(self):
         self.dataframe = pd.read_excel(
-            self.config.input_data_data / self.file_path,
+            self.config.input_data_data
+            / self.file_path,
             header=2,
-            sheet_name="Global prev, vuln, govt table",
+            sheet_name=self.sheet_name,
+            #sheet_name="Global prev, vuln, govt table",
         )
 
         # THhs daat represents the 2018 global slavery index data. Add time period
@@ -315,7 +319,41 @@ class Global_Slavery_Index(SourceAdapter):
         self.dataframe = self.dataframe.rename(
             columns={
                 "Country ": "COUNTRY_NAME",
-                "Est. prevalence of population in modern slavery (victims per 1,000 population)": "RAW_OBS_VALUE",
+                self.raw_obs_value_column_name: "RAW_OBS_VALUE",
+            }
+        )
+
+        return self.dataframe
+
+
+class Climate_Watch_Data_S_153(SourceAdapter):
+    """
+    S-153
+    """
+
+    def __init__(self, config, **kwarg):
+        super().__init__(config, **kwarg)
+
+    _transform = ManualTransformer._transform
+
+    def _download(self):
+        self.dataframe = pd.read_csv(
+            self.config.input_data_data / self.file_path
+        )
+
+        # Cleanse target value variable (some encoding issues)
+        self.dataframe.Value = self.dataframe.Value.apply(
+            lambda x: re.sub(";<br>.+", "", x)
+        )
+
+        # Cleanse target value variable (some encoding issues)
+        self.dataframe["TIME_PERIOD"] = 2020
+
+        # Rename column so that it doesn't cause error downstream
+        self.dataframe = self.dataframe.rename(
+            columns={
+                "Sector": "sector_not_used",
+                "Subsector": "sub_sector_not_used",
             }
         )
 
@@ -332,8 +370,11 @@ class Climate_Watch_Data_S_159(ManualTransformer):
 
     def _download(self):
         self.dataframe = pd.read_csv(
-            self.config.input_data_data / self.file_path, sep=",", na_values="false"
+            self.config.input_data_data / self.file_path,
+            sep=",",
+            na_values="false"
         )
+
 
         # Unpivot the data
         self.dataframe = self.dataframe.melt(

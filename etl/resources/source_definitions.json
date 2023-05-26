@@ -213,6 +213,7 @@
     "INVERT_NORMALIZATION": "not inverted",
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
+    "COMMENT": "RETIRED: covered by other indicators in this category",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Economist_Intelligence_Unit",
     "FROMER_SOURCE_ID": "S-11"
   },
@@ -2936,11 +2937,10 @@
   "S-136": {
     "INDICATOR_ID": "I-133",
     "VALUE_ID": "V-49",
-    "SOURCE_TYPE": "API",
+    "SOURCE_TYPE": "Excel (no URL)",
     "SOURCE_BODY": "Climate Watch",
     "SOURCE_TITLE": "CAIT Climate Data Explorer, Paris Contributions, INDC: ",
     "ADDRESS": "https:\/\/www.climatewatchdata.org\/ndcs-explore",
-    "ENDPOINT_URL": "https://www.climatewatchdata.org/api/v1/data/ndc_content?category_ids[]=29884&indicator_ids[]=286571&indicator_ids[]=286570",
     "un_treaty_data_col": null,
     "WPA_OBS_RAW_COL": null,
     "WPA_YEAR_COL": null,
@@ -2952,8 +2952,7 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
-    "COMMENT": "Use of API: Description in header of https://www.climatewatchdata.org/api/v1/data/ndc_content/meta",
-    "EXTRACTOR_CLASS": "etl.source_adapter.cwd.Climate_Watch_Data_Paris_Contributions",
+    "EXTRACTOR_CLASS": "etl.source_adapter.manual.Climate_Watch_Data_S_153",
     "FROMER_SOURCE_ID": "S-153"
   },
   "S-137": {
