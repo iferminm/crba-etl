@@ -1,366 +1,199 @@
-2023-05-25 11:53:41,230 INFO build_combined_normalized_csv(30) 199 sources selected to process
-2023-05-25 11:53:44,975 INFO build_combined_normalized_csv(47) Source S-1 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:53:48,788 INFO build_combined_normalized_csv(47) Source S-2 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:53:49,023 INFO build_combined_normalized_csv(47) Source S-3 extract with 195 rows::: UnTreaties
-2023-05-25 11:53:49,194 INFO build_combined_normalized_csv(47) Source S-4 extract with 195 rows::: UnTreaties
-2023-05-25 11:53:53,375 INFO build_combined_normalized_csv(47) Source S-5 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:53:58,201 INFO build_combined_normalized_csv(47) Source S-6 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:00,868 INFO build_combined_normalized_csv(47) Source S-7 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:01,350 INFO build_combined_normalized_csv(47) Source S-15 extract with 954 rows::: DefaultJsonExtractor
-2023-05-25 11:54:01,697 INFO build_combined_normalized_csv(47) Source S-16 extract with 954 rows::: DefaultJsonExtractor
-2023-05-25 11:54:01,836 INFO build_combined_normalized_csv(47) Source S-17 extract with 381 rows::: DefaultJsonExtractor
-2023-05-25 11:54:05,066 INFO build_combined_normalized_csv(47) Source S-18 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:07,385 INFO build_combined_normalized_csv(47) Source S-19 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:10,139 INFO build_combined_normalized_csv(47) Source S-20 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:12,760 INFO build_combined_normalized_csv(47) Source S-21 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:16,661 INFO build_combined_normalized_csv(47) Source S-22 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:19,766 INFO build_combined_normalized_csv(47) Source S-23 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:19,926 INFO build_combined_normalized_csv(47) Source S-24 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:23,947 INFO build_combined_normalized_csv(47) Source S-25 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:27,627 INFO build_combined_normalized_csv(47) Source S-26 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:31,247 INFO build_combined_normalized_csv(47) Source S-27 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:34,644 INFO build_combined_normalized_csv(47) Source S-28 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:34,982 INFO build_combined_normalized_csv(47) Source S-43 extract with 541 rows::: DefaultCSVExtractor
-2023-05-25 11:54:35,231 INFO build_combined_normalized_csv(47) Source S-221 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:35,424 INFO build_combined_normalized_csv(47) Source S-46 extract with 379 rows::: DefaultCSVExtractor
-2023-05-25 11:54:35,623 INFO build_combined_normalized_csv(47) Source S-47 extract with 409 rows::: DefaultCSVExtractor
-2023-05-25 11:54:38,315 INFO build_combined_normalized_csv(47) Source S-48 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:41,061 INFO build_combined_normalized_csv(47) Source S-49 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:41,422 INFO build_combined_normalized_csv(47) Source S-50 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:41,612 INFO build_combined_normalized_csv(47) Source S-52 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:41,964 INFO build_combined_normalized_csv(47) Source S-53 extract with 970 rows::: DefaultJsonExtractor
-2023-05-25 11:54:42,061 INFO build_combined_normalized_csv(47) Source S-62 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:42,183 INFO build_combined_normalized_csv(47) Source S-63 extract with 312 rows::: DefaultJsonExtractor
-2023-05-25 11:54:42,304 INFO build_combined_normalized_csv(47) Source S-65 extract with 312 rows::: DefaultJsonExtractor
-2023-05-25 11:54:42,487 INFO build_combined_normalized_csv(47) Source S-66 extract with 265 rows::: DefaultJsonExtractor
-2023-05-25 11:54:42,606 INFO build_combined_normalized_csv(47) Source S-67 extract with 265 rows::: DefaultJsonExtractor
-2023-05-25 11:54:42,649 INFO build_combined_normalized_csv(47) Source S-68 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:42,717 INFO build_combined_normalized_csv(47) Source S-69 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:42,754 INFO build_combined_normalized_csv(47) Source S-70 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:42,792 INFO build_combined_normalized_csv(47) Source S-71 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:42,939 INFO build_combined_normalized_csv(47) Source S-72 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:42,984 INFO build_combined_normalized_csv(47) Source S-74 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:43,030 INFO build_combined_normalized_csv(47) Source S-76 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:43,083 INFO build_combined_normalized_csv(47) Source S-77 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:43,137 INFO build_combined_normalized_csv(47) Source S-78 extract with 579 rows::: DefaultCSVExtractor
-2023-05-25 11:54:43,190 INFO build_combined_normalized_csv(47) Source S-79 extract with 579 rows::: DefaultCSVExtractor
-2023-05-25 11:54:43,230 INFO build_combined_normalized_csv(47) Source S-80 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:43,324 INFO build_combined_normalized_csv(47) Source S-81 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:43,393 INFO build_combined_normalized_csv(47) Source S-82 extract with 461 rows::: DefaultCSVExtractor
-2023-05-25 11:54:43,456 INFO build_combined_normalized_csv(47) Source S-83 extract with 331 rows::: DefaultCSVExtractor
-2023-05-25 11:54:43,610 INFO build_combined_normalized_csv(47) Source S-84 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:44,603 INFO build_combined_normalized_csv(47) Source S-85 extract with 1699 rows::: DefaultCSVExtractor
-2023-05-25 11:54:44,674 INFO build_combined_normalized_csv(47) Source S-86 extract with 195 rows::: GlobalHealthObservatory
-2023-05-25 11:54:44,745 INFO build_combined_normalized_csv(47) Source S-87 extract with 195 rows::: GlobalHealthObservatory
-2023-05-25 11:54:44,879 INFO build_combined_normalized_csv(47) Source S-88 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:45,043 INFO build_combined_normalized_csv(47) Source S-89 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:45,206 INFO build_combined_normalized_csv(47) Source S-90 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:45,392 INFO build_combined_normalized_csv(47) Source S-91 extract with 561 rows::: DefaultCSVExtractor
-2023-05-25 11:54:45,740 INFO build_combined_normalized_csv(47) Source S-92 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:45,932 INFO build_combined_normalized_csv(47) Source S-93 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:46,183 INFO build_combined_normalized_csv(47) Source S-98 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:46,419 INFO build_combined_normalized_csv(47) Source S-99 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:46,647 INFO build_combined_normalized_csv(47) Source S-102 extract with 207 rows::: DefaultJsonExtractor
-2023-05-25 11:54:46,909 INFO build_combined_normalized_csv(47) Source S-103 extract with 444 rows::: DefaultCSVExtractor
-2023-05-25 11:54:47,154 INFO build_combined_normalized_csv(47) Source S-108 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:47,412 INFO build_combined_normalized_csv(47) Source S-109 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:47,812 INFO build_combined_normalized_csv(47) Source S-110 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:48,087 INFO build_combined_normalized_csv(47) Source S-111 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:48,366 INFO build_combined_normalized_csv(47) Source S-112 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:48,641 INFO build_combined_normalized_csv(47) Source S-113 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:48,969 INFO build_combined_normalized_csv(47) Source S-114 extract with 195 rows::: CRIN_Treaties
-2023-05-25 11:54:49,074 INFO build_combined_normalized_csv(47) Source S-119 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:49,163 INFO build_combined_normalized_csv(47) Source S-120 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:54:49,317 INFO build_combined_normalized_csv(47) Source S-121 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:49,510 INFO build_combined_normalized_csv(47) Source S-123 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:49,855 INFO build_combined_normalized_csv(47) Source S-124 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:50,080 INFO build_combined_normalized_csv(47) Source S-125 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:50,310 INFO build_combined_normalized_csv(47) Source S-126 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:50,547 INFO build_combined_normalized_csv(47) Source S-127 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:50,696 INFO build_combined_normalized_csv(47) Source S-128 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:50,792 INFO build_combined_normalized_csv(47) Source S-137 extract with 195 rows::: EITIIndicatorBuilder
-2023-05-25 11:54:50,934 INFO build_combined_normalized_csv(47) Source S-140 extract with 195 rows::: S_157
-2023-05-25 11:54:51,276 INFO build_combined_normalized_csv(47) Source S-141 extract with 941 rows::: DefaultCSVExtractor
-2023-05-25 11:54:51,461 INFO build_combined_normalized_csv(47) Source S-143 extract with 196 rows::: DefaultJsonExtractor
-2023-05-25 11:54:51,644 INFO build_combined_normalized_csv(47) Source S-144 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:52,165 INFO build_combined_normalized_csv(47) Source S-145 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:52,346 INFO build_combined_normalized_csv(47) Source S-147 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:52,582 WARNING create_log_report_delete_duplicates(771) WARNING: There are 8 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
-2023-05-25 11:54:52,617 INFO build_combined_normalized_csv(47) Source S-149 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:54:53,550 INFO build_combined_normalized_csv(47) Source S-151 extract with 195 rows::: ICRC_Treaties
-2023-05-25 11:54:54,314 INFO build_combined_normalized_csv(47) Source S-152 extract with 195 rows::: ICRC_Treaties
-2023-05-25 11:54:54,994 INFO build_combined_normalized_csv(47) Source S-153 extract with 195 rows::: ICRC_Treaties
-2023-05-25 11:54:55,132 INFO build_combined_normalized_csv(47) Source S-154 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:55,299 INFO build_combined_normalized_csv(47) Source S-155 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:54:55,772 INFO build_combined_normalized_csv(47) Source S-156 extract with 195 rows::: UnTreaties
-2023-05-25 11:54:59,699 INFO build_combined_normalized_csv(47) Source S-157 extract with 195 rows::: ILO_Extractor
-2023-05-25 11:54:59,847 INFO build_combined_normalized_csv(47) Source S-160 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:00,011 INFO build_combined_normalized_csv(47) Source S-220 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:01,354 INFO build_combined_normalized_csv(47) Source S-163 extract with 195 rows::: IDMC_Extractor
-2023-05-25 11:55:01,517 INFO build_combined_normalized_csv(47) Source S-164 extract with 195 rows::: UnTreaties
-2023-05-25 11:55:01,930 INFO build_combined_normalized_csv(47) Source S-165 extract with 417 rows::: DefaultJsonExtractor
-2023-05-25 11:55:02,447 INFO build_combined_normalized_csv(47) Source S-166 extract with 509 rows::: DefaultJsonExtractor
-2023-05-25 11:55:02,796 INFO build_combined_normalized_csv(47) Source S-167 extract with 399 rows::: UN_SDG_UN_POP
-2023-05-25 11:55:03,006 INFO build_combined_normalized_csv(47) Source S-168 extract with 195 rows::: UN_SDG_UN_POP
-2023-05-25 11:55:03,220 INFO build_combined_normalized_csv(47) Source S-169 extract with 195 rows::: UN_SDG_UN_POP
-2023-05-25 11:55:03,607 INFO build_combined_normalized_csv(47) Source S-170 extract with 195 rows::: UN_SDG_UN_POP
-2023-05-25 11:55:04,900 INFO build_combined_normalized_csv(47) Source S-171 extract with 195 rows::: IDMC_Extractor
-2023-05-25 11:55:06,930 INFO build_combined_normalized_csv(47) Source S-172 extract with 195 rows::: Inform_Risk_Index_Data
-2023-05-25 11:55:07,384 INFO build_combined_normalized_csv(47) Source S-173 extract with 195 rows::: UnTreaties
-2023-05-25 11:55:07,534 INFO build_combined_normalized_csv(47) Source S-174 extract with 195 rows::: UnTreaties
-2023-05-25 11:55:07,854 INFO build_combined_normalized_csv(47) Source S-175 extract with 195 rows::: CRIN_Treaties
-2023-05-25 11:55:08,149 INFO build_combined_normalized_csv(47) Source S-180 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:55:08,271 INFO build_combined_normalized_csv(47) Source S-181 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:55:11,297 INFO build_combined_normalized_csv(47) Source S-184 extract with 1259 rows::: DefaultJsonExtractor
-2023-05-25 11:55:11,389 INFO build_combined_normalized_csv(47) Source S-186 extract with 579 rows::: DefaultCSVExtractor
-2023-05-25 11:55:11,600 INFO build_combined_normalized_csv(47) Source S-187 extract with 363 rows::: DefaultCSVExtractor
-2023-05-25 11:55:11,694 INFO build_combined_normalized_csv(47) Source S-188 extract with 579 rows::: DefaultCSVExtractor
-2023-05-25 11:55:11,779 INFO build_combined_normalized_csv(47) Source S-189 extract with 579 rows::: DefaultCSVExtractor
-2023-05-25 11:55:12,068 INFO build_combined_normalized_csv(47) Source S-193 extract with 715 rows::: DefaultJsonExtractor
-2023-05-25 11:55:13,777 INFO build_combined_normalized_csv(47) Source S-194 extract with 4945 rows::: DefaultCSVExtractor
-2023-05-25 11:55:13,921 INFO build_combined_normalized_csv(47) Source S-196 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:55:14,060 INFO build_combined_normalized_csv(47) Source S-197 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:55:14,326 INFO build_combined_normalized_csv(47) Source S-198 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:55:14,593 INFO build_combined_normalized_csv(47) Source S-199 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:55:15,989 INFO build_combined_normalized_csv(47) Source S-200 extract with 3187 rows::: DefaultCSVExtractor
-2023-05-25 11:55:16,661 INFO build_combined_normalized_csv(47) Source S-201 extract with 445 rows::: DefaultJsonExtractor
-2023-05-25 11:55:16,922 INFO build_combined_normalized_csv(47) Source S-202 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:55:17,084 INFO build_combined_normalized_csv(47) Source S-203 extract with 196 rows::: DefaultJsonExtractor
-2023-05-25 11:55:17,249 INFO build_combined_normalized_csv(47) Source S-204 extract with 196 rows::: DefaultJsonExtractor
-2023-05-25 11:55:17,635 INFO build_combined_normalized_csv(47) Source S-205 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:55:17,908 INFO build_combined_normalized_csv(47) Source S-206 extract with 453 rows::: DefaultJsonExtractor
-2023-05-25 11:55:18,062 INFO build_combined_normalized_csv(47) Source S-207 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:19,329 INFO build_combined_normalized_csv(47) Source S-209 extract with 195 rows::: IDMC_Extractor
-2023-05-25 11:55:19,468 INFO build_combined_normalized_csv(47) Source S-213 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:19,619 INFO build_combined_normalized_csv(47) Source S-215 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:19,768 INFO build_combined_normalized_csv(47) Source S-216 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:19,907 INFO build_combined_normalized_csv(47) Source S-217 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:20,412 INFO build_combined_normalized_csv(47) Source S-218 extract with 195 rows::: DefaultJsonExtractor
-2023-05-25 11:55:20,497 INFO build_combined_normalized_csv(47) Source S-8 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:20,580 INFO build_combined_normalized_csv(47) Source S-9 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:21,064 INFO build_combined_normalized_csv(47) Source S-10 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:21,582 WARNING build_combined_normalized_csv(54) Source S-11 failed to extract cause of: '[None] not in index'
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
-    self.download().transform()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
-    self.dataframe = self._download()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 131, in _download
-    self.dataframe = self.dataframe.loc[
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
-    return self._getitem_tuple(key)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
-    return self._getitem_tuple_same_dim(tup)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
-    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
-    return self._getitem_iterable(key, axis=axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
-    keyarr, indexer = self._get_listlike_indexer(key, axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
-    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
-    self._raise_if_missing(keyarr, indexer, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
-    raise KeyError(f"{not_found} not in index")
-KeyError: '[None] not in index'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
-    extractor.build()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
-    raise ExtractionError(
-etl.source_adapter.abstract.ExtractionError: Source S-11 failed to extract cause of: '[None] not in index'
-2023-05-25 11:55:22,149 INFO build_combined_normalized_csv(47) Source S-13 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:22,666 INFO build_combined_normalized_csv(47) Source S-29 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:22,757 INFO build_combined_normalized_csv(47) Source S-33 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:22,848 INFO build_combined_normalized_csv(47) Source S-34 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:23,003 INFO build_combined_normalized_csv(47) Source S-35 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:23,185 INFO build_combined_normalized_csv(47) Source S-36 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:23,341 INFO build_combined_normalized_csv(47) Source S-37 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:23,966 INFO build_combined_normalized_csv(47) Source S-38 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:24,431 INFO build_combined_normalized_csv(47) Source S-40 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:24,773 INFO build_combined_normalized_csv(47) Source S-51 extract with 195 rows::: Global_Slavery_Index
-2023-05-25 11:55:24,863 INFO build_combined_normalized_csv(47) Source S-54 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:24,977 INFO build_combined_normalized_csv(47) Source S-55 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:25,077 INFO build_combined_normalized_csv(47) Source S-56 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:25,152 INFO build_combined_normalized_csv(47) Source S-57 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:25,216 INFO build_combined_normalized_csv(47) Source S-58 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:25,280 INFO build_combined_normalized_csv(47) Source S-59 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:25,378 INFO build_combined_normalized_csv(47) Source S-73 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:25,462 INFO build_combined_normalized_csv(47) Source S-75 extract with 195 rows::: FCTC_Data
-2023-05-25 11:55:25,559 INFO build_combined_normalized_csv(47) Source S-94 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:25,656 INFO build_combined_normalized_csv(47) Source S-95 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:25,804 INFO build_combined_normalized_csv(47) Source S-96 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:26,336 WARNING build_combined_normalized_csv(54) Source S-97 failed to extract cause of: '[None] not in index'
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
-    self.download().transform()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
-    self.dataframe = self._download()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 131, in _download
-    self.dataframe = self.dataframe.loc[
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
-    return self._getitem_tuple(key)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
-    return self._getitem_tuple_same_dim(tup)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
-    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
-    return self._getitem_iterable(key, axis=axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
-    keyarr, indexer = self._get_listlike_indexer(key, axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
-    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
-    self._raise_if_missing(keyarr, indexer, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
-    raise KeyError(f"{not_found} not in index")
-KeyError: '[None] not in index'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
-    extractor.build()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
-    raise ExtractionError(
-etl.source_adapter.abstract.ExtractionError: Source S-97 failed to extract cause of: '[None] not in index'
-2023-05-25 11:55:26,947 WARNING build_combined_normalized_csv(54) Source S-101 failed to extract cause of: '[None] not in index'
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
-    self.download().transform()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
-    self.dataframe = self._download()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 131, in _download
-    self.dataframe = self.dataframe.loc[
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
-    return self._getitem_tuple(key)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
-    return self._getitem_tuple_same_dim(tup)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
-    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
-    return self._getitem_iterable(key, axis=axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
-    keyarr, indexer = self._get_listlike_indexer(key, axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
-    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
-    self._raise_if_missing(keyarr, indexer, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
-    raise KeyError(f"{not_found} not in index")
-KeyError: '[None] not in index'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
-    extractor.build()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
-    raise ExtractionError(
-etl.source_adapter.abstract.ExtractionError: Source S-101 failed to extract cause of: '[None] not in index'
-2023-05-25 11:55:27,083 INFO build_combined_normalized_csv(47) Source S-105 extract with 195 rows::: KidsRightsIndex
-2023-05-25 11:55:27,226 INFO build_combined_normalized_csv(47) Source S-106 extract with 195 rows::: KidsRightsIndex
-2023-05-25 11:55:27,368 INFO build_combined_normalized_csv(47) Source S-107 extract with 195 rows::: KidsRightsIndex
-2023-05-25 11:55:27,874 WARNING build_combined_normalized_csv(54) Source S-117 failed to extract cause of: '[None] not in index'
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
-    self.download().transform()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
-    self.dataframe = self._download()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 131, in _download
-    self.dataframe = self.dataframe.loc[
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
-    return self._getitem_tuple(key)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
-    return self._getitem_tuple_same_dim(tup)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
-    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
-    return self._getitem_iterable(key, axis=axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
-    keyarr, indexer = self._get_listlike_indexer(key, axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
-    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
-    self._raise_if_missing(keyarr, indexer, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
-    raise KeyError(f"{not_found} not in index")
-KeyError: '[None] not in index'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
-    extractor.build()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
-    raise ExtractionError(
-etl.source_adapter.abstract.ExtractionError: Source S-117 failed to extract cause of: '[None] not in index'
-2023-05-25 11:55:28,001 INFO build_combined_normalized_csv(47) Source S-118 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:55:28,142 INFO build_combined_normalized_csv(47) Source S-129 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:28,284 INFO build_combined_normalized_csv(47) Source S-131 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:28,432 INFO build_combined_normalized_csv(47) Source S-132 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:28,704 INFO build_combined_normalized_csv(47) Source S-133 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:28,852 INFO build_combined_normalized_csv(47) Source S-134 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:29,006 INFO build_combined_normalized_csv(47) Source S-135 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:29,121 INFO build_combined_normalized_csv(47) Source S-136 extract with 195 rows::: Climate_Watch_Data_Paris_Contributions
-2023-05-25 11:55:29,232 INFO build_combined_normalized_csv(47) Source S-142 extract with 195 rows::: Climate_Watch_Data_S_159
-2023-05-25 11:55:29,376 INFO build_combined_normalized_csv(47) Source S-148 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:29,466 INFO build_combined_normalized_csv(47) Source S-150 extract with 195 rows::: Landmark_Data
-2023-05-25 11:55:29,606 INFO build_combined_normalized_csv(47) Source S-176 extract with 195 rows::: KidsRightsIndex
-2023-05-25 11:55:29,745 INFO build_combined_normalized_csv(47) Source S-177 extract with 195 rows::: KidsRightsIndex
-2023-05-25 11:55:29,886 INFO build_combined_normalized_csv(47) Source S-178 extract with 195 rows::: KidsRightsIndex
-2023-05-25 11:55:30,024 INFO build_combined_normalized_csv(47) Source S-179 extract with 195 rows::: KidsRightsIndex
-2023-05-25 11:55:30,582 WARNING build_combined_normalized_csv(54) Source S-208 failed to extract cause of: '[None] not in index'
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 90, in build
-    self.download().transform()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 109, in download
-    self.dataframe = self._download()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/manual.py", line 131, in _download
-    self.dataframe = self.dataframe.loc[
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1067, in __getitem__
-    return self._getitem_tuple(key)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1256, in _getitem_tuple
-    return self._getitem_tuple_same_dim(tup)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 924, in _getitem_tuple_same_dim
-    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1301, in _getitem_axis
-    return self._getitem_iterable(key, axis=axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1239, in _getitem_iterable
-    keyarr, indexer = self._get_listlike_indexer(key, axis)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexing.py", line 1432, in _get_listlike_indexer
-    keyarr, indexer = ax._get_indexer_strict(key, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
-    self._raise_if_missing(keyarr, indexer, axis_name)
-  File "/home/lasse/.cache/pypoetry/virtualenvs/crba-project-5qZtH06h-py3.10/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6133, in _raise_if_missing
-    raise KeyError(f"{not_found} not in index")
-KeyError: '[None] not in index'
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/lasse/Development/crba-allinone/etl/run.py", line 44, in build_combined_normalized_csv
-    extractor.build()
-  File "/home/lasse/Development/crba-allinone/etl/source_adapter/abstract.py", line 100, in build
-    raise ExtractionError(
-etl.source_adapter.abstract.ExtractionError: Source S-208 failed to extract cause of: '[None] not in index'
-2023-05-25 11:55:30,673 INFO build_combined_normalized_csv(47) Source S-210 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:30,767 INFO build_combined_normalized_csv(47) Source S-211 extract with 195 rows::: WPA_Extractor
-2023-05-25 11:55:30,911 INFO build_combined_normalized_csv(47) Source S-212 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:31,057 INFO build_combined_normalized_csv(47) Source S-214 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:31,215 INFO build_combined_normalized_csv(47) Source S-12 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:31,387 INFO build_combined_normalized_csv(47) Source S-41 extract with 739 rows::: DefaultCSVExtractor
-2023-05-25 11:55:31,502 INFO build_combined_normalized_csv(47) Source S-42 extract with 310 rows::: DefaultCSVExtractor
-2023-05-25 11:55:31,582 INFO build_combined_normalized_csv(47) Source S-44 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:55:31,648 INFO build_combined_normalized_csv(47) Source S-185 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:55:31,716 INFO build_combined_normalized_csv(47) Source S-190 extract with 195 rows::: DefaultCSVExtractor
-2023-05-25 11:55:31,862 INFO build_combined_normalized_csv(47) Source S-100 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:32,021 INFO build_combined_normalized_csv(47) Source S-122 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:55:52,634 INFO build_combined_normalized_csv(47) Source S-138 extract with 195 rows::: NRGI
-2023-05-25 11:56:11,139 INFO build_combined_normalized_csv(47) Source S-139 extract with 195 rows::: NRGI
-2023-05-25 11:56:11,381 INFO build_combined_normalized_csv(47) Source S-219 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-05-25 11:56:12,596 INFO build_combined_normalized_csv(47) Source S-162 extract with 195 rows::: IDMC_Extractor
+2023-05-26 17:26:55,769 INFO build_combined_normalized_csv(33) 196 sources selected to process
+2023-05-26 17:26:59,983 INFO build_combined_normalized_csv(53) Source S-1 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:04,948 INFO build_combined_normalized_csv(53) Source S-2 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:05,646 INFO build_combined_normalized_csv(53) Source S-3 extract with 195 rows::: UnTreaties
+2023-05-26 17:27:06,122 INFO build_combined_normalized_csv(53) Source S-4 extract with 195 rows::: UnTreaties
+2023-05-26 17:27:11,103 INFO build_combined_normalized_csv(53) Source S-5 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:16,425 INFO build_combined_normalized_csv(53) Source S-6 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:19,490 INFO build_combined_normalized_csv(53) Source S-7 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:21,539 INFO build_combined_normalized_csv(53) Source S-15 extract with 954 rows::: DefaultJsonExtractor
+2023-05-26 17:27:23,199 INFO build_combined_normalized_csv(53) Source S-16 extract with 954 rows::: DefaultJsonExtractor
+2023-05-26 17:27:23,991 INFO build_combined_normalized_csv(53) Source S-17 extract with 381 rows::: DefaultJsonExtractor
+2023-05-26 17:27:28,142 INFO build_combined_normalized_csv(53) Source S-18 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:31,947 INFO build_combined_normalized_csv(53) Source S-19 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:36,421 INFO build_combined_normalized_csv(53) Source S-20 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:40,676 INFO build_combined_normalized_csv(53) Source S-21 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:45,512 INFO build_combined_normalized_csv(53) Source S-22 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:49,173 INFO build_combined_normalized_csv(53) Source S-23 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:49,441 INFO build_combined_normalized_csv(53) Source S-24 extract with 195 rows::: UnTreaties
+2023-05-26 17:27:53,889 INFO build_combined_normalized_csv(53) Source S-25 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:27:58,951 INFO build_combined_normalized_csv(53) Source S-26 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:28:03,728 INFO build_combined_normalized_csv(53) Source S-27 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:28:06,979 INFO build_combined_normalized_csv(53) Source S-28 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:28:07,429 INFO build_combined_normalized_csv(53) Source S-43 extract with 541 rows::: DefaultCSVExtractor
+2023-05-26 17:28:07,879 INFO build_combined_normalized_csv(53) Source S-221 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:08,521 INFO build_combined_normalized_csv(53) Source S-46 extract with 379 rows::: DefaultCSVExtractor
+2023-05-26 17:28:09,509 INFO build_combined_normalized_csv(53) Source S-47 extract with 409 rows::: DefaultCSVExtractor
+2023-05-26 17:28:13,313 INFO build_combined_normalized_csv(53) Source S-48 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:28:16,972 INFO build_combined_normalized_csv(53) Source S-49 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:28:18,768 INFO build_combined_normalized_csv(53) Source S-50 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:19,815 INFO build_combined_normalized_csv(53) Source S-52 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:21,269 INFO build_combined_normalized_csv(53) Source S-53 extract with 970 rows::: DefaultJsonExtractor
+2023-05-26 17:28:22,117 INFO build_combined_normalized_csv(53) Source S-62 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:22,762 INFO build_combined_normalized_csv(53) Source S-63 extract with 312 rows::: DefaultJsonExtractor
+2023-05-26 17:28:23,418 INFO build_combined_normalized_csv(53) Source S-65 extract with 312 rows::: DefaultJsonExtractor
+2023-05-26 17:28:24,307 INFO build_combined_normalized_csv(53) Source S-66 extract with 265 rows::: DefaultJsonExtractor
+2023-05-26 17:28:24,716 INFO build_combined_normalized_csv(53) Source S-67 extract with 265 rows::: DefaultJsonExtractor
+2023-05-26 17:28:24,856 INFO build_combined_normalized_csv(53) Source S-68 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:24,996 INFO build_combined_normalized_csv(53) Source S-69 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:25,141 INFO build_combined_normalized_csv(53) Source S-70 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:25,283 INFO build_combined_normalized_csv(53) Source S-71 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:25,768 INFO build_combined_normalized_csv(53) Source S-72 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:25,957 INFO build_combined_normalized_csv(53) Source S-74 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:26,136 INFO build_combined_normalized_csv(53) Source S-76 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:26,325 INFO build_combined_normalized_csv(53) Source S-77 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:26,516 INFO build_combined_normalized_csv(53) Source S-78 extract with 579 rows::: DefaultCSVExtractor
+2023-05-26 17:28:26,740 INFO build_combined_normalized_csv(53) Source S-79 extract with 579 rows::: DefaultCSVExtractor
+2023-05-26 17:28:26,879 INFO build_combined_normalized_csv(53) Source S-80 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:27,218 INFO build_combined_normalized_csv(53) Source S-81 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:27,439 INFO build_combined_normalized_csv(53) Source S-82 extract with 461 rows::: DefaultCSVExtractor
+2023-05-26 17:28:27,793 INFO build_combined_normalized_csv(53) Source S-83 extract with 331 rows::: DefaultCSVExtractor
+2023-05-26 17:28:28,401 INFO build_combined_normalized_csv(53) Source S-84 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:33,043 INFO build_combined_normalized_csv(53) Source S-85 extract with 1699 rows::: DefaultCSVExtractor
+2023-05-26 17:28:33,563 INFO build_combined_normalized_csv(53) Source S-86 extract with 195 rows::: GlobalHealthObservatory
+2023-05-26 17:28:33,838 INFO build_combined_normalized_csv(53) Source S-87 extract with 195 rows::: GlobalHealthObservatory
+2023-05-26 17:28:34,214 INFO build_combined_normalized_csv(53) Source S-88 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:34,613 INFO build_combined_normalized_csv(53) Source S-89 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:35,037 INFO build_combined_normalized_csv(53) Source S-90 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:35,556 INFO build_combined_normalized_csv(53) Source S-91 extract with 561 rows::: DefaultCSVExtractor
+2023-05-26 17:28:36,162 INFO build_combined_normalized_csv(53) Source S-92 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:36,583 INFO build_combined_normalized_csv(53) Source S-93 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:37,066 INFO build_combined_normalized_csv(53) Source S-98 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:37,427 INFO build_combined_normalized_csv(53) Source S-99 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:37,717 INFO build_combined_normalized_csv(53) Source S-102 extract with 207 rows::: DefaultJsonExtractor
+2023-05-26 17:28:38,020 INFO build_combined_normalized_csv(53) Source S-103 extract with 444 rows::: DefaultCSVExtractor
+2023-05-26 17:28:38,344 INFO build_combined_normalized_csv(53) Source S-108 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:38,650 INFO build_combined_normalized_csv(53) Source S-109 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:39,012 INFO build_combined_normalized_csv(53) Source S-110 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:39,327 INFO build_combined_normalized_csv(53) Source S-111 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:39,641 INFO build_combined_normalized_csv(53) Source S-112 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:39,940 INFO build_combined_normalized_csv(53) Source S-113 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:40,290 INFO build_combined_normalized_csv(53) Source S-114 extract with 195 rows::: CRIN_Treaties
+2023-05-26 17:28:40,391 INFO build_combined_normalized_csv(53) Source S-119 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:40,471 INFO build_combined_normalized_csv(53) Source S-120 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:28:40,653 INFO build_combined_normalized_csv(53) Source S-121 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:40,840 INFO build_combined_normalized_csv(53) Source S-123 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:41,213 INFO build_combined_normalized_csv(53) Source S-124 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:41,518 INFO build_combined_normalized_csv(53) Source S-125 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:41,835 INFO build_combined_normalized_csv(53) Source S-126 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:42,183 INFO build_combined_normalized_csv(53) Source S-127 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:42,373 INFO build_combined_normalized_csv(53) Source S-128 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:42,462 INFO build_combined_normalized_csv(53) Source S-137 extract with 195 rows::: EITIIndicatorBuilder
+2023-05-26 17:28:42,586 INFO build_combined_normalized_csv(53) Source S-140 extract with 195 rows::: S_157
+2023-05-26 17:28:42,961 INFO build_combined_normalized_csv(53) Source S-141 extract with 941 rows::: DefaultCSVExtractor
+2023-05-26 17:28:43,114 INFO build_combined_normalized_csv(53) Source S-143 extract with 196 rows::: DefaultJsonExtractor
+2023-05-26 17:28:43,271 INFO build_combined_normalized_csv(53) Source S-144 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:43,761 INFO build_combined_normalized_csv(53) Source S-145 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:43,917 INFO build_combined_normalized_csv(53) Source S-147 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:44,149 WARNING create_log_report_delete_duplicates(771) WARNING: There are 8 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
+2023-05-26 17:28:44,179 INFO build_combined_normalized_csv(53) Source S-149 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:28:44,867 INFO build_combined_normalized_csv(53) Source S-151 extract with 195 rows::: ICRC_Treaties
+2023-05-26 17:28:45,473 INFO build_combined_normalized_csv(53) Source S-152 extract with 195 rows::: ICRC_Treaties
+2023-05-26 17:28:46,131 INFO build_combined_normalized_csv(53) Source S-153 extract with 195 rows::: ICRC_Treaties
+2023-05-26 17:28:46,296 INFO build_combined_normalized_csv(53) Source S-154 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:46,463 INFO build_combined_normalized_csv(53) Source S-155 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:46,982 INFO build_combined_normalized_csv(53) Source S-156 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:51,266 INFO build_combined_normalized_csv(53) Source S-157 extract with 195 rows::: ILO_Extractor
+2023-05-26 17:28:51,648 INFO build_combined_normalized_csv(53) Source S-160 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:51,948 INFO build_combined_normalized_csv(53) Source S-220 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:28:53,386 INFO build_combined_normalized_csv(53) Source S-163 extract with 195 rows::: IDMC_Extractor
+2023-05-26 17:28:53,623 INFO build_combined_normalized_csv(53) Source S-164 extract with 195 rows::: UnTreaties
+2023-05-26 17:28:54,051 INFO build_combined_normalized_csv(53) Source S-165 extract with 417 rows::: DefaultJsonExtractor
+2023-05-26 17:28:54,610 INFO build_combined_normalized_csv(53) Source S-166 extract with 509 rows::: DefaultJsonExtractor
+2023-05-26 17:28:54,983 INFO build_combined_normalized_csv(53) Source S-167 extract with 399 rows::: UN_SDG_UN_POP
+2023-05-26 17:28:55,209 INFO build_combined_normalized_csv(53) Source S-168 extract with 195 rows::: UN_SDG_UN_POP
+2023-05-26 17:28:55,426 INFO build_combined_normalized_csv(53) Source S-169 extract with 195 rows::: UN_SDG_UN_POP
+2023-05-26 17:28:55,787 INFO build_combined_normalized_csv(53) Source S-170 extract with 195 rows::: UN_SDG_UN_POP
+2023-05-26 17:28:57,180 INFO build_combined_normalized_csv(53) Source S-171 extract with 195 rows::: IDMC_Extractor
+2023-05-26 17:28:59,352 INFO build_combined_normalized_csv(53) Source S-172 extract with 195 rows::: Inform_Risk_Index_Data
+2023-05-26 17:29:00,140 INFO build_combined_normalized_csv(53) Source S-173 extract with 195 rows::: UnTreaties
+2023-05-26 17:29:00,402 INFO build_combined_normalized_csv(53) Source S-174 extract with 195 rows::: UnTreaties
+2023-05-26 17:29:00,737 INFO build_combined_normalized_csv(53) Source S-175 extract with 195 rows::: CRIN_Treaties
+2023-05-26 17:29:01,044 INFO build_combined_normalized_csv(53) Source S-180 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:29:01,177 INFO build_combined_normalized_csv(53) Source S-181 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:29:04,286 INFO build_combined_normalized_csv(53) Source S-184 extract with 1259 rows::: DefaultJsonExtractor
+2023-05-26 17:29:04,393 INFO build_combined_normalized_csv(53) Source S-186 extract with 579 rows::: DefaultCSVExtractor
+2023-05-26 17:29:04,742 INFO build_combined_normalized_csv(53) Source S-187 extract with 363 rows::: DefaultCSVExtractor
+2023-05-26 17:29:04,890 INFO build_combined_normalized_csv(53) Source S-188 extract with 579 rows::: DefaultCSVExtractor
+2023-05-26 17:29:05,043 INFO build_combined_normalized_csv(53) Source S-189 extract with 579 rows::: DefaultCSVExtractor
+2023-05-26 17:29:05,468 INFO build_combined_normalized_csv(53) Source S-193 extract with 715 rows::: DefaultJsonExtractor
+2023-05-26 17:29:07,593 INFO build_combined_normalized_csv(53) Source S-194 extract with 4945 rows::: DefaultCSVExtractor
+2023-05-26 17:29:07,764 INFO build_combined_normalized_csv(53) Source S-196 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:29:07,929 INFO build_combined_normalized_csv(53) Source S-197 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:29:08,260 INFO build_combined_normalized_csv(53) Source S-198 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:29:08,628 INFO build_combined_normalized_csv(53) Source S-199 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:29:10,817 INFO build_combined_normalized_csv(53) Source S-200 extract with 3187 rows::: DefaultCSVExtractor
+2023-05-26 17:29:11,511 INFO build_combined_normalized_csv(53) Source S-201 extract with 445 rows::: DefaultJsonExtractor
+2023-05-26 17:29:11,856 INFO build_combined_normalized_csv(53) Source S-202 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:29:12,033 INFO build_combined_normalized_csv(53) Source S-203 extract with 196 rows::: DefaultJsonExtractor
+2023-05-26 17:29:12,205 INFO build_combined_normalized_csv(53) Source S-204 extract with 196 rows::: DefaultJsonExtractor
+2023-05-26 17:29:12,604 INFO build_combined_normalized_csv(53) Source S-205 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:29:12,934 INFO build_combined_normalized_csv(53) Source S-206 extract with 453 rows::: DefaultJsonExtractor
+2023-05-26 17:29:13,152 INFO build_combined_normalized_csv(53) Source S-207 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:14,455 INFO build_combined_normalized_csv(53) Source S-209 extract with 195 rows::: IDMC_Extractor
+2023-05-26 17:29:14,667 INFO build_combined_normalized_csv(53) Source S-213 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:14,860 INFO build_combined_normalized_csv(53) Source S-215 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:15,065 INFO build_combined_normalized_csv(53) Source S-216 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:15,253 INFO build_combined_normalized_csv(53) Source S-217 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:15,875 INFO build_combined_normalized_csv(53) Source S-218 extract with 195 rows::: DefaultJsonExtractor
+2023-05-26 17:29:15,991 INFO build_combined_normalized_csv(53) Source S-8 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:16,138 INFO build_combined_normalized_csv(53) Source S-9 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:16,917 INFO build_combined_normalized_csv(53) Source S-10 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:17,609 INFO build_combined_normalized_csv(53) Source S-13 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:18,346 INFO build_combined_normalized_csv(53) Source S-29 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:18,469 INFO build_combined_normalized_csv(53) Source S-33 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:18,590 INFO build_combined_normalized_csv(53) Source S-34 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:18,819 INFO build_combined_normalized_csv(53) Source S-35 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:19,050 INFO build_combined_normalized_csv(53) Source S-36 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:19,285 INFO build_combined_normalized_csv(53) Source S-37 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:19,967 INFO build_combined_normalized_csv(53) Source S-38 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:20,715 INFO build_combined_normalized_csv(53) Source S-40 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:21,097 INFO build_combined_normalized_csv(53) Source S-51 extract with 195 rows::: Global_Slavery_Index
+2023-05-26 17:29:21,222 INFO build_combined_normalized_csv(53) Source S-54 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:21,354 INFO build_combined_normalized_csv(53) Source S-55 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:21,482 INFO build_combined_normalized_csv(53) Source S-56 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:21,620 INFO build_combined_normalized_csv(53) Source S-57 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:21,751 INFO build_combined_normalized_csv(53) Source S-58 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:21,877 INFO build_combined_normalized_csv(53) Source S-59 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:22,068 INFO build_combined_normalized_csv(53) Source S-73 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:22,221 INFO build_combined_normalized_csv(53) Source S-75 extract with 195 rows::: FCTC_Data
+2023-05-26 17:29:22,396 INFO build_combined_normalized_csv(53) Source S-94 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:22,601 INFO build_combined_normalized_csv(53) Source S-95 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:22,798 INFO build_combined_normalized_csv(53) Source S-96 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:22,991 INFO build_combined_normalized_csv(53) Source S-105 extract with 195 rows::: KidsRightsIndex
+2023-05-26 17:29:23,165 INFO build_combined_normalized_csv(53) Source S-106 extract with 195 rows::: KidsRightsIndex
+2023-05-26 17:29:23,348 INFO build_combined_normalized_csv(53) Source S-107 extract with 195 rows::: KidsRightsIndex
+2023-05-26 17:29:23,430 INFO build_combined_normalized_csv(53) Source S-118 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:29:23,596 INFO build_combined_normalized_csv(53) Source S-129 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:23,788 INFO build_combined_normalized_csv(53) Source S-131 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:24,047 INFO build_combined_normalized_csv(53) Source S-132 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:24,221 INFO build_combined_normalized_csv(53) Source S-133 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:24,401 INFO build_combined_normalized_csv(53) Source S-134 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:24,568 INFO build_combined_normalized_csv(53) Source S-135 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:24,698 INFO build_combined_normalized_csv(53) Source S-142 extract with 195 rows::: Climate_Watch_Data_S_159
+2023-05-26 17:29:24,877 INFO build_combined_normalized_csv(53) Source S-148 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:24,976 INFO build_combined_normalized_csv(53) Source S-150 extract with 195 rows::: Landmark_Data
+2023-05-26 17:29:25,146 INFO build_combined_normalized_csv(53) Source S-176 extract with 195 rows::: KidsRightsIndex
+2023-05-26 17:29:25,330 INFO build_combined_normalized_csv(53) Source S-177 extract with 195 rows::: KidsRightsIndex
+2023-05-26 17:29:25,500 INFO build_combined_normalized_csv(53) Source S-178 extract with 195 rows::: KidsRightsIndex
+2023-05-26 17:29:25,675 INFO build_combined_normalized_csv(53) Source S-179 extract with 195 rows::: KidsRightsIndex
+2023-05-26 17:29:25,785 INFO build_combined_normalized_csv(53) Source S-210 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:25,899 INFO build_combined_normalized_csv(53) Source S-211 extract with 195 rows::: WPA_Extractor
+2023-05-26 17:29:26,079 INFO build_combined_normalized_csv(53) Source S-212 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:26,270 INFO build_combined_normalized_csv(53) Source S-214 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:26,473 INFO build_combined_normalized_csv(53) Source S-12 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:26,673 INFO build_combined_normalized_csv(53) Source S-41 extract with 739 rows::: DefaultCSVExtractor
+2023-05-26 17:29:26,811 INFO build_combined_normalized_csv(53) Source S-42 extract with 310 rows::: DefaultCSVExtractor
+2023-05-26 17:29:26,909 INFO build_combined_normalized_csv(53) Source S-44 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:29:26,995 INFO build_combined_normalized_csv(53) Source S-185 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:29:27,073 INFO build_combined_normalized_csv(53) Source S-190 extract with 195 rows::: DefaultCSVExtractor
+2023-05-26 17:29:27,361 INFO build_combined_normalized_csv(53) Source S-97 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:27,676 INFO build_combined_normalized_csv(53) Source S-101 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:27,846 INFO build_combined_normalized_csv(53) Source S-136 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:29:46,459 INFO build_combined_normalized_csv(53) Source S-138 extract with 195 rows::: NRGI
+2023-05-26 17:30:06,377 INFO build_combined_normalized_csv(53) Source S-139 extract with 195 rows::: NRGI
+2023-05-26 17:30:06,516 INFO build_combined_normalized_csv(53) Source S-100 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:30:06,677 INFO build_combined_normalized_csv(53) Source S-122 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:30:06,832 INFO build_combined_normalized_csv(53) Source S-219 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-05-26 17:30:08,362 INFO build_combined_normalized_csv(53) Source S-162 extract with 195 rows::: IDMC_Extractor
+2023-05-26 17:30:10,393 INFO aggregate_combined_normalized_csv(105) This is the number of duplicate rows:0

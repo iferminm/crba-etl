@@ -1,0 +1,3029 @@
+{
+  "evaluation_parameters": {
+    "TIME_PERIOD_SPAN_LOWER": 2013,
+    "TIME_PERIOD_SPAN_UPPER": 2023
+  },
+  "meta": {
+    "active_batch_definition": {
+      "batch_identifiers": {},
+      "batch_spec_passthrough": {
+        "data_asset_name": "S-169_I-168.csv",
+        "reader_options": {
+          "sep": ";"
+        }
+      },
+      "data_asset_name": "S-169_I-168.csv",
+      "data_connector_name": "indicators_2023",
+      "datasource_name": "indicators"
+    },
+    "batch_markers": {
+      "ge_load_time": "20230526T153221.315003Z",
+      "pandas_data_fingerprint": "a313c8f8f64c520b00a90930b2ac8fa3"
+    },
+    "batch_spec": {
+      "data_asset_name": "S-169_I-168.csv",
+      "path": "/home/lasse/Development/crba-allinone/validation/great_expectations/../../config/2023/out/data/indicator/S-169_I-168.csv",
+      "reader_options": {
+        "sep": ";"
+      }
+    },
+    "checkpoint_id": null,
+    "checkpoint_name": "sdmx_indicator_check",
+    "expectation_suite_name": "sdmx_indicator_suite",
+    "great_expectations_version": "0.16.10",
+    "run_id": {
+      "run_name": "ManualEvaluationRun",
+      "run_time": "2023-05-26T17:31:31.303741+02:00"
+    },
+    "validation_id": null,
+    "validation_time": "20230526T153221.358367Z"
+  },
+  "results": [
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "min_value": 195,
+          "mostly": 1.0
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": 195
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_table_columns_to_match_set",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column_set": [
+            "ATTR_API_ENDPOINT_URL",
+            "ATTR_DATA_EXTRACTION_METHDOLOGY",
+            "ATTR_INDICATOR_DESCRIPTION",
+            "ATTR_INDICATOR_EXPLANATION",
+            "ATTR_SOURCE",
+            "ATTR_SOURCE_BODY",
+            "ATTR_SOURCE_TITLE",
+            "ATTR_UNIT_MEASURE",
+            "COUNTRY_ISO_3",
+            "CRBA_RELEASE_YEAR",
+            "INDICATOR_CATEGORY",
+            "INDICATOR_CODE",
+            "INDICATOR_INDEX",
+            "INDICATOR_ISSUE",
+            "INDICATOR_NAME",
+            "OBS_STATUS",
+            "RAW_OBS_VALUE",
+            "SCALED_OBS_VALUE",
+            "SOURCE_ID",
+            "TIME_PERIOD"
+          ],
+          "exact_match": false
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "details": {
+          "mismatched": {
+            "unexpected": [
+              "ATTR_FOOTNOTE_OF_SOURCE",
+              "ATTR_SDG_INDICATOR_DESCRIPTION",
+              "ATTR_SOURCE_OF_SOURCE",
+              "DIM_REP_TYPE",
+              "DIM_SDG_INDICATOR",
+              "_merge"
+            ]
+          }
+        },
+        "observed_value": [
+          "ATTR_API_ENDPOINT_URL",
+          "ATTR_DATA_EXTRACTION_METHDOLOGY",
+          "ATTR_FOOTNOTE_OF_SOURCE",
+          "ATTR_INDICATOR_DESCRIPTION",
+          "ATTR_INDICATOR_EXPLANATION",
+          "ATTR_SDG_INDICATOR_DESCRIPTION",
+          "ATTR_SOURCE",
+          "ATTR_SOURCE_BODY",
+          "ATTR_SOURCE_OF_SOURCE",
+          "ATTR_SOURCE_TITLE",
+          "ATTR_UNIT_MEASURE",
+          "COUNTRY_ISO_3",
+          "CRBA_RELEASE_YEAR",
+          "DIM_REP_TYPE",
+          "DIM_SDG_INDICATOR",
+          "INDICATOR_CATEGORY",
+          "INDICATOR_CODE",
+          "INDICATOR_INDEX",
+          "INDICATOR_ISSUE",
+          "INDICATOR_NAME",
+          "OBS_STATUS",
+          "RAW_OBS_VALUE",
+          "SCALED_OBS_VALUE",
+          "SOURCE_ID",
+          "TIME_PERIOD",
+          "_merge"
+        ]
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_distinct_values_to_contain_set",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "COUNTRY_ISO_3",
+          "mostly": 1.0,
+          "result_format": "COMPLETE",
+          "value_set": [
+            "AFG",
+            "ALB",
+            "AND",
+            "DZA",
+            "AGO",
+            "ATG",
+            "ARG",
+            "ARM",
+            "AUS",
+            "AUT",
+            "AZE",
+            "BHS",
+            "BHR",
+            "BGD",
+            "BRB",
+            "BLR",
+            "BEL",
+            "BLZ",
+            "BEN",
+            "BTN",
+            "BOL",
+            "BIH",
+            "BWA",
+            "BRA",
+            "BRN",
+            "BGR",
+            "BFA",
+            "BDI",
+            "CPV",
+            "KHM",
+            "CMR",
+            "CAN",
+            "CAF",
+            "TCD",
+            "CHL",
+            "CHN",
+            "COL",
+            "COM",
+            "COG",
+            "COD",
+            "CRI",
+            "CIV",
+            "HRV",
+            "CUB",
+            "CYP",
+            "CZE",
+            "DNK",
+            "DJI",
+            "DMA",
+            "DOM",
+            "ECU",
+            "EGY",
+            "SLV",
+            "GNQ",
+            "ERI",
+            "EST",
+            "SWZ",
+            "ETH",
+            "FJI",
+            "FIN",
+            "FRA",
+            "GAB",
+            "GMB",
+            "GEO",
+            "DEU",
+            "GHA",
+            "GRC",
+            "GRD",
+            "GTM",
+            "GIN",
+            "GNB",
+            "GUY",
+            "HTI",
+            "HND",
+            "HUN",
+            "ISL",
+            "IND",
+            "IDN",
+            "IRN",
+            "IRQ",
+            "IRL",
+            "ISR",
+            "ITA",
+            "JAM",
+            "JPN",
+            "JOR",
+            "KAZ",
+            "KEN",
+            "KIR",
+            "PRK",
+            "KOR",
+            "XKX",
+            "KWT",
+            "KGZ",
+            "LAO",
+            "LVA",
+            "LBN",
+            "LSO",
+            "LBR",
+            "LBY",
+            "LIE",
+            "LTU",
+            "LUX",
+            "MKD",
+            "MDG",
+            "MWI",
+            "MYS",
+            "MDV",
+            "MLI",
+            "MLT",
+            "MHL",
+            "MRT",
+            "MUS",
+            "MEX",
+            "FSM",
+            "MDA",
+            "MCO",
+            "MNG",
+            "MNE",
+            "MAR",
+            "MOZ",
+            "MMR",
+            "NAM",
+            "NRU",
+            "NPL",
+            "NLD",
+            "NZL",
+            "NIC",
+            "NER",
+            "NGA",
+            "NOR",
+            "OMN",
+            "PAK",
+            "PLW",
+            "PSE",
+            "PAN",
+            "PNG",
+            "PRY",
+            "PER",
+            "PHL",
+            "POL",
+            "PRT",
+            "QAT",
+            "ROU",
+            "RUS",
+            "RWA",
+            "KNA",
+            "LCA",
+            "VCT",
+            "WSM",
+            "SMR",
+            "STP",
+            "SAU",
+            "SEN",
+            "SRB",
+            "SYC",
+            "SLE",
+            "SGP",
+            "SVK",
+            "SVN",
+            "SLB",
+            "SOM",
+            "ZAF",
+            "SSD",
+            "ESP",
+            "LKA",
+            "SDN",
+            "SUR",
+            "SWE",
+            "CHE",
+            "SYR",
+            "TJK",
+            "TZA",
+            "THA",
+            "TLS",
+            "TGO",
+            "TON",
+            "TTO",
+            "TUN",
+            "TUR",
+            "TKM",
+            "TUV",
+            "UGA",
+            "UKR",
+            "ARE",
+            "GBR",
+            "USA",
+            "URY",
+            "UZB",
+            "VUT",
+            "VEN",
+            "VNM",
+            "YEM",
+            "ZMB",
+            "ZWE"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "details": {
+          "value_counts": [
+            {
+              "count": 1,
+              "value": "AFG"
+            },
+            {
+              "count": 1,
+              "value": "AGO"
+            },
+            {
+              "count": 1,
+              "value": "ALB"
+            },
+            {
+              "count": 1,
+              "value": "AND"
+            },
+            {
+              "count": 1,
+              "value": "ARE"
+            },
+            {
+              "count": 1,
+              "value": "ARG"
+            },
+            {
+              "count": 1,
+              "value": "ARM"
+            },
+            {
+              "count": 1,
+              "value": "ATG"
+            },
+            {
+              "count": 1,
+              "value": "AUS"
+            },
+            {
+              "count": 1,
+              "value": "AUT"
+            },
+            {
+              "count": 1,
+              "value": "AZE"
+            },
+            {
+              "count": 1,
+              "value": "BDI"
+            },
+            {
+              "count": 1,
+              "value": "BEL"
+            },
+            {
+              "count": 1,
+              "value": "BEN"
+            },
+            {
+              "count": 1,
+              "value": "BFA"
+            },
+            {
+              "count": 1,
+              "value": "BGD"
+            },
+            {
+              "count": 1,
+              "value": "BGR"
+            },
+            {
+              "count": 1,
+              "value": "BHR"
+            },
+            {
+              "count": 1,
+              "value": "BHS"
+            },
+            {
+              "count": 1,
+              "value": "BIH"
+            },
+            {
+              "count": 1,
+              "value": "BLR"
+            },
+            {
+              "count": 1,
+              "value": "BLZ"
+            },
+            {
+              "count": 1,
+              "value": "BOL"
+            },
+            {
+              "count": 1,
+              "value": "BRA"
+            },
+            {
+              "count": 1,
+              "value": "BRB"
+            },
+            {
+              "count": 1,
+              "value": "BRN"
+            },
+            {
+              "count": 1,
+              "value": "BTN"
+            },
+            {
+              "count": 1,
+              "value": "BWA"
+            },
+            {
+              "count": 1,
+              "value": "CAF"
+            },
+            {
+              "count": 1,
+              "value": "CAN"
+            },
+            {
+              "count": 1,
+              "value": "CHE"
+            },
+            {
+              "count": 1,
+              "value": "CHL"
+            },
+            {
+              "count": 1,
+              "value": "CHN"
+            },
+            {
+              "count": 1,
+              "value": "CIV"
+            },
+            {
+              "count": 1,
+              "value": "CMR"
+            },
+            {
+              "count": 1,
+              "value": "COD"
+            },
+            {
+              "count": 1,
+              "value": "COG"
+            },
+            {
+              "count": 1,
+              "value": "COL"
+            },
+            {
+              "count": 1,
+              "value": "COM"
+            },
+            {
+              "count": 1,
+              "value": "CPV"
+            },
+            {
+              "count": 1,
+              "value": "CRI"
+            },
+            {
+              "count": 1,
+              "value": "CUB"
+            },
+            {
+              "count": 1,
+              "value": "CYP"
+            },
+            {
+              "count": 1,
+              "value": "CZE"
+            },
+            {
+              "count": 1,
+              "value": "DEU"
+            },
+            {
+              "count": 1,
+              "value": "DJI"
+            },
+            {
+              "count": 1,
+              "value": "DMA"
+            },
+            {
+              "count": 1,
+              "value": "DNK"
+            },
+            {
+              "count": 1,
+              "value": "DOM"
+            },
+            {
+              "count": 1,
+              "value": "DZA"
+            },
+            {
+              "count": 1,
+              "value": "ECU"
+            },
+            {
+              "count": 1,
+              "value": "EGY"
+            },
+            {
+              "count": 1,
+              "value": "ERI"
+            },
+            {
+              "count": 1,
+              "value": "ESP"
+            },
+            {
+              "count": 1,
+              "value": "EST"
+            },
+            {
+              "count": 1,
+              "value": "ETH"
+            },
+            {
+              "count": 1,
+              "value": "FIN"
+            },
+            {
+              "count": 1,
+              "value": "FJI"
+            },
+            {
+              "count": 1,
+              "value": "FRA"
+            },
+            {
+              "count": 1,
+              "value": "FSM"
+            },
+            {
+              "count": 1,
+              "value": "GAB"
+            },
+            {
+              "count": 1,
+              "value": "GBR"
+            },
+            {
+              "count": 1,
+              "value": "GEO"
+            },
+            {
+              "count": 1,
+              "value": "GHA"
+            },
+            {
+              "count": 1,
+              "value": "GIN"
+            },
+            {
+              "count": 1,
+              "value": "GMB"
+            },
+            {
+              "count": 1,
+              "value": "GNB"
+            },
+            {
+              "count": 1,
+              "value": "GNQ"
+            },
+            {
+              "count": 1,
+              "value": "GRC"
+            },
+            {
+              "count": 1,
+              "value": "GRD"
+            },
+            {
+              "count": 1,
+              "value": "GTM"
+            },
+            {
+              "count": 1,
+              "value": "GUY"
+            },
+            {
+              "count": 1,
+              "value": "HND"
+            },
+            {
+              "count": 1,
+              "value": "HRV"
+            },
+            {
+              "count": 1,
+              "value": "HTI"
+            },
+            {
+              "count": 1,
+              "value": "HUN"
+            },
+            {
+              "count": 1,
+              "value": "IDN"
+            },
+            {
+              "count": 1,
+              "value": "IND"
+            },
+            {
+              "count": 1,
+              "value": "IRL"
+            },
+            {
+              "count": 1,
+              "value": "IRN"
+            },
+            {
+              "count": 1,
+              "value": "IRQ"
+            },
+            {
+              "count": 1,
+              "value": "ISL"
+            },
+            {
+              "count": 1,
+              "value": "ISR"
+            },
+            {
+              "count": 1,
+              "value": "ITA"
+            },
+            {
+              "count": 1,
+              "value": "JAM"
+            },
+            {
+              "count": 1,
+              "value": "JOR"
+            },
+            {
+              "count": 1,
+              "value": "JPN"
+            },
+            {
+              "count": 1,
+              "value": "KAZ"
+            },
+            {
+              "count": 1,
+              "value": "KEN"
+            },
+            {
+              "count": 1,
+              "value": "KGZ"
+            },
+            {
+              "count": 1,
+              "value": "KHM"
+            },
+            {
+              "count": 1,
+              "value": "KIR"
+            },
+            {
+              "count": 1,
+              "value": "KNA"
+            },
+            {
+              "count": 1,
+              "value": "KOR"
+            },
+            {
+              "count": 1,
+              "value": "KWT"
+            },
+            {
+              "count": 1,
+              "value": "LAO"
+            },
+            {
+              "count": 1,
+              "value": "LBN"
+            },
+            {
+              "count": 1,
+              "value": "LBR"
+            },
+            {
+              "count": 1,
+              "value": "LBY"
+            },
+            {
+              "count": 1,
+              "value": "LCA"
+            },
+            {
+              "count": 1,
+              "value": "LIE"
+            },
+            {
+              "count": 1,
+              "value": "LKA"
+            },
+            {
+              "count": 1,
+              "value": "LSO"
+            },
+            {
+              "count": 1,
+              "value": "LTU"
+            },
+            {
+              "count": 1,
+              "value": "LUX"
+            },
+            {
+              "count": 1,
+              "value": "LVA"
+            },
+            {
+              "count": 1,
+              "value": "MAR"
+            },
+            {
+              "count": 1,
+              "value": "MCO"
+            },
+            {
+              "count": 1,
+              "value": "MDA"
+            },
+            {
+              "count": 1,
+              "value": "MDG"
+            },
+            {
+              "count": 1,
+              "value": "MDV"
+            },
+            {
+              "count": 1,
+              "value": "MEX"
+            },
+            {
+              "count": 1,
+              "value": "MHL"
+            },
+            {
+              "count": 1,
+              "value": "MKD"
+            },
+            {
+              "count": 1,
+              "value": "MLI"
+            },
+            {
+              "count": 1,
+              "value": "MLT"
+            },
+            {
+              "count": 1,
+              "value": "MMR"
+            },
+            {
+              "count": 1,
+              "value": "MNE"
+            },
+            {
+              "count": 1,
+              "value": "MNG"
+            },
+            {
+              "count": 1,
+              "value": "MOZ"
+            },
+            {
+              "count": 1,
+              "value": "MRT"
+            },
+            {
+              "count": 1,
+              "value": "MUS"
+            },
+            {
+              "count": 1,
+              "value": "MWI"
+            },
+            {
+              "count": 1,
+              "value": "MYS"
+            },
+            {
+              "count": 1,
+              "value": "NAM"
+            },
+            {
+              "count": 1,
+              "value": "NER"
+            },
+            {
+              "count": 1,
+              "value": "NGA"
+            },
+            {
+              "count": 1,
+              "value": "NIC"
+            },
+            {
+              "count": 1,
+              "value": "NLD"
+            },
+            {
+              "count": 1,
+              "value": "NOR"
+            },
+            {
+              "count": 1,
+              "value": "NPL"
+            },
+            {
+              "count": 1,
+              "value": "NRU"
+            },
+            {
+              "count": 1,
+              "value": "NZL"
+            },
+            {
+              "count": 1,
+              "value": "OMN"
+            },
+            {
+              "count": 1,
+              "value": "PAK"
+            },
+            {
+              "count": 1,
+              "value": "PAN"
+            },
+            {
+              "count": 1,
+              "value": "PER"
+            },
+            {
+              "count": 1,
+              "value": "PHL"
+            },
+            {
+              "count": 1,
+              "value": "PLW"
+            },
+            {
+              "count": 1,
+              "value": "PNG"
+            },
+            {
+              "count": 1,
+              "value": "POL"
+            },
+            {
+              "count": 1,
+              "value": "PRK"
+            },
+            {
+              "count": 1,
+              "value": "PRT"
+            },
+            {
+              "count": 1,
+              "value": "PRY"
+            },
+            {
+              "count": 1,
+              "value": "PSE"
+            },
+            {
+              "count": 1,
+              "value": "QAT"
+            },
+            {
+              "count": 1,
+              "value": "ROU"
+            },
+            {
+              "count": 1,
+              "value": "RUS"
+            },
+            {
+              "count": 1,
+              "value": "RWA"
+            },
+            {
+              "count": 1,
+              "value": "SAU"
+            },
+            {
+              "count": 1,
+              "value": "SDN"
+            },
+            {
+              "count": 1,
+              "value": "SEN"
+            },
+            {
+              "count": 1,
+              "value": "SGP"
+            },
+            {
+              "count": 1,
+              "value": "SLB"
+            },
+            {
+              "count": 1,
+              "value": "SLE"
+            },
+            {
+              "count": 1,
+              "value": "SLV"
+            },
+            {
+              "count": 1,
+              "value": "SMR"
+            },
+            {
+              "count": 1,
+              "value": "SOM"
+            },
+            {
+              "count": 1,
+              "value": "SRB"
+            },
+            {
+              "count": 1,
+              "value": "SSD"
+            },
+            {
+              "count": 1,
+              "value": "STP"
+            },
+            {
+              "count": 1,
+              "value": "SUR"
+            },
+            {
+              "count": 1,
+              "value": "SVK"
+            },
+            {
+              "count": 1,
+              "value": "SVN"
+            },
+            {
+              "count": 1,
+              "value": "SWE"
+            },
+            {
+              "count": 1,
+              "value": "SWZ"
+            },
+            {
+              "count": 1,
+              "value": "SYC"
+            },
+            {
+              "count": 1,
+              "value": "SYR"
+            },
+            {
+              "count": 1,
+              "value": "TCD"
+            },
+            {
+              "count": 1,
+              "value": "TGO"
+            },
+            {
+              "count": 1,
+              "value": "THA"
+            },
+            {
+              "count": 1,
+              "value": "TJK"
+            },
+            {
+              "count": 1,
+              "value": "TKM"
+            },
+            {
+              "count": 1,
+              "value": "TLS"
+            },
+            {
+              "count": 1,
+              "value": "TON"
+            },
+            {
+              "count": 1,
+              "value": "TTO"
+            },
+            {
+              "count": 1,
+              "value": "TUN"
+            },
+            {
+              "count": 1,
+              "value": "TUR"
+            },
+            {
+              "count": 1,
+              "value": "TUV"
+            },
+            {
+              "count": 1,
+              "value": "TZA"
+            },
+            {
+              "count": 1,
+              "value": "UGA"
+            },
+            {
+              "count": 1,
+              "value": "UKR"
+            },
+            {
+              "count": 1,
+              "value": "URY"
+            },
+            {
+              "count": 1,
+              "value": "USA"
+            },
+            {
+              "count": 1,
+              "value": "UZB"
+            },
+            {
+              "count": 1,
+              "value": "VCT"
+            },
+            {
+              "count": 1,
+              "value": "VEN"
+            },
+            {
+              "count": 1,
+              "value": "VNM"
+            },
+            {
+              "count": 1,
+              "value": "VUT"
+            },
+            {
+              "count": 1,
+              "value": "WSM"
+            },
+            {
+              "count": 1,
+              "value": "XKX"
+            },
+            {
+              "count": 1,
+              "value": "YEM"
+            },
+            {
+              "count": 1,
+              "value": "ZAF"
+            },
+            {
+              "count": 1,
+              "value": "ZMB"
+            },
+            {
+              "count": 1,
+              "value": "ZWE"
+            }
+          ]
+        },
+        "observed_value": [
+          "AFG",
+          "AGO",
+          "ALB",
+          "AND",
+          "ARE",
+          "ARG",
+          "ARM",
+          "ATG",
+          "AUS",
+          "AUT",
+          "AZE",
+          "BDI",
+          "BEL",
+          "BEN",
+          "BFA",
+          "BGD",
+          "BGR",
+          "BHR",
+          "BHS",
+          "BIH",
+          "BLR",
+          "BLZ",
+          "BOL",
+          "BRA",
+          "BRB",
+          "BRN",
+          "BTN",
+          "BWA",
+          "CAF",
+          "CAN",
+          "CHE",
+          "CHL",
+          "CHN",
+          "CIV",
+          "CMR",
+          "COD",
+          "COG",
+          "COL",
+          "COM",
+          "CPV",
+          "CRI",
+          "CUB",
+          "CYP",
+          "CZE",
+          "DEU",
+          "DJI",
+          "DMA",
+          "DNK",
+          "DOM",
+          "DZA",
+          "ECU",
+          "EGY",
+          "ERI",
+          "ESP",
+          "EST",
+          "ETH",
+          "FIN",
+          "FJI",
+          "FRA",
+          "FSM",
+          "GAB",
+          "GBR",
+          "GEO",
+          "GHA",
+          "GIN",
+          "GMB",
+          "GNB",
+          "GNQ",
+          "GRC",
+          "GRD",
+          "GTM",
+          "GUY",
+          "HND",
+          "HRV",
+          "HTI",
+          "HUN",
+          "IDN",
+          "IND",
+          "IRL",
+          "IRN",
+          "IRQ",
+          "ISL",
+          "ISR",
+          "ITA",
+          "JAM",
+          "JOR",
+          "JPN",
+          "KAZ",
+          "KEN",
+          "KGZ",
+          "KHM",
+          "KIR",
+          "KNA",
+          "KOR",
+          "KWT",
+          "LAO",
+          "LBN",
+          "LBR",
+          "LBY",
+          "LCA",
+          "LIE",
+          "LKA",
+          "LSO",
+          "LTU",
+          "LUX",
+          "LVA",
+          "MAR",
+          "MCO",
+          "MDA",
+          "MDG",
+          "MDV",
+          "MEX",
+          "MHL",
+          "MKD",
+          "MLI",
+          "MLT",
+          "MMR",
+          "MNE",
+          "MNG",
+          "MOZ",
+          "MRT",
+          "MUS",
+          "MWI",
+          "MYS",
+          "NAM",
+          "NER",
+          "NGA",
+          "NIC",
+          "NLD",
+          "NOR",
+          "NPL",
+          "NRU",
+          "NZL",
+          "OMN",
+          "PAK",
+          "PAN",
+          "PER",
+          "PHL",
+          "PLW",
+          "PNG",
+          "POL",
+          "PRK",
+          "PRT",
+          "PRY",
+          "PSE",
+          "QAT",
+          "ROU",
+          "RUS",
+          "RWA",
+          "SAU",
+          "SDN",
+          "SEN",
+          "SGP",
+          "SLB",
+          "SLE",
+          "SLV",
+          "SMR",
+          "SOM",
+          "SRB",
+          "SSD",
+          "STP",
+          "SUR",
+          "SVK",
+          "SVN",
+          "SWE",
+          "SWZ",
+          "SYC",
+          "SYR",
+          "TCD",
+          "TGO",
+          "THA",
+          "TJK",
+          "TKM",
+          "TLS",
+          "TON",
+          "TTO",
+          "TUN",
+          "TUR",
+          "TUV",
+          "TZA",
+          "UGA",
+          "UKR",
+          "URY",
+          "USA",
+          "UZB",
+          "VCT",
+          "VEN",
+          "VNM",
+          "VUT",
+          "WSM",
+          "XKX",
+          "YEM",
+          "ZAF",
+          "ZMB",
+          "ZWE"
+        ]
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_distinct_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "COUNTRY_ISO_3",
+          "mostly": 1.0,
+          "value_set": [
+            "AFG",
+            "ALB",
+            "AND",
+            "DZA",
+            "AGO",
+            "ATG",
+            "ARG",
+            "ARM",
+            "AUS",
+            "AUT",
+            "AZE",
+            "BHS",
+            "BHR",
+            "BGD",
+            "BRB",
+            "BLR",
+            "BEL",
+            "BLZ",
+            "BEN",
+            "BTN",
+            "BOL",
+            "BIH",
+            "BWA",
+            "BRA",
+            "BRN",
+            "BGR",
+            "BFA",
+            "BDI",
+            "CPV",
+            "KHM",
+            "CMR",
+            "CAN",
+            "CAF",
+            "TCD",
+            "CHL",
+            "CHN",
+            "COL",
+            "COM",
+            "COG",
+            "COD",
+            "CRI",
+            "CIV",
+            "HRV",
+            "CUB",
+            "CYP",
+            "CZE",
+            "DNK",
+            "DJI",
+            "DMA",
+            "DOM",
+            "ECU",
+            "EGY",
+            "SLV",
+            "GNQ",
+            "ERI",
+            "EST",
+            "SWZ",
+            "ETH",
+            "FJI",
+            "FIN",
+            "FRA",
+            "GAB",
+            "GMB",
+            "GEO",
+            "DEU",
+            "GHA",
+            "GRC",
+            "GRD",
+            "GTM",
+            "GIN",
+            "GNB",
+            "GUY",
+            "HTI",
+            "HND",
+            "HUN",
+            "ISL",
+            "IND",
+            "IDN",
+            "IRN",
+            "IRQ",
+            "IRL",
+            "ISR",
+            "ITA",
+            "JAM",
+            "JPN",
+            "JOR",
+            "KAZ",
+            "KEN",
+            "KIR",
+            "PRK",
+            "KOR",
+            "XKX",
+            "KWT",
+            "KGZ",
+            "LAO",
+            "LVA",
+            "LBN",
+            "LSO",
+            "LBR",
+            "LBY",
+            "LIE",
+            "LTU",
+            "LUX",
+            "MKD",
+            "MDG",
+            "MWI",
+            "MYS",
+            "MDV",
+            "MLI",
+            "MLT",
+            "MHL",
+            "MRT",
+            "MUS",
+            "MEX",
+            "FSM",
+            "MDA",
+            "MCO",
+            "MNG",
+            "MNE",
+            "MAR",
+            "MOZ",
+            "MMR",
+            "NAM",
+            "NRU",
+            "NPL",
+            "NLD",
+            "NZL",
+            "NIC",
+            "NER",
+            "NGA",
+            "NOR",
+            "OMN",
+            "PAK",
+            "PLW",
+            "PSE",
+            "PAN",
+            "PNG",
+            "PRY",
+            "PER",
+            "PHL",
+            "POL",
+            "PRT",
+            "QAT",
+            "ROU",
+            "RUS",
+            "RWA",
+            "KNA",
+            "LCA",
+            "VCT",
+            "WSM",
+            "SMR",
+            "STP",
+            "SAU",
+            "SEN",
+            "SRB",
+            "SYC",
+            "SLE",
+            "SGP",
+            "SVK",
+            "SVN",
+            "SLB",
+            "SOM",
+            "ZAF",
+            "SSD",
+            "ESP",
+            "LKA",
+            "SDN",
+            "SUR",
+            "SWE",
+            "CHE",
+            "SYR",
+            "TJK",
+            "TZA",
+            "THA",
+            "TLS",
+            "TGO",
+            "TON",
+            "TTO",
+            "TUN",
+            "TUR",
+            "TKM",
+            "TUV",
+            "UGA",
+            "UKR",
+            "ARE",
+            "GBR",
+            "USA",
+            "URY",
+            "UZB",
+            "VUT",
+            "VEN",
+            "VNM",
+            "YEM",
+            "ZMB",
+            "ZWE"
+          ]
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "details": {
+          "value_counts": [
+            {
+              "count": 1,
+              "value": "AFG"
+            },
+            {
+              "count": 1,
+              "value": "AGO"
+            },
+            {
+              "count": 1,
+              "value": "ALB"
+            },
+            {
+              "count": 1,
+              "value": "AND"
+            },
+            {
+              "count": 1,
+              "value": "ARE"
+            },
+            {
+              "count": 1,
+              "value": "ARG"
+            },
+            {
+              "count": 1,
+              "value": "ARM"
+            },
+            {
+              "count": 1,
+              "value": "ATG"
+            },
+            {
+              "count": 1,
+              "value": "AUS"
+            },
+            {
+              "count": 1,
+              "value": "AUT"
+            },
+            {
+              "count": 1,
+              "value": "AZE"
+            },
+            {
+              "count": 1,
+              "value": "BDI"
+            },
+            {
+              "count": 1,
+              "value": "BEL"
+            },
+            {
+              "count": 1,
+              "value": "BEN"
+            },
+            {
+              "count": 1,
+              "value": "BFA"
+            },
+            {
+              "count": 1,
+              "value": "BGD"
+            },
+            {
+              "count": 1,
+              "value": "BGR"
+            },
+            {
+              "count": 1,
+              "value": "BHR"
+            },
+            {
+              "count": 1,
+              "value": "BHS"
+            },
+            {
+              "count": 1,
+              "value": "BIH"
+            },
+            {
+              "count": 1,
+              "value": "BLR"
+            },
+            {
+              "count": 1,
+              "value": "BLZ"
+            },
+            {
+              "count": 1,
+              "value": "BOL"
+            },
+            {
+              "count": 1,
+              "value": "BRA"
+            },
+            {
+              "count": 1,
+              "value": "BRB"
+            },
+            {
+              "count": 1,
+              "value": "BRN"
+            },
+            {
+              "count": 1,
+              "value": "BTN"
+            },
+            {
+              "count": 1,
+              "value": "BWA"
+            },
+            {
+              "count": 1,
+              "value": "CAF"
+            },
+            {
+              "count": 1,
+              "value": "CAN"
+            },
+            {
+              "count": 1,
+              "value": "CHE"
+            },
+            {
+              "count": 1,
+              "value": "CHL"
+            },
+            {
+              "count": 1,
+              "value": "CHN"
+            },
+            {
+              "count": 1,
+              "value": "CIV"
+            },
+            {
+              "count": 1,
+              "value": "CMR"
+            },
+            {
+              "count": 1,
+              "value": "COD"
+            },
+            {
+              "count": 1,
+              "value": "COG"
+            },
+            {
+              "count": 1,
+              "value": "COL"
+            },
+            {
+              "count": 1,
+              "value": "COM"
+            },
+            {
+              "count": 1,
+              "value": "CPV"
+            },
+            {
+              "count": 1,
+              "value": "CRI"
+            },
+            {
+              "count": 1,
+              "value": "CUB"
+            },
+            {
+              "count": 1,
+              "value": "CYP"
+            },
+            {
+              "count": 1,
+              "value": "CZE"
+            },
+            {
+              "count": 1,
+              "value": "DEU"
+            },
+            {
+              "count": 1,
+              "value": "DJI"
+            },
+            {
+              "count": 1,
+              "value": "DMA"
+            },
+            {
+              "count": 1,
+              "value": "DNK"
+            },
+            {
+              "count": 1,
+              "value": "DOM"
+            },
+            {
+              "count": 1,
+              "value": "DZA"
+            },
+            {
+              "count": 1,
+              "value": "ECU"
+            },
+            {
+              "count": 1,
+              "value": "EGY"
+            },
+            {
+              "count": 1,
+              "value": "ERI"
+            },
+            {
+              "count": 1,
+              "value": "ESP"
+            },
+            {
+              "count": 1,
+              "value": "EST"
+            },
+            {
+              "count": 1,
+              "value": "ETH"
+            },
+            {
+              "count": 1,
+              "value": "FIN"
+            },
+            {
+              "count": 1,
+              "value": "FJI"
+            },
+            {
+              "count": 1,
+              "value": "FRA"
+            },
+            {
+              "count": 1,
+              "value": "FSM"
+            },
+            {
+              "count": 1,
+              "value": "GAB"
+            },
+            {
+              "count": 1,
+              "value": "GBR"
+            },
+            {
+              "count": 1,
+              "value": "GEO"
+            },
+            {
+              "count": 1,
+              "value": "GHA"
+            },
+            {
+              "count": 1,
+              "value": "GIN"
+            },
+            {
+              "count": 1,
+              "value": "GMB"
+            },
+            {
+              "count": 1,
+              "value": "GNB"
+            },
+            {
+              "count": 1,
+              "value": "GNQ"
+            },
+            {
+              "count": 1,
+              "value": "GRC"
+            },
+            {
+              "count": 1,
+              "value": "GRD"
+            },
+            {
+              "count": 1,
+              "value": "GTM"
+            },
+            {
+              "count": 1,
+              "value": "GUY"
+            },
+            {
+              "count": 1,
+              "value": "HND"
+            },
+            {
+              "count": 1,
+              "value": "HRV"
+            },
+            {
+              "count": 1,
+              "value": "HTI"
+            },
+            {
+              "count": 1,
+              "value": "HUN"
+            },
+            {
+              "count": 1,
+              "value": "IDN"
+            },
+            {
+              "count": 1,
+              "value": "IND"
+            },
+            {
+              "count": 1,
+              "value": "IRL"
+            },
+            {
+              "count": 1,
+              "value": "IRN"
+            },
+            {
+              "count": 1,
+              "value": "IRQ"
+            },
+            {
+              "count": 1,
+              "value": "ISL"
+            },
+            {
+              "count": 1,
+              "value": "ISR"
+            },
+            {
+              "count": 1,
+              "value": "ITA"
+            },
+            {
+              "count": 1,
+              "value": "JAM"
+            },
+            {
+              "count": 1,
+              "value": "JOR"
+            },
+            {
+              "count": 1,
+              "value": "JPN"
+            },
+            {
+              "count": 1,
+              "value": "KAZ"
+            },
+            {
+              "count": 1,
+              "value": "KEN"
+            },
+            {
+              "count": 1,
+              "value": "KGZ"
+            },
+            {
+              "count": 1,
+              "value": "KHM"
+            },
+            {
+              "count": 1,
+              "value": "KIR"
+            },
+            {
+              "count": 1,
+              "value": "KNA"
+            },
+            {
+              "count": 1,
+              "value": "KOR"
+            },
+            {
+              "count": 1,
+              "value": "KWT"
+            },
+            {
+              "count": 1,
+              "value": "LAO"
+            },
+            {
+              "count": 1,
+              "value": "LBN"
+            },
+            {
+              "count": 1,
+              "value": "LBR"
+            },
+            {
+              "count": 1,
+              "value": "LBY"
+            },
+            {
+              "count": 1,
+              "value": "LCA"
+            },
+            {
+              "count": 1,
+              "value": "LIE"
+            },
+            {
+              "count": 1,
+              "value": "LKA"
+            },
+            {
+              "count": 1,
+              "value": "LSO"
+            },
+            {
+              "count": 1,
+              "value": "LTU"
+            },
+            {
+              "count": 1,
+              "value": "LUX"
+            },
+            {
+              "count": 1,
+              "value": "LVA"
+            },
+            {
+              "count": 1,
+              "value": "MAR"
+            },
+            {
+              "count": 1,
+              "value": "MCO"
+            },
+            {
+              "count": 1,
+              "value": "MDA"
+            },
+            {
+              "count": 1,
+              "value": "MDG"
+            },
+            {
+              "count": 1,
+              "value": "MDV"
+            },
+            {
+              "count": 1,
+              "value": "MEX"
+            },
+            {
+              "count": 1,
+              "value": "MHL"
+            },
+            {
+              "count": 1,
+              "value": "MKD"
+            },
+            {
+              "count": 1,
+              "value": "MLI"
+            },
+            {
+              "count": 1,
+              "value": "MLT"
+            },
+            {
+              "count": 1,
+              "value": "MMR"
+            },
+            {
+              "count": 1,
+              "value": "MNE"
+            },
+            {
+              "count": 1,
+              "value": "MNG"
+            },
+            {
+              "count": 1,
+              "value": "MOZ"
+            },
+            {
+              "count": 1,
+              "value": "MRT"
+            },
+            {
+              "count": 1,
+              "value": "MUS"
+            },
+            {
+              "count": 1,
+              "value": "MWI"
+            },
+            {
+              "count": 1,
+              "value": "MYS"
+            },
+            {
+              "count": 1,
+              "value": "NAM"
+            },
+            {
+              "count": 1,
+              "value": "NER"
+            },
+            {
+              "count": 1,
+              "value": "NGA"
+            },
+            {
+              "count": 1,
+              "value": "NIC"
+            },
+            {
+              "count": 1,
+              "value": "NLD"
+            },
+            {
+              "count": 1,
+              "value": "NOR"
+            },
+            {
+              "count": 1,
+              "value": "NPL"
+            },
+            {
+              "count": 1,
+              "value": "NRU"
+            },
+            {
+              "count": 1,
+              "value": "NZL"
+            },
+            {
+              "count": 1,
+              "value": "OMN"
+            },
+            {
+              "count": 1,
+              "value": "PAK"
+            },
+            {
+              "count": 1,
+              "value": "PAN"
+            },
+            {
+              "count": 1,
+              "value": "PER"
+            },
+            {
+              "count": 1,
+              "value": "PHL"
+            },
+            {
+              "count": 1,
+              "value": "PLW"
+            },
+            {
+              "count": 1,
+              "value": "PNG"
+            },
+            {
+              "count": 1,
+              "value": "POL"
+            },
+            {
+              "count": 1,
+              "value": "PRK"
+            },
+            {
+              "count": 1,
+              "value": "PRT"
+            },
+            {
+              "count": 1,
+              "value": "PRY"
+            },
+            {
+              "count": 1,
+              "value": "PSE"
+            },
+            {
+              "count": 1,
+              "value": "QAT"
+            },
+            {
+              "count": 1,
+              "value": "ROU"
+            },
+            {
+              "count": 1,
+              "value": "RUS"
+            },
+            {
+              "count": 1,
+              "value": "RWA"
+            },
+            {
+              "count": 1,
+              "value": "SAU"
+            },
+            {
+              "count": 1,
+              "value": "SDN"
+            },
+            {
+              "count": 1,
+              "value": "SEN"
+            },
+            {
+              "count": 1,
+              "value": "SGP"
+            },
+            {
+              "count": 1,
+              "value": "SLB"
+            },
+            {
+              "count": 1,
+              "value": "SLE"
+            },
+            {
+              "count": 1,
+              "value": "SLV"
+            },
+            {
+              "count": 1,
+              "value": "SMR"
+            },
+            {
+              "count": 1,
+              "value": "SOM"
+            },
+            {
+              "count": 1,
+              "value": "SRB"
+            },
+            {
+              "count": 1,
+              "value": "SSD"
+            },
+            {
+              "count": 1,
+              "value": "STP"
+            },
+            {
+              "count": 1,
+              "value": "SUR"
+            },
+            {
+              "count": 1,
+              "value": "SVK"
+            },
+            {
+              "count": 1,
+              "value": "SVN"
+            },
+            {
+              "count": 1,
+              "value": "SWE"
+            },
+            {
+              "count": 1,
+              "value": "SWZ"
+            },
+            {
+              "count": 1,
+              "value": "SYC"
+            },
+            {
+              "count": 1,
+              "value": "SYR"
+            },
+            {
+              "count": 1,
+              "value": "TCD"
+            },
+            {
+              "count": 1,
+              "value": "TGO"
+            },
+            {
+              "count": 1,
+              "value": "THA"
+            },
+            {
+              "count": 1,
+              "value": "TJK"
+            },
+            {
+              "count": 1,
+              "value": "TKM"
+            },
+            {
+              "count": 1,
+              "value": "TLS"
+            },
+            {
+              "count": 1,
+              "value": "TON"
+            },
+            {
+              "count": 1,
+              "value": "TTO"
+            },
+            {
+              "count": 1,
+              "value": "TUN"
+            },
+            {
+              "count": 1,
+              "value": "TUR"
+            },
+            {
+              "count": 1,
+              "value": "TUV"
+            },
+            {
+              "count": 1,
+              "value": "TZA"
+            },
+            {
+              "count": 1,
+              "value": "UGA"
+            },
+            {
+              "count": 1,
+              "value": "UKR"
+            },
+            {
+              "count": 1,
+              "value": "URY"
+            },
+            {
+              "count": 1,
+              "value": "USA"
+            },
+            {
+              "count": 1,
+              "value": "UZB"
+            },
+            {
+              "count": 1,
+              "value": "VCT"
+            },
+            {
+              "count": 1,
+              "value": "VEN"
+            },
+            {
+              "count": 1,
+              "value": "VNM"
+            },
+            {
+              "count": 1,
+              "value": "VUT"
+            },
+            {
+              "count": 1,
+              "value": "WSM"
+            },
+            {
+              "count": 1,
+              "value": "XKX"
+            },
+            {
+              "count": 1,
+              "value": "YEM"
+            },
+            {
+              "count": 1,
+              "value": "ZAF"
+            },
+            {
+              "count": 1,
+              "value": "ZMB"
+            },
+            {
+              "count": 1,
+              "value": "ZWE"
+            }
+          ]
+        },
+        "observed_value": [
+          "AFG",
+          "AGO",
+          "ALB",
+          "AND",
+          "ARE",
+          "ARG",
+          "ARM",
+          "ATG",
+          "AUS",
+          "AUT",
+          "AZE",
+          "BDI",
+          "BEL",
+          "BEN",
+          "BFA",
+          "BGD",
+          "BGR",
+          "BHR",
+          "BHS",
+          "BIH",
+          "BLR",
+          "BLZ",
+          "BOL",
+          "BRA",
+          "BRB",
+          "BRN",
+          "BTN",
+          "BWA",
+          "CAF",
+          "CAN",
+          "CHE",
+          "CHL",
+          "CHN",
+          "CIV",
+          "CMR",
+          "COD",
+          "COG",
+          "COL",
+          "COM",
+          "CPV",
+          "CRI",
+          "CUB",
+          "CYP",
+          "CZE",
+          "DEU",
+          "DJI",
+          "DMA",
+          "DNK",
+          "DOM",
+          "DZA",
+          "ECU",
+          "EGY",
+          "ERI",
+          "ESP",
+          "EST",
+          "ETH",
+          "FIN",
+          "FJI",
+          "FRA",
+          "FSM",
+          "GAB",
+          "GBR",
+          "GEO",
+          "GHA",
+          "GIN",
+          "GMB",
+          "GNB",
+          "GNQ",
+          "GRC",
+          "GRD",
+          "GTM",
+          "GUY",
+          "HND",
+          "HRV",
+          "HTI",
+          "HUN",
+          "IDN",
+          "IND",
+          "IRL",
+          "IRN",
+          "IRQ",
+          "ISL",
+          "ISR",
+          "ITA",
+          "JAM",
+          "JOR",
+          "JPN",
+          "KAZ",
+          "KEN",
+          "KGZ",
+          "KHM",
+          "KIR",
+          "KNA",
+          "KOR",
+          "KWT",
+          "LAO",
+          "LBN",
+          "LBR",
+          "LBY",
+          "LCA",
+          "LIE",
+          "LKA",
+          "LSO",
+          "LTU",
+          "LUX",
+          "LVA",
+          "MAR",
+          "MCO",
+          "MDA",
+          "MDG",
+          "MDV",
+          "MEX",
+          "MHL",
+          "MKD",
+          "MLI",
+          "MLT",
+          "MMR",
+          "MNE",
+          "MNG",
+          "MOZ",
+          "MRT",
+          "MUS",
+          "MWI",
+          "MYS",
+          "NAM",
+          "NER",
+          "NGA",
+          "NIC",
+          "NLD",
+          "NOR",
+          "NPL",
+          "NRU",
+          "NZL",
+          "OMN",
+          "PAK",
+          "PAN",
+          "PER",
+          "PHL",
+          "PLW",
+          "PNG",
+          "POL",
+          "PRK",
+          "PRT",
+          "PRY",
+          "PSE",
+          "QAT",
+          "ROU",
+          "RUS",
+          "RWA",
+          "SAU",
+          "SDN",
+          "SEN",
+          "SGP",
+          "SLB",
+          "SLE",
+          "SLV",
+          "SMR",
+          "SOM",
+          "SRB",
+          "SSD",
+          "STP",
+          "SUR",
+          "SVK",
+          "SVN",
+          "SWE",
+          "SWZ",
+          "SYC",
+          "SYR",
+          "TCD",
+          "TGO",
+          "THA",
+          "TJK",
+          "TKM",
+          "TLS",
+          "TON",
+          "TTO",
+          "TUN",
+          "TUR",
+          "TUV",
+          "TZA",
+          "UGA",
+          "UKR",
+          "URY",
+          "USA",
+          "UZB",
+          "VCT",
+          "VEN",
+          "VNM",
+          "VUT",
+          "WSM",
+          "XKX",
+          "YEM",
+          "ZAF",
+          "ZMB",
+          "ZWE"
+        ]
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "INDICATOR_INDEX"
+        },
+        "meta": {
+          "profiler_details": {
+            "metric_configuration": {
+              "domain_kwargs": {
+                "column": "INDICATOR_INDEX"
+              },
+              "metric_name": "column_values.nonnull.unexpected_count",
+              "metric_value_kwargs": null
+            },
+            "num_batches": 2
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 195,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "INDICATOR_INDEX",
+          "mostly": 1.0,
+          "value_set": [
+            "Community and Environment",
+            "Workplace",
+            "Marketplace"
+          ]
+        },
+        "meta": {
+          "profiler_details": {
+            "metric_configuration": {
+              "domain_kwargs": {
+                "column": "INDICATOR_INDEX"
+              },
+              "metric_name": "column.distinct_values",
+              "metric_value_kwargs": null
+            },
+            "num_batches": 2,
+            "parse_strings_as_datetimes": false
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 195,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "INDICATOR_ISSUE"
+        },
+        "meta": {
+          "profiler_details": {
+            "metric_configuration": {
+              "domain_kwargs": {
+                "column": "INDICATOR_ISSUE"
+              },
+              "metric_name": "column_values.nonnull.unexpected_count",
+              "metric_value_kwargs": null
+            },
+            "num_batches": 2
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 195,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "INDICATOR_ISSUE",
+          "mostly": 1.0,
+          "value_set": [
+            "Maternity and paternity protection",
+            "Natural disasters",
+            "Product Safety",
+            "Child labour",
+            "Resource use and damage to the environment",
+            "Online Abuse and exploitation",
+            "Marketing and Advertising",
+            "Land rights",
+            "Decent working conditions",
+            "Security arrangements",
+            "Fulfillment of children\u2019s rights"
+          ]
+        },
+        "meta": {
+          "profiler_details": {
+            "metric_configuration": {
+              "domain_kwargs": {
+                "column": "INDICATOR_ISSUE"
+              },
+              "metric_name": "column.distinct_values",
+              "metric_value_kwargs": null
+            },
+            "num_batches": 2,
+            "parse_strings_as_datetimes": false
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 195,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "INDICATOR_CATEGORY"
+        },
+        "meta": {
+          "profiler_details": {
+            "metric_configuration": {
+              "domain_kwargs": {
+                "column": "INDICATOR_CATEGORY"
+              },
+              "metric_name": "column_values.nonnull.unexpected_count",
+              "metric_value_kwargs": null
+            },
+            "num_batches": 2
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 195,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "INDICATOR_CATEGORY",
+          "mostly": 1.0,
+          "value_set": [
+            "Legal framework national",
+            "Outcome",
+            "Legal framework international",
+            "Enforcement"
+          ]
+        },
+        "meta": {
+          "profiler_details": {
+            "metric_configuration": {
+              "domain_kwargs": {
+                "column": "INDICATOR_CATEGORY"
+              },
+              "metric_name": "column.distinct_values",
+              "metric_value_kwargs": null
+            },
+            "num_batches": 2,
+            "parse_strings_as_datetimes": false
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 195,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "TIME_PERIOD",
+          "condition_parser": "pandas",
+          "max_value": 2023,
+          "min_value": 2013,
+          "mostly": 1.0,
+          "row_condition": "SCALED_OBS_VALUE.notnull()",
+          "strict_max": false,
+          "strict_min": false
+        },
+        "meta": {
+          "profiler_details": {
+            "column_max_values_range_estimator": {
+              "metric_configuration": {
+                "domain_kwargs": {
+                  "column": "TIME_PERIOD"
+                },
+                "metric_name": "column.max",
+                "metric_value_kwargs": null
+              },
+              "num_batches": 2
+            },
+            "column_min_values_range_estimator": {
+              "metric_configuration": {
+                "domain_kwargs": {
+                  "column": "TIME_PERIOD"
+                },
+                "metric_name": "column.min",
+                "metric_value_kwargs": null
+              },
+              "num_batches": 2
+            }
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 104,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "CRBA_RELEASE_YEAR",
+          "max_value": 2023,
+          "min_value": 2023,
+          "mostly": 1.0,
+          "strict_max": false,
+          "strict_min": false
+        },
+        "meta": {
+          "profiler_details": {
+            "column_max_values_range_estimator": {
+              "metric_configuration": {
+                "domain_kwargs": {
+                  "column": "CRBA_RELEASE_YEAR"
+                },
+                "metric_name": "column.max",
+                "metric_value_kwargs": null
+              },
+              "num_batches": 2
+            },
+            "column_min_values_range_estimator": {
+              "metric_configuration": {
+                "domain_kwargs": {
+                  "column": "CRBA_RELEASE_YEAR"
+                },
+                "metric_name": "column.min",
+                "metric_value_kwargs": null
+              },
+              "num_batches": 2
+            }
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 195,
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "RAW_OBS_VALUE",
+          "mostly": 1.0,
+          "strict_max": false,
+          "strict_min": false,
+          "type_": "float64"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "observed_value": "float64"
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "SCALED_OBS_VALUE",
+          "max_value": 10.0,
+          "min_value": 0.0,
+          "mostly": 1.0,
+          "strict_max": false,
+          "strict_min": false
+        },
+        "meta": {
+          "profiler_details": {
+            "column_max_values_range_estimator": {
+              "metric_configuration": {
+                "domain_kwargs": {
+                  "column": "SCALED_OBS_VALUE"
+                },
+                "metric_name": "column.max",
+                "metric_value_kwargs": null
+              },
+              "num_batches": 2
+            },
+            "column_min_values_range_estimator": {
+              "metric_configuration": {
+                "domain_kwargs": {
+                  "column": "SCALED_OBS_VALUE"
+                },
+                "metric_name": "column.min",
+                "metric_value_kwargs": null
+              },
+              "num_batches": 2
+            }
+          }
+        }
+      },
+      "meta": {},
+      "result": {
+        "element_count": 195,
+        "missing_count": 91,
+        "missing_percent": 46.666666666666664,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "unexpected_percent_total": 0.0
+      },
+      "success": true
+    },
+    {
+      "exception_info": {
+        "exception_message": null,
+        "exception_traceback": null,
+        "raised_exception": false
+      },
+      "expectation_config": {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "cff86b024eff857220f9c8416acc60bc",
+          "column": "INDICATOR_NAME"
+        },
+        "meta": {}
+      },
+      "meta": {},
+      "result": {
+        "element_count": 195,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": [],
+        "partial_unexpected_list": [],
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0
+      },
+      "success": true
+    }
+  ],
+  "statistics": {
+    "evaluated_expectations": 15,
+    "success_percent": 100.0,
+    "successful_expectations": 15,
+    "unsuccessful_expectations": 0
+  },
+  "success": true
+}
