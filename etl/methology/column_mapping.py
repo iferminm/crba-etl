@@ -99,7 +99,6 @@ iso_2_mapper = {key: "COUNTRY_ISO_2" for key in iso_2_tuple}
 # Iso 3
 iso_3_tuple = (
     "REF_AREA",
-    "iso_code3",
     "COUNTRY (CODE)",
     "COUNTRY",
     "COUNTRY_ISO_3",
