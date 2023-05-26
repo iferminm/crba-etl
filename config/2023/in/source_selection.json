@@ -550,7 +550,8 @@
     "FILE_PATH": "../../../2020/in/data/staging/S-135.xlsx"
   },
   "S-136": {
-    "FILE_PATH": "raw\/S-153_ndc_content.csv"
+    "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
+    "RAW_OBS_VALUE_TYPE": "categorical"
   },
   "S-137": {
     "STARTPERIOD": "xxx",
