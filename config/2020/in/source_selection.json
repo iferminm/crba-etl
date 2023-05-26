@@ -229,7 +229,9 @@
     "TIMEPERIOD": "xxx"
   },
   "S-51": {
-    "FILE_PATH": "raw\/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx"
+    "FILE_PATH": "raw\/S-60_FINAL-GSI-2018-DATA-G20-AND-FISHING-1597151668.xlsx",
+    "SHEET_NAME" : "Global prev, vuln, govt table",
+    "RAW_OBS_VALUE_COLUMN_NAME" : "Est. prevalence of population in modern slavery (victims per 1,000 population)"
   },
   "S-52": {
     "STARTPERIOD": "xxx",
