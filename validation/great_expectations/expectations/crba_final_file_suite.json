@@ -1,0 +1,23 @@
+{
+     "data_asset_type": null,
+     "expectation_suite_name": "crba_final_file_suite",
+     "expectations": [ 
+          {
+               "expectation_type": "expect_column_values_to_not_match_regex",
+               "kwargs": {
+                    "column": "DIM_AREA_TYPE",
+                    "regex": ".*UNMAPPED VALUE.*"
+               }
+          }
+     ],
+     "ge_cloud_id": null,
+     "meta": {
+          "citations": [
+               {
+                    "citation_date": "2023-01-12T19:11:58.392260Z",
+                    "comment": "Created by effective Rule-Based Profiler of OnboardingDataAssistant with the configuration included.\n"
+               }
+          ],
+          "great_expectations_version": "0.15.42"
+     }
+}
