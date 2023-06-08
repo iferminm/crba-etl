@@ -43,6 +43,10 @@ pandasdmx = "^1.9.0"
 logging-tree = "^1.9"
 pytest = "^7.2.1"
 
+
+[tool.poetry.group.validation.dependencies]
+seaborn = "^0.12.2"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
