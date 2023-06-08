@@ -190,21 +190,21 @@ class Config:
             if self.build_indicators_filter.endswith(".sql"):
                 with open(self.build_indicators_filter, "r") as f:
                     self.build_indicators_filter = f.read()
-                self.crba_report_definition = self.crba_report_definition.query(self.build_indicators_filter)
+                self.crba_report_definition_filtered = self.crba_report_definition.query(self.build_indicators_filter)
             elif self.build_indicators_filter.endswith(".csv") | self.build_indicators_filter.endswith(".log"):
                 # A Series of Source ID's
                 self.build_indicators_filter = list(
                     set(pd.read_csv(self.build_indicators_filter, sep=";", quotechar="'").iloc[:, 0]))
-                self.crba_report_definition = self.crba_report_definition[
+                self.crba_report_definition_filtered = self.crba_report_definition[
                     self.crba_report_definition["SOURCE_ID"].isin(self.build_indicators_filter)]
-            self.crba_report_definition.to_csv(
+            self.crba_report_definition_filtered.to_csv(
                 self.output_dir / "crba_report_definition_filtered.csv",
                 sep=";",
                 index=True,
                 index_label="SOURCE_ID",
             )
             logging.warning(
-                f"CRBA Report definition FILTERED to {self.crba_report_definition.SOURCE_ID.unique()} Source ID's")
+                f"CRBA Report definition FILTERED to {self.crba_report_definition_filtered.SOURCE_ID.unique()} Source ID's")
 
     def __repr__(self):
         return str(vars(self))

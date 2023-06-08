@@ -4,6 +4,8 @@ import logging
 import re
 import warnings
 from typing import Type
+from os import listdir
+from os.path import isfile, join
 
 import pandas as pd
 from tqdm import tqdm
@@ -30,7 +32,7 @@ def build_combined_normalized_csv(config):
     validation_batches = []
     sucesses = 0
 
-    run_logger.info(f"{len(config.crba_report_definition)} sources selected to process")
+    run_logger.info(f"{len(config.crba_report_definition_filtered)} sources selected to process")
 
     with logging_redirect_tqdm():
         with warnings.catch_warnings():
@@ -38,27 +40,20 @@ def build_combined_normalized_csv(config):
                 "ignore"
             )  ## TODO:Store Warnings istead of jus supressing them
             for index, row in tqdm(
-                    list(config.crba_report_definition.iterrows()), dynamic_ncols=True
+                    list(config.crba_report_definition_filtered.iterrows()), dynamic_ncols=True
             ):
                 try:
                     #TODO Make as sys arg
-                    cached = False
-                    if not cached:
-                        row = row.dropna().to_dict()
-                        extractor = dynamic_load(row["EXTRACTOR_CLASS"])(config, **row)
-                        extractors[row["SOURCE_ID"]] = extractor
-                        extractor.build()
-                        # More IMportant then simple INFO logs but less importend the download infos
-                        df = extractor.get()
-                        run_logger.info(
-                            msg=f"Source {row['SOURCE_ID']} extract with {df.shape[0] if df is not None else 0} rows::: {extractor.__class__.__name__}",
-                        )
-                    else:
-                        df = pd.read_csv(
-                            config.indicator_output / str(row["SOURCE_ID"] + "_" + row["INDICATOR_ID"] + ".csv"),
-                            sep=";"
-                        )
-                    extractions_data.append(df)
+                    row = row.dropna().to_dict()
+                    extractor = dynamic_load(row["EXTRACTOR_CLASS"])(config, **row)
+                    extractors[row["SOURCE_ID"]] = extractor
+                    extractor.build()
+                    # More IMportant then simple INFO logs but less importend the download infos
+                    df = extractor.get()
+                    run_logger.info(
+                        msg=f"Source {row['SOURCE_ID']} extract with {df.shape[0] if df is not None else 0} rows::: {extractor.__class__.__name__}",
+                    )
+
                     sucesses += 1
                 except ExtractionError as ex:
                     extraction_errors_source_ids.append(row["SOURCE_ID"])
@@ -80,6 +75,15 @@ def build_combined_normalized_csv(config):
                 except FileNotFoundError as ex:
                     run_logger.exception(ex)
 
+            for index, row in tqdm(
+                                list(config.crba_report_definition.iterrows()), dynamic_ncols=True
+                        ):
+                run_logger.info(
+                        msg=f"Read Source for Report {row['SOURCE_ID']}"
+                    )
+                extractions_data.append(
+                     pd.read_csv(config.indicator_output / str(row['SOURCE_ID'] + "_" + row['INDICATOR_ID'] + ".csv"), sep=";")
+                )
 
     # Store Indicator for inspection
     print(f"Number of sucesses{sucesses}")
