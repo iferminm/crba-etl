@@ -260,13 +260,13 @@ def aggregate_combined_normalized_csv(config, combined_normalized_csv):
 
     # Export combined cleansed dataframe as a sample
     crba_final.to_csv(
-        path_or_buf=config.output_dir / "crba_final.csv",
+        path_or_buf=config.output_dir_data / "crba_final.csv",
         sep=";",
         index=False,
     )
 
     aggregated_scores_dataset.to_csv(
-        path_or_buf=config.output_dir / "aggregated_scores.csv",
+        path_or_buf=config.output_dir_data / "aggregated_scores.csv",
         sep=";",
         quoting=csv.QUOTE_ALL,
     )

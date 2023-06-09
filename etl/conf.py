@@ -197,12 +197,8 @@ class Config:
                     set(pd.read_csv(self.build_indicators_filter, sep=";", quotechar="'").iloc[:, 0]))
                 self.crba_report_definition_filtered = self.crba_report_definition[
                     self.crba_report_definition["SOURCE_ID"].isin(self.build_indicators_filter)]
-            self.crba_report_definition_filtered.to_csv(
-                self.output_dir / "crba_report_definition_filtered.csv",
-                sep=";",
-                index=True,
-                index_label="SOURCE_ID",
-            )
+        else:
+            self.crba_report_definition_filtered = self.crba_report_definition
             logging.warning(
                 f"CRBA Report definition FILTERED to {self.crba_report_definition_filtered.SOURCE_ID.unique()} Source ID's")
 
@@ -217,7 +213,7 @@ class Config:
 
         # TODO replace with string io wrapper
         req = requests.get(adress)
-        with open(self.output_dir / "unicef_population_total.json", "w", encoding="utf-8") as f:
+        with open(self.output_dir_data / "unicef_population_total.json", "w", encoding="utf-8") as f:
             f.write(req.text)
 
         df = sdmx.read_sdmx(self.output_dir / "unicef_population_total.json").to_pandas()
@@ -231,5 +227,5 @@ class Config:
         df.rename(columns={"REF_AREA": "COUNTRY_ISO_3", "value": 'population'}, inplace=True)
         df["TIME_PERIOD"] = df["TIME_PERIOD"].astype('Int64')
         self.unicef_population_total = df.groupby(level=0).last()
-        self.unicef_population_total.to_csv(self.output_dir / "unicef_population_total.csv")
+        self.unicef_population_total.to_csv(self.output_dir_data / "unicef_population_total.csv")
         self.un_pop_tot = self.unicef_population_total
