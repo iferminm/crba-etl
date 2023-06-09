@@ -1,5 +1,5 @@
 {
-  "S-1": {
+  "X-1": {
     "INDICATOR_ID": "I-1",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -7,9 +7,9 @@
     "SOURCE_TITLE": "Ratification by Convention.  Ratifications of C138 - Minimum Age Convention, 1973 (No. 138).",
     "ADDRESS": "https:\/\/www.ilo.org\/dyn\/normlex\/en\/f?p=NORMLEXPUB:11300:0::NO:11300:P11300_INSTRUMENT_ID:312283:NO",
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-1"
+    "FORMER_SOURCE_ID": "S-1"
   },
-  "S-2": {
+  "X-2": {
     "INDICATOR_ID": "I-2",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -17,9 +17,9 @@
     "SOURCE_TITLE": "Ratification by Convention. Ratifications of C182 - Worst Forms of Child Labour Convention, 1999 (No. 182). ",
     "ADDRESS": "https:\/\/www.ilo.org\/dyn\/normlex\/en\/f?p=NORMLEXPUB:11300:0::NO::P11300_INSTRUMENT_ID:312327",
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-2"
+    "FORMER_SOURCE_ID": "S-2"
   },
-  "S-3": {
+  "X-3": {
     "INDICATOR_ID": "I-3",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -39,9 +39,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-3"
+    "FORMER_SOURCE_ID": "S-3"
   },
-  "S-4": {
+  "X-4": {
     "INDICATOR_ID": "I-4",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -61,9 +61,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-4"
+    "FORMER_SOURCE_ID": "S-4"
   },
-  "S-5": {
+  "X-5": {
     "INDICATOR_ID": "I-5",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -83,9 +83,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-5"
+    "FORMER_SOURCE_ID": "S-5"
   },
-  "S-6": {
+  "X-6": {
     "INDICATOR_ID": "I-6",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -105,9 +105,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-6"
+    "FORMER_SOURCE_ID": "S-6"
   },
-  "S-7": {
+  "X-7": {
     "INDICATOR_ID": "I-7",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -127,9 +127,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-7"
+    "FORMER_SOURCE_ID": "S-7"
   },
-  "S-8": {
+  "X-8": {
     "INDICATOR_ID": "I-8",
     "VALUE_ID": "V-2",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -149,9 +149,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-8"
+    "FORMER_SOURCE_ID": "S-8"
   },
-  "S-9": {
+  "X-9": {
     "INDICATOR_ID": "I-9",
     "VALUE_ID": "V-3",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -171,9 +171,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-9"
+    "FORMER_SOURCE_ID": "S-9"
   },
-  "S-10": {
+  "X-10": {
     "INDICATOR_ID": "I-10",
     "VALUE_ID": "V-4",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -193,9 +193,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-10"
+    "FORMER_SOURCE_ID": "S-10"
   },
-  "S-11": {
+  "X-11": {
     "INDICATOR_ID": "I-11",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -215,9 +215,9 @@
     "UNIT_MEASURE": "IDX",
     "COMMENT": "RETIRED: covered by other indicators in this category",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Economist_Intelligence_Unit",
-    "FROMER_SOURCE_ID": "S-11"
+    "FORMER_SOURCE_ID": "S-11"
   },
-  "S-12": {
+  "X-12": {
     "INDICATOR_ID": "I-12",
     "VALUE_ID": "V-6",
     "SOURCE_TYPE": "PDF",
@@ -237,9 +237,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-12"
+    "FORMER_SOURCE_ID": "S-12"
   },
-  "S-13": {
+  "X-13": {
     "INDICATOR_ID": "I-13",
     "VALUE_ID": "V-7",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -259,9 +259,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-13"
+    "FORMER_SOURCE_ID": "S-13"
   },
-  "S-14": {
+  "X-14": {
     "INDICATOR_ID": "I-21",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -281,9 +281,9 @@
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.UCW_Data",
     "COMMENT": "Retired cause of insecure credible. CRBA-93",
-    "FROMER_SOURCE_ID": "S-21"
+    "FORMER_SOURCE_ID": "S-21"
   },
-  "S-15": {
+  "X-15": {
     "INDICATOR_ID": "I-17",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -303,9 +303,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"& DIM_SECTOR==\"Non-agriculture\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-23"
+    "FORMER_SOURCE_ID": "S-23"
   },
-  "S-16": {
+  "X-16": {
     "INDICATOR_ID": "I-199",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -325,9 +325,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"FEMALE\"& DIM_SECTOR==\"NO BREAKDOWN\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-23"
+    "FORMER_SOURCE_ID": "S-23"
   },
-  "S-17": {
+  "X-17": {
     "INDICATOR_ID": "I-14",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -347,9 +347,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-24"
+    "FORMER_SOURCE_ID": "S-24"
   },
-  "S-18": {
+  "X-18": {
     "INDICATOR_ID": "I-22",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -369,9 +369,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-25"
+    "FORMER_SOURCE_ID": "S-25"
   },
-  "S-19": {
+  "X-19": {
     "INDICATOR_ID": "I-23",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -391,9 +391,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-26"
+    "FORMER_SOURCE_ID": "S-26"
   },
-  "S-20": {
+  "X-20": {
     "INDICATOR_ID": "I-190",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -413,9 +413,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-27"
+    "FORMER_SOURCE_ID": "S-27"
   },
-  "S-21": {
+  "X-21": {
     "INDICATOR_ID": "I-24",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -435,9 +435,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-28"
+    "FORMER_SOURCE_ID": "S-28"
   },
-  "S-22": {
+  "X-22": {
     "INDICATOR_ID": "I-25",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -457,9 +457,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-29"
+    "FORMER_SOURCE_ID": "S-29"
   },
-  "S-23": {
+  "X-23": {
     "INDICATOR_ID": "I-26",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -479,9 +479,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-30"
+    "FORMER_SOURCE_ID": "S-30"
   },
-  "S-24": {
+  "X-24": {
     "INDICATOR_ID": "I-27",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -501,9 +501,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-31"
+    "FORMER_SOURCE_ID": "S-31"
   },
-  "S-25": {
+  "X-25": {
     "INDICATOR_ID": "I-28",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -523,9 +523,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-32"
+    "FORMER_SOURCE_ID": "S-32"
   },
-  "S-26": {
+  "X-26": {
     "INDICATOR_ID": "I-29",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -545,9 +545,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-33"
+    "FORMER_SOURCE_ID": "S-33"
   },
-  "S-27": {
+  "X-27": {
     "INDICATOR_ID": "I-30",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -567,9 +567,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-34"
+    "FORMER_SOURCE_ID": "S-34"
   },
-  "S-28": {
+  "X-28": {
     "INDICATOR_ID": "I-31",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -589,9 +589,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-35"
+    "FORMER_SOURCE_ID": "S-35"
   },
-  "S-29": {
+  "X-29": {
     "INDICATOR_ID": "I-32",
     "VALUE_ID": "V-8",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -611,9 +611,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-36"
+    "FORMER_SOURCE_ID": "S-36"
   },
-  "S-30": {
+  "X-30": {
     "INDICATOR_ID": "I-33",
     "VALUE_ID": "V-9",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -623,9 +623,9 @@
     "ENDPOINT_URL": "nan",
     "COMMENTS": "Source deleted, because the world bank has deprecated the data due to irregularities: https://www.worldbank.org/en/news/statement/2020/08/27/doing-business---data-irregularities-statement",
     "EXTRACTOR_CLASS": "etl.source_adapter.EmptyExtractor",
-    "FROMER_SOURCE_ID": "S-37"
+    "FORMER_SOURCE_ID": "S-37"
   },
-  "S-31": {
+  "X-31": {
     "INDICATOR_ID": "I-34",
     "VALUE_ID": "V-10",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -645,9 +645,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.EmptyExtractor",
-    "FROMER_SOURCE_ID": "S-38"
+    "FORMER_SOURCE_ID": "S-38"
   },
-  "S-32": {
+  "X-32": {
     "INDICATOR_ID": "I-35",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -667,9 +667,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.EmptyExtractor",
-    "FROMER_SOURCE_ID": "S-39"
+    "FORMER_SOURCE_ID": "S-39"
   },
-  "S-33": {
+  "X-33": {
     "INDICATOR_ID": "I-36",
     "VALUE_ID": "V-11",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -689,9 +689,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-40"
+    "FORMER_SOURCE_ID": "S-40"
   },
-  "S-34": {
+  "X-34": {
     "INDICATOR_ID": "I-37",
     "VALUE_ID": "V-12",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -711,9 +711,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-41"
+    "FORMER_SOURCE_ID": "S-41"
   },
-  "S-35": {
+  "X-35": {
     "INDICATOR_ID": "I-38",
     "VALUE_ID": "V-13",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -733,9 +733,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-42"
+    "FORMER_SOURCE_ID": "S-42"
   },
-  "S-36": {
+  "X-36": {
     "INDICATOR_ID": "I-39",
     "VALUE_ID": "V-14",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -755,9 +755,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-43"
+    "FORMER_SOURCE_ID": "S-43"
   },
-  "S-37": {
+  "X-37": {
     "INDICATOR_ID": "I-40",
     "VALUE_ID": "V-15",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -777,9 +777,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-44"
+    "FORMER_SOURCE_ID": "S-44"
   },
-  "S-38": {
+  "X-38": {
     "INDICATOR_ID": "I-41",
     "VALUE_ID": "V-16",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -800,9 +800,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Replaced by S-221",
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-45"
+    "FORMER_SOURCE_ID": "S-45"
   },
-  "S-39": {
+  "X-39": {
     "INDICATOR_ID": "I-42",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -822,9 +822,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-46"
+    "FORMER_SOURCE_ID": "S-46"
   },
-  "S-40": {
+  "X-40": {
     "INDICATOR_ID": "I-45",
     "VALUE_ID": "V-17",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -844,9 +844,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-49"
+    "FORMER_SOURCE_ID": "S-49"
   },
-  "S-41": {
+  "X-41": {
     "INDICATOR_ID": "I-46",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (ILO)",
@@ -866,9 +866,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_OCU_TYPE==\"All occupations (isco-08)\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-50"
+    "FORMER_SOURCE_ID": "S-50"
   },
-  "S-42": {
+  "X-42": {
     "INDICATOR_ID": "I-47",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (ILO)",
@@ -888,9 +888,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "HRS_WK",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-51"
+    "FORMER_SOURCE_ID": "S-51"
   },
-  "S-43": {
+  "X-43": {
     "INDICATOR_ID": "I-48",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (UNESCO)",
@@ -910,9 +910,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"& DIM_EDU_LEVEL==\"PRE-PRIMARY EDUCATION\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-52"
+    "FORMER_SOURCE_ID": "S-52"
   },
-  "S-44": {
+  "X-44": {
     "INDICATOR_ID": "I-49",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (ILO)",
@@ -932,9 +932,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-53"
+    "FORMER_SOURCE_ID": "S-53"
   },
-  "S-45": {
+  "X-45": {
     "INDICATOR_ID": "I-50",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -954,9 +954,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-54"
+    "FORMER_SOURCE_ID": "S-54"
   },
-  "S-46": {
+  "X-46": {
     "INDICATOR_ID": "I-15",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (UNESCO)",
@@ -976,9 +976,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\" &  DIM_EDU_LEVEL==\"LOWER SECONDARY EDUCATION\" & DIM_AGE_GROUP==\"SCHOOL_AGE_POPULATION\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-55"
+    "FORMER_SOURCE_ID": "S-55"
   },
-  "S-47": {
+  "X-47": {
     "INDICATOR_ID": "I-16",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (UNESCO)",
@@ -998,9 +998,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"& DIM_EDU_LEVEL==\"UPPER SECONDARY EDUCATION\"& DIM_AGE_GROUP==\"SCHOOL_AGE_POPULATION\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-56"
+    "FORMER_SOURCE_ID": "S-56"
   },
-  "S-48": {
+  "X-48": {
     "INDICATOR_ID": "I-191",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -1020,14 +1020,14 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-57"
+    "FORMER_SOURCE_ID": "S-57"
   },
-  "S-49": {
+  "X-49": {
     "INDICATOR_ID": "I-52",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
     "SOURCE_BODY": "ILO NORMLEX",
-    "SOURCE_TITLE": "Ratification by Convention. Ratifications of C103 - Maternity Protection Convention (Revised), 1952 (No. 103). ILO. NORMLEX. Ratification by Convention. Ratifications of C103 - Maternity Protection Convention (Revised), 1952 (No. 103). ",
+    "SOURCE_TITLE": "Ratification by Convention. Ratifications of C103 - Maternity Protection Convention (Revised), 1952 (No. 103). \nILO. NORMLEX. Ratification by Convention. Ratifications of C103 - Maternity Protection Convention (Revised), 1952 (No. 103). ",
     "ADDRESS": "https:\/\/www.ilo.org\/dyn\/normlex\/en\/f?p=NORMLEXPUB:11300:0::NO:11300:P11300_INSTRUMENT_ID:312248:NO",
     "ENDPOINT_URL": "nan",
     "un_treaty_data_col": null,
@@ -1042,9 +1042,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-58"
+    "FORMER_SOURCE_ID": "S-58"
   },
-  "S-50": {
+  "X-50": {
     "INDICATOR_ID": "I-53",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -1064,9 +1064,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-59"
+    "FORMER_SOURCE_ID": "S-59"
   },
-  "S-51": {
+  "X-51": {
     "INDICATOR_ID": "I-18",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -1085,9 +1085,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Global_Slavery_Index",
-    "FROMER_SOURCE_ID": "S-60"
+    "FORMER_SOURCE_ID": "S-60"
   },
-  "S-52": {
+  "X-52": {
     "INDICATOR_ID": "I-19",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -1107,9 +1107,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\" & DIM_AGE_GROUP==\"ALL AGES\"",
     "UNIT_MEASURE": "NUMBER",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-61"
+    "FORMER_SOURCE_ID": "S-61"
   },
-  "S-53": {
+  "X-53": {
     "INDICATOR_ID": "I-20",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -1129,9 +1129,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_AGE_GROUP==\"ALL AGES\" & DIM_AREA_TYPE==\"TOTAL\" & DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-62"
+    "FORMER_SOURCE_ID": "S-62"
   },
-  "S-54": {
+  "X-54": {
     "INDICATOR_ID": "I-54",
     "VALUE_ID": "V-18",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -1151,9 +1151,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-63"
+    "FORMER_SOURCE_ID": "S-63"
   },
-  "S-55": {
+  "X-55": {
     "INDICATOR_ID": "I-55",
     "VALUE_ID": "V-19",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -1173,9 +1173,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-64"
+    "FORMER_SOURCE_ID": "S-64"
   },
-  "S-56": {
+  "X-56": {
     "INDICATOR_ID": "I-56",
     "VALUE_ID": "V-20",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -1195,9 +1195,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-65"
+    "FORMER_SOURCE_ID": "S-65"
   },
-  "S-57": {
+  "X-57": {
     "INDICATOR_ID": "I-57",
     "VALUE_ID": "V-21",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -1217,9 +1217,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-66"
+    "FORMER_SOURCE_ID": "S-66"
   },
-  "S-58": {
+  "X-58": {
     "INDICATOR_ID": "I-58",
     "VALUE_ID": "V-22",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -1239,9 +1239,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-67"
+    "FORMER_SOURCE_ID": "S-67"
   },
-  "S-59": {
+  "X-59": {
     "INDICATOR_ID": "I-59",
     "VALUE_ID": "V-23",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -1261,9 +1261,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-68"
+    "FORMER_SOURCE_ID": "S-68"
   },
-  "S-60": {
+  "X-60": {
     "INDICATOR_ID": "I-60",
     "VALUE_ID": "V-24",
     "SOURCE_TYPE": "PDF",
@@ -1284,9 +1284,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "RETIRED because latest observation is older than 10 years",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-69"
+    "FORMER_SOURCE_ID": "S-69"
   },
-  "S-61": {
+  "X-61": {
     "INDICATOR_ID": "I-61",
     "VALUE_ID": "V-24",
     "SOURCE_TYPE": "PDF",
@@ -1307,9 +1307,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "RETIRED because latest observation is older than 10 years",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-70"
+    "FORMER_SOURCE_ID": "S-70"
   },
-  "S-62": {
+  "X-62": {
     "INDICATOR_ID": "I-62",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -1329,9 +1329,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"FEMALE\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-71"
+    "FORMER_SOURCE_ID": "S-71"
   },
-  "S-63": {
+  "X-63": {
     "INDICATOR_ID": "I-68",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -1351,9 +1351,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_QUANTILE==\"_T\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-78"
+    "FORMER_SOURCE_ID": "S-78"
   },
-  "S-64": {
+  "X-64": {
     "INDICATOR_ID": "I-67",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -1373,9 +1373,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.EmptyExtractor",
-    "FROMER_SOURCE_ID": "S-77"
+    "FORMER_SOURCE_ID": "S-77"
   },
-  "S-65": {
+  "X-65": {
     "INDICATOR_ID": "I-69",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -1395,9 +1395,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_QUANTILE==\"First quantile (Q1)\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-79"
+    "FORMER_SOURCE_ID": "S-79"
   },
-  "S-66": {
+  "X-66": {
     "INDICATOR_ID": "I-70",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -1417,9 +1417,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_QUANTILE==\"_T\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-80"
+    "FORMER_SOURCE_ID": "S-80"
   },
-  "S-67": {
+  "X-67": {
     "INDICATOR_ID": "I-71",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -1439,9 +1439,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_QUANTILE==\"First quantile (Q1)\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-81"
+    "FORMER_SOURCE_ID": "S-81"
   },
-  "S-68": {
+  "X-68": {
     "INDICATOR_ID": "I-72",
     "VALUE_ID": "V-26",
     "SOURCE_TYPE": "API (WHO)",
@@ -1461,9 +1461,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-82"
+    "FORMER_SOURCE_ID": "S-82"
   },
-  "S-69": {
+  "X-69": {
     "INDICATOR_ID": "I-186",
     "VALUE_ID": "V-26",
     "SOURCE_TYPE": "API (WHO)",
@@ -1483,9 +1483,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-82"
+    "FORMER_SOURCE_ID": "S-82"
   },
-  "S-70": {
+  "X-70": {
     "INDICATOR_ID": "I-73",
     "VALUE_ID": "V-26",
     "SOURCE_TYPE": "API (WHO)",
@@ -1505,9 +1505,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-83"
+    "FORMER_SOURCE_ID": "S-83"
   },
-  "S-71": {
+  "X-71": {
     "INDICATOR_ID": "I-187",
     "VALUE_ID": "V-45",
     "SOURCE_TYPE": "API (WHO)",
@@ -1527,9 +1527,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-83"
+    "FORMER_SOURCE_ID": "S-83"
   },
-  "S-72": {
+  "X-72": {
     "INDICATOR_ID": "I-74",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -1549,9 +1549,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-84"
+    "FORMER_SOURCE_ID": "S-84"
   },
-  "S-73": {
+  "X-73": {
     "INDICATOR_ID": "I-76",
     "VALUE_ID": "V-57",
     "SOURCE_TYPE": "PDF",
@@ -1571,9 +1571,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-87"
+    "FORMER_SOURCE_ID": "S-87"
   },
-  "S-74": {
+  "X-74": {
     "INDICATOR_ID": "I-77",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "API (WHO)",
@@ -1593,9 +1593,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-88"
+    "FORMER_SOURCE_ID": "S-88"
   },
-  "S-75": {
+  "X-75": {
     "INDICATOR_ID": "I-78",
     "VALUE_ID": "V-28",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -1615,9 +1615,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.FCTC_Data",
-    "FROMER_SOURCE_ID": "S-89"
+    "FORMER_SOURCE_ID": "S-89"
   },
-  "S-76": {
+  "X-76": {
     "INDICATOR_ID": "I-79",
     "VALUE_ID": "V-29",
     "SOURCE_TYPE": "API (WHO)",
@@ -1637,9 +1637,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-90"
+    "FORMER_SOURCE_ID": "S-90"
   },
-  "S-77": {
+  "X-77": {
     "INDICATOR_ID": "I-80",
     "VALUE_ID": "V-30",
     "SOURCE_TYPE": "API (WHO)",
@@ -1659,9 +1659,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-91"
+    "FORMER_SOURCE_ID": "S-91"
   },
-  "S-78": {
+  "X-78": {
     "INDICATOR_ID": "I-81",
     "VALUE_ID": "V-31",
     "SOURCE_TYPE": "API (WHO)",
@@ -1681,9 +1681,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_ALCOHOL_TYPE==\"SA_SPIRITS\"",
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-92"
+    "FORMER_SOURCE_ID": "S-92"
   },
-  "S-79": {
+  "X-79": {
     "INDICATOR_ID": "I-82",
     "VALUE_ID": "V-32",
     "SOURCE_TYPE": "API (WHO)",
@@ -1703,9 +1703,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_ALCOHOL_TYPE==\"SA_SPIRITS_ADS\"",
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-93"
+    "FORMER_SOURCE_ID": "S-93"
   },
-  "S-80": {
+  "X-80": {
     "INDICATOR_ID": "I-83",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "API (WHO)",
@@ -1725,9 +1725,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-95"
+    "FORMER_SOURCE_ID": "S-95"
   },
-  "S-81": {
+  "X-81": {
     "INDICATOR_ID": "I-84",
     "VALUE_ID": "V-34",
     "SOURCE_TYPE": "PDF",
@@ -1747,9 +1747,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-96"
+    "FORMER_SOURCE_ID": "S-96"
   },
-  "S-82": {
+  "X-82": {
     "INDICATOR_ID": "I-85",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -1769,9 +1769,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-97"
+    "FORMER_SOURCE_ID": "S-97"
   },
-  "S-83": {
+  "X-83": {
     "INDICATOR_ID": "I-86",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -1791,9 +1791,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-100"
+    "FORMER_SOURCE_ID": "S-100"
   },
-  "S-84": {
+  "X-84": {
     "INDICATOR_ID": "I-87",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -1813,9 +1813,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-101"
+    "FORMER_SOURCE_ID": "S-101"
   },
-  "S-85": {
+  "X-85": {
     "INDICATOR_ID": "I-88",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -1835,9 +1835,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"& DIM_AGE_GROUP==\"5-19 YEARS\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-103"
+    "FORMER_SOURCE_ID": "S-103"
   },
-  "S-86": {
+  "X-86": {
     "INDICATOR_ID": "I-89",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -1857,9 +1857,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.who.GlobalHealthObservatory",
-    "FROMER_SOURCE_ID": "S-104"
+    "FORMER_SOURCE_ID": "S-104"
   },
-  "S-87": {
+  "X-87": {
     "INDICATOR_ID": "I-198",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -1879,9 +1879,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.who.GlobalHealthObservatory",
-    "FROMER_SOURCE_ID": "S-104"
+    "FORMER_SOURCE_ID": "S-104"
   },
-  "S-88": {
+  "X-88": {
     "INDICATOR_ID": "I-90",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -1901,9 +1901,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-105"
+    "FORMER_SOURCE_ID": "S-105"
   },
-  "S-89": {
+  "X-89": {
     "INDICATOR_ID": "I-91",
     "VALUE_ID": "V-35",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -1923,9 +1923,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-106"
+    "FORMER_SOURCE_ID": "S-106"
   },
-  "S-90": {
+  "X-90": {
     "INDICATOR_ID": "I-92",
     "VALUE_ID": "V-35",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -1945,9 +1945,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-109"
+    "FORMER_SOURCE_ID": "S-109"
   },
-  "S-91": {
+  "X-91": {
     "INDICATOR_ID": "I-95",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -1967,9 +1967,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-113"
+    "FORMER_SOURCE_ID": "S-113"
   },
-  "S-92": {
+  "X-92": {
     "INDICATOR_ID": "I-96",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -1989,9 +1989,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-115"
+    "FORMER_SOURCE_ID": "S-115"
   },
-  "S-93": {
+  "X-93": {
     "INDICATOR_ID": "I-97",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "Website (static html)",
@@ -2011,9 +2011,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-116"
+    "FORMER_SOURCE_ID": "S-116"
   },
-  "S-94": {
+  "X-94": {
     "INDICATOR_ID": "I-98",
     "VALUE_ID": "V-37",
     "SOURCE_TYPE": "PDF",
@@ -2033,9 +2033,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-117"
+    "FORMER_SOURCE_ID": "S-117"
   },
-  "S-95": {
+  "X-95": {
     "INDICATOR_ID": "I-99",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "PDF",
@@ -2055,9 +2055,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-118"
+    "FORMER_SOURCE_ID": "S-118"
   },
-  "S-96": {
+  "X-96": {
     "INDICATOR_ID": "I-100",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "PDF",
@@ -2077,9 +2077,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-119"
+    "FORMER_SOURCE_ID": "S-119"
   },
-  "S-97": {
+  "X-97": {
     "INDICATOR_ID": "I-101",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -2098,9 +2098,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Economist_Intelligence_Unit",
-    "FROMER_SOURCE_ID": "S-120"
+    "FORMER_SOURCE_ID": "S-120"
   },
-  "S-98": {
+  "X-98": {
     "INDICATOR_ID": "I-102",
     "VALUE_ID": "V-35",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -2120,9 +2120,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-121"
+    "FORMER_SOURCE_ID": "S-121"
   },
-  "S-99": {
+  "X-99": {
     "INDICATOR_ID": "I-103",
     "VALUE_ID": "V-35",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -2142,9 +2142,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-122"
+    "FORMER_SOURCE_ID": "S-122"
   },
-  "S-100": {
+  "X-100": {
     "INDICATOR_ID": "I-104",
     "VALUE_ID": "V-39",
     "SOURCE_TYPE": "Other",
@@ -2164,9 +2164,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-123"
+    "FORMER_SOURCE_ID": "S-123"
   },
-  "S-101": {
+  "X-101": {
     "INDICATOR_ID": "I-105",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -2185,9 +2185,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Economist_Intelligence_Unit",
-    "FROMER_SOURCE_ID": "S-124"
+    "FORMER_SOURCE_ID": "S-124"
   },
-  "S-102": {
+  "X-102": {
     "INDICATOR_ID": "I-106",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -2207,9 +2207,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"FEMALE\"& DIM_AGE_GROUP==\"18-29 YEARS\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-125"
+    "FORMER_SOURCE_ID": "S-125"
   },
-  "S-103": {
+  "X-103": {
     "INDICATOR_ID": "I-107",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (UNICEF)",
@@ -2229,9 +2229,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-126"
+    "FORMER_SOURCE_ID": "S-126"
   },
-  "S-104": {
+  "X-104": {
     "INDICATOR_ID": "I-108",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "PDF",
@@ -2251,9 +2251,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.EmptyExtractor",
-    "FROMER_SOURCE_ID": "S-127"
+    "FORMER_SOURCE_ID": "S-127"
   },
-  "S-105": {
+  "X-105": {
     "INDICATOR_ID": "I-63",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -2272,9 +2272,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-128"
+    "FORMER_SOURCE_ID": "S-128"
   },
-  "S-106": {
+  "X-106": {
     "INDICATOR_ID": "I-109",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -2293,9 +2293,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-128"
+    "FORMER_SOURCE_ID": "S-128"
   },
-  "S-107": {
+  "X-107": {
     "INDICATOR_ID": "I-179",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -2314,9 +2314,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-128"
+    "FORMER_SOURCE_ID": "S-128"
   },
-  "S-108": {
+  "X-108": {
     "INDICATOR_ID": "I-64",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -2336,9 +2336,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-129"
+    "FORMER_SOURCE_ID": "S-129"
   },
-  "S-109": {
+  "X-109": {
     "INDICATOR_ID": "I-110",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -2358,9 +2358,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-129"
+    "FORMER_SOURCE_ID": "S-129"
   },
-  "S-110": {
+  "X-110": {
     "INDICATOR_ID": "I-180",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -2380,9 +2380,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-129"
+    "FORMER_SOURCE_ID": "S-129"
   },
-  "S-111": {
+  "X-111": {
     "INDICATOR_ID": "I-65",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -2402,9 +2402,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-130"
+    "FORMER_SOURCE_ID": "S-130"
   },
-  "S-112": {
+  "X-112": {
     "INDICATOR_ID": "I-111",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -2424,9 +2424,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-130"
+    "FORMER_SOURCE_ID": "S-130"
   },
-  "S-113": {
+  "X-113": {
     "INDICATOR_ID": "I-181",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -2446,9 +2446,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-130"
+    "FORMER_SOURCE_ID": "S-130"
   },
-  "S-114": {
+  "X-114": {
     "INDICATOR_ID": "I-112",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -2468,9 +2468,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.crin.CRIN_Treaties",
-    "FROMER_SOURCE_ID": "S-131"
+    "FORMER_SOURCE_ID": "S-131"
   },
-  "S-115": {
+  "X-115": {
     "INDICATOR_ID": "I-182",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -2490,9 +2490,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.crin.CRIN_Treaties",
-    "FROMER_SOURCE_ID": "S-131"
+    "FORMER_SOURCE_ID": "S-131"
   },
-  "S-116": {
+  "X-116": {
     "INDICATOR_ID": "I-189",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -2512,9 +2512,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.crin.CRIN_Treaties",
-    "FROMER_SOURCE_ID": "S-131"
+    "FORMER_SOURCE_ID": "S-131"
   },
-  "S-117": {
+  "X-117": {
     "INDICATOR_ID": "I-114",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -2533,9 +2533,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Economist_Intelligence_Unit",
-    "FROMER_SOURCE_ID": "S-134"
+    "FORMER_SOURCE_ID": "S-134"
   },
-  "S-118": {
+  "X-118": {
     "INDICATOR_ID": "I-115",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "API (WHO)",
@@ -2555,9 +2555,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-135"
+    "FORMER_SOURCE_ID": "S-135"
   },
-  "S-119": {
+  "X-119": {
     "INDICATOR_ID": "I-116",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "API (WHO)",
@@ -2577,9 +2577,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-136"
+    "FORMER_SOURCE_ID": "S-136"
   },
-  "S-120": {
+  "X-120": {
     "INDICATOR_ID": "I-117",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "API (WHO)",
@@ -2599,9 +2599,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-137"
+    "FORMER_SOURCE_ID": "S-137"
   },
-  "S-121": {
+  "X-121": {
     "INDICATOR_ID": "I-118",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "PDF",
@@ -2621,9 +2621,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-138"
+    "FORMER_SOURCE_ID": "S-138"
   },
-  "S-122": {
+  "X-122": {
     "INDICATOR_ID": "I-119",
     "VALUE_ID": "V-58",
     "SOURCE_TYPE": "PDF",
@@ -2643,9 +2643,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-139"
+    "FORMER_SOURCE_ID": "S-139"
   },
-  "S-123": {
+  "X-123": {
     "INDICATOR_ID": "I-120",
     "VALUE_ID": "V-41",
     "SOURCE_TYPE": "PDF",
@@ -2665,9 +2665,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-140"
+    "FORMER_SOURCE_ID": "S-140"
   },
-  "S-124": {
+  "X-124": {
     "INDICATOR_ID": "I-121",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -2687,9 +2687,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-141"
+    "FORMER_SOURCE_ID": "S-141"
   },
-  "S-125": {
+  "X-125": {
     "INDICATOR_ID": "I-122",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -2709,9 +2709,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-142"
+    "FORMER_SOURCE_ID": "S-142"
   },
-  "S-126": {
+  "X-126": {
     "INDICATOR_ID": "I-123",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -2731,9 +2731,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-143"
+    "FORMER_SOURCE_ID": "S-143"
   },
-  "S-127": {
+  "X-127": {
     "INDICATOR_ID": "I-124",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -2753,9 +2753,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-144"
+    "FORMER_SOURCE_ID": "S-144"
   },
-  "S-128": {
+  "X-128": {
     "INDICATOR_ID": "I-125",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -2775,9 +2775,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-145"
+    "FORMER_SOURCE_ID": "S-145"
   },
-  "S-129": {
+  "X-129": {
     "INDICATOR_ID": "I-127",
     "VALUE_ID": "V-51",
     "SOURCE_TYPE": "PDF",
@@ -2797,9 +2797,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-147"
+    "FORMER_SOURCE_ID": "S-147"
   },
-  "S-130": {
+  "X-130": {
     "INDICATOR_ID": "I-126",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "Other",
@@ -2819,9 +2819,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.eiti.EITIIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-146"
+    "FORMER_SOURCE_ID": "S-146"
   },
-  "S-131": {
+  "X-131": {
     "INDICATOR_ID": "I-128",
     "VALUE_ID": "V-52",
     "SOURCE_TYPE": "PDF",
@@ -2841,9 +2841,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-148"
+    "FORMER_SOURCE_ID": "S-148"
   },
-  "S-132": {
+  "X-132": {
     "INDICATOR_ID": "I-129",
     "VALUE_ID": "V-54",
     "SOURCE_TYPE": "PDF",
@@ -2864,9 +2864,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-149"
+    "FORMER_SOURCE_ID": "S-149"
   },
-  "S-133": {
+  "X-133": {
     "INDICATOR_ID": "I-130",
     "VALUE_ID": "V-53",
     "SOURCE_TYPE": "PDF",
@@ -2887,9 +2887,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-150"
+    "FORMER_SOURCE_ID": "S-150"
   },
-  "S-134": {
+  "X-134": {
     "INDICATOR_ID": "I-131",
     "VALUE_ID": "V-55",
     "SOURCE_TYPE": "PDF",
@@ -2910,9 +2910,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-151"
+    "FORMER_SOURCE_ID": "S-151"
   },
-  "S-135": {
+  "X-135": {
     "INDICATOR_ID": "I-132",
     "VALUE_ID": "V-56",
     "SOURCE_TYPE": "PDF",
@@ -2932,9 +2932,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-152"
+    "FORMER_SOURCE_ID": "S-152"
   },
-  "S-136": {
+  "X-136": {
     "INDICATOR_ID": "I-133",
     "VALUE_ID": "V-49",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -2953,9 +2953,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Climate_Watch_Data_S_153",
-    "FROMER_SOURCE_ID": "S-153"
+    "FORMER_SOURCE_ID": "S-153"
   },
-  "S-137": {
+  "X-137": {
     "INDICATOR_ID": "I-134",
     "VALUE_ID": "V-42",
     "SOURCE_TYPE": "API (EITI)",
@@ -2975,9 +2975,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.eiti.EITIIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-154"
+    "FORMER_SOURCE_ID": "S-154"
   },
-  "S-138": {
+  "X-138": {
     "INDICATOR_ID": "I-135",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (NRGI)",
@@ -2997,9 +2997,9 @@
     "INVERT_NORMALIZATION": "not inverted",
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-155"
+    "FORMER_SOURCE_ID": "S-155"
   },
-  "S-139": {
+  "X-139": {
     "INDICATOR_ID": "I-136",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (NRGI)",
@@ -3019,9 +3019,9 @@
     "INVERT_NORMALIZATION": "not inverted",
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-156"
+    "FORMER_SOURCE_ID": "S-156"
   },
-  "S-140": {
+  "X-140": {
     "INDICATOR_ID": "I-137",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -3041,9 +3041,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.who.S_157",
-    "FROMER_SOURCE_ID": "S-157"
+    "FORMER_SOURCE_ID": "S-157"
   },
-  "S-141": {
+  "X-141": {
     "INDICATOR_ID": "I-138",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -3063,9 +3063,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_AREA_TYPE==\"TOTAL\"",
     "UNIT_MEASURE": "PM2.5",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-158"
+    "FORMER_SOURCE_ID": "S-158"
   },
-  "S-142": {
+  "X-142": {
     "INDICATOR_ID": "I-139",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -3085,9 +3085,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "tCO2e_PER_CAPITA",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Climate_Watch_Data_S_159",
-    "FROMER_SOURCE_ID": "S-159"
+    "FORMER_SOURCE_ID": "S-159"
   },
-  "S-143": {
+  "X-143": {
     "INDICATOR_ID": "I-140",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -3107,9 +3107,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-160"
+    "FORMER_SOURCE_ID": "S-160"
   },
-  "S-144": {
+  "X-144": {
     "INDICATOR_ID": "I-141",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -3129,9 +3129,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-161"
+    "FORMER_SOURCE_ID": "S-161"
   },
-  "S-145": {
+  "X-145": {
     "INDICATOR_ID": "I-142",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -3151,9 +3151,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-162"
+    "FORMER_SOURCE_ID": "S-162"
   },
-  "S-146": {
+  "X-146": {
     "INDICATOR_ID": "I-143",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -3173,9 +3173,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-163"
+    "FORMER_SOURCE_ID": "S-163"
   },
-  "S-147": {
+  "X-147": {
     "INDICATOR_ID": "I-144",
     "VALUE_ID": "V-62",
     "SOURCE_TYPE": "Website (static html)",
@@ -3196,9 +3196,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-164"
+    "FORMER_SOURCE_ID": "S-164"
   },
-  "S-148": {
+  "X-148": {
     "INDICATOR_ID": "I-145",
     "VALUE_ID": "V-43",
     "SOURCE_TYPE": "PDF",
@@ -3219,9 +3219,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-165"
+    "FORMER_SOURCE_ID": "S-165"
   },
-  "S-149": {
+  "X-149": {
     "INDICATOR_ID": "I-147",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -3241,9 +3241,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-166"
+    "FORMER_SOURCE_ID": "S-166"
   },
-  "S-150": {
+  "X-150": {
     "INDICATOR_ID": "I-148",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -3262,9 +3262,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Landmark_Data",
-    "FROMER_SOURCE_ID": "S-167"
+    "FORMER_SOURCE_ID": "S-167"
   },
-  "S-151": {
+  "X-151": {
     "INDICATOR_ID": "I-149",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -3284,9 +3284,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.icrc.ICRC_Treaties",
-    "FROMER_SOURCE_ID": "S-168"
+    "FORMER_SOURCE_ID": "S-168"
   },
-  "S-152": {
+  "X-152": {
     "INDICATOR_ID": "I-150",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -3307,9 +3307,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.icrc.ICRC_Treaties",
-    "FROMER_SOURCE_ID": "S-169"
+    "FORMER_SOURCE_ID": "S-169"
   },
-  "S-153": {
+  "X-153": {
     "INDICATOR_ID": "I-151",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -3329,9 +3329,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.icrc.ICRC_Treaties",
-    "FROMER_SOURCE_ID": "S-170"
+    "FORMER_SOURCE_ID": "S-170"
   },
-  "S-154": {
+  "X-154": {
     "INDICATOR_ID": "I-152",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -3351,9 +3351,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-171"
+    "FORMER_SOURCE_ID": "S-171"
   },
-  "S-155": {
+  "X-155": {
     "INDICATOR_ID": "I-153",
     "VALUE_ID": "V-59",
     "SOURCE_TYPE": "Website (static html)",
@@ -3373,9 +3373,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-172"
+    "FORMER_SOURCE_ID": "S-172"
   },
-  "S-156": {
+  "X-156": {
     "INDICATOR_ID": "I-154",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -3395,9 +3395,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-173"
+    "FORMER_SOURCE_ID": "S-173"
   },
-  "S-157": {
+  "X-157": {
     "INDICATOR_ID": "I-155",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -3417,9 +3417,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILO_Extractor",
-    "FROMER_SOURCE_ID": "S-174"
+    "FORMER_SOURCE_ID": "S-174"
   },
-  "S-158": {
+  "X-158": {
     "INDICATOR_ID": "I-156",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -3440,9 +3440,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Replaced by S-219",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-175"
+    "FORMER_SOURCE_ID": "S-175"
   },
-  "S-159": {
+  "X-159": {
     "INDICATOR_ID": "I-157",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -3463,9 +3463,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Retired from 2022. CRBA-86",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-176"
+    "FORMER_SOURCE_ID": "S-176"
   },
-  "S-160": {
+  "X-160": {
     "INDICATOR_ID": "I-159",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "Website (static html)",
@@ -3485,9 +3485,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-178"
+    "FORMER_SOURCE_ID": "S-178"
   },
-  "S-161": {
+  "X-161": {
     "INDICATOR_ID": "I-160",
     "VALUE_ID": "V-50",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -3508,9 +3508,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Replaced by S-220",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-179"
+    "FORMER_SOURCE_ID": "S-179"
   },
-  "S-162": {
+  "X-162": {
     "INDICATOR_ID": "I-161",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -3525,9 +3525,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.idmc.IDMC_Extractor",
-    "FROMER_SOURCE_ID": "S-180"
+    "FORMER_SOURCE_ID": "S-180"
   },
-  "S-163": {
+  "X-163": {
     "INDICATOR_ID": "I-162",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -3542,9 +3542,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.idmc.IDMC_Extractor",
-    "FROMER_SOURCE_ID": "S-181"
+    "FORMER_SOURCE_ID": "S-181"
   },
-  "S-164": {
+  "X-164": {
     "INDICATOR_ID": "I-163",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -3564,9 +3564,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-182"
+    "FORMER_SOURCE_ID": "S-182"
   },
-  "S-165": {
+  "X-165": {
     "INDICATOR_ID": "I-164",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -3586,9 +3586,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SDG_INDICATOR==\"1.5.4\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-183"
+    "FORMER_SOURCE_ID": "S-183"
   },
-  "S-166": {
+  "X-166": {
     "INDICATOR_ID": "I-165",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -3608,9 +3608,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SDG_INDICATOR==\"1.5.1\"",
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-184"
+    "FORMER_SOURCE_ID": "S-184"
   },
-  "S-167": {
+  "X-167": {
     "INDICATOR_ID": "I-166",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG) + UN data",
@@ -3630,9 +3630,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SDG_INDICATOR==\"1.5.1\"",
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UN_SDG_UN_POP",
-    "FROMER_SOURCE_ID": "S-185"
+    "FORMER_SOURCE_ID": "S-185"
   },
-  "S-168": {
+  "X-168": {
     "INDICATOR_ID": "I-167",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG) + UN data",
@@ -3652,9 +3652,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SDG_INDICATOR==\"11.5.3\"",
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UN_SDG_UN_POP",
-    "FROMER_SOURCE_ID": "S-186"
+    "FORMER_SOURCE_ID": "S-186"
   },
-  "S-169": {
+  "X-169": {
     "INDICATOR_ID": "I-168",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG) + UN data",
@@ -3674,9 +3674,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SDG_INDICATOR==\"11.5.3\"",
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UN_SDG_UN_POP",
-    "FROMER_SOURCE_ID": "S-187"
+    "FORMER_SOURCE_ID": "S-187"
   },
-  "S-170": {
+  "X-170": {
     "INDICATOR_ID": "I-169",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG) + UN data",
@@ -3696,9 +3696,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SDG_INDICATOR==\"11.5.3\"",
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UN_SDG_UN_POP",
-    "FROMER_SOURCE_ID": "S-188"
+    "FORMER_SOURCE_ID": "S-188"
   },
-  "S-171": {
+  "X-171": {
     "INDICATOR_ID": "I-170",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -3715,9 +3715,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.idmc.IDMC_Extractor",
-    "FROMER_SOURCE_ID": "S-189"
+    "FORMER_SOURCE_ID": "S-189"
   },
-  "S-172": {
+  "X-172": {
     "INDICATOR_ID": "I-171",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -3737,9 +3737,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.inform.Inform_Risk_Index_Data",
-    "FROMER_SOURCE_ID": "S-190"
+    "FORMER_SOURCE_ID": "S-190"
   },
-  "S-173": {
+  "X-173": {
     "INDICATOR_ID": "I-172",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -3759,9 +3759,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-191"
+    "FORMER_SOURCE_ID": "S-191"
   },
-  "S-174": {
+  "X-174": {
     "INDICATOR_ID": "I-173",
     "VALUE_ID": "V-1",
     "SOURCE_TYPE": "Website (static html)",
@@ -3781,9 +3781,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.un.UnTreaties",
-    "FROMER_SOURCE_ID": "S-192"
+    "FORMER_SOURCE_ID": "S-192"
   },
-  "S-175": {
+  "X-175": {
     "INDICATOR_ID": "I-174",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -3803,9 +3803,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.crin.CRIN_Treaties",
-    "FROMER_SOURCE_ID": "S-193"
+    "FORMER_SOURCE_ID": "S-193"
   },
-  "S-176": {
+  "X-176": {
     "INDICATOR_ID": "I-175",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -3825,9 +3825,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-194"
+    "FORMER_SOURCE_ID": "S-194"
   },
-  "S-177": {
+  "X-177": {
     "INDICATOR_ID": "I-176",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -3847,9 +3847,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-195"
+    "FORMER_SOURCE_ID": "S-195"
   },
-  "S-178": {
+  "X-178": {
     "INDICATOR_ID": "I-177",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -3869,9 +3869,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-196"
+    "FORMER_SOURCE_ID": "S-196"
   },
-  "S-179": {
+  "X-179": {
     "INDICATOR_ID": "I-178",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -3891,9 +3891,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-197"
+    "FORMER_SOURCE_ID": "S-197"
   },
-  "S-180": {
+  "X-180": {
     "INDICATOR_ID": "I-184",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -3913,9 +3913,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-198"
+    "FORMER_SOURCE_ID": "S-198"
   },
-  "S-181": {
+  "X-181": {
     "INDICATOR_ID": "I-185",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WHO)",
@@ -3935,9 +3935,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PPP_CURRENT_INTERNATIONAL_$",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-199"
+    "FORMER_SOURCE_ID": "S-199"
   },
-  "S-182": {
+  "X-182": {
     "INDICATOR_ID": "I-188",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -3957,9 +3957,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-202"
+    "FORMER_SOURCE_ID": "S-202"
   },
-  "S-183": {
+  "X-183": {
     "INDICATOR_ID": "I-43",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -3980,9 +3980,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Retired with CRBA-123. Without knowlege if average wage is above the living wage not senseful",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-203"
+    "FORMER_SOURCE_ID": "S-203"
   },
-  "S-184": {
+  "X-184": {
     "INDICATOR_ID": "I-44",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -4002,9 +4002,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_AGE_GROUP==\"15+ YEARS\" & DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-204"
+    "FORMER_SOURCE_ID": "S-204"
   },
-  "S-185": {
+  "X-185": {
     "INDICATOR_ID": "I-51",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (ILO)",
@@ -4024,9 +4024,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-205"
+    "FORMER_SOURCE_ID": "S-205"
   },
-  "S-186": {
+  "X-186": {
     "INDICATOR_ID": "I-192",
     "VALUE_ID": "V-31",
     "SOURCE_TYPE": "API (WHO)",
@@ -4046,9 +4046,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_ALCOHOL_TYPE==\"SA_SPIRITS\"",
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-207"
+    "FORMER_SOURCE_ID": "S-207"
   },
-  "S-187": {
+  "X-187": {
     "INDICATOR_ID": "I-193",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (UNESCO)",
@@ -4068,9 +4068,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\" &  DIM_EDU_LEVEL==\"PRIMARY EDUCATION\" & DIM_AGE_GROUP==\"SCHOOL_AGE_POPULATION\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-208"
+    "FORMER_SOURCE_ID": "S-208"
   },
-  "S-188": {
+  "X-188": {
     "INDICATOR_ID": "I-194",
     "VALUE_ID": "V-32",
     "SOURCE_TYPE": "API (WHO)",
@@ -4090,9 +4090,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_ALCOHOL_TYPE==\"SA_SPIRITS_ADS\"",
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-209"
+    "FORMER_SOURCE_ID": "S-209"
   },
-  "S-189": {
+  "X-189": {
     "INDICATOR_ID": "I-195",
     "VALUE_ID": "V-32",
     "SOURCE_TYPE": "API (WHO)",
@@ -4112,9 +4112,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_ALCOHOL_TYPE==\"SA_SPIRITS_ADS\"",
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-210"
+    "FORMER_SOURCE_ID": "S-210"
   },
-  "S-190": {
+  "X-190": {
     "INDICATOR_ID": "I-196",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (ILO)",
@@ -4134,9 +4134,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-211"
+    "FORMER_SOURCE_ID": "S-211"
   },
-  "S-191": {
+  "X-191": {
     "INDICATOR_ID": "I-197",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -4156,14 +4156,14 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-212"
+    "FORMER_SOURCE_ID": "S-212"
   },
-  "S-192": {
+  "X-192": {
     "INDICATOR_ID": "I-200",
     "VALUE_ID": "V-24",
     "SOURCE_TYPE": "PDF",
     "SOURCE_BODY": "ILO",
-    "SOURCE_TITLE": "Maternity and Paternity at Work, 2014: https:\/\/www.ilo.org\/wcmsp5\/groups\/public\/---dgreports\/---dcomm\/---publ\/documents\/publication\/wcms_242615.pdfP.144 Appendix 4, column 3  \"ILO, Maternity and Paternity at Work, 2014: https:\/\/www.ilo.org\/wcmsp5\/groups\/public\/---dgreports\/---dcomm\/---publ\/documents\/publication\/wcms_242615.pdf NOTE: this is the same source used for the indicators above on women 'entitled' to leave and cash benefits. A PDF Go to P. 144 Appendix 3, column 3\"",
+    "SOURCE_TITLE": "Maternity and Paternity at Work, 2014: P.144 Appendix 4, column 3  ILO, Maternity and Paternity at Work, 2014:  \nNOTE: this is the same source used for the indicators above on women 'entitled' to leave and cash benefits. A PDF Go to P. 144 Appendix 3, column 3",
     "ADDRESS": "https:\/\/www.ilo.org\/wcmsp5\/groups\/public\/---dgreports\/---dcomm\/---publ\/documents\/publication\/wcms_242615.pdf ",
     "ENDPOINT_URL": "nan",
     "un_treaty_data_col": null,
@@ -4179,9 +4179,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "RETIRED because latest observation is older than 10 years",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-213"
+    "FORMER_SOURCE_ID": "S-213"
   },
-  "S-193": {
+  "X-193": {
     "INDICATOR_ID": "I-201",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -4201,9 +4201,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_AGE_GROUP==\"<5 YEARS\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-214"
+    "FORMER_SOURCE_ID": "S-214"
   },
-  "S-194": {
+  "X-194": {
     "INDICATOR_ID": "I-202",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (UNICEF)",
@@ -4223,9 +4223,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"BOTH_SEXES\" & DIM_AGE_GROUP == \"0-5 YEARS\" & DIM_QUANTILE == \"_T\" & DIM_AREA_TYPE == \"TOTAL\" & DIM_MATERNAL_EDU_LVL == \"_T: Total\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-215"
+    "FORMER_SOURCE_ID": "S-215"
   },
-  "S-195": {
+  "X-195": {
     "INDICATOR_ID": "I-204",
     "VALUE_ID": "V-46",
     "SOURCE_TYPE": "API (SDG)",
@@ -4245,9 +4245,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_POLICY_TYPE==\"_T\"",
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-216"
+    "FORMER_SOURCE_ID": "S-216"
   },
-  "S-196": {
+  "X-196": {
     "INDICATOR_ID": "I-205",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -4267,9 +4267,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SDG_INDICATOR==\"12.5.1\"",
     "UNIT_MEASURE": "KG_PER_CAPITA",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-217"
+    "FORMER_SOURCE_ID": "S-217"
   },
-  "S-197": {
+  "X-197": {
     "INDICATOR_ID": "I-206",
     "VALUE_ID": "V-46",
     "SOURCE_TYPE": "API (SDG)",
@@ -4289,9 +4289,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-218"
+    "FORMER_SOURCE_ID": "S-218"
   },
-  "S-198": {
+  "X-198": {
     "INDICATOR_ID": "I-207",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -4311,9 +4311,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-219"
+    "FORMER_SOURCE_ID": "S-219"
   },
-  "S-199": {
+  "X-199": {
     "INDICATOR_ID": "I-208",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -4333,9 +4333,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-220"
+    "FORMER_SOURCE_ID": "S-220"
   },
-  "S-200": {
+  "X-200": {
     "INDICATOR_ID": "I-94",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (UNICEF)",
@@ -4355,9 +4355,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_CAUSE_TYPE==\"CH17: Injuries\"& DIM_AGE_GROUP==\"0-5 YEARS\" & DIM_SEX ==\"BOTH_SEXES\" ",
     "UNIT_MEASURE": "PER1000LIVEBIRTHS",
     "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
-    "FROMER_SOURCE_ID": "S-221"
+    "FORMER_SOURCE_ID": "S-221"
   },
-  "S-201": {
+  "X-201": {
     "INDICATOR_ID": "I-209",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -4377,9 +4377,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_AGE_GROUP==\"ALL AGES\" & DIM_SEX==\"BOTH_SEXES\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-222"
+    "FORMER_SOURCE_ID": "S-222"
   },
-  "S-202": {
+  "X-202": {
     "INDICATOR_ID": "I-210",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -4399,9 +4399,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-223"
+    "FORMER_SOURCE_ID": "S-223"
   },
-  "S-203": {
+  "X-203": {
     "INDICATOR_ID": "I-211",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -4421,14 +4421,14 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-224"
+    "FORMER_SOURCE_ID": "S-224"
   },
-  "S-204": {
+  "X-204": {
     "INDICATOR_ID": "I-212",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
     "SOURCE_BODY": "UN SDG",
-    "SOURCE_TITLE": "SDG database 12.4.1 Reporting on hazardous waste commitments. Parties meeting their commitments and obligations in transmitting information as required by Stockholm Convention on hazardous waste, and other chemicals\u00a0SG_HAZ_CMRSTHOLM",
+    "SOURCE_TITLE": "SDG database 12.4.1 Reporting on hazardous waste commitments. \nParties meeting their commitments and obligations in transmitting information as required by Stockholm Convention on hazardous waste, and other chemicals\u00a0SG_HAZ_CMRSTHOLM",
     "ADDRESS": "https:\/\/unstats.un.org\/sdgs\/indicators\/database\/",
     "ENDPOINT_URL": "https:\/\/unstats.un.org\/SDGAPI\/v1\/sdg\/Series\/Data?seriesCode=SG_HAZ_CMRSTHOLM&pageSize=999999999",
     "un_treaty_data_col": null,
@@ -4443,9 +4443,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-225"
+    "FORMER_SOURCE_ID": "S-225"
   },
-  "S-205": {
+  "X-205": {
     "INDICATOR_ID": "I-213",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -4465,9 +4465,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-226"
+    "FORMER_SOURCE_ID": "S-226"
   },
-  "S-206": {
+  "X-206": {
     "INDICATOR_ID": "I-214",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG)",
@@ -4487,9 +4487,9 @@
     "DIMENSION_VALUES_NORMALIZATION": "DIM_SDG_INDICATOR==\"1.5.3\"",
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-227"
+    "FORMER_SOURCE_ID": "S-227"
   },
-  "S-207": {
+  "X-207": {
     "INDICATOR_ID": "I-215",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "PDF",
@@ -4509,9 +4509,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-228"
+    "FORMER_SOURCE_ID": "S-228"
   },
-  "S-208": {
+  "X-208": {
     "INDICATOR_ID": "I-216",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (with URL endpoint)",
@@ -4530,9 +4530,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.Economist_Intelligence_Unit",
-    "FROMER_SOURCE_ID": "S-229"
+    "FORMER_SOURCE_ID": "S-229"
   },
-  "S-209": {
+  "X-209": {
     "INDICATOR_ID": "I-217",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -4552,9 +4552,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "RATE_100000",
     "EXTRACTOR_CLASS": "etl.source_adapter.idmc.IDMC_Extractor",
-    "FROMER_SOURCE_ID": "S-230"
+    "FORMER_SOURCE_ID": "S-230"
   },
-  "S-210": {
+  "X-210": {
     "INDICATOR_ID": "I-218",
     "VALUE_ID": "V-47",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -4574,9 +4574,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-231"
+    "FORMER_SOURCE_ID": "S-231"
   },
-  "S-211": {
+  "X-211": {
     "INDICATOR_ID": "I-219",
     "VALUE_ID": "V-48",
     "SOURCE_TYPE": "Excel (no URL)",
@@ -4596,9 +4596,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
-    "FROMER_SOURCE_ID": "S-232"
+    "FORMER_SOURCE_ID": "S-232"
   },
-  "S-212": {
+  "X-212": {
     "INDICATOR_ID": "I-146",
     "VALUE_ID": "V-43",
     "SOURCE_TYPE": "PDF",
@@ -4619,9 +4619,9 @@
     "UNIT_MEASURE": null,
     "COMMENT": "Publication of the second global report is in Q3 2023. CRBA-88",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-233"
+    "FORMER_SOURCE_ID": "S-233"
   },
-  "S-213": {
+  "X-213": {
     "INDICATOR_ID": "I-66",
     "VALUE_ID": "V-25",
     "SOURCE_TYPE": "Website (static html)",
@@ -4641,9 +4641,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-234"
+    "FORMER_SOURCE_ID": "S-234"
   },
-  "S-214": {
+  "X-214": {
     "INDICATOR_ID": "I-75",
     "VALUE_ID": "V-60",
     "SOURCE_TYPE": "Website (static html)",
@@ -4663,9 +4663,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-235"
+    "FORMER_SOURCE_ID": "S-235"
   },
-  "S-215": {
+  "X-215": {
     "INDICATOR_ID": "I-93",
     "VALUE_ID": "V-36",
     "SOURCE_TYPE": "Website (static html)",
@@ -4685,9 +4685,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-236"
+    "FORMER_SOURCE_ID": "S-236"
   },
-  "S-216": {
+  "X-216": {
     "INDICATOR_ID": "I-158",
     "VALUE_ID": "V-44",
     "SOURCE_TYPE": "Website (static html)",
@@ -4707,9 +4707,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-237"
+    "FORMER_SOURCE_ID": "S-237"
   },
-  "S-217": {
+  "X-217": {
     "INDICATOR_ID": "I-203",
     "VALUE_ID": "V-61",
     "SOURCE_TYPE": "Website (static html)",
@@ -4729,9 +4729,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
-    "FROMER_SOURCE_ID": "S-238"
+    "FORMER_SOURCE_ID": "S-238"
   },
-  "S-218": {
+  "X-218": {
     "INDICATOR_ID": "I-220",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (WB)",
@@ -4751,9 +4751,9 @@
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.json.DefaultJsonExtractor",
-    "FROMER_SOURCE_ID": "S-239"
+    "FORMER_SOURCE_ID": "S-239"
   },
-  "S-219": {
+  "X-219": {
     "INDICATOR_ID": "I-156",
     "VALUE_ID": "V-27",
     "SOURCE_TYPE": "PDF ",
@@ -4770,7 +4770,7 @@
     "COMMENT": "New Source to replace S-158 former S-175",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder"
   },
-  "S-220": {
+  "X-220": {
     "INDICATOR_ID": "I-160",
     "VALUE_ID": "V-50",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -4787,7 +4787,7 @@
     "COMMENT": "Replacement for S-161 former S-179",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder"
   },
-  "S-221": {
+  "X-221": {
     "INDICATOR_ID": "I-50",
     "VALUE_ID": "V-63",
     "SOURCE_TYPE": "Website (dynamic interactive)",
@@ -4808,6 +4808,6 @@
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "LINKT_TO": "S-45",
-    "FROMER_SOURCE_ID": "S-54"
+    "FORMER_SOURCE_ID": "S-54"
   }
 }
