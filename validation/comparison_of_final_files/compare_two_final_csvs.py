@@ -31,6 +31,8 @@ class FinalCrbaFileComparator():
         ):
         self.df_1=df_1
         self.df_2=df_2
+        self.compute_and_append_country_ranking_by_overall_score("df_1") # add rankings
+        self.compute_and_append_country_ranking_by_overall_score("df_2") # add rankings
         self.df_1_filtered=self.filter_to_rows_with_scaled_value(self.df_1)
         self.df_2_filtered=self.filter_to_rows_with_scaled_value(self.df_2)
         self.pk_columns=pk_columns
@@ -141,7 +143,7 @@ class FinalCrbaFileComparator():
 
         #elif category == "CATEGORY_ISSUE_SCORE":
     
-    def compute_country_score_changes(self):
+    def compute_country_score_changes(self, target_col):
         mean_df_1 = self.df_1.groupby("COUNTRY_ISO_3", as_index=False).mean()
         mean_df_2 = self.df_2.groupby("COUNTRY_ISO_3", as_index=False).mean()
         joined_df_2 = mean_df_1.merge(
@@ -150,17 +152,45 @@ class FinalCrbaFileComparator():
             on="COUNTRY_ISO_3", 
             suffixes=('_2020', '_2023')
         )
-        joined_df_2["OVERALL_SCORE_CHANGE"] = joined_df_2["OVERALL_SCORE_2023"] - joined_df_2["OVERALL_SCORE_2020"]
 
-        result_top = joined_df_2.nlargest(5, "OVERALL_SCORE_CHANGE")
-        result_bottom = joined_df_2.nsmallest(5, "OVERALL_SCORE_CHANGE")
-        print("Top 5 countries which improved most: \n \n", result_top)
-        print("\n \n \n Bottom 5 countries which worsened most: \n \n", result_bottom)
+        # Define column names
+        new_column = target_col+"CHANGE" 
+        col_2023 = target_col+"_2023"
+        col_2020 = target_col+"_2020"
 
-        sns.histplot(data=joined_df_2, x="OVERALL_SCORE_CHANGE", label='Overall score change of countries from 2023 to 2020', alpha=0.5)
+        if target_col=="OVERALL_SCORE":
+            joined_df_2[new_column] = joined_df_2[col_2023] - joined_df_2[col_2020]
+
+        elif target_col=="RANK_OVERALL_SCORE":
+            joined_df_2[new_column] = joined_df_2[col_2020] - joined_df_2[col_2023]
+
+        result_top = joined_df_2.nlargest(10, new_column)[["COUNTRY_ISO_3", new_column]]
+        result_bottom = joined_df_2.nsmallest(10, new_column)[["COUNTRY_ISO_3", new_column]]
+        print("Top 10 countries which improved most: \n \n", result_top)
+        print("\n \n \n Bottom 10 countries which worsened most: \n \n", result_bottom)
+
+        sns.histplot(data=joined_df_2, x=new_column, label=f'Overall {new_column} of countries from 2023 to 2020', alpha=0.5)
 
         plt.show()
 
+    def compute_and_append_country_ranking_by_overall_score(self, df):
+        if df=="df_1":
+            # Sort the dataframe by "OVERALL_SCORE" column in descending order
+            sorted_aggregated_df = self.df_1.groupby(['COUNTRY_ISO_3']).first().reset_index().sort_values('OVERALL_SCORE', ascending=False)
+
+            # Create a new column "RANK_OVERALL_SCORE_2023" based on the ranking of each row
+            sorted_aggregated_df['RANK_OVERALL_SCORE'] = sorted_aggregated_df['OVERALL_SCORE'].rank(ascending=False)
+
+            self.df_1 = self.df_1.merge(sorted_aggregated_df[['COUNTRY_ISO_3', 'RANK_OVERALL_SCORE']], on='COUNTRY_ISO_3', how="left")
+
+        elif df=="df_2":
+            # Sort the dataframe by "OVERALL_SCORE" column in descending order
+            sorted_aggregated_df = self.df_2.groupby(['COUNTRY_ISO_3']).first().reset_index().sort_values('OVERALL_SCORE', ascending=False)
+
+            # Create a new column "RANK_OVERALL_SCORE_2023" based on the ranking of each row
+            sorted_aggregated_df['RANK_OVERALL_SCORE'] = sorted_aggregated_df['OVERALL_SCORE'].rank(ascending=False)
+
+            self.df_2 = self.df_2.merge(sorted_aggregated_df[['COUNTRY_ISO_3', 'RANK_OVERALL_SCORE']], on='COUNTRY_ISO_3', how="left")
 
 
 
