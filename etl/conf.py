@@ -216,7 +216,7 @@ class Config:
         with open(self.output_dir_data / "unicef_population_total.json", "w", encoding="utf-8") as f:
             f.write(req.text)
 
-        df = sdmx.read_sdmx(self.output_dir / "unicef_population_total.json").to_pandas()
+        df = sdmx.read_sdmx(self.output_dir_data / "unicef_population_total.json").to_pandas()
 
         # Drop unneaded indexes. This index/dmensions have only one value:TOTAL
         df = df.reset_index(level=['INDICATOR', 'RESIDENCE', 'SEX', 'AGE'], drop=True)
