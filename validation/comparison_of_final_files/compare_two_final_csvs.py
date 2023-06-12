@@ -102,13 +102,7 @@ class FinalCrbaFileComparator():
         print(f"Percentage of rows where TIME_PERIOD in df_2 is higher than in df_1: {round(count_23_newer_than_20/len(self.merged_filtered_df) * 100, 2)}%")
 
     def get_number_of_NA_per_column_value(self, df, column_for_per_category: str="INDICATOR_CODE"):
-        df_O_status = df[df["OBS_STATUS"]=="O"]
-        
-        n_na_df_1 = len(df_O_status)
-
-        print(f"The total number of observations with 'O' in crba_final_2020 is: {n_na_df_1}")
-        print("Successfully calculate dNA per indicator. Stored the return of this method in a variable to display")
-        return df_O_status.value_counts(column_for_per_category)
+        return df.groupby(column_for_per_category).apply(lambda x: (x["OBS_STATUS"] == "O").sum()).sort_values()
     
     def get_number_of_indicators_per_column(self, df):
         unique_indicator_code = self.df_1.groupby("INDICATOR_CODE").first()
