@@ -17,6 +17,7 @@ sources_columns = [
     "SOURCE_TITLE",
     "SOURCE_TYPE",
     "ADDRESS",
+    "COMMENT",
 ]
 
 source_definition = pd.read_json(
@@ -30,6 +31,7 @@ indicator_columns = [
     "INDICATOR_ID",
     "INDEX",
     "ISSUE",
+    "CATEGORY",
     "INDICATOR_NAME",
     "INDICATOR_DESCRIPTION",
     "INDICATOR_EXPLANATION",
@@ -42,27 +44,69 @@ indicator_definitions.to_excel(
 value_types = pd.read_json("etl/resources/value_type.json")
 value_types.to_excel(writer, sheet_name="Value Type", header=True, index=False)
 
-
-for f in glob.glob("config/*/in"):
+# TODO Maybe need to be put in an ordered list
+available_configs = glob.glob("config/*/in")
+for idx, f in enumerate(available_configs):
     year = re.match("config/(\d{4})/in", f).group(1)
     print(f"Config {year}")
     sheet_name = f"Snapshot_{year}"
-    
+
     snapshot = pd.read_json(
         f"config/{year}/in/source_selection.json", orient="index"
-    ).reset_index(names="SOURCE_ID")[["SOURCE_ID"]]
-    
-    snapshot["FORMER_SOURCE_ID"] = snapshot.index.map( lambda idx : f"=VLOOKUP($A{idx+2},$Sources.A:F,2)")
-   
-    snapshot["SOURCE_BODY"] = snapshot.index.map( lambda idx : f"=VLOOKUP($A{idx+2},$Sources.A:F,5)")
-    snapshot["SOURCE_TITLE"] = snapshot.index.map( lambda idx : f"=VLOOKUP($A{idx+2},$Sources.A:F,6)")
-    
-    snapshot["INDICATOR_ID"] = snapshot.index.map( lambda idx : f"=VLOOKUP($A{idx+2},$Sources.A:F,3)")
-    snapshot["INDICATOR_NAME"] = snapshot.index.map( lambda idx : f"=VLOOKUP($A{idx+2},$Indicators.A:F,4)")
+    )  # .reset_index(names="SOURCE_ID")[["SOURCE_ID"]]
+    snapshot["STATUS"] = "NEW"
 
+    if idx > 0:
+        # Compute the diff with the previous snapshot
+        year_previous = re.match("config/(\d{4})/in", available_configs[idx - 1]).group(
+            1
+        )
+        previous_snapshot = pd.read_json(
+            f"config/{year_previous}/in/source_selection.json", orient="index"
+        )  # .reset_index(names="SOURCE_ID")[["SOURCE_ID"]]
+
+        active_sources = snapshot.index.intersection(previous_snapshot.index)
+        deleted_sources = previous_snapshot.index.difference(snapshot.index)
+        new_sources = snapshot.index.difference(previous_snapshot.index)
+
+        snapshot = pd.concat([snapshot, previous_snapshot.loc[deleted_sources, :]])
+
+        snapshot.loc[deleted_sources, ["STATUS"]] = f"DELETED"
+        snapshot.loc[new_sources, ["STATUS"]] = f"NEW"
+        snapshot.loc[active_sources, ["STATUS"]] = f"ACTIVE"
+
+    snapshot = snapshot.reset_index(names="SOURCE_ID")[["SOURCE_ID", "STATUS"]]
+
+    snapshot["FORMER_SOURCE_ID"] = snapshot.index.map(
+        lambda idx: f"=VLOOKUP($A{idx+2},$Sources.$A$1:$G$250,2,0)"
+    )
+
+    snapshot["SOURCE_BODY"] = snapshot.index.map(
+        lambda idx: f"=VLOOKUP($A{idx+2},$Sources.$A$1:$G$250,5,0)"
+    )
+    snapshot["SOURCE_TITLE"] = snapshot.index.map(
+        lambda idx: f"=VLOOKUP($A{idx+2},$Sources.$A$1:$G$250,6,0)"
+    )
+
+    snapshot["INDICATOR_ID"] = snapshot.index.map(
+        lambda idx: f"=VLOOKUP($A{idx+2},$Sources.$A$1:$G$250,3,0)"
+    )
+    snapshot["INDICATOR_NAME"] = snapshot.index.map(
+        lambda idx: f"=VLOOKUP($F{idx+2},$Indicators.$A$1:$G$250,5,0)"
+    )
+    snapshot["INDICATOR_INDEX"] = snapshot.index.map(
+        lambda idx: f"=VLOOKUP($F{idx+2},$Indicators.$A$1:$G$250,2,0)"
+    )
+    snapshot["INDICATOR_ISSUE"] = snapshot.index.map(
+        lambda idx: f"=VLOOKUP($F{idx+2},$Indicators.$A$1:$G$250,3,0)"
+    )
+    snapshot["INDICATOR_CATEGORY"] = snapshot.index.map(
+        lambda idx: f"=VLOOKUP($F{idx+2},$Indicators.$A$1:$G$250,4,0)"
+    )
 
     snapshot.to_excel(writer, sheet_name=sheet_name, header=True, index=False)
     worksheet = writer.sheets[sheet_name]
+    # worksheet.write_array_formula('J2:J207', '{==VLOOKUP($E1:$E207,$Indicators.$A$1:$G$250,4,0)}')
 
 
 # source_definition.to_excel(writer, sheet_name="Source", header=True, index=False)
@@ -117,6 +161,11 @@ The ground truth can be found in the repositorie: https://github.com/MajorDaxx/c
 Within the repositorie in the config/<year>/out/crba_report_definition.json"""
 ]
 
-disclaimer.to_excel(writer, sheet_name="Disclaimer", header=True, index=False)
+disclaimer["STATUS COLUMN IN SNAPSHOT"] = [
+    """The Status Column in Snapshot Sheet represents the change of the Source repectivly to the previous year.\n 
+    NEW means this source has been added. ACTIVE means this tsource is the same as the prev year. DELETED this source is no longer in the report """
+]
+
+disclaimer.to_excel(writer, sheet_name="Disclaimer", header=False, index=True)
 
 writer.close()
