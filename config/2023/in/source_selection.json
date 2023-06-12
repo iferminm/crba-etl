@@ -140,6 +140,11 @@
     "FILE_PATH": "raw\/S_42, S_43, S_44\/WORLD_Dataset_Workplace_Discrimination_and_Harassment_04.14.2023.xls"
   },
   "X-38": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-39": {
     "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
   },
   "X-40": {

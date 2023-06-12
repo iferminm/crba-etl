@@ -81,9 +81,14 @@ def build_combined_normalized_csv(config):
                 run_logger.info(
                         msg=f"Read Source for Report {row['SOURCE_ID']}"
                     )
-                extractions_data.append(
-                     pd.read_csv(config.indicator_output / str(row['SOURCE_ID'] + "_" + row['INDICATOR_ID'] + ".csv"), sep=";")
-                )
+                path = config.indicator_output / str(row['SOURCE_ID'] + "_" + row['INDICATOR_ID'] + ".csv")
+                if path.is_file():
+                    extractions_data.append(
+                        pd.read_csv(path, sep=";")
+                    )
+                else: 
+                    run_logger.warning(f"!!!!!!!!!!!!!!!!!!Source {row['SOURCE_ID']} not found!!!!")
+                
 
     # Store Indicator for inspection
     print(f"Number of sucesses{sucesses}")
