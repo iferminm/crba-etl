@@ -821,6 +821,7 @@
     "INVERT_NORMALIZATION": "inverted",
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
+    "COMMENT": "Delete form 2023 according to alex because it is partally by I-29 https://las-mic.atlassian.net/browse/CRBA-94?focusedCommentId=10054",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FORMER_SOURCE_ID": "S-46"
   },
