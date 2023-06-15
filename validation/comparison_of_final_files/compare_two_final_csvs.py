@@ -105,7 +105,7 @@ class FinalCrbaFileComparator():
         return df.groupby(column_for_per_category).apply(lambda x: (x["OBS_STATUS"] == "O").sum()).sort_values()
     
     def get_number_of_indicators_per_column(self, df):
-        unique_indicator_code = self.df_1.groupby("INDICATOR_CODE").first()
+        unique_indicator_code = df.groupby("INDICATOR_CODE").first()
         categories=[
             "INDICATOR_INDEX",
             "INDICATOR_CATEGORY",
