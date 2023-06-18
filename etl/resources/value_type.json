@@ -907,5 +907,14 @@
     "VALUE_LABELS": "4=18 years; 3=16/17 years; 2=14/15 years; 1=12/13 years OR No national minimum age",
     "NA_ENCODING": NaN,
     "UNITS": NaN
+  },
+  {
+    "VALUE_ID": "V-102",
+    "TYPE": "Categorical",
+    "RANGE": "[0,1,2,3,4,5]",
+    "VALUE_ENCODING": "5=5.0; 4=4.0; 3=3.0; 2=2.0; 1=1.0",
+    "VALUE_LABELS": "5=26 weeks or more; 4= 14-25.9 weeks; 3=3-13.9 weeks; 2=Less than 3 weeks; 1=No paid leave; 0=No data",
+    "NA_ENCODING": NaN,
+    "UNITS": NaN
   }
 ]
