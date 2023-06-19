@@ -129,8 +129,8 @@
     "VALUE_ID": "V-15",
     "TYPE": "Categorical",
     "RANGE": "[0,1,2,3]",
-    "VALUE_ENCODING": "3=5.0; 2=3.0; 2=2.0; 1=1.0",
-    "VALUE_LABELS": "3=Yes for both women and men; 2=Only harassment of women; 1=No prohibition; 0=No data",
+    "VALUE_ENCODING": "3=5.0; 3=3.0; 2=2.0; 1=1.0; 0=0.0",
+    "VALUE_LABELS": "3=Only harassment of women OR Yes, for both women and men; 2=Not prohibited, but at least some protection; 1=Sexual harassment not explicitly prohibited; 0=No data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   },
