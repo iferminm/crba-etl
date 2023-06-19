@@ -373,7 +373,7 @@
     "TYPE": "Categorical",
     "RANGE": "[0,1,2,3]",
     "VALUE_ENCODING": "4=https://eiti.org/api/v2.0/country_status/satisfactory-progress; 4=https://eiti.org/api/v2.0/country_status/Very-high; 4=https://eiti.org/api/v2.0/country_status/High;3=https://eiti.org/api/v2.0/country_status/meaningful-progress; 3=https://eiti.org/api/v2.0/country_status/Moderate; 2=https://eiti.org/api/v2.0/country_status/to-be-assessed; 2=https://eiti.org/api/v2.0/country_status/Fairly-low;2=https://eiti.org/api/v2.0/country_status/Low; 1=https://eiti.org/api/v2.0/country_status/suspended-inadequate-progress; 1=https://eiti.org/api/v2.0/country_status/suspended-political-instability;1=https://eiti.org/api/v2.0/country_status/suspended-inadequate-progress;1=https://eiti.org/api/v2.0/country_status/suspended-missing-deadline; 0=https://eiti.org/api/v2.0/country_status/other",
-    "VALUE_LABELS": "4=Satisfactory progress; 3=Meaningful progress; 2=To be assessed; 1=Suspended inadequate progress/ suspended political instability; 0=Not a member/ other / no data",
+    "VALUE_LABELS": "4=Satisfactory progress OR Very high OR High; 3=Meaningful progress OR Moderate; 2=To be assessed OR Fairly low OR Low; 1=Suspended inadequate progress OR suspended political instability OR suspended missing deadline; 0=Not a member/ other / no data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   },
