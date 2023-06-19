@@ -4810,5 +4810,17 @@
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "LINKT_TO": "S-45",
     "FORMER_SOURCE_ID": "S-54"
+  },
+  "X-222": {
+    "INDICATOR_ID": "I-221",
+    "VALUE_ID": "V-5",
+    "SOURCE_TYPE": "PDF",
+    "SOURCE_BODY": "CyberTipline Reports by country ",
+    "RAW_OBS_VALUE_TYPE": "continuous",
+    "INVERT_NORMALIZATION": "inverted",
+    "NORMALISE_TO_100000": true,
+    "UNIT_MEASURE": "RATE_100000",
+    "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
+    "LINKT_TO": "S-123"
   }
 }

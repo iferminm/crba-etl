@@ -5278,5 +5278,16 @@
         "CORRESPONDING_VALUE_TYPE": null,
         "SORTING_COLUMN": 197,
         "INDICATOR_ACR": "QUPRTE"
+    },
+    {
+        "INDICATOR_ID": "I-221",
+        "PROJECT": "CRBA",
+        "INDEX": "Marketplace",
+        "ISSUE": "Online Abuse and exploitation",
+        "CATEGORY": "Outcome",
+        "INDICATOR_NAME": "Reports of online child sexual exploitation material (CSAM)",
+        "INDICATOR_DESCRIPTION": "Reports of online child sexual exploitation material (CSAM) per 100,000 population",
+        "INDICATOR_EXPLANATION": "Number of CSAM reports sent by US companies to the NCMEC CyberTipline, per 100,000 population.",
+        "INDICATOR_ACR": "ROCSEM"
     }
 ]
