@@ -1,6 +1,18 @@
 This is my first contribution MD. 
 For now it will be used to collect some design thoughts. 
 
+# For Execution 
+
+```
+python etl --config-path config/2023 --extract-stage --combine-stage --sdmx-stage
+```
+To only test run for certain indicators the option  --build-indicator-filter can be used. 
+It either takes a pandas SQL as file or a list of SOURCE_ID in csv format.
+To filter the final crba_definition as can be found in config/<year>/out/crba_report_definition.
+SQL Example:=EXTRACTOR_CLASS="etl.source_adapter.csv.DefaultCSVExtractor"
+```
+python etl --build-indicator-filter source_filter.sql--config-path config/<crba_release_year> --extract-stage --combine-stage --sdmx-stage
+```
 # Use of ETL Frameworks
 It should be considered to use ETL Frameworks light dagster. The goal is to reduce the code soley on the logik and less on boilerplate. 
 But on the other hands Frameworks can lead to higher complexity to learn to usethe repo. 
