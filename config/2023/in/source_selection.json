@@ -41,13 +41,19 @@
     "FILE_PATH": "raw\/S_8, S_9\/WORLD_child_labor_7Mar22.xls"
   },
   "X-10": {
-    "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
+    "FILE_PATH": "raw\/S_10\/WORLD_Dataset_Education_2.23.23.xls", 
+    "WPA_OBS_RAW_COL": "compend_lowsec",
+    "VALUE_ID": "V-100",
+    "WPA_YEAR_COL": 2019.0
   },
   "X-12": {
     "TIME_PERIOD": 2023
   },
   "X-13": {
-    "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
+    "FILE_PATH": "raw\/S_13\/WORLD_Dataset_Child_Labor_7Mar22.xls", 
+    "WPA_OBS_RAW_COL": "haz_age",
+    "VALUE_ID": "V-101",
+    "WPA_YEAR_COL": 2016.0
   },
   "X-15": {
     "STARTPERIOD": "xxx",
@@ -120,13 +126,15 @@
     "TIMEPERIOD": "xxx"
   },
   "X-29": {
-    "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
+    "FILE_PATH": "raw\/S_36, S_45, S_49\/WORLD_Dataset_Income_3.9.15.xlsx"
   },
   "X-33": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "FILE_PATH": "raw\/S_40, S_66, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls",
+    "WPA_YEAR_COL": 2016.0
   },
   "X-34": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "FILE_PATH": "raw\/S_41\/WORLD_Dataset_Medical_Leave_05.19.23.xls",
+    "WPA_YEAR_COL": 2020.0
   },
   "X-35": {
     "FILE_PATH": "raw\/S_42, S_43, S_44\/WORLD_Dataset_Workplace_Discrimination_and_Harassment_04.14.2023.xls",
@@ -143,7 +151,7 @@
     "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
   },
   "X-40": {
-    "FILE_PATH": "raw\/S_10, S_13, S_36, S_45, S_49\/WORLD_Dataset_Childhood_4.16.15.xlsx"
+    "FILE_PATH": "raw\/S_36, S_45, S_49\/WORLD_Dataset_Income_3.9.15.xlsx"
   },
   "X-41": {
     "startPeriod": "2020-01-01",
@@ -208,22 +216,31 @@
     "TIMEPERIOD": "xxx"
   },
   "X-54": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "FILE_PATH": "raw\/S_63, S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
+    "WPA_YEAR_COL": 2022.0
   },
   "X-55": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "FILE_PATH": "raw\/S_63, S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
+    "WPA_YEAR_COL": 2022.0
   },
   "X-56": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "WPA_OBS_RAW_COL": "maternity_leave",
+    "FILE_PATH": "raw\/S_63, S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
+    "WPA_YEAR_COL": 2022.0
   },
   "X-57": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "FILE_PATH": "raw\/S_40, S_66, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls",
+    "WPA_YEAR_COL": 2016.0
   },
   "X-58": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "VALUE_ID": "V-102",
+    "WPA_OBS_RAW_COL": "paternity_leave",
+    "FILE_PATH": "raw\/S_63, S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
+    "WPA_YEAR_COL": 2022.0
   },
   "X-59": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "FILE_PATH": "raw\/S_63, S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
+    "WPA_YEAR_COL": 2022.0
   },
   "X-62": {
     "STARTPERIOD": "xxx",
@@ -873,10 +890,12 @@
     "TIMEPERIOD": "xxx"
   },
   "X-210": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "FILE_PATH": "raw\/S_40, S_66, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls",
+    "WPA_YEAR_COL": 2016.0
   },
   "X-211": {
-    "FILE_PATH": "raw\/S_40, S_41, S_63, S_64, S_65, S_66, S_67, S_68, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls"
+    "FILE_PATH": "raw\/S_40, S_66, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls",
+    "WPA_YEAR_COL": 2016.0
   },
   "X-212": {
     "FILE_PATH": "../../../2020/in/data/staging/X-212.xlsx",
