@@ -24,6 +24,28 @@ def parse_args():
     )
 
     parser.add_argument(
+        "--extract-stage",
+        help="Runs the download of all sources",
+        # Defaults to false if not selected
+        action="store_true",
+        dest="extract_stage",
+    )
+    parser.add_argument(
+        "--combine-stage",
+        help="Combines the sources to form a crba_final",
+        # Defaults to false if not selected
+        action="store_true",
+        dest="combine_stage",
+    )
+    parser.add_argument(
+        "--sdmx-stage",
+        help="Runs the transformations to create a sdmx ready csv file",
+        # Defaults to false if not selected
+        action="store_true",
+        dest="sdmx_stage",
+    )
+
+    parser.add_argument(
         "--build-indicator-filter",
         help="SQL which is applied to the source config. Or CSV File where the first column is the Source ID",
         action="store",
@@ -83,4 +105,4 @@ if __name__ == "__main__":
     config = Config(**vars(args))
     config.bootstrap()
 
-    etl.run.run(config)
+    etl.run.run(args, config)
