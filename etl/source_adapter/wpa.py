@@ -28,7 +28,7 @@ class WPA_Extractor(SourceAdapter):
             self.wpa_obs_raw_col: "RAW_OBS_VALUE"
         })
 
-        self.dataframe = self.dataframe[['country', "RAW_OBS_VALUE"]]
+        self.dataframe = self.dataframe[['country', "RAW_OBS_VALUE", "TIME_PERIOD"]]
         # Drop Rows with no observations or nan
         self.dataframe = self.dataframe.dropna()
 
