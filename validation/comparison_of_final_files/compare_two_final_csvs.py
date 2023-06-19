@@ -192,69 +192,18 @@ class FinalCrbaFileComparator():
 
             self.df_2 = self.df_2.merge(sorted_aggregated_df[['COUNTRY_ISO_3', 'RANK_OVERALL_SCORE']], on='COUNTRY_ISO_3', how="left")
 
+    def create_aggregate_scores_df(self, df):
+        aggregated_scores_temp = df[
+            ["COUNTRY_ISO_3", "INDICATOR_CODE", "INDICATOR_INDEX", "INDICATOR_ISSUE" , "INDICATOR_CATEGORY", "CATEGORY_ISSUE_SCORE", "ISSUE_INDEX_SCORE", "INDEX_SCORE", "OVERALL_SCORE"]
+        ].groupby(["COUNTRY_ISO_3", "INDICATOR_INDEX", "INDICATOR_ISSUE" , "INDICATOR_CATEGORY"]).first().reset_index()
+
+        aggregated_scores_temp = aggregated_scores_temp.pivot(index='COUNTRY_ISO_3', 
+                columns=["INDICATOR_INDEX", "INDICATOR_ISSUE" , "INDICATOR_CATEGORY"], 
+                values=["INDEX_SCORE", "ISSUE_INDEX_SCORE", "CATEGORY_ISSUE_SCORE"])#.reset_index()
+
+        aggregated_scores_transpose = aggregated_scores_temp.T
+        duplicate_columns = aggregated_scores_transpose.duplicated()
+
+        return aggregated_scores_temp.loc[:, [not value for value in duplicate_columns]]
 
 
-
-
-
-"""
-
-my_comparer.get_top_and_worst_countries_per_category("INDEX")
-
-my_comparer.compute_country_score_changes()
-
-
-my_comparer.compare_existing_columns()
-my_comparer.calculate_percentage_of_updated_observations()
-my_comparer.merged_filtered_df[
-    my_comparer.merged_filtered_df["TIME_PERIOD_x"] > my_comparer.merged_filtered_df["TIME_PERIOD_y"]
-    ].to_csv("temp_crba_merged_age_observations.csv", sep=";")
-
-
-my_comparer.get_number_of_NA_per_column_value(my_comparer.df_1, "COUNTRY_ISO_3")
-
-my_comparer.df_2[my_comparer.df_2["OBS_STATUS"]=="O"].value_counts("INDICATOR_CODE")
-
-
-nas_per_indicator_2020 = my_comparer.get_number_of_NA_per_indicator(my_comparer.df_1)
-nas_per_indicator_2020
-
-# DONE Distribution of age (filter out NANs)
-# DONE Percentage/ list of those indicator for which we have new data
-# DONE Check which indicator has been retired/ which one still exists
-# SKIPPED Run the same health checks (i.e. Indonesia > Canada) as before
-# DONE Percentage of observations for which we have new data
-# DONE Distribution comparison of scores
-    # DONE Per issues
-    # DONE Per category
-    # ....
-# DONE Number of NAN countries per indicator
-# DONE Number of indicators per category/
-# DONE Which country has improved/ worsened most? 
-# DONE Number of NA observations per country
-# DONE Ranking of ountries (Tota and also per index)
-
-
-
-
-
-
-
-len(crba_final_2020.columns)
-len(crba_final_2023.columns)
-
-crba_final_2020.columns
-crba_final_2023.columns
-
-
-
-crba_final_2020.__name__
-
-my_comparer.compare_column_distribution(column_name="TIME_PERIOD")
-my_comparer.compare_column_distribution(column_name="SCALED_OBS_VALUE")
-my_comparer.find_unique_values("INDICATOR_CODE")
-my_comparer.calculate_percentage_of_updated_observations()
-
-# These are output we are intereted in:
-
-"""    
