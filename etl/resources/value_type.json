@@ -916,5 +916,14 @@
     "VALUE_LABELS": "5=26 weeks or more; 4= 14-25.9 weeks; 3=3-13.9 weeks; 2=Less than 3 weeks; 1=No paid leave; 0=No data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
+  },
+  {
+    "VALUE_ID": "V-103",
+    "TYPE": "Categorical",
+    "RANGE": "[0,1,2]",
+    "VALUE_ENCODING": "2=5.0; 2=4.0; 2=2.0; 1=1.0",
+    "VALUE_LABELS": "2=Yes (either broad prohibition of workplace discrimination based on sex OR sex-specific prohibition AND/ OR general prohibition of discrimintion in promotions or demotions); 1=No protection; 0=No data",
+    "NA_ENCODING": NaN,
+    "UNITS": NaN
   }
 ]
