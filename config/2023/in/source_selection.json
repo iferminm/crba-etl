@@ -139,6 +139,7 @@
   "X-35": {
     "FILE_PATH": "raw\/S_42, S_43, S_44\/WORLD_Dataset_Workplace_Discrimination_and_Harassment_04.14.2023.xls",
     "WPA_OBS_RAW_COL": "promdemo_gender",
+    "VALUE_ID": "V-103",
     "WPA_YEAR_COL": 2022.0
   },
   "X-36": {
