@@ -1,395 +1,399 @@
-2023-06-09 09:08:23,348 INFO build_combined_normalized_csv(35) 196 sources selected to process
-2023-06-09 09:08:28,464 INFO build_combined_normalized_csv(53) Source X-1 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:08:32,146 INFO build_combined_normalized_csv(53) Source X-2 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:08:32,383 INFO build_combined_normalized_csv(53) Source X-3 extract with 195 rows::: UnTreaties
-2023-06-09 09:08:32,574 INFO build_combined_normalized_csv(53) Source X-4 extract with 195 rows::: UnTreaties
-2023-06-09 09:08:36,028 INFO build_combined_normalized_csv(53) Source X-5 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:08:39,778 INFO build_combined_normalized_csv(53) Source X-6 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:08:42,387 INFO build_combined_normalized_csv(53) Source X-7 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:08:42,970 INFO build_combined_normalized_csv(53) Source X-15 extract with 954 rows::: DefaultJsonExtractor
-2023-06-09 09:08:43,417 INFO build_combined_normalized_csv(53) Source X-16 extract with 954 rows::: DefaultJsonExtractor
-2023-06-09 09:08:43,614 INFO build_combined_normalized_csv(53) Source X-17 extract with 381 rows::: DefaultJsonExtractor
-2023-06-09 09:08:46,502 INFO build_combined_normalized_csv(53) Source X-18 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:08:48,752 INFO build_combined_normalized_csv(53) Source X-19 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:08:51,450 INFO build_combined_normalized_csv(53) Source X-20 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:08:54,207 INFO build_combined_normalized_csv(53) Source X-21 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:08:57,689 INFO build_combined_normalized_csv(53) Source X-22 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:09:00,918 INFO build_combined_normalized_csv(53) Source X-23 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:09:01,102 INFO build_combined_normalized_csv(53) Source X-24 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:04,623 INFO build_combined_normalized_csv(53) Source X-25 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:09:07,943 INFO build_combined_normalized_csv(53) Source X-26 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:09:11,491 INFO build_combined_normalized_csv(53) Source X-27 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:09:14,172 INFO build_combined_normalized_csv(53) Source X-28 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:09:14,453 INFO build_combined_normalized_csv(53) Source X-43 extract with 541 rows::: DefaultCSVExtractor
-2023-06-09 09:09:14,807 INFO build_combined_normalized_csv(53) Source X-221 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:15,031 INFO build_combined_normalized_csv(53) Source X-46 extract with 379 rows::: DefaultCSVExtractor
-2023-06-09 09:09:15,212 INFO build_combined_normalized_csv(53) Source X-47 extract with 409 rows::: DefaultCSVExtractor
-2023-06-09 09:09:17,698 INFO build_combined_normalized_csv(53) Source X-48 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:09:20,857 INFO build_combined_normalized_csv(53) Source X-49 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:09:21,276 INFO build_combined_normalized_csv(53) Source X-50 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:21,484 INFO build_combined_normalized_csv(53) Source X-52 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:21,984 INFO build_combined_normalized_csv(53) Source X-53 extract with 970 rows::: DefaultJsonExtractor
-2023-06-09 09:09:22,132 INFO build_combined_normalized_csv(53) Source X-62 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:22,295 INFO build_combined_normalized_csv(53) Source X-63 extract with 312 rows::: DefaultJsonExtractor
-2023-06-09 09:09:22,554 INFO build_combined_normalized_csv(53) Source X-65 extract with 312 rows::: DefaultJsonExtractor
-2023-06-09 09:09:22,717 INFO build_combined_normalized_csv(53) Source X-66 extract with 265 rows::: DefaultJsonExtractor
-2023-06-09 09:09:22,844 INFO build_combined_normalized_csv(53) Source X-67 extract with 265 rows::: DefaultJsonExtractor
-2023-06-09 09:09:22,945 INFO build_combined_normalized_csv(53) Source X-68 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:23,028 INFO build_combined_normalized_csv(53) Source X-69 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:23,098 INFO build_combined_normalized_csv(53) Source X-70 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:23,184 INFO build_combined_normalized_csv(53) Source X-71 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:23,339 INFO build_combined_normalized_csv(53) Source X-72 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:23,432 INFO build_combined_normalized_csv(53) Source X-74 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:23,518 INFO build_combined_normalized_csv(53) Source X-76 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:23,597 INFO build_combined_normalized_csv(53) Source X-77 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:23,696 INFO build_combined_normalized_csv(53) Source X-78 extract with 579 rows::: DefaultCSVExtractor
-2023-06-09 09:09:23,817 INFO build_combined_normalized_csv(53) Source X-79 extract with 579 rows::: DefaultCSVExtractor
-2023-06-09 09:09:23,889 INFO build_combined_normalized_csv(53) Source X-80 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:24,058 INFO build_combined_normalized_csv(53) Source X-81 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:24,173 INFO build_combined_normalized_csv(53) Source X-82 extract with 461 rows::: DefaultCSVExtractor
-2023-06-09 09:09:24,282 INFO build_combined_normalized_csv(53) Source X-83 extract with 331 rows::: DefaultCSVExtractor
-2023-06-09 09:09:24,569 INFO build_combined_normalized_csv(53) Source X-84 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:25,793 INFO build_combined_normalized_csv(53) Source X-85 extract with 1699 rows::: DefaultCSVExtractor
-2023-06-09 09:09:25,925 INFO build_combined_normalized_csv(53) Source X-86 extract with 195 rows::: GlobalHealthObservatory
-2023-06-09 09:09:26,029 INFO build_combined_normalized_csv(53) Source X-87 extract with 195 rows::: GlobalHealthObservatory
-2023-06-09 09:09:26,214 INFO build_combined_normalized_csv(53) Source X-88 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:26,438 INFO build_combined_normalized_csv(53) Source X-89 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:26,713 INFO build_combined_normalized_csv(53) Source X-90 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:26,968 INFO build_combined_normalized_csv(53) Source X-91 extract with 561 rows::: DefaultCSVExtractor
-2023-06-09 09:09:27,257 INFO build_combined_normalized_csv(53) Source X-92 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:27,420 INFO build_combined_normalized_csv(53) Source X-93 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:27,629 INFO build_combined_normalized_csv(53) Source X-98 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:27,872 INFO build_combined_normalized_csv(53) Source X-99 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:28,081 INFO build_combined_normalized_csv(53) Source X-102 extract with 207 rows::: DefaultJsonExtractor
-2023-06-09 09:09:28,320 INFO build_combined_normalized_csv(53) Source X-103 extract with 444 rows::: DefaultCSVExtractor
-2023-06-09 09:09:28,630 INFO build_combined_normalized_csv(53) Source X-108 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:29,018 INFO build_combined_normalized_csv(53) Source X-109 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:29,332 INFO build_combined_normalized_csv(53) Source X-110 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:29,552 INFO build_combined_normalized_csv(53) Source X-111 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:29,857 INFO build_combined_normalized_csv(53) Source X-112 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:30,125 INFO build_combined_normalized_csv(53) Source X-113 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:30,751 INFO build_combined_normalized_csv(53) Source X-114 extract with 195 rows::: CRIN_Treaties
-2023-06-09 09:09:30,819 INFO build_combined_normalized_csv(53) Source X-119 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:30,890 INFO build_combined_normalized_csv(53) Source X-120 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:31,011 INFO build_combined_normalized_csv(53) Source X-121 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:31,182 INFO build_combined_normalized_csv(53) Source X-123 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:31,476 INFO build_combined_normalized_csv(53) Source X-124 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:31,694 INFO build_combined_normalized_csv(53) Source X-125 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:31,890 INFO build_combined_normalized_csv(53) Source X-126 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:32,115 INFO build_combined_normalized_csv(53) Source X-127 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:32,237 INFO build_combined_normalized_csv(53) Source X-128 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:32,304 INFO build_combined_normalized_csv(53) Source X-137 extract with 195 rows::: EITIIndicatorBuilder
-2023-06-09 09:09:32,404 INFO build_combined_normalized_csv(53) Source X-140 extract with 195 rows::: S_157
-2023-06-09 09:09:32,644 INFO build_combined_normalized_csv(53) Source X-141 extract with 941 rows::: DefaultCSVExtractor
-2023-06-09 09:09:32,751 INFO build_combined_normalized_csv(53) Source X-143 extract with 196 rows::: DefaultJsonExtractor
-2023-06-09 09:09:32,885 INFO build_combined_normalized_csv(53) Source X-144 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:33,228 INFO build_combined_normalized_csv(53) Source X-145 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:33,355 INFO build_combined_normalized_csv(53) Source X-147 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:33,522 WARNING create_log_report_delete_duplicates(771) WARNING: There are 8 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
-2023-06-09 09:09:33,575 INFO build_combined_normalized_csv(53) Source X-149 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:34,234 INFO build_combined_normalized_csv(53) Source X-151 extract with 195 rows::: ICRC_Treaties
-2023-06-09 09:09:34,883 INFO build_combined_normalized_csv(53) Source X-152 extract with 195 rows::: ICRC_Treaties
-2023-06-09 09:09:35,523 INFO build_combined_normalized_csv(53) Source X-153 extract with 195 rows::: ICRC_Treaties
-2023-06-09 09:09:35,669 INFO build_combined_normalized_csv(53) Source X-154 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:35,795 INFO build_combined_normalized_csv(53) Source X-155 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:36,183 INFO build_combined_normalized_csv(53) Source X-156 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:39,688 INFO build_combined_normalized_csv(53) Source X-157 extract with 195 rows::: ILO_Extractor
-2023-06-09 09:09:39,814 INFO build_combined_normalized_csv(53) Source X-160 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:39,938 INFO build_combined_normalized_csv(53) Source X-220 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:41,779 INFO build_combined_normalized_csv(53) Source X-163 extract with 195 rows::: IDMC_Extractor
-2023-06-09 09:09:41,946 INFO build_combined_normalized_csv(53) Source X-164 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:42,236 INFO build_combined_normalized_csv(53) Source X-165 extract with 417 rows::: DefaultJsonExtractor
-2023-06-09 09:09:42,698 INFO build_combined_normalized_csv(53) Source X-166 extract with 509 rows::: DefaultJsonExtractor
-2023-06-09 09:09:42,935 INFO build_combined_normalized_csv(53) Source X-167 extract with 399 rows::: UN_SDG_UN_POP
-2023-06-09 09:09:43,146 INFO build_combined_normalized_csv(53) Source X-168 extract with 195 rows::: UN_SDG_UN_POP
-2023-06-09 09:09:43,303 INFO build_combined_normalized_csv(53) Source X-169 extract with 195 rows::: UN_SDG_UN_POP
-2023-06-09 09:09:43,558 INFO build_combined_normalized_csv(53) Source X-170 extract with 195 rows::: UN_SDG_UN_POP
-2023-06-09 09:09:44,906 INFO build_combined_normalized_csv(53) Source X-171 extract with 195 rows::: IDMC_Extractor
-2023-06-09 09:09:48,969 INFO build_combined_normalized_csv(53) Source X-172 extract with 195 rows::: Inform_Risk_Index_Data
-2023-06-09 09:09:49,319 INFO build_combined_normalized_csv(53) Source X-173 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:49,450 INFO build_combined_normalized_csv(53) Source X-174 extract with 195 rows::: UnTreaties
-2023-06-09 09:09:49,807 INFO build_combined_normalized_csv(53) Source X-175 extract with 195 rows::: CRIN_Treaties
-2023-06-09 09:09:50,007 INFO build_combined_normalized_csv(53) Source X-180 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:50,129 INFO build_combined_normalized_csv(53) Source X-181 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:09:52,444 INFO build_combined_normalized_csv(53) Source X-184 extract with 1259 rows::: DefaultJsonExtractor
-2023-06-09 09:09:52,550 INFO build_combined_normalized_csv(53) Source X-186 extract with 579 rows::: DefaultCSVExtractor
-2023-06-09 09:09:52,779 INFO build_combined_normalized_csv(53) Source X-187 extract with 363 rows::: DefaultCSVExtractor
-2023-06-09 09:09:52,859 INFO build_combined_normalized_csv(53) Source X-188 extract with 579 rows::: DefaultCSVExtractor
-2023-06-09 09:09:52,961 INFO build_combined_normalized_csv(53) Source X-189 extract with 579 rows::: DefaultCSVExtractor
-2023-06-09 09:09:53,183 INFO build_combined_normalized_csv(53) Source X-193 extract with 715 rows::: DefaultJsonExtractor
-2023-06-09 09:09:54,552 INFO build_combined_normalized_csv(53) Source X-194 extract with 4945 rows::: DefaultCSVExtractor
-2023-06-09 09:09:54,675 INFO build_combined_normalized_csv(53) Source X-196 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:54,806 INFO build_combined_normalized_csv(53) Source X-197 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:55,011 INFO build_combined_normalized_csv(53) Source X-198 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:55,235 INFO build_combined_normalized_csv(53) Source X-199 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:56,393 INFO build_combined_normalized_csv(53) Source X-200 extract with 3187 rows::: DefaultCSVExtractor
-2023-06-09 09:09:56,918 INFO build_combined_normalized_csv(53) Source X-201 extract with 445 rows::: DefaultJsonExtractor
-2023-06-09 09:09:57,166 INFO build_combined_normalized_csv(53) Source X-202 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:57,290 INFO build_combined_normalized_csv(53) Source X-203 extract with 196 rows::: DefaultJsonExtractor
-2023-06-09 09:09:57,458 INFO build_combined_normalized_csv(53) Source X-204 extract with 196 rows::: DefaultJsonExtractor
-2023-06-09 09:09:57,714 INFO build_combined_normalized_csv(53) Source X-205 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:09:57,906 INFO build_combined_normalized_csv(53) Source X-206 extract with 453 rows::: DefaultJsonExtractor
-2023-06-09 09:09:58,009 INFO build_combined_normalized_csv(53) Source X-207 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:59,327 INFO build_combined_normalized_csv(53) Source X-209 extract with 195 rows::: IDMC_Extractor
-2023-06-09 09:09:59,447 INFO build_combined_normalized_csv(53) Source X-213 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:59,614 INFO build_combined_normalized_csv(53) Source X-215 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:59,760 INFO build_combined_normalized_csv(53) Source X-216 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:09:59,892 INFO build_combined_normalized_csv(53) Source X-217 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:00,274 INFO build_combined_normalized_csv(53) Source X-218 extract with 195 rows::: DefaultJsonExtractor
-2023-06-09 09:10:00,371 INFO build_combined_normalized_csv(53) Source X-8 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:00,463 INFO build_combined_normalized_csv(53) Source X-9 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:00,960 INFO build_combined_normalized_csv(53) Source X-10 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:01,501 INFO build_combined_normalized_csv(53) Source X-13 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:01,949 INFO build_combined_normalized_csv(53) Source X-29 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:02,044 INFO build_combined_normalized_csv(53) Source X-33 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:02,146 INFO build_combined_normalized_csv(53) Source X-34 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:02,325 INFO build_combined_normalized_csv(53) Source X-35 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:02,513 INFO build_combined_normalized_csv(53) Source X-36 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:02,698 INFO build_combined_normalized_csv(53) Source X-37 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:03,178 INFO build_combined_normalized_csv(53) Source X-38 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:03,710 INFO build_combined_normalized_csv(53) Source X-40 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:03,968 INFO build_combined_normalized_csv(53) Source X-51 extract with 195 rows::: Global_Slavery_Index
-2023-06-09 09:10:04,077 INFO build_combined_normalized_csv(53) Source X-54 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:04,159 INFO build_combined_normalized_csv(53) Source X-55 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:04,240 INFO build_combined_normalized_csv(53) Source X-56 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:04,323 INFO build_combined_normalized_csv(53) Source X-57 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:04,433 INFO build_combined_normalized_csv(53) Source X-58 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:04,513 INFO build_combined_normalized_csv(53) Source X-59 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:04,646 INFO build_combined_normalized_csv(53) Source X-73 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:04,792 INFO build_combined_normalized_csv(53) Source X-75 extract with 195 rows::: FCTC_Data
-2023-06-09 09:10:04,926 INFO build_combined_normalized_csv(53) Source X-94 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:05,089 INFO build_combined_normalized_csv(53) Source X-95 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:05,226 INFO build_combined_normalized_csv(53) Source X-96 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:05,355 INFO build_combined_normalized_csv(53) Source X-105 extract with 195 rows::: KidsRightsIndex
-2023-06-09 09:10:05,475 INFO build_combined_normalized_csv(53) Source X-106 extract with 195 rows::: KidsRightsIndex
-2023-06-09 09:10:05,627 INFO build_combined_normalized_csv(53) Source X-107 extract with 195 rows::: KidsRightsIndex
-2023-06-09 09:10:05,718 INFO build_combined_normalized_csv(53) Source X-118 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:10:05,845 INFO build_combined_normalized_csv(53) Source X-129 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:06,041 INFO build_combined_normalized_csv(53) Source X-131 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:06,167 INFO build_combined_normalized_csv(53) Source X-132 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:06,287 INFO build_combined_normalized_csv(53) Source X-133 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:06,447 INFO build_combined_normalized_csv(53) Source X-134 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:06,599 INFO build_combined_normalized_csv(53) Source X-135 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:06,742 INFO build_combined_normalized_csv(53) Source X-142 extract with 195 rows::: Climate_Watch_Data_S_159
-2023-06-09 09:10:06,895 INFO build_combined_normalized_csv(53) Source X-148 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:06,994 INFO build_combined_normalized_csv(53) Source X-150 extract with 195 rows::: Landmark_Data
-2023-06-09 09:10:07,100 INFO build_combined_normalized_csv(53) Source X-176 extract with 195 rows::: KidsRightsIndex
-2023-06-09 09:10:07,233 INFO build_combined_normalized_csv(53) Source X-177 extract with 195 rows::: KidsRightsIndex
-2023-06-09 09:10:07,385 INFO build_combined_normalized_csv(53) Source X-178 extract with 195 rows::: KidsRightsIndex
-2023-06-09 09:10:07,496 INFO build_combined_normalized_csv(53) Source X-179 extract with 195 rows::: KidsRightsIndex
-2023-06-09 09:10:07,607 INFO build_combined_normalized_csv(53) Source X-210 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:07,687 INFO build_combined_normalized_csv(53) Source X-211 extract with 195 rows::: WPA_Extractor
-2023-06-09 09:10:07,847 INFO build_combined_normalized_csv(53) Source X-212 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:07,999 INFO build_combined_normalized_csv(53) Source X-214 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:08,116 INFO build_combined_normalized_csv(53) Source X-12 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:08,274 INFO build_combined_normalized_csv(53) Source X-41 extract with 739 rows::: DefaultCSVExtractor
-2023-06-09 09:10:08,394 INFO build_combined_normalized_csv(53) Source X-42 extract with 310 rows::: DefaultCSVExtractor
-2023-06-09 09:10:08,488 INFO build_combined_normalized_csv(53) Source X-44 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:10:08,571 INFO build_combined_normalized_csv(53) Source X-185 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:10:08,645 INFO build_combined_normalized_csv(53) Source X-190 extract with 195 rows::: DefaultCSVExtractor
-2023-06-09 09:10:08,828 INFO build_combined_normalized_csv(53) Source X-97 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:09,147 INFO build_combined_normalized_csv(53) Source X-101 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:09,299 INFO build_combined_normalized_csv(53) Source X-136 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:10,197 INFO build_combined_normalized_csv(53) Source X-138 extract with 195 rows::: NRGI
-2023-06-09 09:10:11,014 INFO build_combined_normalized_csv(53) Source X-139 extract with 195 rows::: NRGI
-2023-06-09 09:10:11,177 INFO build_combined_normalized_csv(53) Source X-100 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:11,342 INFO build_combined_normalized_csv(53) Source X-122 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:11,476 INFO build_combined_normalized_csv(53) Source X-219 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
-2023-06-09 09:10:12,806 INFO build_combined_normalized_csv(53) Source X-162 extract with 195 rows::: IDMC_Extractor
-2023-06-09 09:10:12,818 INFO build_combined_normalized_csv(81) Read Source for Report X-1
-2023-06-09 09:10:12,824 INFO build_combined_normalized_csv(81) Read Source for Report X-2
-2023-06-09 09:10:12,851 INFO build_combined_normalized_csv(81) Read Source for Report X-3
-2023-06-09 09:10:12,862 INFO build_combined_normalized_csv(81) Read Source for Report X-4
-2023-06-09 09:10:12,872 INFO build_combined_normalized_csv(81) Read Source for Report X-5
-2023-06-09 09:10:12,878 INFO build_combined_normalized_csv(81) Read Source for Report X-6
-2023-06-09 09:10:12,887 INFO build_combined_normalized_csv(81) Read Source for Report X-7
-2023-06-09 09:10:12,894 INFO build_combined_normalized_csv(81) Read Source for Report X-15
-2023-06-09 09:10:12,909 INFO build_combined_normalized_csv(81) Read Source for Report X-16
-2023-06-09 09:10:12,925 INFO build_combined_normalized_csv(81) Read Source for Report X-17
-2023-06-09 09:10:12,935 INFO build_combined_normalized_csv(81) Read Source for Report X-18
-2023-06-09 09:10:12,942 INFO build_combined_normalized_csv(81) Read Source for Report X-19
-2023-06-09 09:10:12,949 INFO build_combined_normalized_csv(81) Read Source for Report X-20
-2023-06-09 09:10:12,958 INFO build_combined_normalized_csv(81) Read Source for Report X-21
-2023-06-09 09:10:12,965 INFO build_combined_normalized_csv(81) Read Source for Report X-22
-2023-06-09 09:10:12,974 INFO build_combined_normalized_csv(81) Read Source for Report X-23
-2023-06-09 09:10:12,984 INFO build_combined_normalized_csv(81) Read Source for Report X-24
-2023-06-09 09:10:12,995 INFO build_combined_normalized_csv(81) Read Source for Report X-25
-2023-06-09 09:10:13,009 INFO build_combined_normalized_csv(81) Read Source for Report X-26
-2023-06-09 09:10:13,021 INFO build_combined_normalized_csv(81) Read Source for Report X-27
-2023-06-09 09:10:13,031 INFO build_combined_normalized_csv(81) Read Source for Report X-28
-2023-06-09 09:10:13,042 INFO build_combined_normalized_csv(81) Read Source for Report X-43
-2023-06-09 09:10:13,057 INFO build_combined_normalized_csv(81) Read Source for Report X-221
-2023-06-09 09:10:13,067 INFO build_combined_normalized_csv(81) Read Source for Report X-46
-2023-06-09 09:10:13,074 INFO build_combined_normalized_csv(81) Read Source for Report X-47
-2023-06-09 09:10:13,084 INFO build_combined_normalized_csv(81) Read Source for Report X-48
-2023-06-09 09:10:13,095 INFO build_combined_normalized_csv(81) Read Source for Report X-49
-2023-06-09 09:10:13,108 INFO build_combined_normalized_csv(81) Read Source for Report X-50
-2023-06-09 09:10:13,117 INFO build_combined_normalized_csv(81) Read Source for Report X-52
-2023-06-09 09:10:13,125 INFO build_combined_normalized_csv(81) Read Source for Report X-53
-2023-06-09 09:10:13,144 INFO build_combined_normalized_csv(81) Read Source for Report X-62
-2023-06-09 09:10:13,154 INFO build_combined_normalized_csv(81) Read Source for Report X-63
-2023-06-09 09:10:13,163 INFO build_combined_normalized_csv(81) Read Source for Report X-65
-2023-06-09 09:10:13,174 INFO build_combined_normalized_csv(81) Read Source for Report X-66
-2023-06-09 09:10:13,184 INFO build_combined_normalized_csv(81) Read Source for Report X-67
-2023-06-09 09:10:13,193 INFO build_combined_normalized_csv(81) Read Source for Report X-68
-2023-06-09 09:10:13,201 INFO build_combined_normalized_csv(81) Read Source for Report X-69
-2023-06-09 09:10:13,208 INFO build_combined_normalized_csv(81) Read Source for Report X-70
-2023-06-09 09:10:13,216 INFO build_combined_normalized_csv(81) Read Source for Report X-71
-2023-06-09 09:10:13,224 INFO build_combined_normalized_csv(81) Read Source for Report X-72
-2023-06-09 09:10:13,232 INFO build_combined_normalized_csv(81) Read Source for Report X-74
-2023-06-09 09:10:13,240 INFO build_combined_normalized_csv(81) Read Source for Report X-76
-2023-06-09 09:10:13,248 INFO build_combined_normalized_csv(81) Read Source for Report X-77
-2023-06-09 09:10:13,259 INFO build_combined_normalized_csv(81) Read Source for Report X-78
-2023-06-09 09:10:13,268 INFO build_combined_normalized_csv(81) Read Source for Report X-79
-2023-06-09 09:10:13,277 INFO build_combined_normalized_csv(81) Read Source for Report X-80
-2023-06-09 09:10:13,284 INFO build_combined_normalized_csv(81) Read Source for Report X-81
-2023-06-09 09:10:13,291 INFO build_combined_normalized_csv(81) Read Source for Report X-82
-2023-06-09 09:10:13,298 INFO build_combined_normalized_csv(81) Read Source for Report X-83
-2023-06-09 09:10:13,306 INFO build_combined_normalized_csv(81) Read Source for Report X-84
-2023-06-09 09:10:13,312 INFO build_combined_normalized_csv(81) Read Source for Report X-85
-2023-06-09 09:10:13,328 INFO build_combined_normalized_csv(81) Read Source for Report X-86
-2023-06-09 09:10:13,335 INFO build_combined_normalized_csv(81) Read Source for Report X-87
-2023-06-09 09:10:13,341 INFO build_combined_normalized_csv(81) Read Source for Report X-88
-2023-06-09 09:10:13,348 INFO build_combined_normalized_csv(81) Read Source for Report X-89
-2023-06-09 09:10:13,355 INFO build_combined_normalized_csv(81) Read Source for Report X-90
-2023-06-09 09:10:13,361 INFO build_combined_normalized_csv(81) Read Source for Report X-91
-2023-06-09 09:10:13,371 INFO build_combined_normalized_csv(81) Read Source for Report X-92
-2023-06-09 09:10:13,379 INFO build_combined_normalized_csv(81) Read Source for Report X-93
-2023-06-09 09:10:13,386 INFO build_combined_normalized_csv(81) Read Source for Report X-98
-2023-06-09 09:10:13,392 INFO build_combined_normalized_csv(81) Read Source for Report X-99
-2023-06-09 09:10:13,398 INFO build_combined_normalized_csv(81) Read Source for Report X-102
-2023-06-09 09:10:13,406 INFO build_combined_normalized_csv(81) Read Source for Report X-103
-2023-06-09 09:10:13,417 INFO build_combined_normalized_csv(81) Read Source for Report X-108
-2023-06-09 09:10:13,423 INFO build_combined_normalized_csv(81) Read Source for Report X-109
-2023-06-09 09:10:13,429 INFO build_combined_normalized_csv(81) Read Source for Report X-110
-2023-06-09 09:10:13,436 INFO build_combined_normalized_csv(81) Read Source for Report X-111
-2023-06-09 09:10:13,442 INFO build_combined_normalized_csv(81) Read Source for Report X-112
-2023-06-09 09:10:13,447 INFO build_combined_normalized_csv(81) Read Source for Report X-113
-2023-06-09 09:10:13,454 INFO build_combined_normalized_csv(81) Read Source for Report X-114
-2023-06-09 09:10:13,461 INFO build_combined_normalized_csv(81) Read Source for Report X-119
-2023-06-09 09:10:13,468 INFO build_combined_normalized_csv(81) Read Source for Report X-120
-2023-06-09 09:10:13,474 INFO build_combined_normalized_csv(81) Read Source for Report X-121
-2023-06-09 09:10:13,479 INFO build_combined_normalized_csv(81) Read Source for Report X-123
-2023-06-09 09:10:13,487 INFO build_combined_normalized_csv(81) Read Source for Report X-124
-2023-06-09 09:10:13,493 INFO build_combined_normalized_csv(81) Read Source for Report X-125
-2023-06-09 09:10:13,501 INFO build_combined_normalized_csv(81) Read Source for Report X-126
-2023-06-09 09:10:13,508 INFO build_combined_normalized_csv(81) Read Source for Report X-127
-2023-06-09 09:10:13,515 INFO build_combined_normalized_csv(81) Read Source for Report X-128
-2023-06-09 09:10:13,523 INFO build_combined_normalized_csv(81) Read Source for Report X-137
-2023-06-09 09:10:13,530 INFO build_combined_normalized_csv(81) Read Source for Report X-140
-2023-06-09 09:10:13,537 INFO build_combined_normalized_csv(81) Read Source for Report X-141
-2023-06-09 09:10:13,546 INFO build_combined_normalized_csv(81) Read Source for Report X-143
-2023-06-09 09:10:13,554 INFO build_combined_normalized_csv(81) Read Source for Report X-144
-2023-06-09 09:10:13,561 INFO build_combined_normalized_csv(81) Read Source for Report X-145
-2023-06-09 09:10:13,569 INFO build_combined_normalized_csv(81) Read Source for Report X-147
-2023-06-09 09:10:13,575 INFO build_combined_normalized_csv(81) Read Source for Report X-149
-2023-06-09 09:10:13,581 INFO build_combined_normalized_csv(81) Read Source for Report X-151
-2023-06-09 09:10:13,589 INFO build_combined_normalized_csv(81) Read Source for Report X-152
-2023-06-09 09:10:13,597 INFO build_combined_normalized_csv(81) Read Source for Report X-153
-2023-06-09 09:10:13,605 INFO build_combined_normalized_csv(81) Read Source for Report X-154
-2023-06-09 09:10:13,614 INFO build_combined_normalized_csv(81) Read Source for Report X-155
-2023-06-09 09:10:13,621 INFO build_combined_normalized_csv(81) Read Source for Report X-156
-2023-06-09 09:10:13,629 INFO build_combined_normalized_csv(81) Read Source for Report X-157
-2023-06-09 09:10:13,637 INFO build_combined_normalized_csv(81) Read Source for Report X-160
-2023-06-09 09:10:13,642 INFO build_combined_normalized_csv(81) Read Source for Report X-220
-2023-06-09 09:10:13,648 INFO build_combined_normalized_csv(81) Read Source for Report X-163
-2023-06-09 09:10:13,657 INFO build_combined_normalized_csv(81) Read Source for Report X-164
-2023-06-09 09:10:13,666 INFO build_combined_normalized_csv(81) Read Source for Report X-165
-2023-06-09 09:10:13,679 INFO build_combined_normalized_csv(81) Read Source for Report X-166
-2023-06-09 09:10:13,692 INFO build_combined_normalized_csv(81) Read Source for Report X-167
-2023-06-09 09:10:13,705 INFO build_combined_normalized_csv(81) Read Source for Report X-168
-2023-06-09 09:10:13,714 INFO build_combined_normalized_csv(81) Read Source for Report X-169
-2023-06-09 09:10:13,723 INFO build_combined_normalized_csv(81) Read Source for Report X-170
-2023-06-09 09:10:13,734 INFO build_combined_normalized_csv(81) Read Source for Report X-171
-2023-06-09 09:10:13,742 INFO build_combined_normalized_csv(81) Read Source for Report X-172
-2023-06-09 09:10:13,749 INFO build_combined_normalized_csv(81) Read Source for Report X-173
-2023-06-09 09:10:13,759 INFO build_combined_normalized_csv(81) Read Source for Report X-174
-2023-06-09 09:10:13,768 INFO build_combined_normalized_csv(81) Read Source for Report X-175
-2023-06-09 09:10:13,778 INFO build_combined_normalized_csv(81) Read Source for Report X-180
-2023-06-09 09:10:13,788 INFO build_combined_normalized_csv(81) Read Source for Report X-181
-2023-06-09 09:10:13,795 INFO build_combined_normalized_csv(81) Read Source for Report X-184
-2023-06-09 09:10:13,815 INFO build_combined_normalized_csv(81) Read Source for Report X-186
-2023-06-09 09:10:13,829 INFO build_combined_normalized_csv(81) Read Source for Report X-187
-2023-06-09 09:10:13,844 INFO build_combined_normalized_csv(81) Read Source for Report X-188
-2023-06-09 09:10:13,855 INFO build_combined_normalized_csv(81) Read Source for Report X-189
-2023-06-09 09:10:13,867 INFO build_combined_normalized_csv(81) Read Source for Report X-193
-2023-06-09 09:10:13,885 INFO build_combined_normalized_csv(81) Read Source for Report X-194
-2023-06-09 09:10:13,947 INFO build_combined_normalized_csv(81) Read Source for Report X-196
-2023-06-09 09:10:13,955 INFO build_combined_normalized_csv(81) Read Source for Report X-197
-2023-06-09 09:10:13,964 INFO build_combined_normalized_csv(81) Read Source for Report X-198
-2023-06-09 09:10:13,971 INFO build_combined_normalized_csv(81) Read Source for Report X-199
-2023-06-09 09:10:13,979 INFO build_combined_normalized_csv(81) Read Source for Report X-200
-2023-06-09 09:10:14,012 INFO build_combined_normalized_csv(81) Read Source for Report X-201
-2023-06-09 09:10:14,025 INFO build_combined_normalized_csv(81) Read Source for Report X-202
-2023-06-09 09:10:14,035 INFO build_combined_normalized_csv(81) Read Source for Report X-203
-2023-06-09 09:10:14,047 INFO build_combined_normalized_csv(81) Read Source for Report X-204
-2023-06-09 09:10:14,058 INFO build_combined_normalized_csv(81) Read Source for Report X-205
-2023-06-09 09:10:14,067 INFO build_combined_normalized_csv(81) Read Source for Report X-206
-2023-06-09 09:10:14,083 INFO build_combined_normalized_csv(81) Read Source for Report X-207
-2023-06-09 09:10:14,091 INFO build_combined_normalized_csv(81) Read Source for Report X-209
-2023-06-09 09:10:14,100 INFO build_combined_normalized_csv(81) Read Source for Report X-213
-2023-06-09 09:10:14,111 INFO build_combined_normalized_csv(81) Read Source for Report X-215
-2023-06-09 09:10:14,121 INFO build_combined_normalized_csv(81) Read Source for Report X-216
-2023-06-09 09:10:14,132 INFO build_combined_normalized_csv(81) Read Source for Report X-217
-2023-06-09 09:10:14,141 INFO build_combined_normalized_csv(81) Read Source for Report X-218
-2023-06-09 09:10:14,152 INFO build_combined_normalized_csv(81) Read Source for Report X-8
-2023-06-09 09:10:14,163 INFO build_combined_normalized_csv(81) Read Source for Report X-9
-2023-06-09 09:10:14,174 INFO build_combined_normalized_csv(81) Read Source for Report X-10
-2023-06-09 09:10:14,185 INFO build_combined_normalized_csv(81) Read Source for Report X-13
-2023-06-09 09:10:14,193 INFO build_combined_normalized_csv(81) Read Source for Report X-29
-2023-06-09 09:10:14,203 INFO build_combined_normalized_csv(81) Read Source for Report X-33
-2023-06-09 09:10:14,211 INFO build_combined_normalized_csv(81) Read Source for Report X-34
-2023-06-09 09:10:14,219 INFO build_combined_normalized_csv(81) Read Source for Report X-35
-2023-06-09 09:10:14,227 INFO build_combined_normalized_csv(81) Read Source for Report X-36
-2023-06-09 09:10:14,236 INFO build_combined_normalized_csv(81) Read Source for Report X-37
-2023-06-09 09:10:14,244 INFO build_combined_normalized_csv(81) Read Source for Report X-38
-2023-06-09 09:10:14,253 INFO build_combined_normalized_csv(81) Read Source for Report X-40
-2023-06-09 09:10:14,260 INFO build_combined_normalized_csv(81) Read Source for Report X-51
-2023-06-09 09:10:14,267 INFO build_combined_normalized_csv(81) Read Source for Report X-54
-2023-06-09 09:10:14,277 INFO build_combined_normalized_csv(81) Read Source for Report X-55
-2023-06-09 09:10:14,286 INFO build_combined_normalized_csv(81) Read Source for Report X-56
-2023-06-09 09:10:14,294 INFO build_combined_normalized_csv(81) Read Source for Report X-57
-2023-06-09 09:10:14,304 INFO build_combined_normalized_csv(81) Read Source for Report X-58
-2023-06-09 09:10:14,312 INFO build_combined_normalized_csv(81) Read Source for Report X-59
-2023-06-09 09:10:14,321 INFO build_combined_normalized_csv(81) Read Source for Report X-73
-2023-06-09 09:10:14,330 INFO build_combined_normalized_csv(81) Read Source for Report X-75
-2023-06-09 09:10:14,338 INFO build_combined_normalized_csv(81) Read Source for Report X-94
-2023-06-09 09:10:14,346 INFO build_combined_normalized_csv(81) Read Source for Report X-95
-2023-06-09 09:10:14,355 INFO build_combined_normalized_csv(81) Read Source for Report X-96
-2023-06-09 09:10:14,362 INFO build_combined_normalized_csv(81) Read Source for Report X-105
-2023-06-09 09:10:14,370 INFO build_combined_normalized_csv(81) Read Source for Report X-106
-2023-06-09 09:10:14,376 INFO build_combined_normalized_csv(81) Read Source for Report X-107
-2023-06-09 09:10:14,384 INFO build_combined_normalized_csv(81) Read Source for Report X-118
-2023-06-09 09:10:14,391 INFO build_combined_normalized_csv(81) Read Source for Report X-129
-2023-06-09 09:10:14,397 INFO build_combined_normalized_csv(81) Read Source for Report X-131
-2023-06-09 09:10:14,405 INFO build_combined_normalized_csv(81) Read Source for Report X-132
-2023-06-09 09:10:14,412 INFO build_combined_normalized_csv(81) Read Source for Report X-133
-2023-06-09 09:10:14,419 INFO build_combined_normalized_csv(81) Read Source for Report X-134
-2023-06-09 09:10:14,428 INFO build_combined_normalized_csv(81) Read Source for Report X-135
-2023-06-09 09:10:14,436 INFO build_combined_normalized_csv(81) Read Source for Report X-142
-2023-06-09 09:10:14,444 INFO build_combined_normalized_csv(81) Read Source for Report X-148
-2023-06-09 09:10:14,452 INFO build_combined_normalized_csv(81) Read Source for Report X-150
-2023-06-09 09:10:14,458 INFO build_combined_normalized_csv(81) Read Source for Report X-176
-2023-06-09 09:10:14,465 INFO build_combined_normalized_csv(81) Read Source for Report X-177
-2023-06-09 09:10:14,474 INFO build_combined_normalized_csv(81) Read Source for Report X-178
-2023-06-09 09:10:14,481 INFO build_combined_normalized_csv(81) Read Source for Report X-179
-2023-06-09 09:10:14,489 INFO build_combined_normalized_csv(81) Read Source for Report X-210
-2023-06-09 09:10:14,496 INFO build_combined_normalized_csv(81) Read Source for Report X-211
-2023-06-09 09:10:14,504 INFO build_combined_normalized_csv(81) Read Source for Report X-212
-2023-06-09 09:10:14,513 INFO build_combined_normalized_csv(81) Read Source for Report X-214
-2023-06-09 09:10:14,521 INFO build_combined_normalized_csv(81) Read Source for Report X-12
-2023-06-09 09:10:14,528 INFO build_combined_normalized_csv(81) Read Source for Report X-41
-2023-06-09 09:10:14,539 INFO build_combined_normalized_csv(81) Read Source for Report X-42
-2023-06-09 09:10:14,548 INFO build_combined_normalized_csv(81) Read Source for Report X-44
-2023-06-09 09:10:14,556 INFO build_combined_normalized_csv(81) Read Source for Report X-185
-2023-06-09 09:10:14,563 INFO build_combined_normalized_csv(81) Read Source for Report X-190
-2023-06-09 09:10:14,571 INFO build_combined_normalized_csv(81) Read Source for Report X-97
-2023-06-09 09:10:14,578 INFO build_combined_normalized_csv(81) Read Source for Report X-101
-2023-06-09 09:10:14,585 INFO build_combined_normalized_csv(81) Read Source for Report X-136
-2023-06-09 09:10:14,592 INFO build_combined_normalized_csv(81) Read Source for Report X-138
-2023-06-09 09:10:14,599 INFO build_combined_normalized_csv(81) Read Source for Report X-139
-2023-06-09 09:10:14,607 INFO build_combined_normalized_csv(81) Read Source for Report X-100
-2023-06-09 09:10:14,613 INFO build_combined_normalized_csv(81) Read Source for Report X-122
-2023-06-09 09:10:14,621 INFO build_combined_normalized_csv(81) Read Source for Report X-219
-2023-06-09 09:10:14,627 INFO build_combined_normalized_csv(81) Read Source for Report X-162
-2023-06-09 09:10:16,483 INFO aggregate_combined_normalized_csv(109) This is the number of duplicate rows:0
+2023-06-25 20:22:30,123 INFO build_combined_normalized_csv(32) 198 sources selected to process
+2023-06-25 20:22:33,819 INFO build_combined_normalized_csv(50) Source X-1 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:22:37,798 INFO build_combined_normalized_csv(50) Source X-2 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:22:38,460 INFO build_combined_normalized_csv(50) Source X-3 extract with 195 rows::: UnTreaties
+2023-06-25 20:22:38,887 INFO build_combined_normalized_csv(50) Source X-4 extract with 195 rows::: UnTreaties
+2023-06-25 20:22:42,854 INFO build_combined_normalized_csv(50) Source X-5 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:22:47,150 INFO build_combined_normalized_csv(50) Source X-6 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:22:50,003 INFO build_combined_normalized_csv(50) Source X-7 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:22:50,795 INFO build_combined_normalized_csv(50) Source X-15 extract with 962 rows::: DefaultJsonExtractor
+2023-06-25 20:22:51,456 INFO build_combined_normalized_csv(50) Source X-16 extract with 962 rows::: DefaultJsonExtractor
+2023-06-25 20:22:51,833 INFO build_combined_normalized_csv(50) Source X-17 extract with 383 rows::: DefaultJsonExtractor
+2023-06-25 20:22:54,796 INFO build_combined_normalized_csv(50) Source X-18 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:22:58,146 INFO build_combined_normalized_csv(50) Source X-19 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:00,955 INFO build_combined_normalized_csv(50) Source X-20 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:03,744 INFO build_combined_normalized_csv(50) Source X-21 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:07,876 INFO build_combined_normalized_csv(50) Source X-22 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:11,593 INFO build_combined_normalized_csv(50) Source X-23 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:11,895 INFO build_combined_normalized_csv(50) Source X-24 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:15,989 INFO build_combined_normalized_csv(50) Source X-25 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:19,390 INFO build_combined_normalized_csv(50) Source X-26 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:23,162 INFO build_combined_normalized_csv(50) Source X-27 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:26,250 INFO build_combined_normalized_csv(50) Source X-28 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:26,718 INFO build_combined_normalized_csv(50) Source X-43 extract with 541 rows::: DefaultCSVExtractor
+2023-06-25 20:23:27,223 INFO build_combined_normalized_csv(50) Source X-221 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:27,509 INFO build_combined_normalized_csv(50) Source X-46 extract with 379 rows::: DefaultCSVExtractor
+2023-06-25 20:23:27,805 INFO build_combined_normalized_csv(50) Source X-47 extract with 409 rows::: DefaultCSVExtractor
+2023-06-25 20:23:30,439 INFO build_combined_normalized_csv(50) Source X-48 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:33,164 INFO build_combined_normalized_csv(50) Source X-49 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:33,809 INFO build_combined_normalized_csv(50) Source X-50 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:34,128 INFO build_combined_normalized_csv(50) Source X-52 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:34,826 INFO build_combined_normalized_csv(50) Source X-53 extract with 975 rows::: DefaultJsonExtractor
+2023-06-25 20:23:35,096 INFO build_combined_normalized_csv(50) Source X-62 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:35,398 INFO build_combined_normalized_csv(50) Source X-63 extract with 313 rows::: DefaultJsonExtractor
+2023-06-25 20:23:35,765 INFO build_combined_normalized_csv(50) Source X-65 extract with 313 rows::: DefaultJsonExtractor
+2023-06-25 20:23:35,993 INFO build_combined_normalized_csv(50) Source X-66 extract with 266 rows::: DefaultJsonExtractor
+2023-06-25 20:23:36,284 INFO build_combined_normalized_csv(50) Source X-67 extract with 266 rows::: DefaultJsonExtractor
+2023-06-25 20:23:36,406 INFO build_combined_normalized_csv(50) Source X-68 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:36,531 INFO build_combined_normalized_csv(50) Source X-69 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:36,675 INFO build_combined_normalized_csv(50) Source X-70 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:36,817 INFO build_combined_normalized_csv(50) Source X-71 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:37,182 INFO build_combined_normalized_csv(50) Source X-72 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:37,299 INFO build_combined_normalized_csv(50) Source X-74 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:37,414 INFO build_combined_normalized_csv(50) Source X-76 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:37,544 INFO build_combined_normalized_csv(50) Source X-77 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:37,678 INFO build_combined_normalized_csv(50) Source X-78 extract with 579 rows::: DefaultCSVExtractor
+2023-06-25 20:23:37,806 INFO build_combined_normalized_csv(50) Source X-79 extract with 579 rows::: DefaultCSVExtractor
+2023-06-25 20:23:37,918 INFO build_combined_normalized_csv(50) Source X-80 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:38,155 INFO build_combined_normalized_csv(50) Source X-81 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:38,328 INFO build_combined_normalized_csv(50) Source X-82 extract with 461 rows::: DefaultCSVExtractor
+2023-06-25 20:23:38,468 INFO build_combined_normalized_csv(50) Source X-83 extract with 331 rows::: DefaultCSVExtractor
+2023-06-25 20:23:38,783 INFO build_combined_normalized_csv(50) Source X-84 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:40,779 INFO build_combined_normalized_csv(50) Source X-85 extract with 1699 rows::: DefaultCSVExtractor
+2023-06-25 20:23:40,952 INFO build_combined_normalized_csv(50) Source X-86 extract with 195 rows::: GlobalHealthObservatory
+2023-06-25 20:23:41,136 INFO build_combined_normalized_csv(50) Source X-87 extract with 195 rows::: GlobalHealthObservatory
+2023-06-25 20:23:41,468 INFO build_combined_normalized_csv(50) Source X-88 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:41,865 INFO build_combined_normalized_csv(50) Source X-89 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:42,314 INFO build_combined_normalized_csv(50) Source X-90 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:42,771 INFO build_combined_normalized_csv(50) Source X-91 extract with 561 rows::: DefaultCSVExtractor
+2023-06-25 20:23:43,111 INFO build_combined_normalized_csv(50) Source X-92 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:43,317 INFO build_combined_normalized_csv(50) Source X-93 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:43,600 INFO build_combined_normalized_csv(50) Source X-98 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:43,882 INFO build_combined_normalized_csv(50) Source X-99 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:44,189 INFO build_combined_normalized_csv(50) Source X-102 extract with 207 rows::: DefaultJsonExtractor
+2023-06-25 20:23:44,531 INFO build_combined_normalized_csv(50) Source X-103 extract with 444 rows::: DefaultCSVExtractor
+2023-06-25 20:23:44,903 INFO build_combined_normalized_csv(50) Source X-108 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:45,234 INFO build_combined_normalized_csv(50) Source X-109 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:45,617 INFO build_combined_normalized_csv(50) Source X-110 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:45,962 INFO build_combined_normalized_csv(50) Source X-111 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:46,365 INFO build_combined_normalized_csv(50) Source X-112 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:46,726 INFO build_combined_normalized_csv(50) Source X-113 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:47,393 INFO build_combined_normalized_csv(50) Source X-114 extract with 195 rows::: CRIN_Treaties
+2023-06-25 20:23:47,507 INFO build_combined_normalized_csv(50) Source X-119 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:47,618 INFO build_combined_normalized_csv(50) Source X-120 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:23:47,812 INFO build_combined_normalized_csv(50) Source X-121 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:48,016 INFO build_combined_normalized_csv(50) Source X-123 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:48,403 INFO build_combined_normalized_csv(50) Source X-124 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:48,734 INFO build_combined_normalized_csv(50) Source X-125 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:49,051 INFO build_combined_normalized_csv(50) Source X-126 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:49,386 INFO build_combined_normalized_csv(50) Source X-127 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:49,579 INFO build_combined_normalized_csv(50) Source X-128 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:49,699 INFO build_combined_normalized_csv(50) Source X-137 extract with 195 rows::: EITIIndicatorBuilder
+2023-06-25 20:23:49,862 INFO build_combined_normalized_csv(50) Source X-140 extract with 195 rows::: S_157
+2023-06-25 20:23:50,295 INFO build_combined_normalized_csv(50) Source X-141 extract with 941 rows::: DefaultCSVExtractor
+2023-06-25 20:23:50,484 INFO build_combined_normalized_csv(50) Source X-143 extract with 196 rows::: DefaultJsonExtractor
+2023-06-25 20:23:50,688 INFO build_combined_normalized_csv(50) Source X-144 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:51,184 INFO build_combined_normalized_csv(50) Source X-145 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:53,559 INFO build_combined_normalized_csv(50) Source X-146 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:23:53,814 INFO build_combined_normalized_csv(50) Source X-147 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:54,052 WARNING create_log_report_delete_duplicates(771) WARNING: There are 8 duplicate rows in the cleansed dataframe. Apart from soure S-166, this should not be the case. Check if you have mapped all columns (specifically the dimensions) and values. Now dropping duplicate rows and returning dataframe without duplicates.
+2023-06-25 20:23:54,106 INFO build_combined_normalized_csv(50) Source X-149 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:23:54,838 INFO build_combined_normalized_csv(50) Source X-151 extract with 195 rows::: ICRC_Treaties
+2023-06-25 20:23:55,674 INFO build_combined_normalized_csv(50) Source X-152 extract with 195 rows::: ICRC_Treaties
+2023-06-25 20:23:56,450 INFO build_combined_normalized_csv(50) Source X-153 extract with 195 rows::: ICRC_Treaties
+2023-06-25 20:23:56,636 INFO build_combined_normalized_csv(50) Source X-154 extract with 195 rows::: UnTreaties
+2023-06-25 20:23:56,867 INFO build_combined_normalized_csv(50) Source X-155 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:23:57,519 INFO build_combined_normalized_csv(50) Source X-156 extract with 195 rows::: UnTreaties
+2023-06-25 20:24:00,928 INFO build_combined_normalized_csv(50) Source X-157 extract with 195 rows::: ILO_Extractor
+2023-06-25 20:24:01,129 INFO build_combined_normalized_csv(50) Source X-160 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:01,338 INFO build_combined_normalized_csv(50) Source X-220 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:03,094 INFO build_combined_normalized_csv(50) Source X-163 extract with 195 rows::: IDMC_Extractor
+2023-06-25 20:24:03,392 INFO build_combined_normalized_csv(50) Source X-164 extract with 195 rows::: UnTreaties
+2023-06-25 20:24:03,753 INFO build_combined_normalized_csv(50) Source X-165 extract with 419 rows::: DefaultJsonExtractor
+2023-06-25 20:24:04,426 INFO build_combined_normalized_csv(50) Source X-166 extract with 511 rows::: DefaultJsonExtractor
+2023-06-25 20:24:04,935 INFO build_combined_normalized_csv(50) Source X-167 extract with 399 rows::: UN_SDG_UN_POP
+2023-06-25 20:24:05,266 INFO build_combined_normalized_csv(50) Source X-168 extract with 195 rows::: UN_SDG_UN_POP
+2023-06-25 20:24:05,552 INFO build_combined_normalized_csv(50) Source X-169 extract with 195 rows::: UN_SDG_UN_POP
+2023-06-25 20:24:05,996 INFO build_combined_normalized_csv(50) Source X-170 extract with 195 rows::: UN_SDG_UN_POP
+2023-06-25 20:24:07,246 INFO build_combined_normalized_csv(50) Source X-171 extract with 195 rows::: IDMC_Extractor
+2023-06-25 20:24:10,026 INFO build_combined_normalized_csv(50) Source X-172 extract with 195 rows::: Inform_Risk_Index_Data
+2023-06-25 20:24:10,583 INFO build_combined_normalized_csv(50) Source X-173 extract with 195 rows::: UnTreaties
+2023-06-25 20:24:10,793 INFO build_combined_normalized_csv(50) Source X-174 extract with 195 rows::: UnTreaties
+2023-06-25 20:24:11,165 INFO build_combined_normalized_csv(50) Source X-175 extract with 195 rows::: CRIN_Treaties
+2023-06-25 20:24:11,527 INFO build_combined_normalized_csv(50) Source X-180 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:24:11,693 INFO build_combined_normalized_csv(50) Source X-181 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:24:15,152 INFO build_combined_normalized_csv(50) Source X-184 extract with 1267 rows::: DefaultJsonExtractor
+2023-06-25 20:24:15,341 INFO build_combined_normalized_csv(50) Source X-186 extract with 579 rows::: DefaultCSVExtractor
+2023-06-25 20:24:15,738 INFO build_combined_normalized_csv(50) Source X-187 extract with 363 rows::: DefaultCSVExtractor
+2023-06-25 20:24:15,899 INFO build_combined_normalized_csv(50) Source X-188 extract with 579 rows::: DefaultCSVExtractor
+2023-06-25 20:24:16,043 INFO build_combined_normalized_csv(50) Source X-189 extract with 579 rows::: DefaultCSVExtractor
+2023-06-25 20:24:16,414 INFO build_combined_normalized_csv(50) Source X-193 extract with 715 rows::: DefaultJsonExtractor
+2023-06-25 20:24:18,692 INFO build_combined_normalized_csv(50) Source X-194 extract with 4945 rows::: DefaultCSVExtractor
+2023-06-25 20:24:18,877 INFO build_combined_normalized_csv(50) Source X-196 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:24:19,054 INFO build_combined_normalized_csv(50) Source X-197 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:24:19,410 INFO build_combined_normalized_csv(50) Source X-198 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:24:19,736 INFO build_combined_normalized_csv(50) Source X-199 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:24:21,778 INFO build_combined_normalized_csv(50) Source X-200 extract with 3187 rows::: DefaultCSVExtractor
+2023-06-25 20:24:22,595 INFO build_combined_normalized_csv(50) Source X-201 extract with 445 rows::: DefaultJsonExtractor
+2023-06-25 20:24:22,910 INFO build_combined_normalized_csv(50) Source X-202 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:24:23,113 INFO build_combined_normalized_csv(50) Source X-203 extract with 196 rows::: DefaultJsonExtractor
+2023-06-25 20:24:23,357 INFO build_combined_normalized_csv(50) Source X-204 extract with 196 rows::: DefaultJsonExtractor
+2023-06-25 20:24:23,729 INFO build_combined_normalized_csv(50) Source X-205 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:24:24,090 INFO build_combined_normalized_csv(50) Source X-206 extract with 455 rows::: DefaultJsonExtractor
+2023-06-25 20:24:24,324 INFO build_combined_normalized_csv(50) Source X-207 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:25,584 INFO build_combined_normalized_csv(50) Source X-209 extract with 195 rows::: IDMC_Extractor
+2023-06-25 20:24:25,796 INFO build_combined_normalized_csv(50) Source X-213 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:26,015 INFO build_combined_normalized_csv(50) Source X-215 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:26,281 INFO build_combined_normalized_csv(50) Source X-216 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:26,539 INFO build_combined_normalized_csv(50) Source X-217 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:27,187 INFO build_combined_normalized_csv(50) Source X-218 extract with 195 rows::: DefaultJsonExtractor
+2023-06-25 20:24:27,375 INFO build_combined_normalized_csv(50) Source X-8 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:27,573 INFO build_combined_normalized_csv(50) Source X-9 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:27,767 INFO build_combined_normalized_csv(50) Source X-10 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:27,930 INFO build_combined_normalized_csv(50) Source X-13 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:28,068 INFO build_combined_normalized_csv(50) Source X-29 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:28,243 INFO build_combined_normalized_csv(50) Source X-33 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:28,383 INFO build_combined_normalized_csv(50) Source X-34 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:28,655 INFO build_combined_normalized_csv(50) Source X-35 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:29,094 INFO build_combined_normalized_csv(50) Source X-36 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:29,632 INFO build_combined_normalized_csv(50) Source X-37 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:29,828 INFO build_combined_normalized_csv(50) Source X-38 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:30,042 INFO build_combined_normalized_csv(50) Source X-40 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:30,850 INFO build_combined_normalized_csv(50) Source X-51 extract with 195 rows::: Global_Slavery_Index
+2023-06-25 20:24:31,050 INFO build_combined_normalized_csv(50) Source X-54 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:31,397 INFO build_combined_normalized_csv(50) Source X-55 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:31,716 INFO build_combined_normalized_csv(50) Source X-56 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:31,912 INFO build_combined_normalized_csv(50) Source X-57 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:32,262 INFO build_combined_normalized_csv(50) Source X-58 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:32,637 INFO build_combined_normalized_csv(50) Source X-59 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:32,949 INFO build_combined_normalized_csv(50) Source X-73 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:33,234 INFO build_combined_normalized_csv(50) Source X-75 extract with 195 rows::: FCTC_Data
+2023-06-25 20:24:33,596 INFO build_combined_normalized_csv(50) Source X-94 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:33,914 INFO build_combined_normalized_csv(50) Source X-95 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:34,212 INFO build_combined_normalized_csv(50) Source X-96 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:34,563 INFO build_combined_normalized_csv(50) Source X-105 extract with 195 rows::: KidsRightsIndex
+2023-06-25 20:24:34,924 INFO build_combined_normalized_csv(50) Source X-106 extract with 195 rows::: KidsRightsIndex
+2023-06-25 20:24:35,210 INFO build_combined_normalized_csv(50) Source X-107 extract with 195 rows::: KidsRightsIndex
+2023-06-25 20:24:35,386 INFO build_combined_normalized_csv(50) Source X-118 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:24:35,678 INFO build_combined_normalized_csv(50) Source X-129 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:36,001 INFO build_combined_normalized_csv(50) Source X-131 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:36,402 INFO build_combined_normalized_csv(50) Source X-132 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:36,839 INFO build_combined_normalized_csv(50) Source X-133 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:37,181 INFO build_combined_normalized_csv(50) Source X-134 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:37,504 INFO build_combined_normalized_csv(50) Source X-135 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:37,774 INFO build_combined_normalized_csv(50) Source X-142 extract with 195 rows::: Climate_Watch_Data_S_159
+2023-06-25 20:24:38,095 INFO build_combined_normalized_csv(50) Source X-148 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:38,343 INFO build_combined_normalized_csv(50) Source X-150 extract with 195 rows::: Landmark_Data
+2023-06-25 20:24:38,633 INFO build_combined_normalized_csv(50) Source X-176 extract with 195 rows::: KidsRightsIndex
+2023-06-25 20:24:38,848 INFO build_combined_normalized_csv(50) Source X-177 extract with 195 rows::: KidsRightsIndex
+2023-06-25 20:24:39,115 INFO build_combined_normalized_csv(50) Source X-178 extract with 195 rows::: KidsRightsIndex
+2023-06-25 20:24:39,340 INFO build_combined_normalized_csv(50) Source X-179 extract with 195 rows::: KidsRightsIndex
+2023-06-25 20:24:39,507 INFO build_combined_normalized_csv(50) Source X-210 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:39,698 INFO build_combined_normalized_csv(50) Source X-211 extract with 195 rows::: WPA_Extractor
+2023-06-25 20:24:40,028 INFO build_combined_normalized_csv(50) Source X-212 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:40,412 INFO build_combined_normalized_csv(50) Source X-214 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:40,771 INFO build_combined_normalized_csv(50) Source X-100 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:41,171 INFO build_combined_normalized_csv(50) Source X-122 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:41,618 INFO build_combined_normalized_csv(50) Source X-12 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:41,985 INFO build_combined_normalized_csv(50) Source X-41 extract with 739 rows::: DefaultCSVExtractor
+2023-06-25 20:24:42,237 INFO build_combined_normalized_csv(50) Source X-42 extract with 310 rows::: DefaultCSVExtractor
+2023-06-25 20:24:42,425 INFO build_combined_normalized_csv(50) Source X-44 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:24:42,567 INFO build_combined_normalized_csv(50) Source X-185 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:24:42,703 INFO build_combined_normalized_csv(50) Source X-190 extract with 195 rows::: DefaultCSVExtractor
+2023-06-25 20:24:43,145 INFO build_combined_normalized_csv(50) Source X-97 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:43,569 INFO build_combined_normalized_csv(50) Source X-101 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:43,917 INFO build_combined_normalized_csv(50) Source X-136 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:45,116 INFO build_combined_normalized_csv(50) Source X-138 extract with 195 rows::: NRGI
+2023-06-25 20:24:46,253 INFO build_combined_normalized_csv(50) Source X-139 extract with 195 rows::: NRGI
+2023-06-25 20:24:46,742 INFO build_combined_normalized_csv(50) Source X-222 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:47,078 INFO build_combined_normalized_csv(50) Source X-219 extract with 195 rows::: HumanEnteredBlueprintIndicatorBuilder
+2023-06-25 20:24:48,460 INFO build_combined_normalized_csv(50) Source X-162 extract with 195 rows::: IDMC_Extractor
+2023-06-25 20:24:49,776 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-1
+2023-06-25 20:24:49,792 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-2
+2023-06-25 20:24:49,816 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-3
+2023-06-25 20:24:49,834 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-4
+2023-06-25 20:24:49,853 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-5
+2023-06-25 20:24:49,885 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-6
+2023-06-25 20:24:49,910 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-7
+2023-06-25 20:24:49,936 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-15
+2023-06-25 20:24:49,984 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-16
+2023-06-25 20:24:50,029 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-17
+2023-06-25 20:24:50,071 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-18
+2023-06-25 20:24:50,138 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-19
+2023-06-25 20:24:50,151 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-20
+2023-06-25 20:24:50,175 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-21
+2023-06-25 20:24:50,198 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-22
+2023-06-25 20:24:50,214 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-23
+2023-06-25 20:24:50,230 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-24
+2023-06-25 20:24:50,251 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-25
+2023-06-25 20:24:50,301 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-26
+2023-06-25 20:24:50,328 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-27
+2023-06-25 20:24:50,352 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-28
+2023-06-25 20:24:50,369 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-43
+2023-06-25 20:24:50,414 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-221
+2023-06-25 20:24:50,440 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-46
+2023-06-25 20:24:50,464 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-47
+2023-06-25 20:24:50,499 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-48
+2023-06-25 20:24:50,529 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-49
+2023-06-25 20:24:50,580 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-50
+2023-06-25 20:24:50,634 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-52
+2023-06-25 20:24:50,652 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-53
+2023-06-25 20:24:50,728 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-62
+2023-06-25 20:24:50,756 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-63
+2023-06-25 20:24:50,776 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-65
+2023-06-25 20:24:50,789 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-66
+2023-06-25 20:24:50,800 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-67
+2023-06-25 20:24:50,812 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-68
+2023-06-25 20:24:50,823 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-69
+2023-06-25 20:24:50,833 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-70
+2023-06-25 20:24:50,845 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-71
+2023-06-25 20:24:50,858 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-72
+2023-06-25 20:24:50,876 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-74
+2023-06-25 20:24:50,887 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-76
+2023-06-25 20:24:50,912 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-77
+2023-06-25 20:24:50,945 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-78
+2023-06-25 20:24:50,969 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-79
+2023-06-25 20:24:50,995 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-80
+2023-06-25 20:24:51,008 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-81
+2023-06-25 20:24:51,027 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-82
+2023-06-25 20:24:51,041 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-83
+2023-06-25 20:24:51,062 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-84
+2023-06-25 20:24:51,077 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-85
+2023-06-25 20:24:51,101 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-86
+2023-06-25 20:24:51,110 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-87
+2023-06-25 20:24:51,122 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-88
+2023-06-25 20:24:51,134 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-89
+2023-06-25 20:24:51,148 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-90
+2023-06-25 20:24:51,170 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-91
+2023-06-25 20:24:51,186 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-92
+2023-06-25 20:24:51,219 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-93
+2023-06-25 20:24:51,242 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-98
+2023-06-25 20:24:51,262 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-99
+2023-06-25 20:24:51,274 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-102
+2023-06-25 20:24:51,292 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-103
+2023-06-25 20:24:51,311 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-108
+2023-06-25 20:24:51,324 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-109
+2023-06-25 20:24:51,372 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-110
+2023-06-25 20:24:51,398 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-111
+2023-06-25 20:24:51,419 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-112
+2023-06-25 20:24:51,434 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-113
+2023-06-25 20:24:51,452 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-114
+2023-06-25 20:24:51,484 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-119
+2023-06-25 20:24:51,498 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-120
+2023-06-25 20:24:51,523 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-121
+2023-06-25 20:24:51,555 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-123
+2023-06-25 20:24:51,574 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-124
+2023-06-25 20:24:51,626 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-125
+2023-06-25 20:24:51,694 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-126
+2023-06-25 20:24:51,728 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-127
+2023-06-25 20:24:51,776 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-128
+2023-06-25 20:24:51,814 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-137
+2023-06-25 20:24:51,845 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-140
+2023-06-25 20:24:51,862 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-141
+2023-06-25 20:24:51,888 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-143
+2023-06-25 20:24:51,899 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-144
+2023-06-25 20:24:51,920 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-145
+2023-06-25 20:24:51,956 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-146
+2023-06-25 20:24:51,979 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-147
+2023-06-25 20:24:51,997 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-149
+2023-06-25 20:24:52,060 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-151
+2023-06-25 20:24:52,079 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-152
+2023-06-25 20:24:52,101 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-153
+2023-06-25 20:24:52,121 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-154
+2023-06-25 20:24:52,137 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-155
+2023-06-25 20:24:52,148 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-156
+2023-06-25 20:24:52,161 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-157
+2023-06-25 20:24:52,195 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-160
+2023-06-25 20:24:52,209 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-220
+2023-06-25 20:24:52,225 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-163
+2023-06-25 20:24:52,258 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-164
+2023-06-25 20:24:52,292 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-165
+2023-06-25 20:24:52,331 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-166
+2023-06-25 20:24:52,357 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-167
+2023-06-25 20:24:52,391 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-168
+2023-06-25 20:24:52,464 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-169
+2023-06-25 20:24:52,492 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-170
+2023-06-25 20:24:52,511 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-171
+2023-06-25 20:24:52,545 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-172
+2023-06-25 20:24:52,558 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-173
+2023-06-25 20:24:52,570 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-174
+2023-06-25 20:24:52,605 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-175
+2023-06-25 20:24:52,624 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-180
+2023-06-25 20:24:52,644 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-181
+2023-06-25 20:24:52,657 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-184
+2023-06-25 20:24:52,710 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-186
+2023-06-25 20:24:52,728 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-187
+2023-06-25 20:24:52,748 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-188
+2023-06-25 20:24:52,768 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-189
+2023-06-25 20:24:52,788 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-193
+2023-06-25 20:24:52,823 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-194
+2023-06-25 20:24:52,922 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-196
+2023-06-25 20:24:52,935 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-197
+2023-06-25 20:24:52,955 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-198
+2023-06-25 20:24:52,978 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-199
+2023-06-25 20:24:52,989 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-200
+2023-06-25 20:24:53,043 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-201
+2023-06-25 20:24:53,068 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-202
+2023-06-25 20:24:53,084 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-203
+2023-06-25 20:24:53,104 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-204
+2023-06-25 20:24:53,131 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-205
+2023-06-25 20:24:53,168 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-206
+2023-06-25 20:24:53,226 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-207
+2023-06-25 20:24:53,262 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-209
+2023-06-25 20:24:53,295 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-213
+2023-06-25 20:24:53,314 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-215
+2023-06-25 20:24:53,351 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-216
+2023-06-25 20:24:53,396 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-217
+2023-06-25 20:24:53,424 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-218
+2023-06-25 20:24:53,464 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-8
+2023-06-25 20:24:53,489 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-9
+2023-06-25 20:24:53,537 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-10
+2023-06-25 20:24:53,562 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-13
+2023-06-25 20:24:53,575 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-29
+2023-06-25 20:24:53,600 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-33
+2023-06-25 20:24:53,654 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-34
+2023-06-25 20:24:53,688 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-35
+2023-06-25 20:24:53,699 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-36
+2023-06-25 20:24:53,713 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-37
+2023-06-25 20:24:53,724 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-38
+2023-06-25 20:24:53,737 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-40
+2023-06-25 20:24:53,763 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-51
+2023-06-25 20:24:53,774 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-54
+2023-06-25 20:24:53,787 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-55
+2023-06-25 20:24:53,821 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-56
+2023-06-25 20:24:53,870 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-57
+2023-06-25 20:24:53,900 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-58
+2023-06-25 20:24:53,942 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-59
+2023-06-25 20:24:53,962 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-73
+2023-06-25 20:24:53,987 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-75
+2023-06-25 20:24:53,996 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-94
+2023-06-25 20:24:54,008 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-95
+2023-06-25 20:24:54,028 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-96
+2023-06-25 20:24:54,039 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-105
+2023-06-25 20:24:54,056 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-106
+2023-06-25 20:24:54,071 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-107
+2023-06-25 20:24:54,082 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-118
+2023-06-25 20:24:54,095 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-129
+2023-06-25 20:24:54,117 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-131
+2023-06-25 20:24:54,127 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-132
+2023-06-25 20:24:54,135 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-133
+2023-06-25 20:24:54,152 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-134
+2023-06-25 20:24:54,169 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-135
+2023-06-25 20:24:54,188 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-142
+2023-06-25 20:24:54,199 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-148
+2023-06-25 20:24:54,212 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-150
+2023-06-25 20:24:54,222 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-176
+2023-06-25 20:24:54,263 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-177
+2023-06-25 20:24:54,290 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-178
+2023-06-25 20:24:54,304 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-179
+2023-06-25 20:24:54,323 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-210
+2023-06-25 20:24:54,349 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-211
+2023-06-25 20:24:54,366 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-212
+2023-06-25 20:24:54,394 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-214
+2023-06-25 20:24:54,477 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-100
+2023-06-25 20:24:54,495 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-122
+2023-06-25 20:24:54,515 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-12
+2023-06-25 20:24:54,538 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-41
+2023-06-25 20:24:54,567 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-42
+2023-06-25 20:24:54,577 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-44
+2023-06-25 20:24:54,590 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-185
+2023-06-25 20:24:54,603 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-190
+2023-06-25 20:24:54,611 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-97
+2023-06-25 20:24:54,619 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-101
+2023-06-25 20:24:54,628 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-136
+2023-06-25 20:24:54,641 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-138
+2023-06-25 20:24:54,651 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-139
+2023-06-25 20:24:54,663 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-222
+2023-06-25 20:24:54,671 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-219
+2023-06-25 20:24:54,691 INFO aggregate_combined_normalized_csv(85) Read Source for Report X-162
+2023-06-25 20:24:56,052 INFO aggregate_combined_normalized_csv(111) This is the number of duplicate rows:0

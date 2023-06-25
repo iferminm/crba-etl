@@ -1,194 +1,194 @@
-country;RAW_OBS_VALUE;ATTR_ENDPOINT
-Afghanistan;5;nan
-Albania;3;nan
-Algeria;5;nan
-Andorra;5;nan
-Angola;5;nan
-Antigua and Barbuda;3;nan
-Argentina;5;nan
-Armenia;2;nan
-Australia;2;nan
-Austria;2;nan
-Azerbaijan;2;nan
-Bahamas;5;nan
-Bahrain;5;nan
-Bangladesh;5;nan
-Barbados;5;nan
-Belarus;3;nan
-Belgium;2;nan
-Belize;5;nan
-Benin;5;nan
-Bhutan;5;nan
-Bolivia;2;nan
-Bosnia and Herzegovina;3;nan
-Botswana;3;nan
-Brazil;5;nan
-Brunei;5;nan
-Bulgaria;5;nan
-Burkina Faso;5;nan
-Burundi;5;nan
-Cambodia;3;nan
-Cameroon;5;nan
-Canada;3;nan
-Cape Verde;5;nan
-Central African Republic;3;nan
-Chad;3;nan
-Chile;5;nan
-China;2;nan
-Colombia;5;nan
-Comoros;5;nan
-Costa Rica;4;nan
-Cote d'Ivoire;5;nan
-Croatia;2;nan
-Cuba;3;nan
-Cyprus;4;nan
-Czech Republic;4;nan
-Democratic People's Republic of Korea;5;nan
-Democratic Republic of the Congo;4;nan
-Denmark;4;nan
-Djibouti;5;nan
-Dominica;3;nan
-Dominican Republic;5;nan
-Ecuador;5;nan
-Egypt;5;nan
-El Salvador;5;nan
-Equatorial Guinea;2;nan
-Eritrea;5;nan
-Estonia;5;nan
-Eswatini;5;nan
-Ethiopia;5;nan
-Fiji;3;nan
-Finland;2;nan
-France;5;nan
-Gabon;5;nan
-Georgia;5;nan
-Germany;3;nan
-Ghana;5;nan
-Greece;2;nan
-Grenada;3;nan
-Guatemala;5;nan
-Guinea;5;nan
-Guinea-Bissau;5;nan
-Guyana;4;nan
-Haiti;5;nan
-Honduras;5;nan
-Hungary;2;nan
-Iceland;5;nan
-India;5;nan
-Indonesia;5;nan
-Iran;4;nan
-Iraq;5;nan
-Ireland;2;nan
-Israel;5;nan
-Italy;3;nan
-Jamaica;5;nan
-Japan;3;nan
-Jordan;5;nan
-Kazakhstan;5;nan
-Kenya;5;nan
-Kiribati;3;nan
-Kuwait;5;nan
-Kyrgyzstan;2;nan
-Laos;5;nan
-Latvia;3;nan
-Lebanon;5;nan
-Lesotho;5;nan
-Liberia;5;nan
-Libya;5;nan
-Liechtenstein;5;nan
-Lithuania;3;nan
-Luxembourg;2;nan
-Madagascar;5;nan
-Malawi;5;nan
-Malaysia;5;nan
-Maldives;5;nan
-Mali;5;nan
-Malta;2;nan
-Marshall Islands;1;nan
-Mauritania;5;nan
-Mauritius;5;nan
-Mexico;5;nan
-Micronesia, Federated States of;1;nan
-Moldova;2;nan
-Monaco;5;nan
-Mongolia;4;nan
-Montenegro;3;nan
-Morocco;5;nan
-Mozambique;5;nan
-Myanmar;4;nan
-Namibia;5;nan
-Nauru;1;nan
-Nepal;5;nan
-New Zealand;5;nan
-Nicaragua;5;nan
-Niger;5;nan
-Nigeria;3;nan
-North Macedonia;5;nan
-Norway;5;nan
-Oman;5;nan
-Pakistan;5;nan
-Palau;1;nan
-Panama;5;nan
-Papua New Guinea;1;nan
-Paraguay;3;nan
-Peru;5;nan
-Poland;3;nan
-Portugal;3;nan
-Qatar;5;nan
-Republic of Korea;3;nan
-Republic of the Congo;5;nan
-Romania;4;nan
-Russian Federation;2;nan
-Rwanda;3;nan
-Samoa;4;nan
-San Marino;3;nan
-Sao Tome and Principe;5;nan
-Saudi Arabia;3;nan
-Senegal;5;nan
-Serbia;3;nan
-Seychelles;5;nan
-Sierra Leone;5;nan
-Singapore;5;nan
-Slovakia;2;nan
-Slovenia;2;nan
-Solomon Islands;3;nan
-Somalia;3;nan
-South Africa;3;nan
-South Sudan;5;nan
-Spain;5;nan
-Sri Lanka;5;nan
-St. Kitts and Nevis;3;nan
-St. Lucia;3;nan
-St. Vincent and the Grenadines;3;nan
-Sudan;5;nan
-Suriname;1;nan
-Sweden;2;nan
-Switzerland;5;nan
-Syria;5;nan
-Tajikistan;2;nan
-Tanzania;5;nan
-Thailand;5;nan
-The Gambia;5;nan
-The Netherlands;5;nan
-The Philippines;5;nan
-Timor-Leste;5;nan
-Togo;5;nan
-Tonga;1;nan
-Trinidad and Tobago;3;nan
-Tunisia;4;nan
-Türkiye;4;nan
-Turkmenistan;2;nan
-Tuvalu;3;nan
-Uganda;5;nan
-Ukraine;2;nan
-United Arab Emirates;3;nan
-United Kingdom;2;nan
-United States of America;1;nan
-Uruguay;5;nan
-Uzbekistan;2;nan
-Vanuatu;4;nan
-Venezuela;5;nan
-Vietnam;5;nan
-Yemen;5;nan
-Zambia;5;nan
-Zimbabwe;5;nan
+country;RAW_OBS_VALUE;TIME_PERIOD;ATTR_ENDPOINT
+Afghanistan;5;2016.0;nan
+Albania;3;2016.0;nan
+Algeria;5;2016.0;nan
+Andorra;5;2016.0;nan
+Angola;5;2016.0;nan
+Antigua and Barbuda;3;2016.0;nan
+Argentina;5;2016.0;nan
+Armenia;2;2016.0;nan
+Australia;2;2016.0;nan
+Austria;2;2016.0;nan
+Azerbaijan;2;2016.0;nan
+Bahamas;5;2016.0;nan
+Bahrain;5;2016.0;nan
+Bangladesh;5;2016.0;nan
+Barbados;5;2016.0;nan
+Belarus;3;2016.0;nan
+Belgium;2;2016.0;nan
+Belize;5;2016.0;nan
+Benin;5;2016.0;nan
+Bhutan;5;2016.0;nan
+Bolivia;2;2016.0;nan
+Bosnia and Herzegovina;3;2016.0;nan
+Botswana;3;2016.0;nan
+Brazil;5;2016.0;nan
+Brunei;5;2016.0;nan
+Bulgaria;5;2016.0;nan
+Burkina Faso;5;2016.0;nan
+Burundi;5;2016.0;nan
+Cambodia;3;2016.0;nan
+Cameroon;5;2016.0;nan
+Canada;3;2016.0;nan
+Cape Verde;5;2016.0;nan
+Central African Republic;3;2016.0;nan
+Chad;3;2016.0;nan
+Chile;5;2016.0;nan
+China;2;2016.0;nan
+Colombia;5;2016.0;nan
+Comoros;5;2016.0;nan
+Costa Rica;4;2016.0;nan
+Cote d'Ivoire;5;2016.0;nan
+Croatia;2;2016.0;nan
+Cuba;3;2016.0;nan
+Cyprus;4;2016.0;nan
+Czech Republic;4;2016.0;nan
+Democratic People's Republic of Korea;5;2016.0;nan
+Democratic Republic of the Congo;4;2016.0;nan
+Denmark;4;2016.0;nan
+Djibouti;5;2016.0;nan
+Dominica;3;2016.0;nan
+Dominican Republic;5;2016.0;nan
+Ecuador;5;2016.0;nan
+Egypt;5;2016.0;nan
+El Salvador;5;2016.0;nan
+Equatorial Guinea;2;2016.0;nan
+Eritrea;5;2016.0;nan
+Estonia;5;2016.0;nan
+Eswatini;5;2016.0;nan
+Ethiopia;5;2016.0;nan
+Fiji;3;2016.0;nan
+Finland;2;2016.0;nan
+France;5;2016.0;nan
+Gabon;5;2016.0;nan
+Georgia;5;2016.0;nan
+Germany;3;2016.0;nan
+Ghana;5;2016.0;nan
+Greece;2;2016.0;nan
+Grenada;3;2016.0;nan
+Guatemala;5;2016.0;nan
+Guinea;5;2016.0;nan
+Guinea-Bissau;5;2016.0;nan
+Guyana;4;2016.0;nan
+Haiti;5;2016.0;nan
+Honduras;5;2016.0;nan
+Hungary;2;2016.0;nan
+Iceland;5;2016.0;nan
+India;5;2016.0;nan
+Indonesia;5;2016.0;nan
+Iran;4;2016.0;nan
+Iraq;5;2016.0;nan
+Ireland;2;2016.0;nan
+Israel;5;2016.0;nan
+Italy;3;2016.0;nan
+Jamaica;5;2016.0;nan
+Japan;3;2016.0;nan
+Jordan;5;2016.0;nan
+Kazakhstan;5;2016.0;nan
+Kenya;5;2016.0;nan
+Kiribati;3;2016.0;nan
+Kuwait;5;2016.0;nan
+Kyrgyzstan;2;2016.0;nan
+Laos;5;2016.0;nan
+Latvia;3;2016.0;nan
+Lebanon;5;2016.0;nan
+Lesotho;5;2016.0;nan
+Liberia;5;2016.0;nan
+Libya;5;2016.0;nan
+Liechtenstein;5;2016.0;nan
+Lithuania;3;2016.0;nan
+Luxembourg;2;2016.0;nan
+Madagascar;5;2016.0;nan
+Malawi;5;2016.0;nan
+Malaysia;5;2016.0;nan
+Maldives;5;2016.0;nan
+Mali;5;2016.0;nan
+Malta;2;2016.0;nan
+Marshall Islands;1;2016.0;nan
+Mauritania;5;2016.0;nan
+Mauritius;5;2016.0;nan
+Mexico;5;2016.0;nan
+Micronesia, Federated States of;1;2016.0;nan
+Moldova;2;2016.0;nan
+Monaco;5;2016.0;nan
+Mongolia;4;2016.0;nan
+Montenegro;3;2016.0;nan
+Morocco;5;2016.0;nan
+Mozambique;5;2016.0;nan
+Myanmar;4;2016.0;nan
+Namibia;5;2016.0;nan
+Nauru;1;2016.0;nan
+Nepal;5;2016.0;nan
+New Zealand;5;2016.0;nan
+Nicaragua;5;2016.0;nan
+Niger;5;2016.0;nan
+Nigeria;3;2016.0;nan
+North Macedonia;5;2016.0;nan
+Norway;5;2016.0;nan
+Oman;5;2016.0;nan
+Pakistan;5;2016.0;nan
+Palau;1;2016.0;nan
+Panama;5;2016.0;nan
+Papua New Guinea;1;2016.0;nan
+Paraguay;3;2016.0;nan
+Peru;5;2016.0;nan
+Poland;3;2016.0;nan
+Portugal;3;2016.0;nan
+Qatar;5;2016.0;nan
+Republic of Korea;3;2016.0;nan
+Republic of the Congo;5;2016.0;nan
+Romania;4;2016.0;nan
+Russian Federation;2;2016.0;nan
+Rwanda;3;2016.0;nan
+Samoa;4;2016.0;nan
+San Marino;3;2016.0;nan
+Sao Tome and Principe;5;2016.0;nan
+Saudi Arabia;3;2016.0;nan
+Senegal;5;2016.0;nan
+Serbia;3;2016.0;nan
+Seychelles;5;2016.0;nan
+Sierra Leone;5;2016.0;nan
+Singapore;5;2016.0;nan
+Slovakia;2;2016.0;nan
+Slovenia;2;2016.0;nan
+Solomon Islands;3;2016.0;nan
+Somalia;3;2016.0;nan
+South Africa;3;2016.0;nan
+South Sudan;5;2016.0;nan
+Spain;5;2016.0;nan
+Sri Lanka;5;2016.0;nan
+St. Kitts and Nevis;3;2016.0;nan
+St. Lucia;3;2016.0;nan
+St. Vincent and the Grenadines;3;2016.0;nan
+Sudan;5;2016.0;nan
+Suriname;1;2016.0;nan
+Sweden;2;2016.0;nan
+Switzerland;5;2016.0;nan
+Syria;5;2016.0;nan
+Tajikistan;2;2016.0;nan
+Tanzania;5;2016.0;nan
+Thailand;5;2016.0;nan
+The Gambia;5;2016.0;nan
+The Netherlands;5;2016.0;nan
+The Philippines;5;2016.0;nan
+Timor-Leste;5;2016.0;nan
+Togo;5;2016.0;nan
+Tonga;1;2016.0;nan
+Trinidad and Tobago;3;2016.0;nan
+Tunisia;4;2016.0;nan
+Türkiye;4;2016.0;nan
+Turkmenistan;2;2016.0;nan
+Tuvalu;3;2016.0;nan
+Uganda;5;2016.0;nan
+Ukraine;2;2016.0;nan
+United Arab Emirates;3;2016.0;nan
+United Kingdom;2;2016.0;nan
+United States of America;1;2016.0;nan
+Uruguay;5;2016.0;nan
+Uzbekistan;2;2016.0;nan
+Vanuatu;4;2016.0;nan
+Venezuela;5;2016.0;nan
+Vietnam;5;2016.0;nan
+Yemen;5;2016.0;nan
+Zambia;5;2016.0;nan
+Zimbabwe;5;2016.0;nan
