@@ -895,7 +895,7 @@
     "TYPE": "Categorical",
     "RANGE": "[0,1,2]",
     "VALUE_ENCODING": "2=5.0; 1=4.0; 1=3.0; 1=1.0; 0=0.0",
-    "VALUE_LABELS": "4=Legislative or constitutional guarantee; 1=Not compulsory OR progressive realization OR policy olny",
+    "VALUE_LABELS": "2=Legislative or constitutional guarantee; 1=Not compulsory OR progressive realization OR policy only",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   },
