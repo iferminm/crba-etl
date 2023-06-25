@@ -282,19 +282,19 @@ def make_sdmx_ready(config):
     )
 
     # Discard unnecessary rows (i.e. in order to discard DIM_ELEMENT_TYPE limit ourselves to relevant subdimension group, then discard of column altogether)
-    crba_final = crba_final.loc[
-        (crba_final['DIM_ELEMENT_TYPE'] == '_T') |
-        (crba_final['DIM_ELEMENT_TYPE'] == '2017 RESOURCE GOVERNANCE INDEX')
-        ]
+    # crba_final = crba_final.loc[
+    #     (crba_final['DIM_ELEMENT_TYPE'] == '_T') |
+    #     (crba_final['DIM_ELEMENT_TYPE'] == '2017 RESOURCE GOVERNANCE INDEX')
+    #     ]
 
     # Define list of columns to drop
     dropped_cols = [
-        'Unnamed: 0',
+        #'Unnamed: 0',
         '_merge',
         'COUNTRY_ISO_2',
         'COUNTRY_NAME',
         'DIM_REP_TYPE',
-        'DIM_ELEMENT_TYPE',
+        #'DIM_ELEMENT_TYPE',
         'ATTR_INDICATOR_DESCRIPTION',
         'ATTR_INDICATOR_EXPLANATION',
         'ATTR_DATA_EXTRACTION_METHDOLOGY',
@@ -302,7 +302,7 @@ def make_sdmx_ready(config):
         'ATTR_SDG_INDICATOR_DESCRIPTION',
         'ATTR_SOURCE_OF_SOURCE',
         'ATTR_FOOTNOTE_OF_SOURCE',
-        'INTERNAL_SOURCE_ID'
+        #'INTERNAL_SOURCE_ID'
     ]
 
     # Drop columns
@@ -328,7 +328,7 @@ def make_sdmx_ready(config):
         "DIM_SEX",
         "DIM_EDU_LEVEL",
         "DIM_AGE_GROUP",
-        "DIM_MANAGEMENT_LEVEL",
+        #"DIM_MANAGEMENT_LEVEL",
         "DIM_AREA_TYPE",
         "DIM_QUANTILE",
         "DIM_SDG_INDICATOR",
