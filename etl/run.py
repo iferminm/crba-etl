@@ -345,7 +345,7 @@ def make_sdmx_ready(config):
     )) | ~(crba_final_sdmx_ready['SCALED_OBS_VALUE'].isna()), :]
 
     # Add dataflow column, TO DO: Adjust if necessary
-    crba_final_sdmx_ready['DATAFLOW'] = 'PFP:CRBA(1.0)'
+    crba_final_sdmx_ready['DATAFLOW'] = 'PFP:CRBA(2.0)'
 
     crba_final_sdmx_ready.to_csv(
         path_or_buf=config.output_dir_data / 'crba_final_sdmx_ready.csv',
