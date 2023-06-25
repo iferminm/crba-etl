@@ -129,8 +129,8 @@
     "VALUE_ID": "V-15",
     "TYPE": "Categorical",
     "RANGE": "[0,1,2,3]",
-    "VALUE_ENCODING": "3=5.0; 2=3.0; 2=2.0; 1=1.0",
-    "VALUE_LABELS": "3=Yes for both women and men; 2=Only harassment of women; 1=No prohibition; 0=No data",
+    "VALUE_ENCODING": "3=5.0; 3=3.0; 2=2.0; 1=1.0; 0=0.0",
+    "VALUE_LABELS": "3=Only harassment of women OR Yes, for both women and men; 2=Not prohibited, but at least some protection; 1=Sexual harassment not explicitly prohibited; 0=No data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   },
@@ -373,7 +373,7 @@
     "TYPE": "Categorical",
     "RANGE": "[0,1,2,3]",
     "VALUE_ENCODING": "4=https://eiti.org/api/v2.0/country_status/satisfactory-progress; 4=https://eiti.org/api/v2.0/country_status/Very-high; 4=https://eiti.org/api/v2.0/country_status/High;3=https://eiti.org/api/v2.0/country_status/meaningful-progress; 3=https://eiti.org/api/v2.0/country_status/Moderate; 2=https://eiti.org/api/v2.0/country_status/to-be-assessed; 2=https://eiti.org/api/v2.0/country_status/Fairly-low;2=https://eiti.org/api/v2.0/country_status/Low; 1=https://eiti.org/api/v2.0/country_status/suspended-inadequate-progress; 1=https://eiti.org/api/v2.0/country_status/suspended-political-instability;1=https://eiti.org/api/v2.0/country_status/suspended-inadequate-progress;1=https://eiti.org/api/v2.0/country_status/suspended-missing-deadline; 0=https://eiti.org/api/v2.0/country_status/other",
-    "VALUE_LABELS": "4=Satisfactory progress; 3=Meaningful progress; 2=To be assessed; 1=Suspended inadequate progress/ suspended political instability; 0=Not a member/ other / no data",
+    "VALUE_LABELS": "4=Satisfactory progress OR Very high OR High; 3=Meaningful progress OR Moderate; 2=To be assessed OR Fairly low OR Low; 1=Suspended inadequate progress OR suspended political instability OR suspended missing deadline; 0=Not a member/ other / no data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   },
@@ -887,6 +887,42 @@
     "RANGE": NaN,
     "VALUE_ENCODING": NaN,
     "VALUE_LABELS": NaN,
+    "NA_ENCODING": NaN,
+    "UNITS": NaN
+  },
+  {
+    "VALUE_ID": "V-100",
+    "TYPE": "Categorical",
+    "RANGE": "[0,1,2]",
+    "VALUE_ENCODING": "2=5.0; 1=4.0; 1=3.0; 1=1.0; 0=0.0",
+    "VALUE_LABELS": "2=Legislative or constitutional guarantee; 1=Not compulsory OR progressive realization OR policy only",
+    "NA_ENCODING": NaN,
+    "UNITS": NaN
+  },
+  {
+    "VALUE_ID": "V-101",
+    "TYPE": "Categorical",
+    "RANGE": "[0,1,2,3,4]",
+    "VALUE_ENCODING": "4=5.0; 3=4.0; 2=3.0; 1=2.0; 1=1.0; 0=0.0",
+    "VALUE_LABELS": "4=18 years; 3=16/17 years; 2=14/15 years; 1=12/13 years OR No national minimum age",
+    "NA_ENCODING": NaN,
+    "UNITS": NaN
+  },
+  {
+    "VALUE_ID": "V-102",
+    "TYPE": "Categorical",
+    "RANGE": "[0,1,2,3,4,5]",
+    "VALUE_ENCODING": "5=5.0; 4=4.0; 3=3.0; 2=2.0; 1=1.0",
+    "VALUE_LABELS": "5=26 weeks or more; 4= 14-25.9 weeks; 3=3-13.9 weeks; 2=Less than 3 weeks; 1=No paid leave; 0=No data",
+    "NA_ENCODING": NaN,
+    "UNITS": NaN
+  },
+  {
+    "VALUE_ID": "V-103",
+    "TYPE": "Categorical",
+    "RANGE": "[0,1,2]",
+    "VALUE_ENCODING": "2=5.0; 2=4.0; 2=2.0; 1=1.0",
+    "VALUE_LABELS": "2=Yes (either broad prohibition of workplace discrimination based on sex OR sex-specific prohibition AND/ OR general prohibition of discrimintion in promotions or demotions); 1=No protection; 0=No data",
     "NA_ENCODING": NaN,
     "UNITS": NaN
   }

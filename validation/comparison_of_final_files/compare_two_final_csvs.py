@@ -31,6 +31,8 @@ class FinalCrbaFileComparator():
         ):
         self.df_1=df_1
         self.df_2=df_2
+        self.compute_and_append_country_ranking_by_overall_score("df_1") # add rankings
+        self.compute_and_append_country_ranking_by_overall_score("df_2") # add rankings
         self.df_1_filtered=self.filter_to_rows_with_scaled_value(self.df_1)
         self.df_2_filtered=self.filter_to_rows_with_scaled_value(self.df_2)
         self.pk_columns=pk_columns
@@ -141,7 +143,7 @@ class FinalCrbaFileComparator():
 
         #elif category == "CATEGORY_ISSUE_SCORE":
     
-    def compute_country_score_changes(self):
+    def compute_country_score_changes(self, target_col):
         mean_df_1 = self.df_1.groupby("COUNTRY_ISO_3", as_index=False).mean()
         mean_df_2 = self.df_2.groupby("COUNTRY_ISO_3", as_index=False).mean()
         joined_df_2 = mean_df_1.merge(
@@ -150,81 +152,58 @@ class FinalCrbaFileComparator():
             on="COUNTRY_ISO_3", 
             suffixes=('_2020', '_2023')
         )
-        joined_df_2["OVERALL_SCORE_CHANGE"] = joined_df_2["OVERALL_SCORE_2023"] - joined_df_2["OVERALL_SCORE_2020"]
 
-        result_top = joined_df_2.nlargest(5, "OVERALL_SCORE_CHANGE")
-        result_bottom = joined_df_2.nsmallest(5, "OVERALL_SCORE_CHANGE")
-        print("Top 5 countries which improved most: \n \n", result_top)
-        print("\n \n \n Bottom 5 countries which worsened most: \n \n", result_bottom)
+        # Define column names
+        new_column = target_col+"CHANGE" 
+        col_2023 = target_col+"_2023"
+        col_2020 = target_col+"_2020"
 
-        sns.histplot(data=joined_df_2, x="OVERALL_SCORE_CHANGE", label='Overall score change of countries from 2023 to 2020', alpha=0.5)
+        if target_col=="OVERALL_SCORE":
+            joined_df_2[new_column] = joined_df_2[col_2023] - joined_df_2[col_2020]
+
+        elif target_col=="RANK_OVERALL_SCORE":
+            joined_df_2[new_column] = joined_df_2[col_2020] - joined_df_2[col_2023]
+
+        result_top = joined_df_2.nlargest(10, new_column)[["COUNTRY_ISO_3", new_column]]
+        result_bottom = joined_df_2.nsmallest(10, new_column)[["COUNTRY_ISO_3", new_column]]
+        print("Top 10 countries which improved most: \n \n", result_top)
+        print("\n \n \n Bottom 10 countries which worsened most: \n \n", result_bottom)
+
+        sns.histplot(data=joined_df_2, x=new_column, label=f'Overall {new_column} of countries from 2023 to 2020', alpha=0.5)
 
         plt.show()
 
+    def compute_and_append_country_ranking_by_overall_score(self, df):
+        if df=="df_1":
+            # Sort the dataframe by "OVERALL_SCORE" column in descending order
+            sorted_aggregated_df = self.df_1.groupby(['COUNTRY_ISO_3']).first().reset_index().sort_values('OVERALL_SCORE', ascending=False)
+
+            # Create a new column "RANK_OVERALL_SCORE_2023" based on the ranking of each row
+            sorted_aggregated_df['RANK_OVERALL_SCORE'] = sorted_aggregated_df['OVERALL_SCORE'].rank(ascending=False)
+
+            self.df_1 = self.df_1.merge(sorted_aggregated_df[['COUNTRY_ISO_3', 'RANK_OVERALL_SCORE']], on='COUNTRY_ISO_3', how="left")
+
+        elif df=="df_2":
+            # Sort the dataframe by "OVERALL_SCORE" column in descending order
+            sorted_aggregated_df = self.df_2.groupby(['COUNTRY_ISO_3']).first().reset_index().sort_values('OVERALL_SCORE', ascending=False)
+
+            # Create a new column "RANK_OVERALL_SCORE_2023" based on the ranking of each row
+            sorted_aggregated_df['RANK_OVERALL_SCORE'] = sorted_aggregated_df['OVERALL_SCORE'].rank(ascending=False)
+
+            self.df_2 = self.df_2.merge(sorted_aggregated_df[['COUNTRY_ISO_3', 'RANK_OVERALL_SCORE']], on='COUNTRY_ISO_3', how="left")
+
+    def create_aggregate_scores_df(self, df):
+        aggregated_scores_temp = df[
+            ["COUNTRY_ISO_3", "INDICATOR_CODE", "INDICATOR_INDEX", "INDICATOR_ISSUE" , "INDICATOR_CATEGORY", "CATEGORY_ISSUE_SCORE", "ISSUE_INDEX_SCORE", "INDEX_SCORE", "OVERALL_SCORE"]
+        ].groupby(["COUNTRY_ISO_3", "INDICATOR_INDEX", "INDICATOR_ISSUE" , "INDICATOR_CATEGORY"]).first().reset_index()
+
+        aggregated_scores_temp = aggregated_scores_temp.pivot(index='COUNTRY_ISO_3', 
+                columns=["INDICATOR_INDEX", "INDICATOR_ISSUE" , "INDICATOR_CATEGORY"], 
+                values=["INDEX_SCORE", "ISSUE_INDEX_SCORE", "CATEGORY_ISSUE_SCORE"])#.reset_index()
+
+        aggregated_scores_transpose = aggregated_scores_temp.T
+        duplicate_columns = aggregated_scores_transpose.duplicated()
+
+        return aggregated_scores_temp.loc[:, [not value for value in duplicate_columns]]
 
 
-
-
-
-
-"""
-
-my_comparer.get_top_and_worst_countries_per_category("INDEX")
-
-my_comparer.compute_country_score_changes()
-
-
-my_comparer.compare_existing_columns()
-my_comparer.calculate_percentage_of_updated_observations()
-my_comparer.merged_filtered_df[
-    my_comparer.merged_filtered_df["TIME_PERIOD_x"] > my_comparer.merged_filtered_df["TIME_PERIOD_y"]
-    ].to_csv("temp_crba_merged_age_observations.csv", sep=";")
-
-
-my_comparer.get_number_of_NA_per_column_value(my_comparer.df_1, "COUNTRY_ISO_3")
-
-my_comparer.df_2[my_comparer.df_2["OBS_STATUS"]=="O"].value_counts("INDICATOR_CODE")
-
-
-nas_per_indicator_2020 = my_comparer.get_number_of_NA_per_indicator(my_comparer.df_1)
-nas_per_indicator_2020
-
-# DONE Distribution of age (filter out NANs)
-# DONE Percentage/ list of those indicator for which we have new data
-# DONE Check which indicator has been retired/ which one still exists
-# SKIPPED Run the same health checks (i.e. Indonesia > Canada) as before
-# DONE Percentage of observations for which we have new data
-# DONE Distribution comparison of scores
-    # DONE Per issues
-    # DONE Per category
-    # ....
-# DONE Number of NAN countries per indicator
-# DONE Number of indicators per category/
-# DONE Which country has improved/ worsened most? 
-# DONE Number of NA observations per country
-# DONE Ranking of ountries (Tota and also per index)
-
-
-
-
-
-
-
-len(crba_final_2020.columns)
-len(crba_final_2023.columns)
-
-crba_final_2020.columns
-crba_final_2023.columns
-
-
-
-crba_final_2020.__name__
-
-my_comparer.compare_column_distribution(column_name="TIME_PERIOD")
-my_comparer.compare_column_distribution(column_name="SCALED_OBS_VALUE")
-my_comparer.find_unique_values("INDICATOR_CODE")
-my_comparer.calculate_percentage_of_updated_observations()
-
-# These are output we are intereted in:
-
-"""    

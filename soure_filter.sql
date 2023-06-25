@@ -1,1 +1,0 @@
-EXTRACTOR_CLASS=="etl.source_adapter.manual.Economist_Intelligence_Unit"

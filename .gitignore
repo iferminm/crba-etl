@@ -356,4 +356,6 @@ scripts/dummy.ipynb
 .vscode/
 indicator_dictionary_CRBA.xlsx
 scripts/test.xml
+dummy*
+soure_filter.sql
 soure_filter1.sql

@@ -798,7 +798,6 @@
     "INVERT_NORMALIZATION": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": null,
-    "COMMENT": "Replaced by S-221",
     "EXTRACTOR_CLASS": "etl.source_adapter.wpa.WPA_Extractor",
     "FORMER_SOURCE_ID": "S-45"
   },
@@ -821,6 +820,7 @@
     "INVERT_NORMALIZATION": "inverted",
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
+    "COMMENT": "Delete form 2023 according to alex because it is partally by I-29 https://las-mic.atlassian.net/browse/CRBA-94?focusedCommentId=10054",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FORMER_SOURCE_ID": "S-46"
   },
@@ -3659,7 +3659,7 @@
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG) + UN data",
     "SOURCE_BODY": "UN SDG\/ UN POP",
-    "SOURCE_TITLE": "SDG Indicator Indicator 11.5.3,  Series:  Number of disruptions to health services attributed to disasters (number) VC_DSR_HSDN.  If possible, make relative to population",
+    "SOURCE_TITLE": "SDG Indicator Indicator 11.5.3,  Series:  Number of disruptions to health services attributed to disasters (number) VC_DSR_HSDN.",
     "ADDRESS": "https:\/\/unstats.un.org\/sdgs\/indicators\/database\/",
     "ENDPOINT_URL": "https:\/\/unstats.un.org\/SDGAPI\/v1\/sdg\/Series\/Data?seriesCode=VC_DSR_HSDN&pageSize=999999999",
     "un_treaty_data_col": null,
@@ -3681,7 +3681,7 @@
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (SDG) + UN data",
     "SOURCE_BODY": "UN SDG\/ UN POP",
-    "SOURCE_TITLE": "SDG Indicator 11.5.3,  Series:  Number of disruptions to other basic services attributed to disasters (number) VC_DSR_OBDN",
+    "SOURCE_TITLE": "SDG Indicator 11.5.3, Series: Number of disruptions to other basic services attributed to disasters (number) VC_DSR_OBDN",
     "ADDRESS": "https:\/\/unstats.un.org\/sdgs\/indicators\/database\/",
     "ENDPOINT_URL": "https:\/\/unstats.un.org\/SDGAPI\/v1\/sdg\/Series\/Data?seriesCode=VC_DSR_OBDN&pageSize=999999999",
     "un_treaty_data_col": null,
@@ -4005,7 +4005,7 @@
     "FORMER_SOURCE_ID": "S-204"
   },
   "X-185": {
-    "INDICATOR_ID": "I-51",
+    "INDICATOR_ID": "I-50",
     "VALUE_ID": "V-5",
     "SOURCE_TYPE": "API (ILO)",
     "SOURCE_BODY": "ILO",
@@ -4788,12 +4788,12 @@
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder"
   },
   "X-221": {
-    "INDICATOR_ID": "I-50",
+    "INDICATOR_ID": "I-51",
     "VALUE_ID": "V-63",
     "SOURCE_TYPE": "Website (dynamic interactive)",
     "SOURCE_BODY": "International Trade Union Confederation",
-    "SOURCE_TITLE": "(2017). Workers’ rights in law.",
-    "ADDRESS": "https://www.globalrightsindex.org/en/2022/countries/bdi",
+    "SOURCE_TITLE": "ITUC Global Rights Index",
+    "ADDRESS": "https://www.globalrightsindex.org/en/2022/countries/",
     "ENDPOINT_URL": "nan",
     "un_treaty_data_col": null,
     "WPA_OBS_RAW_COL": null,
@@ -4803,11 +4803,22 @@
     "RAW_OBS_VALUE_TYPE": "categorical",
     "ATTR_RATIFICATION_DATE_COLUMN_NAME": null,
     "ATTR_UNIT_MEASURE": null,
-    "INVERT_NORMALIZATION": "inverted",
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "LINKT_TO": "S-45",
     "FORMER_SOURCE_ID": "S-54"
+  },
+  "X-222": {
+    "INDICATOR_ID": "I-221",
+    "VALUE_ID": "V-5",
+    "SOURCE_TYPE": "PDF",
+    "SOURCE_BODY": "CyberTipline Reports by country ",
+    "RAW_OBS_VALUE_TYPE": "continuous",
+    "INVERT_NORMALIZATION": "inverted",
+    "NORMALISE_TO_100000": true,
+    "UNIT_MEASURE": "RATE_100000",
+    "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
+    "LINKT_TO": "S-123"
   }
 }

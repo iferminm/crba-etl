@@ -4,8 +4,6 @@ import logging
 import re
 import warnings
 from typing import Type
-from os import listdir
-from os.path import isfile, join
 
 import pandas as pd
 from tqdm import tqdm
@@ -27,7 +25,6 @@ def dynamic_load(class_path) -> Type:
 def build_combined_normalized_csv(config):
     ##TODO Parallelisiere . Prozess vs Thread. Probably Thread because of heavy IO Tasks concurrent.futures
     extractors = {}
-    extractions_data = []
     extraction_errors_source_ids = []
     validation_batches = []
     sucesses = 0
@@ -43,7 +40,7 @@ def build_combined_normalized_csv(config):
                     list(config.crba_report_definition_filtered.iterrows()), dynamic_ncols=True
             ):
                 try:
-                    #TODO Make as sys arg
+                    # TODO Make as sys arg
                     row = row.dropna().to_dict()
                     extractor = dynamic_load(row["EXTRACTOR_CLASS"])(config, **row)
                     extractors[row["SOURCE_ID"]] = extractor
@@ -75,28 +72,28 @@ def build_combined_normalized_csv(config):
                 except FileNotFoundError as ex:
                     run_logger.exception(ex)
 
-            for index, row in tqdm(
-                                list(config.crba_report_definition.iterrows()), dynamic_ncols=True
-                        ):
-                run_logger.info(
-                        msg=f"Read Source for Report {row['SOURCE_ID']}"
-                    )
-                path = config.indicator_output / str(row['SOURCE_ID'] + "_" + row['INDICATOR_ID'] + ".csv")
-                if path.is_file():
-                    extractions_data.append(
-                        pd.read_csv(path, sep=";")
-                    )
-                else: 
-                    run_logger.warning(f"!!!!!!!!!!!!!!!!!!Source {row['SOURCE_ID']} not found!!!!")
-                
-
     # Store Indicator for inspection
     print(f"Number of sucesses{sucesses}")
-    return pd.concat(extractions_data, axis=0, ignore_index=True)
 
 
-def aggregate_combined_normalized_csv(config, combined_normalized_csv):
+def aggregate_combined_normalized_csv(config):
     # Idenify all dimension columns in combined dataframe
+    extractions_data = []
+    for index, row in tqdm(
+            list(config.crba_report_definition.iterrows()), dynamic_ncols=True
+    ):
+        run_logger.info(
+            msg=f"Read Source for Report {row['SOURCE_ID']}"
+        )
+        path = config.indicator_output / str(row['SOURCE_ID'] + "_" + row['INDICATOR_ID'] + ".csv")
+        if path.is_file():
+            extractions_data.append(
+                pd.read_csv(path, sep=";")
+            )
+        else:
+            run_logger.warning(f"!!!!!!!!!!!!!!!!!!Source {row['SOURCE_ID']} not found!!!!")
+
+    combined_normalized_csv = pd.concat(extractions_data, axis=0, ignore_index=True)
 
     available_dim_cols = []
     for col in combined_normalized_csv.columns:
@@ -276,15 +273,95 @@ def aggregate_combined_normalized_csv(config, combined_normalized_csv):
         quoting=csv.QUOTE_ALL,
     )
 
-    return crba_final, aggregated_scores_dataset
+
+def make_sdmx_ready(config):
+    # Read final dataframe
+    crba_final = pd.read_csv(
+        config.output_dir_data / "crba_final.csv",
+        sep=";"
+    )
+
+    # Discard unnecessary rows (i.e. in order to discard DIM_ELEMENT_TYPE limit ourselves to relevant subdimension group, then discard of column altogether)
+    # crba_final = crba_final.loc[
+    #     (crba_final['DIM_ELEMENT_TYPE'] == '_T') |
+    #     (crba_final['DIM_ELEMENT_TYPE'] == '2017 RESOURCE GOVERNANCE INDEX')
+    #     ]
+
+    # Define list of columns to drop
+    dropped_cols = [
+        #'Unnamed: 0',
+        '_merge',
+        'COUNTRY_ISO_2',
+        'COUNTRY_NAME',
+        'DIM_REP_TYPE',
+        #'DIM_ELEMENT_TYPE',
+        'ATTR_INDICATOR_DESCRIPTION',
+        'ATTR_INDICATOR_EXPLANATION',
+        'ATTR_DATA_EXTRACTION_METHDOLOGY',
+        'ATTR_SOURCE_TITLE',
+        'ATTR_SDG_INDICATOR_DESCRIPTION',
+        'ATTR_SOURCE_OF_SOURCE',
+        'ATTR_FOOTNOTE_OF_SOURCE',
+        #'INTERNAL_SOURCE_ID'
+    ]
+
+    # Drop columns
+    crba_final_sdmx_ready = crba_final.drop(
+        labels=dropped_cols,
+        axis=1
+    )
+
+    # Map values to encode them as SDMX codes
+    # Run the column mapper script to load the mapping dictionary
+    from methology.value_mapping_sdmx_encoding import value_mapper_sdmx_encoding
+    from transformation.cleanse import map_values
+    crba_final_sdmx_ready = map_values(
+        cleansed_data=crba_final_sdmx_ready,
+        value_mapping_dict=value_mapper_sdmx_encoding
+    )
+
+    # FSM has duplicate entry for four indicators (scoring was only done for one of them), drop rows that haven't been scored
+    sdmx_df_columns_dims = [
+        "INDICATOR_CODE",
+        "COUNTRY_ISO_3",
+        "TIME_PERIOD",
+        "DIM_SEX",
+        "DIM_EDU_LEVEL",
+        "DIM_AGE_GROUP",
+        #"DIM_MANAGEMENT_LEVEL",
+        "DIM_AREA_TYPE",
+        "DIM_QUANTILE",
+        "DIM_SDG_INDICATOR",
+        "DIM_OCU_TYPE",
+        "DIM_SECTOR",
+        "DIM_ALCOHOL_TYPE",
+        "DIM_CAUSE_TYPE",
+        "DIM_MATERNAL_EDU_LVL",
+    ]
+
+    crba_final_sdmx_ready = crba_final_sdmx_ready.loc[~(crba_final_sdmx_ready.duplicated(
+        subset=sdmx_df_columns_dims,
+        keep=False
+    )) | ~(crba_final_sdmx_ready['SCALED_OBS_VALUE'].isna()), :]
+
+    # Add dataflow column, TO DO: Adjust if necessary
+    crba_final_sdmx_ready['DATAFLOW'] = 'PFP:CRBA(2.0)'
+
+    crba_final_sdmx_ready.to_csv(
+        path_or_buf=config.output_dir_data / 'crba_final_sdmx_ready.csv',
+        sep=";",
+        index=False
+    )
 
 
-def run(config):
+def run(args, config):
     """
     The files for eac staged are stored. ANd each stage reads all needed files.
     This is to achieve better modular executability.The loss performace is accepted.
 
     """
-    combined_normalized_csv = build_combined_normalized_csv(config)
+    if args.extract_stage: build_combined_normalized_csv(config)
 
-    aggregate_combined_normalized_csv(config, combined_normalized_csv)
+    if args.combine_stage: aggregate_combined_normalized_csv(config)
+
+    if args.sdmx_stage: make_sdmx_ready(config)
