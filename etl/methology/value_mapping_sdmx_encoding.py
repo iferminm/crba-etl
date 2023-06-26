@@ -70,7 +70,7 @@ value_mapper_sdmx_encoding = {
         "_T": ["BOTH_SEXES"],
         "M": ["MALE"],
         "F": ["FEMALE"],
-        "TODO DANIELE":["OTHER"]
+        "_O":["OTHER"]
     },
     "DIM_SECTOR": {
         "_T": ["NO BREAKDOWN", "_T"],
@@ -83,8 +83,8 @@ value_mapper_sdmx_encoding = {
         "_T": ["_T", "TOTAL"],
         "R": ["RURAL"],
         "U": ["URBAN"],
-        "TODO DANIELE": ["CITY"],
-        "TODO DANIELE": ["TOWN"]
+        "CITY": ["CITY"],
+        "TOWN": ["TOWN"]
     },
     "DIM_EDU_LEVEL": {
         "_T": ["_T"],
@@ -147,8 +147,8 @@ value_mapper_sdmx_encoding = {
         "ELEMENTARY": ["Elementary occupations (isco-08)", "Elementary occupations (isco-88)"],
         "ARMED_FORCES": ["Armed forces occupations (isco-08)", "Armed forces (isco-88)"],
         "NOT_CLASSIFIED": ["Not elsewhere classified (isco-08)", "Not elsewhere classified (isco-88)"],
-        "TODO DANIELE" : ["Clerks (isco-88)"],
-        "TODO DANIELE" : ["Legislators, senior officials and managers (isco-88)"]
+        "CLERKS_88" : ["Clerks (isco-88)"],
+        "LEGISLATORS_MANAGERS_88" : ["Legislators, senior officials and managers (isco-88)"]
     },
     "DIM_CAUSE_TYPE": {
         "_T": ["_T"],
