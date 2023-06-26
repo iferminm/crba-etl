@@ -149,8 +149,8 @@ If you wish to make changes to the repo, or simply use it to (re)produce your ow
 | Step| What do to |
 | -------- | -------- |
 |  1 | Clone the repository   |
-|  2 | To setup the repo run `poetry install` <br> Important: The repo is using seleniums drive for Chrome. So to run the repo, you must have chrome installed (or use a different selenium driver)   |
-|  4 | To publish your results. Create one branch for code cahnges and one branch to publish data results   |
+|  2 | To setup the repo, you will need poetry installed. Run `poetry install` <br> Important: The repo is using seleniums drive for Chrome. So to run the repo, you must have chrome installed (or use a different selenium driver)   |
+|  4 | To create and publish your results, (optional: make code changes), branch out from the `main` branch and run the code below.   |
 |  5 | To run the code run `python etl --config-path config/2023 --extract-stage --combine-stage --sdmx-stage`. |
 
 You will then see the pipeline execute. It will create the following output: 
@@ -159,19 +159,22 @@ You will then see the pipeline execute. It will create the following output:
 | -------- | -------- |
 |  `config/<year>/out/data/` | This is where the `crba_final.csv` will be stored  |
 |  `config/<year>/out/data/indicator` | This is where all of the extracted and transformed indicators are stored   |
-|  `config/<year>/out/data/error` | data/error contains the dataframe as csv to th point where the execution of the source adapter failed. |
+|  `config/<year>/out/data/error` | Contains the csv file of sources/ indicators which couldn't be extracted and transformed |
 |  `config/<year>/out/validation` | This is where the output of the automated validations produced by `Great Expectations` is stored  |
 |  `config/<year>/out/` | This is where you will find `error.log` and `log.log`. These files contain the logs of your ETL run, and specifially information on which sources/ indicators could not be processed along with their error message. You will also find `crba_report_definitions.json`, which is a summary of the metadata of each indicator.  |
 
 ### Using the filter to only run the pipeline for certain indicators
 
-If you want to run the pipeline for only certain indicators, you can set filters. Do this by passing the flag `--build-indicator-filter <filter.sql|filter.csv>`. One can give a sql file with a where condition. E.g. 
+If you want to run the pipeline for only certain indicators, you can set filters. Do this by passing the flag `--build-indicator-filter <filter.sql|filter.csv>`, where `filter.sql` is an sql file which you can create and in which you can write your filter options (simple text file with .sql ending). For example, you can create a `filter.sql` file with the following content:
+
 ```sql
 SOURCE_BODY=="World Policy Analysis Center"
 ```
-Or a csv file where the first column are Source Id's. 
-This filters are applied to the crba_report_definition set. 
+This will only execute the pipeline for sources/ indicators which come from the source body "World Policy Analysis Center" as specified in `source_definition.json`.
 
+Alternatively, you can specific a csv file where the first column are Source Id's. 
+
+These filters are applied to the crba_report_definition set. 
 
 ## How to further develop the repo (e.g. to include or modify sources/ indicators/ ...)
 
@@ -181,7 +184,7 @@ In all of these cases, follow these steps, firstly follow the steps outlined abo
 
 ### I want to delete an indicator
 
-You dont have to delete an indicator on a global bases. If one indicator should not be used for a report just remove the corresponding source from the source selection. 
+You dont have to delete an indicator on a global basis. If one indicator should not be used for a report just remove the corresponding source from the source selection. 
 
 ### I want to update metadata of a source (e.g. update the API URL or the title of the source)
 
@@ -196,7 +199,7 @@ Go to `resources/value_type` and make a new entry there. Then, make sure to inse
 
 ### I want to add a new indicator
 
-Just write a new Inidator in the etl/resources/indicator.json file
+Just write a new indicator in the `etl/resources/indicator.json` file, along with the source in the `source_definition.json` (and potentially also in `source_seletion.json`). If it's a categorical variable, you will also have to make a new entry or link it to an existing value type in `etl/resources/value_type.json`. 
 
 ## Got questions, feedback or want to report a bug? 
 
