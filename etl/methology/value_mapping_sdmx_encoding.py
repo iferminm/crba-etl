@@ -35,6 +35,7 @@ value_mapper_sdmx_encoding = {
         "Y18T28": ["18-29 YEARS"],
         "Y18T73": ["18-74 YEARS"],
         "Y13T14": ["13-15 YEARS"],
+        "Y15T63": ["15-64 YEARS"],
         "Y15": ["15 YEARS"],
         "Y13T16": ["13-17 YEARS"],
         "Y5T16": ["5-17 YEARS"],
@@ -42,18 +43,25 @@ value_mapper_sdmx_encoding = {
         "Y7T16": ["7-17 YEARS"],
         "Y6T16": ["6-17 YEARS"],
         "Y10T16": ["10-17 YEARS"],
-        "_T": ["ALL AGES"],
+        "_T": ["ALL AGES", "_T"],
         "Y0T4": ["<5 YEARS", "<5 YEARS", "0-5 YEARS"],
         "Y0": ["<1 YEAR"],
         "Y0T7": ["<8 YEARS"],
         "Y0T5": ["<6 YEARS"],
+        "Y0T4": ["<5 YEARS", "0-5 YEARS"],
+        "Y0T14": ["<15 YEARS"],
         "M5T58": ["5-59 MONTHS"],
         "Y_GE15": ["15+ YEARS"],
+        "Y_GE65": ["65+ YEARS"],
         "Y15T23": ["15-24 YEARS"],
         "Y_GE25": ["25+ YEARS"],
         "Y5T18": ["5-19 YEARS"],
         "Y5T8": ["5-09 YEARS"],
         "Y10T18": ["10-19 YEARS"],
+        "M12T23": ["12-24 MONTHS"],
+        "M24T35": ["24-36 MONTHS"],
+        "M36T47": ["36-48 MONTHS"],
+        "M48T59": ["48-60 MONTHS"],
         "POST_NEONATAL": ["POST-NEONATAL"],
         "NEO_NATAL": ["NEO-NATAL"],
         "SCH_AGE_GROUP": ["SCHOOL_AGE_POPULATION"],
@@ -62,6 +70,7 @@ value_mapper_sdmx_encoding = {
         "_T": ["BOTH_SEXES"],
         "M": ["MALE"],
         "F": ["FEMALE"],
+        "TODO DANIELE":["OTHER"]
     },
     "DIM_SECTOR": {
         "_T": ["NO BREAKDOWN", "_T"],
@@ -74,6 +83,8 @@ value_mapper_sdmx_encoding = {
         "_T": ["_T", "TOTAL"],
         "R": ["RURAL"],
         "U": ["URBAN"],
+        "TODO DANIELE": ["CITY"],
+        "TODO DANIELE": ["TOWN"]
     },
     "DIM_EDU_LEVEL": {
         "_T": ["_T"],
@@ -114,20 +125,30 @@ value_mapper_sdmx_encoding = {
     "DIM_OCU_TYPE": {
         "_T": ["All occupations (isco-08)", "All occupations (isco-88)", "_T"],
         "MANAGERS": ["Managers (isco-08)"],
-        "PROFESSIONALS": ["Professionals (isco-08)"],
-        "TECHNICIANS": ["Technicians and associate professionals (isco-08)"],
+        "PROFESSIONALS": ["Professionals (isco-08)", "Professionals (isco-88)"],
+        "TECHNICIANS": [
+            "Technicians and associate professionals (isco-08)",
+            "Technicians and associate professionals (isco-88)"
+        ],
         "CLERICAL_SUPPORT": ["Clerical support workers (isco-08)"],
-        "SERVICE_SALES": ["Service and sales workers (isco-08)"],
+        "SERVICE_SALES": [
+            "Service and sales workers (isco-08)",
+            "Service workers and shop and market sales workers (isco-88)"
+        ],
         "AGRIC_FOR_FISH": [
-            "Skilled agricultural, forestry and fishery workers (isco-08)"
+            "Skilled agricultural, forestry and fishery workers (isco-08)",
+            "Skilled agricultural and fishery workers (isco-88)"
         ],
-        "CRAFT_AND_TRADES": ["Craft and related trades workers (isco-08)"],
+        "CRAFT_AND_TRADES": ["Craft and related trades workers (isco-08)", "Craft and related trades workers (isco-88)"],
         "PLANT_MACHINE_ASSEMBLERS": [
-            "Plant and machine operators, and assemblers (isco-08)"
+            "Plant and machine operators, and assemblers (isco-08)",
+            "Plant and machine operators and assemblers (isco-88)"
         ],
-        "ELEMENTARY": ["Elementary occupations (isco-08)"],
-        "ARMED_FORCES": ["Armed forces occupations (isco-08)"],
-        "NOT_CLASSIFIED": ["Not elsewhere classified (isco-08)"],
+        "ELEMENTARY": ["Elementary occupations (isco-08)", "Elementary occupations (isco-88)"],
+        "ARMED_FORCES": ["Armed forces occupations (isco-08)", "Armed forces (isco-88)"],
+        "NOT_CLASSIFIED": ["Not elsewhere classified (isco-08)", "Not elsewhere classified (isco-88)"],
+        "TODO DANIELE" : ["Clerks (isco-88)"],
+        "TODO DANIELE" : ["Legislators, senior officials and managers (isco-88)"]
     },
     "DIM_CAUSE_TYPE": {
         "_T": ["_T"],
