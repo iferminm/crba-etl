@@ -1004,6 +1004,7 @@
         "UNIT_MEASURE": "IDX",
         "CORRESPONDING_SOURCE": null,
         "CORRESPONDING_VALUE_TYPE": null,
+        "COMMENT": "Indicator retired as of 2023",
         "SORTING_COLUMN": 42,
         "INDICATOR_ACR": "FREASS"
     },
@@ -1217,7 +1218,7 @@
         "LEGACY_DATA_FROM": null,
         "REPLACES_IND_ID": null,
         "DIMENSION_VALUES_NORMALIZATION": null,
-        "UNIT_MEASURE": "IDX",
+        "UNIT_MEASURE": null,
         "CORRESPONDING_SOURCE": null,
         "CORRESPONDING_VALUE_TYPE": null,
         "SORTING_COLUMN": 51,
