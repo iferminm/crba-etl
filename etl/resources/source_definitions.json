@@ -953,6 +953,7 @@
     "INVERT_NORMALIZATION": "inverted",
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
+    "COMMENT": "This source was retired in 2023 and is replace with source X-221. ",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "FORMER_SOURCE_ID": "S-54"
   },
@@ -4805,6 +4806,7 @@
     "ATTR_UNIT_MEASURE": null,
     "DIMENSION_VALUES_NORMALIZATION": null,
     "UNIT_MEASURE": "IDX",
+    "COMMENT": "This is a source introduced in 2023. It is replacing X-45/ S-54",
     "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
     "LINKT_TO": "S-45",
     "FORMER_SOURCE_ID": "S-54"
