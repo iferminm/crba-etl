@@ -58,14 +58,19 @@ class FinalCrbaFileComparator():
             self, 
             column_name, 
             filter_to_subset_df_1: np.array=None,
-            filter_to_subset_df_2: np.array=None
+            filter_to_subset_df_2: np.array=None,
+            aggregate_to_country=False
         ):
         if filter_to_subset_df_1 is not None:
             df_1_to_use = self.df_1_filtered[filter_to_subset_df_1]
             df_2_to_use = self.df_2_filtered[filter_to_subset_df_2]
         else:
-            df_1_to_use = self.df_1_filtered
-            df_2_to_use = self.df_2_filtered
+            if aggregate_to_country==False:
+                df_1_to_use = self.df_1_filtered
+                df_2_to_use = self.df_2_filtered
+            elif aggregate_to_country==True:
+                df_1_to_use = self.df_1_filtered.groupby(['COUNTRY_ISO_3']).first()
+                df_2_to_use = self.df_2_filtered.groupby(['COUNTRY_ISO_3']).first()
         
         sns.set(style="whitegrid")
 
@@ -107,7 +112,7 @@ class FinalCrbaFileComparator():
         return df.groupby(column_for_per_category).apply(lambda x: (x["OBS_STATUS"] == "O").sum()).sort_values()
     
     def get_number_of_indicators_per_column(self, df):
-        unique_indicator_code = self.df_1.groupby("INDICATOR_CODE").first()
+        unique_indicator_code = df.groupby("INDICATOR_CODE").first()
         categories=[
             "INDICATOR_INDEX",
             "INDICATOR_CATEGORY",
