@@ -228,7 +228,7 @@
     "WPA_YEAR_COL": 2022.0
   },
   "X-56": {
-    "WPA_OBS_RAW_COL": "maternity_leave",
+    "WPA_OBS_RAW_COL": "maternal_leave",
     "FILE_PATH": "raw\/S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
     "WPA_YEAR_COL": 2022.0
   },
@@ -238,7 +238,7 @@
   },
   "X-58": {
     "VALUE_ID": "V-102",
-    "WPA_OBS_RAW_COL": "paternity_leave",
+    "WPA_OBS_RAW_COL": "paternal_leave",
     "FILE_PATH": "raw\/S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
     "WPA_YEAR_COL": 2022.0
   },
