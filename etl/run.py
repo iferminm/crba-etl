@@ -302,7 +302,8 @@ def make_sdmx_ready(config):
         'ATTR_SDG_INDICATOR_DESCRIPTION',
         'ATTR_SOURCE_OF_SOURCE',
         'ATTR_FOOTNOTE_OF_SOURCE',
-        #'INTERNAL_SOURCE_ID'
+        #'INTERNAL_SOURCE_ID',
+        'SOURCE_ID'
     ]
 
     # Drop columns
