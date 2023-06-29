@@ -143,7 +143,6 @@ class FinalCrbaFileComparator():
             #result_bottom = mean_df.nsmallest(num, "OVERALL_SCORE")
 
             for i in ["WP", "CE", "MP"]:
-            for i in ["WP", "CE", "MP"]:
                 print("Calculating top and bottom countrie for INDICATORINDEX == ", i)
                 result_top = mean_df[mean_df["INDICATOR_INDEX"] == i].nlargest(num, "INDEX_SCORE")[["COUNTRY_ISO_3", "INDEX_SCORE"]]
                 result_bottom = mean_df[mean_df["INDICATOR_INDEX"] == i].nsmallest(num, "INDEX_SCORE")[["COUNTRY_ISO_3", "INDEX_SCORE"]]
