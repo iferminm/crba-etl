@@ -220,7 +220,7 @@ class FinalCrbaFileComparator():
 
         return aggregated_scores_temp.loc[:, [not value for value in duplicate_columns]]
 
-    def compare_two_countries(df, country_1="DEU", country_2="IDN"):
+    def compare_two_countries(self, df, country_1="DEU", country_2="IDN"):
         temp = df[df["COUNTRY_ISO_3"].isin([country_1, country_2]) & ~df["SCALED_OBS_VALUE"].isna()]
 
         comparison_df = temp.pivot(index='INDICATOR_CODE', columns='COUNTRY_ISO_3', values='SCALED_OBS_VALUE')
