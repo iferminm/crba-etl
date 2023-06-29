@@ -133,13 +133,22 @@ class FinalCrbaFileComparator():
             result_bottom = mean_df.nsmallest(num, "OVERALL_SCORE")[["COUNTRY_ISO_3", "OVERALL_SCORE"]]
             print(f"Top {num} countries:", result_top)
             print(f"Bottom {num} countries:", result_bottom)
+            result_top = mean_df.nlargest(num, "OVERALL_SCORE")[["COUNTRY_ISO_3", "OVERALL_SCORE"]]
+            result_bottom = mean_df.nsmallest(num, "OVERALL_SCORE")[["COUNTRY_ISO_3", "OVERALL_SCORE"]]
+            print(f"Top {num} countries:", result_top)
+            print(f"Bottom {num} countries:", result_bottom)
         elif category == "INDEX":
             mean_df = self.df_2.groupby(["COUNTRY_ISO_3", "INDICATOR_INDEX"], as_index=False).mean()
             #result_top = mean_df.nlargest(num, "OVERALL_SCORE")
             #result_bottom = mean_df.nsmallest(num, "OVERALL_SCORE")
 
             for i in ["WP", "CE", "MP"]:
+            for i in ["WP", "CE", "MP"]:
                 print("Calculating top and bottom countrie for INDICATORINDEX == ", i)
+                result_top = mean_df[mean_df["INDICATOR_INDEX"] == i].nlargest(num, "INDEX_SCORE")[["COUNTRY_ISO_3", "INDEX_SCORE"]]
+                result_bottom = mean_df[mean_df["INDICATOR_INDEX"] == i].nsmallest(num, "INDEX_SCORE")[["COUNTRY_ISO_3", "INDEX_SCORE"]]
+                print(f"Top {num} countries:", result_top)
+                print(f"Bottom {num} countries:", result_bottom)
                 result_top = mean_df[mean_df["INDICATOR_INDEX"] == i].nlargest(num, "INDEX_SCORE")[["COUNTRY_ISO_3", "INDEX_SCORE"]]
                 result_bottom = mean_df[mean_df["INDICATOR_INDEX"] == i].nsmallest(num, "INDEX_SCORE")[["COUNTRY_ISO_3", "INDEX_SCORE"]]
                 print(f"Top {num} countries:", result_top)
@@ -212,11 +221,11 @@ class FinalCrbaFileComparator():
         return aggregated_scores_temp.loc[:, [not value for value in duplicate_columns]]
 
     def compare_two_countries(df, country_1="DEU", country_2="IDN"):
-        temp = df[df["COUNTRY_ISO_3"].isin(["DEU", "IDN"]) & ~df["SCALED_OBS_VALUE"].isna()]
+        temp = df[df["COUNTRY_ISO_3"].isin([country_1, country_2]) & ~df["SCALED_OBS_VALUE"].isna()]
 
         comparison_df = temp.pivot(index='INDICATOR_CODE', columns='COUNTRY_ISO_3', values='SCALED_OBS_VALUE')
 
-        comparison_df["DIFF_DEU_IDN"] = comparison_df["DEU"] - comparison_df["IDN"]
+        comparison_df["DIFF_DEU_IDN"] = comparison_df[country_1] - comparison_df[country_2]
 
         return comparison_df[comparison_df["DIFF_DEU_IDN"] < 0]
 
