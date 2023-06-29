@@ -1,0 +1,186 @@
+COUNTRY_NAME;RAW_OBS_VALUE;TIME_PERIOD;ATTR_ENDPOINT
+Iceland;0.989;2022.0;nan
+Sweden;0.993;2022.0;nan
+Finland;0.992;2022.0;nan
+Netherlands;0.996;2022.0;nan
+Germany;0.99;2022.0;nan
+Luxembourg;0.993;2022.0;nan
+Denmark;0.996;2022.0;nan
+Austria;0.988;2022.0;nan
+Slovenia;0.994;2022.0;nan
+Norway;0.996;2022.0;nan
+Portugal;0.986;2022.0;nan
+France;0.985;2022.0;nan
+Thailand;0.916;2022.0;nan
+Latvia;0.971;2022.0;nan
+Chile;0.888;2022.0;nan
+Republic of Korea;0.0;2022.0;nan
+Czechia;0.977;2022.0;nan
+Italy;0.991;2022.0;nan
+Cuba;0.891;2022.0;nan
+Kazakhstan;0.95;2022.0;nan
+Japan;0.994;2022.0;nan
+Croatia;0.983;2022.0;nan
+Estonia;0.981;2022.0;nan
+Oman;0.972;2022.0;nan
+Turkey;0.949;2022.0;nan
+Uruguay;0.912;2022.0;nan
+Bulgaria;0.921;2022.0;nan
+Belgium;0.0;2022.0;nan
+Malta;0.976;2022.0;nan
+Barbados;0.918;2022.0;nan
+Switzerland;0.997;2022.0;nan
+Greece;0.984;2022.0;nan
+Qatar;0.98;2022.0;nan
+Serbia;0.911;2022.0;nan
+Cyprus;0.988;2022.0;nan
+Bahrain;0.967;2022.0;nan
+Singapore;0.996;2022.0;nan
+Egypt;0.887;2022.0;nan
+Mexico;0.852;2022.0;nan
+Hungary;0.954;2022.0;nan
+Peru;0.826;2022.0;nan
+Malaysia;0.0;2022.0;nan
+Georgia;0.941;2022.0;nan
+Colombia;0.871;2022.0;nan
+North Macedonia;0.959;2022.0;nan
+Lebanon;0.964;2022.0;nan
+Saint Vincent and the Grenadines;0.0;2022.0;nan
+Canada;0.979;2022.0;nan
+Montenegro;0.93;2022.0;nan
+Antigua and Barbuda;0.0;2022.0;nan
+San Marino;0.0;2022.0;nan
+Albania;0.951;2022.0;nan
+Ireland;0.988;2022.0;nan
+Bosnia and Herzegovina;0.976;2022.0;nan
+Israel;0.983;2022.0;nan
+Viet Nam;0.85;2022.0;nan
+Mauritius;0.0;2022.0;nan
+Brunei Darussalam;0.0;2022.0;nan
+Cabo Verde;0.826;2022.0;nan
+Algeria;0.957;2022.0;nan
+Republic of Moldova;0.944;2022.0;nan
+Tonga;0.759;2022.0;nan
+Turkmenistan;0.962;2022.0;nan
+Azerbaijan;0.873;2022.0;nan
+Bolivia (Plurinational State of);0.774;2022.0;nan
+Morocco;0.918;2022.0;nan
+Paraguay;0.663;2022.0;nan
+Jamaica;0.902;2022.0;nan
+Tunisia;0.982;2022.0;nan
+Philippines;0.861;2022.0;nan
+Guyana;0.78;2022.0;nan
+Nicaragua;0.729;2022.0;nan
+Honduras;0.875;2022.0;nan
+Costa Rica;0.898;2022.0;nan
+Ecuador;0.793;2022.0;nan
+United Arab Emirates;0.93;2022.0;nan
+Belize;0.874;2022.0;nan
+Grenada;0.0;2022.0;nan
+Samoa;0.749;2022.0;nan
+Saint Lucia;0.892;2022.0;nan
+Jordan;0.946;2022.0;nan
+Spain;0.987;2022.0;nan
+Trinidad and Tobago;0.935;2022.0;nan
+Ukraine;0.95;2022.0;nan
+Botswana;0.832;2022.0;nan
+Belarus;0.992;2022.0;nan
+South Africa;0.837;2022.0;nan
+Uzbekistan;0.951;2022.0;nan
+Slovakia;0.946;2022.0;nan
+Iran (Islamic Republic of);0.946;2022.0;nan
+Brazil;0.868;2022.0;nan
+Russian Federation;0.957;2022.0;nan
+Kyrgyzstan;0.786;2022.0;nan
+Kuwait;0.0;2022.0;nan
+Lithuania;0.976;2022.0;nan
+Argentina;0.871;2022.0;nan
+Mongolia;0.855;2022.0;nan
+Bhutan;0.937;2022.0;nan
+China;0.0;2022.0;nan
+Libya;0.0;2022.0;nan
+Fiji;0.0;2022.0;nan
+Bangladesh;0.692;2022.0;nan
+State of Palestine;0.863;2022.0;nan
+Venezuela (Bolivarian Republic of);0.704;2022.0;nan
+Tajikistan;0.866;2022.0;nan
+Dominican Republic;0.784;2022.0;nan
+Palau;0.0;2022.0;nan
+Sao Tome and Principe;0.734;2022.0;nan
+Timor-Leste;0.813;2022.0;nan
+Namibia;0.754;2022.0;nan
+Suriname;0.88;2022.0;nan
+Indonesia;0.786;2022.0;nan
+Nauru;0.0;2022.0;nan
+Armenia;0.939;2022.0;nan
+India;0.875;2022.0;nan
+Romania;0.925;2022.0;nan
+Democratic People's Republic of Korea;0.97;2022.0;nan
+Panama;0.861;2022.0;nan
+Senegal;0.651;2022.0;nan
+Lao People's Democratic Republic;0.583;2022.0;nan
+Rwanda;0.653;2022.0;nan
+Kiribati;0.798;2022.0;nan
+Poland;0.979;2022.0;nan
+Djibouti;0.915;2022.0;nan
+Vanuatu;0.621;2022.0;nan
+Cambodia;0.738;2022.0;nan
+Maldives;0.975;2022.0;nan
+Myanmar;0.826;2022.0;nan
+Nepal;0.64;2022.0;nan
+Gabon;0.694;2022.0;nan
+Ghana;0.647;2022.0;nan
+Eswatini;0.664;2022.0;nan
+Kenya;0.633;2022.0;nan
+Australia;0.977;2022.0;nan
+Solomon Islands;0.719;2022.0;nan
+Burundi;0.634;2022.0;nan
+Seychelles;0.0;2022.0;nan
+Guatemala;0.78;2022.0;nan
+Bahamas;0.0;2022.0;nan
+Malawi;0.342;2022.0;nan
+Mauritania;0.663;2022.0;nan
+Zimbabwe;0.51;2022.0;nan
+Saudi Arabia;0.98;2022.0;nan
+Saint Kitts and Nevis;0.0;2022.0;nan
+Congo;0.727;2022.0;nan
+Gambia;0.622;2022.0;nan
+Sri Lanka;0.96;2022.0;nan
+Syrian Arab Republic;0.867;2022.0;nan
+Pakistan;0.656;2022.0;nan
+Zambia;0.339;2022.0;nan
+Uganda;0.415;2022.0;nan
+United Republic of Tanzania;0.38;2022.0;nan
+Mali;0.628;2022.0;nan
+Benin;0.617;2022.0;nan
+Madagascar;0.57;2022.0;nan
+Lesotho;0.652;2022.0;nan
+Togo;0.533;2022.0;nan
+Angola;0.377;2022.0;nan
+Haiti;0.61;2022.0;nan
+Burkina Faso;0.439;2022.0;nan
+Liberia;0.429;2022.0;nan
+Yemen;0.504;2022.0;nan
+Cameroon;0.416;2022.0;nan
+Iraq;0.631;2022.0;nan
+Micronesia (Federated States of);0.0;2022.0;nan
+Côte d'Ivoire;0.568;2022.0;nan
+Mozambique;0.561;2022.0;nan
+Comoros;0.649;2022.0;nan
+Sudan;0.633;2022.0;nan
+Ethiopia;0.222;2022.0;nan
+New Zealand;0.974;2022.0;nan
+Guinea-Bissau;0.464;2022.0;nan
+Eritrea;0.0;2022.0;nan
+United Kingdom;0.975;2022.0;nan
+Nigeria;0.403;2022.0;nan
+Niger;0.406;2022.0;nan
+Papua New Guinea;0.42;2022.0;nan
+El Salvador;0.811;2022.0;nan
+Guinea;0.524;2022.0;nan
+Democratic Republic of the Congo;0.494;2022.0;nan
+Equatorial Guinea;0.391;2022.0;nan
+Central African Republic;0.32;2022.0;nan
+Sierra Leone;0.64;2022.0;nan
+Afghanistan;0.524;2022.0;nan
+Chad;0.206;2022.0;nan

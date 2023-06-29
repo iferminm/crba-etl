@@ -1,0 +1,117 @@
+COUNTRY_NAME;DIM_SECTOR;TIME_PERIOD;RAW_OBS_VALUE;ATTR_ENDPOINT
+Senegal ;oil-gas;2017;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Ghana ;oil-gas;2017;67.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Colombia ;oil-gas;2017;71.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Mexico ;oil-gas;2017;61.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Azerbaijan ;oil-gas;2017;47.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Guyana ;oil-gas;2017;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Tanzania ;oil-gas;2017;53.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Lebanon ;oil-gas;2017;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Nigeria ;oil-gas;2017;42.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Tunisia ;oil-gas;2017;56.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Uganda ;oil-gas;2017;44.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Qatar ;oil-gas;2017;43.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Democratic Republic of Congo ;oil-gas;2017;25.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Algeria ;oil-gas;2017;33.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Angola ;oil-gas;2017;35.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Argentina ;oil-gas;2017;57.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Bahrain ;oil-gas;2017;39.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Bangladesh ;oil-gas;2017;36.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Bolivia ;oil-gas;2017;54.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Brazil ;oil-gas;2017;71.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Cameroon ;oil-gas;2017;54.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Canada (Alberta) ;oil-gas;2017;75.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Chad ;oil-gas;2017;34.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+China ;oil-gas;2017;55.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Congo ;oil-gas;2017;39.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Cote d'Ivoire ;oil-gas;2017;55.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Cuba ;oil-gas;2017;36.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Ecuador ;oil-gas;2017;54.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Egypt ;oil-gas;2017;39.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Equatorial Guinea ;oil-gas;2017;22.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Gabon ;oil-gas;2017;36.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+India ;oil-gas;2017;70.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Indonesia ;oil-gas;2017;68.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Iran ;oil-gas;2017;38.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Iraq ;oil-gas;2017;38.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Kazakhstan ;oil-gas;2017;56.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Kuwait ;oil-gas;2017;54.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Libya ;oil-gas;2017;18.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Malaysia ;oil-gas;2017;56.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Mozambique ;oil-gas;2017;50.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Myanmar ;oil-gas;2017;31.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Norway ;oil-gas;2017;86.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Oman ;oil-gas;2017;50.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Russia ;oil-gas;2017;45.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Saudi Arabia ;oil-gas;2017;36.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+South Sudan ;oil-gas;2017;32.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Sudan ;oil-gas;2017;21.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Timor-Leste ;oil-gas;2017;49.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Trinidad and Tobago ;oil-gas;2017;64.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Turkmenistan ;oil-gas;2017;11.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Ukraine ;oil-gas;2017;49.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+United Arab Emirates ;oil-gas;2017;42.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+United Kingdom ;oil-gas;2017;77.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+United States of America (Gulf of Mexico) ;oil-gas;2017;74.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Uzbekistan ;oil-gas;2017;29.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Venezuela ;oil-gas;2017;33.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Vietnam ;oil-gas;2017;48.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Yemen ;oil-gas;2017;30.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Senegal ;oil-gas;2021;82.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Ghana ;oil-gas;2021;78.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Colombia ;oil-gas;2021;76.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Mexico ;oil-gas;2021;71.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Azerbaijan ;oil-gas;2021;56.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Guyana ;oil-gas;2021;56.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Tanzania ;oil-gas;2021;55.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Lebanon ;oil-gas;2021;53.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Nigeria ;oil-gas;2021;53.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Tunisia ;oil-gas;2021;53.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Uganda ;oil-gas;2021;49.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Qatar ;oil-gas;2021;45.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Democratic Republic of Congo ;oil-gas;2021;38.0;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Algeria ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Angola ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Argentina ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Bahrain ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Bangladesh ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Bolivia ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Brazil ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Cameroon ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Canada (Alberta) ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Chad ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+China ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Congo ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Cote d'Ivoire ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Cuba ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Ecuador ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Egypt ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Equatorial Guinea ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Gabon ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+India ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Indonesia ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Iran ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Iraq ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Kazakhstan ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Kuwait ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Libya ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Malaysia ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Mozambique ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Myanmar ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Norway ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Oman ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Russia ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Saudi Arabia ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+South Sudan ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Sudan ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Timor-Leste ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Trinidad and Tobago ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Turkmenistan ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Ukraine ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+United Arab Emirates ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+United Kingdom ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+United States of America (Gulf of Mexico) ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Uzbekistan ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Venezuela ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Vietnam ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021
+Yemen ;oil-gas;2021;;https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021

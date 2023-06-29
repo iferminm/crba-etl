@@ -1,0 +1,196 @@
+COUNTRY_ISO_3_original;country_col_not_used;TIME_PERIOD;RAW_OBS_VALUE;ATTR_NOTE_OF_SOURCE;ATTR_SOURCE_COMMENT;ATTR_ENCODING_LABELS;ATTR_SOURCE;ATTR_SOURCE_BODY;INDICATOR_CODE;INDICATOR_NAME;INDIATOR_INDEX;INDICATOR_ISSUE;INDICATOR_CATEGORY;INDICATOR_DESCRIPTION;Unnamed: 35;COUNTRY_ISO_2_country_list;COUNTRY_ISO_3_country_list;COUNTRY_ISO_3;ATTR_ENDPOINT
+AFG;Afghanistan;2020;Yes;;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;Filled with value in data dictionary;AF;AFG;AFG;nan
+ALB;Albania;2020;Yes;;;;;;;;;;;;;AL;ALB;ALB;nan
+AND;Andorra;2020;Yes;;;;;;;;;;;;;AD;AND;AND;nan
+DZA;Algeria;2020;Yes;;;;;;;;;;;;;DZ;DZA;DZA;nan
+AGO;Angola;2020;Yes;;;;;;;;;;;;;AO;AGO;AGO;nan
+ATG;Antigua and Barbuda;2020;Yes;;;;;;;;;;;;;AG;ATG;ATG;nan
+ARG;Argentina;2020;Yes;;;;;;;;;;;;;AR;ARG;ARG;nan
+ARM;Armenia;2020;Yes;;;;;;;;;;;;;AM;ARM;ARM;nan
+AUS;Australia;2020;No;Since adoption of the Declaration, Australia, New Zealand, United States and Canada have all reversed their positions and expressed support for the Declaration. Colombia and Samoa have also endorsed the Declaration.;;;;;;;;;;;;AU;AUS;AUS;nan
+AUT;Austria;2020;Yes;;;;;;;;;;;;;AT;AUT;AUT;nan
+AZE;Azerbaijan;2020;Abstention;;;;;;;;;;;;;AZ;AZE;AZE;nan
+BHS;Bahamas;2020;Yes;;;;;;;;;;;;;BS;BHS;BHS;nan
+BHR;Bahrain;2020;Yes;;;;;;;;;;;;;BH;BHR;BHR;nan
+BGD;Bangladesh;2020;Abstention;;;;;;;;;;;;;BD;BGD;BGD;nan
+BRB;Barbados;2020;Yes;;;;;;;;;;;;;BB;BRB;BRB;nan
+BLR;Belarus;2020;Yes;;;;;;;;;;;;;BY;BLR;BLR;nan
+BEL;Belgium;2020;Yes;;;;;;;;;;;;;BE;BEL;BEL;nan
+BLZ;Belize;2020;Yes;;;;;;;;;;;;;BZ;BLZ;BLZ;nan
+BEN;Benin;2020;Yes;;;;;;;;;;;;;BJ;BEN;BEN;nan
+BTN;Bhutan;2020;Abstention;;;;;;;;;;;;;BT;BTN;BTN;nan
+BOL;Bolivia;2020;Yes;;;;;;;;;;;;;BO;BOL;BOL;nan
+BIH;Bosnia and Herzegovina;2020;Yes;;;;;;;;;;;;;BA;BIH;BIH;nan
+BWA;Botswana;2020;Yes;;;;;;;;;;;;;BW;BWA;BWA;nan
+BRA;Brazil;2020;Yes;;;;;;;;;;;;;BR;BRA;BRA;nan
+BRN;Brunei;2020;Yes;;;;;;;;;;;;;BN;BRN;BRN;nan
+BGR;Bulgaria;2020;Yes;;;;;;;;;;;;;BG;BGR;BGR;nan
+BFA;Burkina Faso;2020;Yes;;;;;;;;;;;;;BF;BFA;BFA;nan
+BDI;Burundi;2020;Abstention;;;;;;;;;;;;;BI;BDI;BDI;nan
+CPV;Cabo Verde;2020;Yes;;;;;;;;;;;;;CV;CPV;CPV;nan
+KHM;Cambodia;2020;Yes;;;;;;;;;;;;;KH;KHM;KHM;nan
+CMR;Cameroon;2020;Yes;;;;;;;;;;;;;CM;CMR;CMR;nan
+CAN;Canada;2020;No;Since adoption of the Declaration, Australia, New Zealand, United States and Canada have all reversed their positions and expressed support for the Declaration. Colombia and Samoa have also endorsed the Declaration.;;;;;;;;;;;;;;CAN;nan
+CAF;Central African Republic;2020;Yes;;;;;;;;;;;;;CF;CAF;CAF;nan
+TCD;Chad;2020;Yes;;;;;;;;;;;;;TD;TCD;TCD;nan
+CHL;Chile;2020;Yes;;;;;;;;;;;;;CL;CHL;CHL;nan
+CHN;China;2020;Yes;;;;;;;;;;;;;CN;CHN;CHN;nan
+COL;Colombia;2020;Abstention;Since adoption of the Declaration, Australia, New Zealand, United States and Canada have all reversed their positions and expressed support for the Declaration. Colombia and Samoa have also endorsed the Declaration.;;;;;;;;;;;;CO;COL;COL;nan
+COM;Comoros;2020;Yes;;;;;;;;;;;;;KM;COM;COM;nan
+COG;Congo;2020;Yes;;;;;;;;;;;;;CG;COG;COG;nan
+COD;DR Congo;2020;Yes;;;;;;;;;;;;;;;COD;nan
+CRI;Costa Rica;2020;Yes;;;;;;;;;;;;;CR;CRI;CRI;nan
+CIV;Côte d'Ivoire;2020;Yes;;;;;;;;;;;;;;;CIV;nan
+HRV;Croatia;2020;Yes;;;;;;;;;;;;;HR;HRV;HRV;nan
+CUB;Cuba;2020;Yes;;;;;;;;;;;;;CU;CUB;CUB;nan
+CYP;Cyprus;2020;Yes;;;;;;;;;;;;;CY;CYP;CYP;nan
+CZE;Czech Republic;2020;Yes;;;;;;;;;;;;;CZ;CZE;CZE;nan
+DNK;Denmark;2020;Yes;;;;;;;;;;;;;DK;DNK;DNK;nan
+DJI;Djibouti;2020;Yes;;;;;;;;;;;;;DJ;DJI;DJI;nan
+DMA;Dominica;2020;Yes;;;;;;;;;;;;;DM;DMA;DMA;nan
+DOM;Dominican Republic;2020;Yes;;;;;;;;;;;;;DO;DOM;DOM;nan
+ECU;Ecuador;2020;Yes;;;;;;;;;;;;;EC;ECU;ECU;nan
+EGY;Egypt;2020;Yes;;;;;;;;;;;;;EG;EGY;EGY;nan
+SLV;El Salvador;2020;Yes;;;;;;;;;;;;;SV;SLV;SLV;nan
+GNQ;Equatorial Guinea;2020;Yes;;;;;;;;;;;;;GQ;GNQ;GNQ;nan
+ERI;Eritrea;2020;Yes;;;;;;;;;;;;;ER;ERI;ERI;nan
+EST;Estonia;2020;Yes;;;;;;;;;;;;;EE;EST;EST;nan
+SWZ;Swaziland;2020;Yes;;;;;;;;;;;;;;;SWZ;nan
+ETH;Ethiopia;2020;Yes;;;;;;;;;;;;;ET;ETH;ETH;nan
+FJI;Fiji;2020;Yes;;;;;;;;;;;;;FJ;FJI;FJI;nan
+FIN;Finland;2020;Yes;;;;;;;;;;;;;FI;FIN;FIN;nan
+FRA;France;2020;Yes;;;;;;;;;;;;;FR;FRA;FRA;nan
+GAB;Gabon;2020;Yes;;;;;;;;;;;;;GA;GAB;GAB;nan
+GMB;Gambia;2020;Yes;;;;;;;;;;;;;GM;GMB;GMB;nan
+GEO;Georgia;2020;Abstention;;;;;;;;;;;;;GE;GEO;GEO;nan
+DEU;Germany;2020;Yes;;;;;;;;;;;;;DE;DEU;DEU;nan
+GHA;Ghana;2020;Yes;;;;;;;;;;;;;GH;GHA;GHA;nan
+GRC;Greece;2020;Yes;;;;;;;;;;;;;GR;GRC;GRC;nan
+GRD;Grenada;2020;Yes;;;;;;;;;;;;;GD;GRD;GRD;nan
+GTM;Guatemala;2020;Yes;;;;;;;;;;;;;GT;GTM;GTM;nan
+GIN;Guinea;2020;Yes;;;;;;;;;;;;;GN;GIN;GIN;nan
+GNB;Guinea-Bissau;2020;Yes;;;;;;;;;;;;;;;GNB;nan
+GUY;Guyana;2020;Yes;;;;;;;;;;;;;GY;GUY;GUY;nan
+HTI;Haiti;2020;Yes;;;;;;;;;;;;;HT;HTI;HTI;nan
+HND;Honduras;2020;Yes;;;;;;;;;;;;;HN;HND;HND;nan
+HUN;Hungary;2020;Yes;;;;;;;;;;;;;HU;HUN;HUN;nan
+ISL;Iceland;2020;Yes;;;;;;;;;;;;;IS;ISL;ISL;nan
+IND;India;2020;Yes;;;;;;;;;;;;;IN;IND;IND;nan
+IDN;Indonesia;2020;Yes;;;;;;;;;;;;;ID;IDN;IDN;nan
+IRN;Iran;2020;Yes;;;;;;;;;;;;;IR;IRN;IRN;nan
+IRQ;Iraq;2020;Yes;;;;;;;;;;;;;IQ;IRQ;IRQ;nan
+IRL;Ireland;2020;Yes;;;;;;;;;;;;;IE;IRL;IRL;nan
+ISR;Israel;2020;Yes;;;;;;;;;;;;;IL;ISR;ISR;nan
+ITA;Italy;2020;Yes;;;;;;;;;;;;;IT;ITA;ITA;nan
+JAM;Jamaica;2020;Yes;;;;;;;;;;;;;JM;JAM;JAM;nan
+JPN;Japan;2020;Yes;;;;;;;;;;;;;JP;JPN;JPN;nan
+JOR;Jordan;2020;Yes;;;;;;;;;;;;;JO;JOR;JOR;nan
+KAZ;Kazakhstan;2020;Yes;;;;;;;;;;;;;KZ;KAZ;KAZ;nan
+KEN;Kenya;2020;Abstention;;;;;;;;;;;;;KE;KEN;KEN;nan
+KIR;Kiribati;2020;Yes;;;;;;;;;;;;;KI;KIR;KIR;nan
+PRK;North Korea;2020;Yes;;;;;;;;;;;;;;;PRK;nan
+KOR;South Korea;2020;Yes;;;;;;;;;;;;;;;KOR;nan
+XK;Kosovo;2020;Yes;;;;;;;;;;;;;XK;XKX;XK;nan
+KWT;Kuwait;2020;Yes;;;;;;;;;;;;;KW;KWT;KWT;nan
+KGZ;Kyrgyzstan;2020;Yes;;;;;;;;;;;;;;;KGZ;nan
+LAO;Laos;2020;Yes;;;;;;;;;;;;;;;LAO;nan
+LVA;Latvia;2020;Yes;;;;;;;;;;;;;LV;LVA;LVA;nan
+LBN;Lebanon;2020;Yes;;;;;;;;;;;;;LB;LBN;LBN;nan
+LSO;Lesotho;2020;Yes;;;;;;;;;;;;;LS;LSO;LSO;nan
+LBR;Liberia;2020;Yes;;;;;;;;;;;;;LR;LBR;LBR;nan
+LBY;Libya;2020;Yes;;;;;;;;;;;;;LY;LBY;LBY;nan
+LIE;Liechtenstein;2020;Yes;;;;;;;;;;;;;LI;LIE;LIE;nan
+LTU;Lithuania;2020;Yes;;;;;;;;;;;;;LT;LTU;LTU;nan
+LUX;Luxembourg;2020;Yes;;;;;;;;;;;;;LU;LUX;LUX;nan
+MKD;Macedonia;2020;Yes;;;;;;;;;;;;;;;MKD;nan
+MDG;Madagascar;2020;Yes;;;;;;;;;;;;;MG;MDG;MDG;nan
+MWI;Malawi;2020;Yes;;;;;;;;;;;;;MW;MWI;MWI;nan
+MYS;Malaysia;2020;Yes;;;;;;;;;;;;;MY;MYS;MYS;nan
+MDV;Maldives;2020;Yes;;;;;;;;;;;;;MV;MDV;MDV;nan
+MLI;Mali;2020;Yes;;;;;;;;;;;;;ML;MLI;MLI;nan
+MLT;Malta;2020;Yes;;;;;;;;;;;;;MT;MLT;MLT;nan
+MHL;Marshall Islands;2020;Yes;;;;;;;;;;;;;MH;MHL;MHL;nan
+MRT;Mauritania;2020;Yes;;;;;;;;;;;;;MR;MRT;MRT;nan
+MUS;Mauritius;2020;Yes;;;;;;;;;;;;;MU;MUS;MUS;nan
+MEX;Mexico;2020;Yes;;;;;;;;;;;;;MX;MEX;MEX;nan
+FSM;Micronesia;2020;Yes;;;;;;;;;;;;;FM;FSM;FSM;nan
+MDA;Moldova;2020;Yes;;;;;;;;;;;;;MD;MDA;MDA;nan
+MCO;Monaco;2020;Yes;;;;;;;;;;;;;MC;MCO;MCO;nan
+MNG;Mongolia;2020;Yes;;;;;;;;;;;;;MN;MNG;MNG;nan
+MNE;Montenegro;2020;Yes;;;;;;;;;;;;;ME;MNE;MNE;nan
+MAR;Morocco;2020;Yes;;;;;;;;;;;;;MA;MAR;MAR;nan
+MOZ;Mozambique;2020;Yes;;;;;;;;;;;;;MZ;MOZ;MOZ;nan
+MMR;Myanmar;2020;Yes;;;;;;;;;;;;;;;MMR;nan
+NAM;Namibia;2020;Yes;;;;;;;;;;;;;NA;NAM;NAM;nan
+NRU;Nauru;2020;Yes;;;;;;;;;;;;;NR;NRU;NRU;nan
+NPL;Nepal;2020;Yes;;;;;;;;;;;;;NP;NPL;NPL;nan
+NLD;Netherlands;2020;Yes;;;;;;;;;;;;;NL;NLD;NLD;nan
+NZL;New Zealand;2020;No;Since adoption of the Declaration, Australia, New Zealand, United States and Canada have all reversed their positions and expressed support for the Declaration. Colombia and Samoa have also endorsed the Declaration.;;;;;;;;;;;;NZ;NZL;NZL;nan
+NIC;Nicaragua;2020;Yes;;;;;;;;;;;;;NI;NIC;NIC;nan
+NER;Niger;2020;Yes;;;;;;;;;;;;;NE;NER;NER;nan
+NGA;Nigeria;2020;Abstention;;;;;;;;;;;;;NG;NGA;NGA;nan
+NOR;Norway;2020;Yes;;;;;;;;;;;;;NO;NOR;NOR;nan
+OMN;Oman;2020;Yes;;;;;;;;;;;;;OM;OMN;OMN;nan
+PAK;Pakistan;2020;Yes;;;;;;;;;;;;;PK;PAK;PAK;nan
+PLW;Palau;2020;Yes;;;;;;;;;;;;;PW;PLW;PLW;nan
+PSE;State of Palestine;2020;Yes;;;;;;;;;;;;;;;PSE;nan
+PAN;Panama;2020;Yes;;;;;;;;;;;;;PA;PAN;PAN;nan
+PNG;Papua New Guinea;2020;Yes;;;;;;;;;;;;;;;PNG;nan
+PRY;Paraguay;2020;Yes;;;;;;;;;;;;;PY;PRY;PRY;nan
+PER;Peru;2020;Yes;;;;;;;;;;;;;PE;PER;PER;nan
+PHL;Philippines;2020;Yes;;;;;;;;;;;;;PH;PHL;PHL;nan
+POL;Poland;2020;Yes;;;;;;;;;;;;;PL;POL;POL;nan
+PRT;Portugal;2020;Yes;;;;;;;;;;;;;PT;PRT;PRT;nan
+QAT;Qatar;2020;Yes;;;;;;;;;;;;;QA;QAT;QAT;nan
+ROU;Romania;2020;Yes;;;;;;;;;;;;;RO;ROU;ROU;nan
+RUS;Russia;2020;Abstention;;;;;;;;;;;;;RU;RUS;RUS;nan
+RWA;Rwanda;2020;Yes;;;;;;;;;;;;;RW;RWA;RWA;nan
+KNA;Saint Kitts and Nevis;2020;Yes;;;;;;;;;;;;;KN;KNA;KNA;nan
+LCA;Saint Lucia;2020;Yes;;;;;;;;;;;;;LC;LCA;LCA;nan
+VCT;Saint Vincent and The Grenadines;2020;Yes;;;;;;;;;;;;;;;VCT;nan
+WSM;Samoa;2020;Abstention;Since adoption of the Declaration, Australia, New Zealand, United States and Canada have all reversed their positions and expressed support for the Declaration. Colombia and Samoa have also endorsed the Declaration.;;;;;;;;;;;;WS;WSM;WSM;nan
+SMR;San Marino;2020;Yes;;;;;;;;;;;;;SM;SMR;SMR;nan
+STP;Sao Tome and Principe;2020;Yes;;;;;;;;;;;;;ST;STP;STP;nan
+SAU;Saudi Arabia;2020;Yes;;;;;;;;;;;;;SA;SAU;SAU;nan
+SEN;Senegal;2020;Yes;;;;;;;;;;;;;SN;SEN;SEN;nan
+SRB;Serbia;2020;Yes;;;;;;;;;;;;;RS;SRB;SRB;nan
+SYC;Seychelles;2020;Yes;;;;;;;;;;;;;SC;SYC;SYC;nan
+SLE;Sierra Leone;2020;Yes;;;;;;;;;;;;;SL;SLE;SLE;nan
+SGP;Singapore;2020;Yes;;;;;;;;;;;;;SG;SGP;SGP;nan
+SVK;Slovakia;2020;Yes;;;;;;;;;;;;;;;SVK;nan
+SVN;Slovenia;2020;Yes;;;;;;;;;;;;;SI;SVN;SVN;nan
+SLB;Solomon Islands;2020;Yes;;;;;;;;;;;;;SB;SLB;SLB;nan
+SOM;Somalia;2020;Yes;;;;;;;;;;;;;SO;SOM;SOM;nan
+ZAF;South Africa;2020;Yes;;;;;;;;;;;;;ZA;ZAF;ZAF;nan
+SSD;South Sudan;2020;Yes;;;;;;;;;;;;;SS;SSD;SSD;nan
+ESP;Spain;2020;Yes;;;;;;;;;;;;;ES;ESP;ESP;nan
+LKA;Sri Lanka;2020;Yes;;;;;;;;;;;;;LK;LKA;LKA;nan
+SDN;Sudan;2020;Yes;;;;;;;;;;;;;SD;SDN;SDN;nan
+SUR;Suriname;2020;Yes;;;;;;;;;;;;;SR;SUR;SUR;nan
+SWE;Sweden;2020;Yes;;;;;;;;;;;;;SE;SWE;SWE;nan
+CHE;Switzerland;2020;Yes;;;;;;;;;;;;;CH;CHE;CHE;nan
+SYR;Syria;2020;Yes;;;;;;;;;;;;;SY;SYR;SYR;nan
+TJK;Tajikistan;2020;Yes;;;;;;;;;;;;;TJ;TJK;TJK;nan
+TZA;Tanzania;2020;Yes;;;;;;;;;;;;;TZ;TZA;TZA;nan
+THA;Thailand;2020;Yes;;;;;;;;;;;;;TH;THA;THA;nan
+TLS;Timor-Leste;2020;Yes;;;;;;;;;;;;;;;TLS;nan
+TGO;Togo;2020;Yes;;;;;;;;;;;;;;;TGO;nan
+TON;Tonga;2020;Yes;;;;;;;;;;;;;;;TON;nan
+TTO;Trinidad and Tobago;2020;Yes;;;;;;;;;;;;;;;TTO;nan
+TUN;Tunisia;2020;Yes;;;;;;;;;;;;;;;TUN;nan
+TUR;Turkey;2020;Yes;;;;;;;;;;;;;;;TUR;nan
+TKM;Turkmenistan;2020;Yes;;;;;;;;;;;;;TM;TKM;TKM;nan
+TUV;Tuvalu;2020;Yes;;;;;;;;;;;;;TV;TUV;TUV;nan
+UGA;Uganda;2020;Yes;;;;;;;;;;;;;;;UGA;nan
+UKR;Ukraine;2020;Abstention;;;;;;;;;;;;;UA;UKR;UKR;nan
+ARE;United Arab Emirates;2020;Yes;;;;;;;;;;;;;;;ARE;nan
+GBR;United Kingdom;2020;Yes;;;;;;;;;;;;;;;GBR;nan
+USA;United States;2020;No;Since adoption of the Declaration, Australia, New Zealand, United States and Canada have all reversed their positions and expressed support for the Declaration. Colombia and Samoa have also endorsed the Declaration.;;;;;;;;;;;;;;USA;nan
+URY;Uruguay;2020;Yes;;;;;;;;;;;;;;;URY;nan
+UZB;Uzbekistan;2020;Yes;;;;;;;;;;;;;;;UZB;nan
+VUT;Vanuatu;2020;Yes;;;;;;;;;;;;;;;VUT;nan
+VEN;Venezuela;2020;Yes;;;;;;;;;;;;;;;VEN;nan
+VNM;Vietnam;2020;Yes;;;;;;;;;;;;;;;VNM;nan
+YEM;Yemen;2020;Yes;;;;;;;;;;;;;;;YEM;nan
+ZMB;Zambia;2020;Yes;;;;;;;;;;;;;;;ZMB;nan
+ZWE;Zimbabwe;2020;Yes;;;;;;;;;;;;;;;ZWE;nan

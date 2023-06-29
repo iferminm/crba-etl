@@ -1,0 +1,37 @@
+name,sector,region,Composite/component,Subcomponent,Indicator,Score2017,Score2021
+Colombia ,mining,LAC,Composite,,,69,75
+Peru ,mining,LAC,Composite,,,62,75
+Senegal ,mining,SSA,Composite,,,,75
+Mongolia ,mining,EURA,Composite,,,64,70
+Ghana ,mining,SSA-AF,Composite,,,56,69
+Guinea ,mining,SSA-AF,Composite,,,38,62
+Mexico ,mining,LAC,Composite,,,60,59
+Tanzania ,mining,SSA-AF,Composite,,,49,58
+Uganda ,mining,SSA-AF,Composite,,,,55
+Tunisia ,mining,MENA-AF,Composite,,,46,50
+Morocco ,mining,MENA-AF,Composite,,,52,49
+Democratic Republic of Congo ,mining,SSA-AF,Composite,,,33,36
+Afghanistan ,mining,EURA,Composite,,,34,
+Australia (Western) ,mining,ASIAP,Composite,,,71,
+Botswana ,mining,SSA-AF,Composite,,,61,
+Burkina Faso ,mining,SSA-AF,Composite,,,59,
+Cambodia ,mining,ASIAP,Composite,,,30,
+Chile ,mining,LAC,Composite,,,81,
+Eritrea ,mining,SSA-AF,Composite,,,10,
+Ethiopia ,mining,SSA-AF,Composite,,,40,
+Guatemala ,mining,LAC,Composite,,,41,
+Indonesia ,mining,ASIAP,Composite,,,68,
+Kyrgyz Republic ,mining,EURA,Composite,,,51,
+Lao PDR ,mining,ASIAP,Composite,,,38,
+Liberia ,mining,SSA-AF,Composite,,,44,
+Madagascar ,mining,SSA-AF,Composite,,,36,
+Mali ,mining,SSA-AF,Composite,,,53,
+Mauritania ,mining,MENA-AF,Composite,,,29,
+Myanmar ,mining,ASIAP,Composite,,,27,
+Niger ,mining,SSA-AF,Composite,,,54,
+Papua New Guinea ,mining,ASIAP,Composite,,,47,
+Philippines ,mining,ASIAP,Composite,,,58,
+Sierra Leone ,mining,SSA-AF,Composite,,,46,
+South Africa ,mining,SSA-AF,Composite,,,57,
+Zambia ,mining,SSA-AF,Composite,,,50,
+Zimbabwe ,mining,SSA-AF,Composite,,,29,

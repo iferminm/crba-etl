@@ -1,0 +1,73 @@
+COUNTRY_NAME;DIM_SECTOR;TIME_PERIOD;RAW_OBS_VALUE;ATTR_ENDPOINT
+Colombia ;mining;2017;69.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Peru ;mining;2017;62.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Senegal ;mining;2017;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Mongolia ;mining;2017;64.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Ghana ;mining;2017;56.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Guinea ;mining;2017;38.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Mexico ;mining;2017;60.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Tanzania ;mining;2017;49.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Uganda ;mining;2017;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Tunisia ;mining;2017;46.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Morocco ;mining;2017;52.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Democratic Republic of Congo ;mining;2017;33.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Afghanistan ;mining;2017;34.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Australia (Western) ;mining;2017;71.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Botswana ;mining;2017;61.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Burkina Faso ;mining;2017;59.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Cambodia ;mining;2017;30.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Chile ;mining;2017;81.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Eritrea ;mining;2017;10.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Ethiopia ;mining;2017;40.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Guatemala ;mining;2017;41.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Indonesia ;mining;2017;68.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Kyrgyz Republic ;mining;2017;51.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Lao PDR ;mining;2017;38.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Liberia ;mining;2017;44.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Madagascar ;mining;2017;36.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Mali ;mining;2017;53.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Mauritania ;mining;2017;29.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Myanmar ;mining;2017;27.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Niger ;mining;2017;54.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Papua New Guinea ;mining;2017;47.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Philippines ;mining;2017;58.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Sierra Leone ;mining;2017;46.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+South Africa ;mining;2017;57.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Zambia ;mining;2017;50.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Zimbabwe ;mining;2017;29.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Colombia ;mining;2021;75.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Peru ;mining;2021;75.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Senegal ;mining;2021;75.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Mongolia ;mining;2021;70.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Ghana ;mining;2021;69.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Guinea ;mining;2021;62.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Mexico ;mining;2021;59.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Tanzania ;mining;2021;58.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Uganda ;mining;2021;55.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Tunisia ;mining;2021;50.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Morocco ;mining;2021;49.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Democratic Republic of Congo ;mining;2021;36.0;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Afghanistan ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Australia (Western) ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Botswana ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Burkina Faso ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Cambodia ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Chile ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Eritrea ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Ethiopia ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Guatemala ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Indonesia ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Kyrgyz Republic ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Lao PDR ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Liberia ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Madagascar ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Mali ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Mauritania ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Myanmar ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Niger ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Papua New Guinea ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Philippines ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Sierra Leone ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+South Africa ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Zambia ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
+Zimbabwe ;mining;2021;;https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021
