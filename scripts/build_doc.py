@@ -45,7 +45,7 @@ value_types = pd.read_json("etl/resources/value_type.json")
 value_types.to_excel(writer, sheet_name="Value Type", header=True, index=False)
 
 # TODO Maybe need to be put in an ordered list
-available_configs = glob.glob("config/*/in")
+available_configs = [str(PurePath(f).as_posix()) for f in glob.glob("config/*/in")]
 for idx, f in enumerate(available_configs):
     year = re.match("config/(\d{4})/in", f).group(1)
     print(f"Config {year}")
