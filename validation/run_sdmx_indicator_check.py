@@ -54,6 +54,13 @@ configs = {
 
 config = configs[sys.argv[1]]
 
+import platform
+if platform.system() == "Windows":
+    print("Change youre operating system. Windows File System sucks")
+    os.environ["VALIDATIONS_STORE_BASE_PATH"]= config["VALIDATIONS_STORE_BASE_PATH"]
+    os.environ["DATA_DOCS_BASE_PATH"]= config["DATA_DOCS_BASE_PATH"]
+
+
 data_context: FileDataContext = get_context(
     context_root_dir=Path(pwd) / "validation/great_expectations",
     runtime_environment={"VALIDATIONS_STORE_BASE_PATH": config["VALIDATIONS_STORE_BASE_PATH"],
