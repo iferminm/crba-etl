@@ -8,12 +8,14 @@ This repository contains all components to create that CRBA dataset.
 
 ## Further information and documentation
 
-Please note refer to these links: 
+Please refer to these links: 
 
 | What| Link |
 | -------- | -------- |
-| Documentation of general CRBA methodology and non-code documentation   | https://docs.google.com/document/d/1bjvQ2lt4VvxoXjunDU7X9NVF1cVHRG6b/edit   |
+| Documentation of general CRBA methodology and non-code documentation   | https://docs.google.com/document/d/13EIVvEFBZ_zpyV96iLKFDjCWxKGDM-ponXuo3xzElb4/edit?usp=sharing  |
 | UNICEF Indicator Data Warehouse, where final CRBA dataset can be downloaded    | https://sdmx.data.unicef.org/data/overview.html  |
+| Indicator dictionary (contains information e.g. on what source was used for which indicator)    | This file is created by `/scripts/build_doc.py` and output to `/docs/data_dictionary.xlx` </br> A version that can be viewed in Google Sheets (and which has manual edits for easier readbility) can be accessed here:  https://docs.google.com/spreadsheets/d/1efrWs2S_w74QLnLYoDV8dwzYkNB1cox5drrafk5GKZE/edit?usp=sharing  |
+| Aggregate scoress   | This is an xlx sheet which is also created by the code, but we are puttin this publicly accessible here as well:  https://docs.google.com/spreadsheets/d/1u7LCslYu3HP_lGi3oRu2GTXsjo_hYiKROfMwxx6ZZJk/edit?usp=sharing  |
 
 ## History, timeline and changelog of CRBA
 
