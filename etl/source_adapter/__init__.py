@@ -22,30 +22,24 @@ def read_excel_with_engine_fallback(
     **kwargs: Any
 ) -> pd.DataFrame:
     """
-    Read Excel file with automatic engine detection and fallback.
-    Tries openpyxl first, then xlrd if that fails.
+    Read Excel file with appropriate engine based on file extension.
+    Uses openpyxl for .xlsx files and xlrd for .xls files.
     """
-    engines: list[tuple[Literal['openpyxl', 'xlrd'], str]] = [
-        ('openpyxl', 'xlsx'), 
-        ('xlrd', 'xls')
-    ]
-    errors = []
+    file_path_str = str(file_path).lower()
     
-    for engine, format_name in engines:
-        try:
-            return _try_read_excel_with_engine(file_path, engine, **kwargs)
-        except (ValueError, ImportError, FileNotFoundError) as e:
-            errors.append(f"{engine} ({format_name}): {str(e)}")
-        except Exception as e:
-            raise ExtractionError(
-                f"Failed to read Excel file '{file_path}' with {engine} engine: {str(e)}.",
-                str(file_path)
-            )
+    # Choose engine based on file extension
+    if file_path_str.endswith('.xlsx'):
+        engine = 'openpyxl'
+    elif file_path_str.endswith('.xls'):
+        engine = 'xlrd'
+    else:
+        # Default to openpyxl for unknown extensions
+        engine = 'openpyxl'
     
-    error_details = "; ".join(errors)
-    raise ExtractionError(
-        f"Failed to read Excel file '{file_path}'. "
-        f"Tried engines: {error_details}. "
-        f"Please ensure the file is a valid Excel file (.xls or .xlsx format).",
-        str(file_path)
-    )
+    try:
+        return _try_read_excel_with_engine(file_path, engine, **kwargs)
+    except Exception as e:
+        raise ExtractionError(
+            f"Failed to read Excel file '{file_path}' with {engine} engine: {str(e)}.",
+            str(file_path)
+        )
