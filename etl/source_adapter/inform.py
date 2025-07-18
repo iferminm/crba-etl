@@ -1,5 +1,3 @@
-import re
-
 import pandas as pd
 
 from etl.source_adapter import SourceAdapter, ManualTransformer, read_excel_with_engine_fallback
