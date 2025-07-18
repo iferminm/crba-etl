@@ -1,6 +1,5 @@
 import datetime
 
-import requests
 import pandas as pd
 
 from etl.methology import (
@@ -14,7 +13,7 @@ from etl.methology import (
     mapping_dict,
     value_mapper
 )
-from etl.source_adapter import SourceAdapter
+from etl.source_adapter import SourceAdapter, read_excel_with_engine_fallback
 from etl.transformation import cleanse, scaler
 
 
@@ -87,7 +86,7 @@ class ICRC_Treaties(SourceAdapter):
 
     def _download(self):
         # Try loading data from endpoint (preferred)
-        self.dataframe = pd.read_excel(
+        self.dataframe = read_excel_with_engine_fallback(
             self.endpoint,
             sheet_name="IHL and other related Treaties",
             header=1,

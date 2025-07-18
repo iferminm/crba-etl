@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 from etl.methology import country_iso_list
-from etl.source_adapter import ManualTransformer
-from etl.source_adapter import SourceAdapter
+from etl.source_adapter import SourceAdapter, ManualTransformer, read_excel_with_engine_fallback
+from etl.transformation import cleanse, scaler
 
 
 class HumanEnteredBlueprintIndicatorBuilder(SourceAdapter):
@@ -20,12 +20,12 @@ class HumanEnteredBlueprintIndicatorBuilder(SourceAdapter):
         # latest_source_files, latest_year = GoogleDriveDownloader._download(self)
 
         if self.file_path:
-            self.dataframe = pd.read_excel(
+            self.dataframe = read_excel_with_engine_fallback(
                 self.config.input_data_data / self.file_path,
                 sheet_name="Blueprint",
             )
         else:
-            self.dataframe = pd.read_excel(
+            self.dataframe = read_excel_with_engine_fallback(
                 self.config.input_data_staging / f"{self.source_id}.xlsx",
                 sheet_name="Blueprint",
             )
@@ -112,7 +112,7 @@ class Economist_Intelligence_Unit(SourceAdapter):
     _transform = ManualTransformer._transform
 
     def _download(self):
-        self.dataframe = pd.read_excel(
+        self.dataframe = read_excel_with_engine_fallback(
             self.config.input_data_data / self.file_path,
             sheet_name="Ranking",
             header=17,
@@ -159,7 +159,7 @@ class FCTC_Data(SourceAdapter):
     _transform = ManualTransformer._transform
 
     def _download(self):
-        self.dataframe = pd.read_excel(
+        self.dataframe = read_excel_with_engine_fallback(
             self.config.input_data_data / self.file_path,
         )
 
@@ -182,7 +182,7 @@ class Landmark_Data(SourceAdapter):
 
     def _download(self):
         # Read data
-        S_167 = pd.read_excel(
+        S_167 = read_excel_with_engine_fallback(
             self.config.input_data_data / self.file_path,
             sheet_name="Pct_IP_CommunityLands",
         )
@@ -267,7 +267,7 @@ class UCW_Data(SourceAdapter):
     _transform = ManualTransformer._transform
 
     def _download(self):
-        self.dataframe = pd.read_excel(
+        self.dataframe = read_excel_with_engine_fallback(
             self.config.input_data_data / self.file_path,
             header=1,
         )
@@ -299,7 +299,7 @@ class Global_Slavery_Index(SourceAdapter):
     _transform = ManualTransformer._transform
 
     def _download(self):
-        self.dataframe = pd.read_excel(
+        self.dataframe = read_excel_with_engine_fallback(
             self.config.input_data_data
             / self.file_path,
             header=2,

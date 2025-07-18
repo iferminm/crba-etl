@@ -1,7 +1,6 @@
 import pandas as pd
 
-from etl.source_adapter import ManualTransformer
-from etl.source_adapter import SourceAdapter
+from etl.source_adapter import SourceAdapter, ManualTransformer, read_excel_with_engine_fallback
 
 
 class CRIN_Treaties(SourceAdapter):
@@ -15,7 +14,7 @@ class CRIN_Treaties(SourceAdapter):
     _transform = ManualTransformer._transform
 
     def _download(self):
-        self.dataframe = pd.read_excel(
+        self.dataframe = read_excel_with_engine_fallback(
             self.endpoint,
             sheet_name="All countries",
             header=1,

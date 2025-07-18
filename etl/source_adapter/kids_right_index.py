@@ -1,6 +1,6 @@
 import pandas as pd
 
-from etl.source_adapter import SourceAdapter, ManualTransformer
+from etl.source_adapter import SourceAdapter, ManualTransformer, read_excel_with_engine_fallback
 
 
 class KidsRightsIndex(SourceAdapter):
@@ -10,7 +10,7 @@ class KidsRightsIndex(SourceAdapter):
 
     _transform = ManualTransformer._transform
     def _download(self):
-        self.dataframe = pd.read_excel(self.config.input_data_data / self.file_path)
+        self.dataframe = read_excel_with_engine_fallback(self.config.input_data_data / self.file_path)
         # First Row is empty
         self.dataframe = self.dataframe.drop(0)
 
