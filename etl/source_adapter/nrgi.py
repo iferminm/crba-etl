@@ -71,7 +71,7 @@ class NRGI(SourceAdapter):
                       self.config.raw_output / f"nrgi_data_{self.nrgi_sector}.csv")
 
         # Clear data. Schema ['name', 'sector', 'region', 'Composite/component', 'Subcomponent','Indicator', 'Score2017', 'Score2021']
-        self.dataframe = pd.read_csv(self.config.raw_output / f"nrgi_data_{self.nrgi_sector}.csv")
+        self.dataframe = pd.read_csv(self.config.raw_output / f"nrgi_data_{self.nrgi_sector}.csv", sep=None, engine='python')
         # Only Select Columns 'name', 'region' and Score columns
         self.dataframe = self.dataframe.filter(regex=("name|sector|Score\d{4}"))
         # Rename Score Columns from Score2017 --> 2017

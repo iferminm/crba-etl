@@ -3,7 +3,7 @@ from io import StringIO
 import pandas as pd
 
 from etl.source_adapter import ManualTransformer
-from etl.source_adapter import SourceAdapter
+from etl.source_adapter import SourceAdapter, read_csv_with_robust_parsing
 from etl.source_adapter.csv import DefaultCSVExtractor
 
 
@@ -16,7 +16,7 @@ class GlobalHealthObservatory(SourceAdapter):
 
     def _download(self):
         csv_data = SourceAdapter.api_request(self.endpoint).text
-        self.dataframe = pd.read_csv(StringIO(csv_data), sep=",")
+        self.dataframe = read_csv_with_robust_parsing(StringIO(csv_data))
 
         # There are Duplicate Obersations. Both of which are valid.
         merge_comments = lambda x: "Mean from:" + "AND".join(x)
@@ -46,7 +46,7 @@ class S_157(SourceAdapter):
 
     def _download(self):
         csv_data = SourceAdapter.api_request(self.endpoint).text
-        self.dataframe = pd.read_csv(StringIO(csv_data), sep=",")
+        self.dataframe = read_csv_with_robust_parsing(StringIO(csv_data))
 
         # We only have the population data for both sexes, so discrd other dimensionsubgroups
         self.dataframe = self.dataframe.loc[self.dataframe.SEX == "BTSX"]
