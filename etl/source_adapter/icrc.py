@@ -1,16 +1,12 @@
 import datetime
-import pandas as pd
 
 from etl.methology import (
     sdmx_df_columns_all,
     sdmx_df_columns_dims,
-    sdmx_df_columns_country,
     sdmx_df_columns_time,
-    sdmx_df_columns_attr,
     country_crba_list,
     country_full_list,
     mapping_dict,
-    value_mapper
 )
 from etl.source_adapter import SourceAdapter, read_excel_with_engine_fallback
 from etl.transformation import cleanse, scaler

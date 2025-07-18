@@ -2,26 +2,21 @@ import bs4 as bs
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
 import logging
 
 from etl.methology import (
     sdmx_df_columns_all,
     sdmx_df_columns_dims,
-    sdmx_df_columns_country,
     sdmx_df_columns_time,
-    sdmx_df_columns_attr,
     country_crba_list,
     country_full_list,
     mapping_dict,
-    value_mapper
 )
 from etl.source_adapter import SourceAdapter
 from etl.transformation import cleanse, scaler
 
 
-log = logging.getLogger("")
+log = logging.getLogger(__name__)
 
 
 class ILO_Extractor(SourceAdapter):

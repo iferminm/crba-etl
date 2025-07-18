@@ -1,5 +1,3 @@
-import pandas as pd
-
 from etl.methology import (
     sdmx_df_columns_all,
     sdmx_df_columns_dims,
