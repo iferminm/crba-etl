@@ -10,7 +10,7 @@ from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 
 from etl.methology import country_crba_list
-from etl.source_adapter import ExtractionError
+from etl.source_adapter import ExtractionError, get_default_extractor_class, should_skip_source
 
 run_logger = logging.getLogger("etl.progress_logger")
 
@@ -42,7 +42,25 @@ def build_combined_normalized_csv(config):
                 try:
                     # TODO Make as sys arg
                     row = row.dropna().to_dict()
-                    extractor = dynamic_load(row["EXTRACTOR_CLASS"])(config, **row)
+                    
+                    # Check if source should be skipped
+                    should_skip, skip_reason = should_skip_source(row)
+                    if should_skip:
+                        run_logger.info(f"Source {row.get('SOURCE_ID')} skipped - {skip_reason}")
+                        continue
+                    
+                    # Debug logging to see what's happening
+                    run_logger.debug(f"Processing source {row.get('SOURCE_ID')} with config: {list(row.keys())}")
+                    
+                    # Get extractor class - use default if not specified
+                    extractor_class = row.get("EXTRACTOR_CLASS")
+                    if not extractor_class:
+                        # Determine default extractor based on file path
+                        file_path = row.get("FILE_PATH")
+                        extractor_class = get_default_extractor_class(file_path)
+                        run_logger.info(f"Source {row.get('SOURCE_ID')} using default extractor: {extractor_class}")
+                    
+                    extractor = dynamic_load(extractor_class)(config, **row)
                     extractors[row["SOURCE_ID"]] = extractor
                     extractor.build()
                     # More IMportant then simple INFO logs but less importend the download infos

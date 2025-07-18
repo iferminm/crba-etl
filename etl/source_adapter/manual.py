@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 from etl.methology import country_iso_list
-from etl.source_adapter import SourceAdapter, ManualTransformer, read_excel_with_engine_fallback
+from etl.source_adapter import SourceAdapter, ManualTransformer, read_excel_with_engine_fallback, read_csv_with_robust_parsing
 
 
 
@@ -336,7 +336,7 @@ class Climate_Watch_Data_S_153(SourceAdapter):
     _transform = ManualTransformer._transform
 
     def _download(self):
-        self.dataframe = pd.read_csv(
+        self.dataframe = read_csv_with_robust_parsing(
             self.config.input_data_data / self.file_path
         )
 
@@ -368,9 +368,8 @@ class Climate_Watch_Data_S_159(ManualTransformer):
         super().__init__(config, **kwarg)
 
     def _download(self):
-        self.dataframe = pd.read_csv(
+        self.dataframe = read_csv_with_robust_parsing(
             self.config.input_data_data / self.file_path,
-            sep=",",
             na_values="false"
         )
 

@@ -3,7 +3,7 @@ from io import StringIO
 import numpy as np
 import pandas as pd
 
-from etl.source_adapter import SourceAdapter
+from etl.source_adapter import SourceAdapter, read_csv_with_robust_parsing
 from etl.transformation import cleanse, scaler
 from etl.methology import (
     sdmx_df_columns_all,
@@ -26,7 +26,7 @@ class DefaultCSVExtractor(SourceAdapter):
 
     def _download(self):
         csv_data = SourceAdapter.api_request(self.endpoint).text
-        raw_data = pd.read_csv(StringIO(csv_data), sep=",")
+        raw_data = read_csv_with_robust_parsing(StringIO(csv_data))
         # TODO establish Great Expectation to check sources
         return raw_data
 
