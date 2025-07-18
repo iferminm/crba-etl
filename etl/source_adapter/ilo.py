@@ -32,8 +32,11 @@ class ILO_Extractor(SourceAdapter):
         super().__init__(config, **kwarg)
 
         options = Options()
-        options.headless = True
-        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), chrome_options=options)
+        options.add_argument("--headless=new")  # 👈 new headless mode (use this!)
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+
+        self.driver = webdriver.Chrome(options=options)
 
     def _download(self):
         response = self.driver.get(self.address)

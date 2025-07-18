@@ -26,10 +26,10 @@ class NRGI(SourceAdapter):
         prefs = {"download.default_directory": str(config.raw_output.resolve())}
 
         options = Options()
-        options.add_experimental_option("prefs", prefs)
-        options.headless = True
-        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), chrome_options=options)
-
+        options.add_argument("--headless=new")  # 👈 new headless mode (use this!)
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        self.driver = webdriver.Chrome(options=options)
         self.nrgi_sector = kwarg.get("NRGI_SECTOR")
         super().__init__(config, **kwarg)
 
