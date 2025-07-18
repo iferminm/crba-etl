@@ -1,8 +1,7 @@
 import pandas as pd
 
 from etl.methology import country_iso_list
-from etl.source_adapter import ManualTransformer
-from etl.source_adapter import SourceAdapter
+from etl.source_adapter import SourceAdapter, ManualTransformer, read_excel_with_engine_fallback
 
 class IDMC_Extractor(SourceAdapter):
     """
@@ -24,7 +23,7 @@ class IDMC_Extractor(SourceAdapter):
     _transform = ManualTransformer._transform
 
     def _download(self):
-        self.dataframe = pd.read_excel(self.endpoint).drop(0)
+        self.dataframe = read_excel_with_engine_fallback(self.endpoint).drop(0)
 
         self.dataframe["Year"] = self.dataframe["Year"].astype("Int64")
 

@@ -8,7 +8,7 @@ from etl.methology import (
     country_full_list,
     mapping_dict
 )
-from etl.source_adapter import SourceAdapter
+from etl.source_adapter import SourceAdapter, read_excel_with_engine_fallback
 from etl.transformation import cleanse, scaler
 
 
@@ -21,7 +21,7 @@ class WPA_Extractor(SourceAdapter):
         self.wpa_obs_raw_col = WPA_OBS_RAW_COL
 
     def _download(self):
-        self.dataframe = pd.read_excel(self.config.input_data_data / self.file_path)
+        self.dataframe = read_excel_with_engine_fallback(self.config.input_data_data / self.file_path)
         self.dataframe['TIME_PERIOD'] = self.wpa_year_col
 
         self.dataframe = self.dataframe.rename(columns={

@@ -1,10 +1,8 @@
 import re
-from io import StringIO
 
 import pandas as pd
 
-from etl.source_adapter import SourceAdapter
-from etl.source_adapter import ManualTransformer
+from etl.source_adapter import SourceAdapter, ManualTransformer, read_excel_with_engine_fallback
 
 
 class Inform_Risk_Index_Data(SourceAdapter):
@@ -20,7 +18,7 @@ class Inform_Risk_Index_Data(SourceAdapter):
     def _download(self):
         # try:
         # Try and pull data from endpoint if possible
-        self.dataframe = pd.read_excel(
+        self.dataframe = read_excel_with_engine_fallback(
             self.endpoint,
             header=1,
             sheet_name="INFORM Risk 2021 (a-z)",
