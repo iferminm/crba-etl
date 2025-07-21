@@ -4,6 +4,9 @@ import bs4 as bs
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
 
 from etl.methology import (
     country_crba_list,
@@ -26,7 +29,6 @@ class ILO_Extractor(SourceAdapter):
 
     def __init__(self, config, **kwarg):
         super().__init__(config, **kwarg)
-
         options = Options()
         options.add_argument("--headless=new")  # 👈 new headless mode (use this!)
         options.add_argument("--no-sandbox")
@@ -37,6 +39,8 @@ class ILO_Extractor(SourceAdapter):
     def _download(self):
         self.driver.get(self.address)
         soup = bs.BeautifulSoup(self.driver.page_source, features="lxml")
+        wait = WebDriverWait(self.driver, 30)
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".horizontalLine")))
         target_table = str(
             soup.find_all("table", {"cellspacing": "0", "class": "horizontalLine"})
         )
