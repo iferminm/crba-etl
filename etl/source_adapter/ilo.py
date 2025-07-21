@@ -34,7 +34,7 @@ class ILO_Extractor(SourceAdapter):
         self.driver = webdriver.Chrome(options=options)
 
     def _download(self):
-        response = self.driver.get(self.address)
+        self.driver.get(self.address)
         soup = bs.BeautifulSoup(self.driver.page_source, features="lxml")
         target_table = str(
             soup.find_all("table", {"cellspacing": "0", "class": "horizontalLine"})
