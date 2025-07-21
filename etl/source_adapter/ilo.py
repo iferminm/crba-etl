@@ -1,16 +1,17 @@
+import logging
+
 import bs4 as bs
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import logging
 
 from etl.methology import (
-    sdmx_df_columns_all,
-    sdmx_df_columns_dims,
-    sdmx_df_columns_time,
     country_crba_list,
     country_full_list,
     mapping_dict,
+    sdmx_df_columns_all,
+    sdmx_df_columns_dims,
+    sdmx_df_columns_time,
 )
 from etl.source_adapter import SourceAdapter
 from etl.transformation import cleanse, scaler
