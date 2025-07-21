@@ -332,8 +332,8 @@ def make_sdmx_ready(config):
 
     # Map values to encode them as SDMX codes
     # Run the column mapper script to load the mapping dictionary
-    from methology.value_mapping_sdmx_encoding import value_mapper_sdmx_encoding
-    from transformation.cleanse import map_values
+    from .methology.value_mapping_sdmx_encoding import value_mapper_sdmx_encoding
+    from .transformation.cleanse import map_values
     crba_final_sdmx_ready = map_values(
         cleansed_data=crba_final_sdmx_ready,
         value_mapping_dict=value_mapper_sdmx_encoding
