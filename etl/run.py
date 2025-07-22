@@ -307,12 +307,10 @@ def make_sdmx_ready(config):
 
     # Define list of columns to drop
     dropped_cols = [
-        #'Unnamed: 0',
         '_merge',
         'COUNTRY_ISO_2',
         'COUNTRY_NAME',
         'DIM_REP_TYPE',
-        #'DIM_ELEMENT_TYPE',
         'ATTR_INDICATOR_DESCRIPTION',
         'ATTR_INDICATOR_EXPLANATION',
         'ATTR_DATA_EXTRACTION_METHDOLOGY',
@@ -320,7 +318,6 @@ def make_sdmx_ready(config):
         'ATTR_SDG_INDICATOR_DESCRIPTION',
         'ATTR_SOURCE_OF_SOURCE',
         'ATTR_FOOTNOTE_OF_SOURCE',
-        #'INTERNAL_SOURCE_ID',
         'SOURCE_ID'
     ]
 
@@ -345,17 +342,11 @@ def make_sdmx_ready(config):
         "COUNTRY_ISO_3",
         "TIME_PERIOD",
         "DIM_SEX",
-        "DIM_EDU_LEVEL",
         "DIM_AGE_GROUP",
-        #"DIM_MANAGEMENT_LEVEL",
         "DIM_AREA_TYPE",
         "DIM_QUANTILE",
         "DIM_SDG_INDICATOR",
-        "DIM_OCU_TYPE",
         "DIM_SECTOR",
-        "DIM_ALCOHOL_TYPE",
-        "DIM_CAUSE_TYPE",
-        "DIM_MATERNAL_EDU_LVL",
     ]
 
     crba_final_sdmx_ready = crba_final_sdmx_ready.loc[~(crba_final_sdmx_ready.duplicated(
