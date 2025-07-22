@@ -38,9 +38,10 @@ class ILO_Extractor(SourceAdapter):
 
     def _download(self):
         self.driver.get(self.address)
-        soup = bs.BeautifulSoup(self.driver.page_source, features="lxml")
         wait = WebDriverWait(self.driver, 30)
         wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".horizontalLine")))
+
+        soup = bs.BeautifulSoup(self.driver.page_source, features="lxml")
         target_table = str(
             soup.find_all("table", {"cellspacing": "0", "class": "horizontalLine"})
         )
