@@ -37,6 +37,9 @@ class ILO_Extractor(SourceAdapter):
         self.driver = webdriver.Chrome(options=options)
 
     def _download(self):
+        if not self.address:
+            raise ValueError(f"No address provided for source {self.source_id}")
+        
         self.driver.get(self.address)
         wait = WebDriverWait(self.driver, 30)
         wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".horizontalLine")))
@@ -63,7 +66,7 @@ class ILO_Extractor(SourceAdapter):
 
         self.dataframe = cleanse.decompose_country_footnote_ilo_normlex(
             dataframe=self.dataframe,
-            country_name_list=country_full_list["COUNTRY_NAME"]
+            country_name_list=country_full_list["COUNTRY_NAME"] if country_full_list is not None else []
         )
 
         self.dataframe = cleanse.add_and_discard_countries(
@@ -107,8 +110,8 @@ class ILO_Extractor(SourceAdapter):
             cleansed_data=self.dataframe,
             sql_subset_query_string=self.dimension_values_normalization,
             # dim_cols=sdmx_df_columns_dims,
-            variable_type=self.value_labels,
-            is_inverted=self.invert_normalization,
+            variable_type=self.value_labels or "",
+            is_inverted=self.invert_normalization or "",
             whisker_factor=1.5,
             raw_data_col="RAW_OBS_VALUE",
             scaled_data_col_name="SCALED_OBS_VALUE",
