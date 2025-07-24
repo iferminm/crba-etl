@@ -2985,8 +2985,8 @@
     "SOURCE_BODY": "National Resource Governance Institute,",
     "SOURCE_TITLE": "Resource Governance Index: Mining",
     "NRGI_SECTOR": "mining",
-    "ADDRESS": "https:\/\/resourcegovernanceindex.org\/data\/both\/issue?region=global",
-    "ENDPOINT_URL": "https:\/\/api.resourcegovernanceindex.org\/system\/documents\/documents\/000\/000\/141\/original\/2017ResourceGovernanceIndex.csv?1518782068",
+    "ADDRESS": "https:\/\/api.resourcegovernanceindex.org\/system\/documents\/documents\/000\/000\/563\/original\/RGI_scoresonly.csv?1644253451",
+    "ENDPOINT_URL": "https:\/\/api.resourcegovernanceindex.org\/system\/documents\/documents\/000\/000\/563\/original/RGI_scoresonly.csv?1644253451",
     "un_treaty_data_col": null,
     "WPA_OBS_RAW_COL": null,
     "WPA_YEAR_COL": null,
@@ -2997,7 +2997,7 @@
     "ATTR_UNIT_MEASURE": null,
     "INVERT_NORMALIZATION": "not inverted",
     "UNIT_MEASURE": "IDX",
-    "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
+    "EXTRACTOR_CLASS": "etl.source_adapter.nrgi.NRGI",
     "FORMER_SOURCE_ID": "S-155"
   },
   "X-139": {
@@ -3007,8 +3007,8 @@
     "SOURCE_BODY": "National Resource Governance Institute,",
     "SOURCE_TITLE": "Resource Governance Index: Oil and gas",
     "NRGI_SECTOR": "oil_gas",
-    "ADDRESS": "https:\/\/resourcegovernanceindex.org\/data\/both\/issue?region=global",
-    "ENDPOINT_URL": "https:\/\/api.resourcegovernanceindex.org\/system\/documents\/documents\/000\/000\/141\/original\/2017ResourceGovernanceIndex.csv?1518782068",
+    "ADDRESS": "https://api.resourcegovernanceindex.org/system/documents/documents/000/000/563/original/RGI_scoresonly.csv?1644253451",
+    "ENDPOINT_URL": "https://api.resourcegovernanceindex.org/system/documents/documents/000/000/563/original/RGI_scoresonly.csv?1644253451",
     "un_treaty_data_col": null,
     "WPA_OBS_RAW_COL": null,
     "WPA_YEAR_COL": null,
@@ -3019,7 +3019,7 @@
     "ATTR_UNIT_MEASURE": null,
     "INVERT_NORMALIZATION": "not inverted",
     "UNIT_MEASURE": "IDX",
-    "EXTRACTOR_CLASS": "etl.source_adapter.csv.DefaultCSVExtractor",
+    "EXTRACTOR_CLASS": "etl.source_adapter.nrgi.NRGI",
     "FORMER_SOURCE_ID": "S-156"
   },
   "X-140": {
