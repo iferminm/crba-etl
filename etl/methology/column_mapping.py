@@ -151,6 +151,8 @@ obs_value_tuple = (
     "Conflict Stock Displacement (Raw)",
     "Conflict Internal Displacements",
     "Conflict Internal Displacements (Raw)",
+    "Disaster Internal Displacements (Raw)",
+    "Disaster Stock Displacement (Raw)",
     "admiss_age",
     "light_age",
     "edu_comp_begsec",
