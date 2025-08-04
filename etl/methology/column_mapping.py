@@ -91,6 +91,7 @@ country_tuple = (
     "Country/Region",
     "ref_area.label",
     "Country Name",
+    "Name",
 )
 country_mapper = {key: "COUNTRY_NAME" for key in country_tuple}
 
@@ -146,6 +147,7 @@ obs_value_tuple = (
     "RAW_OBS_VALUE",
     "obs_value",
     "Value",
+    "Conflict Stock Displacement",
     "admiss_age",
     "light_age",
     "edu_comp_begsec",
