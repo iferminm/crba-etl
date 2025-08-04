@@ -864,7 +864,7 @@
     "ATTR_RATIFICATION_DATE_COLUMN_NAME": null,
     "ATTR_UNIT_MEASURE": null,
     "INVERT_NORMALIZATION": "inverted",
-    "DIMENSION_VALUES_NORMALIZATION": "classif1.label==\"Occupation (ISCO-08): Total\"",
+    "DIMENSION_VALUES_NORMALIZATION": "`classif1.label`==\"Occupation (ISCO-08): Total\"",
     "UNIT_MEASURE": "PCNT",
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILOExtractor",
     "FORMER_SOURCE_ID": "S-50"
@@ -887,7 +887,7 @@
     "ATTR_RATIFICATION_DATE_COLUMN_NAME": null,
     "ATTR_UNIT_MEASURE": null,
     "INVERT_NORMALIZATION": "inverted",
-    "DIMENSION_VALUES_NORMALIZATION": "sex.label==\"Total\"&classif1.label==\"Institutional sector: Total\"",
+    "DIMENSION_VALUES_NORMALIZATION": "DIM_SEX==\"Total\"&`classif1.label`==\"Institutional sector: Total\"",
     "UNIT_MEASURE": "HRS_WK",
     "EXTRACTOR_CLASS": "etl.source_adapter.ilo.ILOExtractor",
     "FORMER_SOURCE_ID": "S-51"
