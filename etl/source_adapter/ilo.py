@@ -18,7 +18,10 @@ from etl.methology import (
 )
 from etl.source_adapter import SourceAdapter
 from etl.transformation import cleanse, scaler
-
+from etl.source_adapter.csv import DefaultCSVExtractor
+import requests
+from io import StringIO
+import pandas as pd
 
 log = logging.getLogger(__name__)
 
@@ -121,3 +124,22 @@ class ILO_Extractor(SourceAdapter):
         )
 
         return self.dataframe
+
+
+class ILOExtractor(DefaultCSVExtractor):
+    """Custom extractor for ILO sources that includes necessary headers to avoid bot detection"""
+    
+    def _download(self):
+        # Use custom headers to avoid bot detection
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        }
+        
+        response = requests.get(self.endpoint, headers=headers)
+        response.raise_for_status()
+        
+        csv_data = response.text
+        # Create StringIO and parse directly with pandas to avoid the robust parsing issue
+        csv_buffer = StringIO(csv_data)
+        raw_data = pd.read_csv(csv_buffer)
+        return raw_data
