@@ -89,6 +89,8 @@ country_tuple = (
     # "country.value",
     "Party",
     "Country/Region",
+    "ref_area.label",
+    "Country Name",
 )
 country_mapper = {key: "COUNTRY_NAME" for key in country_tuple}
 
@@ -127,6 +129,7 @@ year_tuple = (
     "TIME_PERIOD:Time period",
     "date",
     "ElementNumber",
+    "time",
 )
 year_mapper = {key: "TIME_PERIOD" for key in year_tuple}
 
@@ -141,6 +144,8 @@ obs_value_tuple = (
     "Display Value",
     "value",
     "RAW_OBS_VALUE",
+    "obs_value",
+    "Value",
     "admiss_age",
     "light_age",
     "edu_comp_begsec",
@@ -164,7 +169,6 @@ obs_value_tuple = (
     "OBS_VALUE:Observation value",
     "Score",
     "IC_F",
-    "Value",
     "OBS_VALUE:Observation Value",
 )
 obs_value_mapper = {key: "RAW_OBS_VALUE" for key in obs_value_tuple}
