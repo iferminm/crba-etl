@@ -4,14 +4,14 @@ version = "0.1.0"
 description = "Project for developing a Python Programm to create the data Foundation for the CRBA"
 authors = ["Lasse Karls <l_karls@outlook.com>"]
 readme = "README.md"
-repository = ""
+repository = "https://github.com/iferminm/crba-etl"
 packages = [
     { include = "etl" },
     { include = "validation" },
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.9.6,<3.11"
+python = ">=3.9.6,<3.12"
 pandas = "^1.5.2"
 openpyxl = "^3.0.10"
 requests = "^2.28.1"
