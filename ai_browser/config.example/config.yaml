@@ -1,0 +1,15 @@
+browser:
+  model: "gpt-5"
+  temperature: 0.0
+
+sources:
+  - source_id: X-1
+    start_url: https://data360.worldbank.org/en/indicator/FAO_AS_4190?view=datatable
+    instructions:
+      - From the data table download the data in wide format
+    output_format: json
+  - source_id: X-2
+    start_url: https://data360.worldbank.org/en/indicator/FAO_AS_4190?view=datatable
+    instructions:
+      - Extract the displayed table "Total renewable water resources per capita"
+    output_format: json
