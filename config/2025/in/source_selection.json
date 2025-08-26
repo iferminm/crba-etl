@@ -1,0 +1,939 @@
+{
+  "X-1": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-2": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-3": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+   },
+  "X-4": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-5": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-6": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-7": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-8": {
+    "FILE_PATH": "raw\/S_8, S_9\/WORLD_child_labor_7Mar22.xls"
+  },
+  "X-9": {
+    "FILE_PATH": "raw\/S_8, S_9\/WORLD_child_labor_7Mar22.xls"
+  },
+  "X-10": {
+    "FILE_PATH": "raw\/S_10\/WORLD_Dataset_Education_2.23.23.xls", 
+    "WPA_OBS_RAW_COL": "compend_lowsec",
+    "VALUE_ID": "V-100",
+    "WPA_YEAR_COL": 2019.0
+  },
+  "X-12": {
+    "TIME_PERIOD": 2023
+  },
+  "X-13": {
+    "FILE_PATH": "raw\/S_13\/WORLD_Dataset_Child_Labor_7Mar22.xls", 
+    "WPA_OBS_RAW_COL": "haz_age",
+    "VALUE_ID": "V-101",
+    "WPA_YEAR_COL": 2016.0
+  },
+  "X-15": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-16": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-17": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-18": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-19": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-20": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-21": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-22": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-23": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-24": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-25": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-26": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-27": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-28": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-29": {
+    "FILE_PATH": "raw\/S_36, S_45, S_49\/WORLD_Dataset_Income_3.9.15.xls"
+  },
+  "X-33": {
+    "FILE_PATH": "raw\/S_40, S_63, S_66, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls",
+    "WPA_YEAR_COL": 2016.0
+  },
+  "X-34": {
+    "FILE_PATH": "raw\/S_41\/WORLD_Dataset_Medical_Leave_05.19.23.xls",
+    "WPA_YEAR_COL": 2020.0
+  },
+  "X-35": {
+    "FILE_PATH": "raw\/S_42, S_43, S_44\/WORLD_Dataset_Workplace_Discrimination_and_Harassment_04.14.2023.xls",
+    "WPA_OBS_RAW_COL": "promdemo_gender",
+    "VALUE_ID": "V-103",
+    "WPA_YEAR_COL": 2022.0
+  },
+  "X-36": {
+    "FILE_PATH": "raw\/S_42, S_43, S_44\/WORLD_Dataset_Workplace_Discrimination_and_Harassment_04.14.2023.xls",
+    "WPA_OBS_RAW_COL": "pay_gender",
+    "WPA_YEAR_COL": 2022.0
+  },
+  "X-37": {
+    "FILE_PATH": "raw\/S_42, S_43, S_44\/WORLD_Dataset_Workplace_Discrimination_and_Harassment_04.14.2023.xls",
+    "WPA_YEAR_COL": 2022.0
+  },
+  "X-38": {
+    "FILE_PATH": "raw\/S_36, S_45, S_49\/WORLD_Dataset_Income_3.9.15.xls"
+  },
+  "X-40": {
+    "FILE_PATH": "raw\/S_36, S_45, S_49\/WORLD_Dataset_Income_3.9.15.xls"
+  },
+  "X-41": {
+    "startPeriod": "2020-01-01",
+    "endPeriod": "2023-12-31"
+  },
+  "X-42": {
+    "startPeriod": "2020-01-01",
+    "endPeriod": "2023-12-31"
+  },
+  "X-43": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-44": {
+    "startPeriod": "2012-01-01",
+    "endPeriod": "2023-12-31"
+  },
+  "X-221": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-46": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-47": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-48": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-49": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-50": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-51": {
+    "FILE_PATH": "../../../2023/in/data/raw/S-60-2023-Global-Slavery-Index-Data.xlsx",
+    "SHEET_NAME": "GSI 2023 summary data",
+    "RAW_OBS_VALUE_COLUMN_NAME" : "Estimated prevalence of modern slavery per 1,000 population"
+  },
+  "X-52": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-53": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-54": {
+    "FILE_PATH": "raw\/S_40, S_63, S_66, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls",
+    "WPA_YEAR_COL": 2016.0
+  },
+  "X-55": {
+    "FILE_PATH": "raw\/S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
+    "WPA_YEAR_COL": 2022.0
+  },
+  "X-56": {
+    "WPA_OBS_RAW_COL": "maternal_leave",
+    "FILE_PATH": "raw\/S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
+    "WPA_YEAR_COL": 2022.0
+  },
+  "X-57": {
+    "FILE_PATH": "raw\/S_40, S_63, S_66, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls",
+    "WPA_YEAR_COL": 2016.0
+  },
+  "X-58": {
+    "VALUE_ID": "V-102",
+    "WPA_OBS_RAW_COL": "paternal_leave",
+    "FILE_PATH": "raw\/S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
+    "WPA_YEAR_COL": 2022.0
+  },
+  "X-59": {
+    "FILE_PATH": "raw\/S_64, S_65, S_67, S_68\/WORLD_Dataset_Infant_Caregiving_4.14.23.xls",
+    "WPA_YEAR_COL": 2022.0
+  },
+  "X-62": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-63": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-65": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-66": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-67": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-68": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-69": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-70": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-71": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-72": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-73": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-73.xlsx",
+    "TIME_PERIOD": 2016
+  },
+  "X-74": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-75": {
+    "FILE_PATH": "../../../2020/in/data/raw/S-89 Answers_v2.xlsx"
+  },
+  "X-76": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-77": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-78": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-79": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-80": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-81": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-82": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-83": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-84": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-85": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-86": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-87": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-88": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-89": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-90": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-91": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-92": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-93": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-94": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-94.xlsx"
+  },
+  "X-95": {
+     "FILE_PATH": "../../../2020/in/data/staging/X-95.xlsx"
+  },
+  "X-96": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-96.xlsx"
+  },
+  "X-97": {
+    "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
+    "RAW_OBS_VALUE_TYPE": "continuous"
+  },
+  "X-98": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-99": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-100": {
+    "RAW_OBS_VALUE_TYPE": "continuous",
+    "INVERT_NORMALIZATION": "inverted",
+    "NORMALISE_TO_100000": true,
+    "VALUE_ID": "V-5"
+  },
+  "X-101": {
+    "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
+    "RAW_OBS_VALUE_TYPE": "continuous"
+  },
+  "X-102": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-103": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-105": {
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Environment",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Environment Score"
+  },
+  "X-106": {
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Environment",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Environment Score"
+  },
+  "X-107": {
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Environment",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Environment Score"
+  },
+  "X-108": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-109": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-110": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-111": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-112": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-113": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-114": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-118": {
+    "FILE_PATH": "raw\/S-11, S-120, S-124, S-134, S-229 OOSI_Out_of_the_shadows_index_60-countries_May2019.xlsm"
+  },
+  "X-119": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-120": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-121": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-122": {
+     "VALUE_ID": "V-64"
+  },
+  "X-123": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-124": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-125": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-126": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-127": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-128": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-129": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-129.xlsx"
+  },
+  "X-131": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-131.xlsx"
+  },
+  "X-132": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-132.xlsx"
+  },
+  "X-133": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-133.xlsx"
+  },
+  "X-134": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-134.xlsx"
+  },
+  "X-135": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-135.xlsx"
+  },
+  "X-136": {
+    "EXTRACTOR_CLASS": "etl.source_adapter.manual.HumanEnteredBlueprintIndicatorBuilder",
+    "RAW_OBS_VALUE_TYPE": "categorical"
+  },
+  "X-137": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-138": {
+    "ENDPOINT_URL": "https://resourcegovernanceindex.org/data/mining/issue?region=global&years=2017%2C2021",
+    "EXTRACTOR_CLASS": "etl.source_adapter.nrgi.NRGI"
+  },
+  "X-139": {
+    "ENDPOINT_URL": "https://resourcegovernanceindex.org/data/oil-gas/issue?region=global&years=2017%2C2021",
+    "EXTRACTOR_CLASS": "etl.source_adapter.nrgi.NRGI"
+  },
+  "X-140": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-141": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-142": {
+    "FILE_PATH": "raw/ghg-emissions.csv"
+  },
+  "X-143": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-144": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-145": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-146": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-147": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-148": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-148.xlsx"
+  },
+  "X-149": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-150": {
+    "FILE_PATH": "../../../2020/in/data/raw/S_167_Pct_IP_CommunityLands/Pct_IP_CommunityLands_20170623.xls"
+  },
+  "X-151": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-152": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-153": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-154": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-155": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-156": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-157": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-219": {
+    "SOMETHING": ""
+  },
+  "X-160": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-162": {
+    "STUFF": "xxx"
+  },
+  "X-220": {
+    "STARTPERIOD": "xxx"
+  },
+  "X-163": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-164": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-165": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-166": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-167": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-168": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-169": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-170": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-171": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-172": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-173": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-174": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-175": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-176": {
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Education",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Education Score"
+  },
+  "X-177": {
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Health",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Health Score"
+  },
+  "X-178": {
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "TIME_PERIOD": 2022,
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Protection",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Protection Score"
+  },
+  "X-179": {
+    "FILE_PATH": "raw\/Kids Rights Index.xlsx",
+    "TIME_PERIOD": 2022,
+    "EXTRACTOR_CLASS": "etl.source_adapter.kids_right_index.KidsRightsIndex",
+    "RAW_OBS_VALUE_COLUMN_NAME": "Score Protection",
+    "SOURCE_TITLE": "KidsRights Index 2022 Child Rights: Life Score"
+  },
+  "X-180": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-181": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-184": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-185": {
+    "startPeriod": "2020-01-01",
+    "endPeriod": "2023-12-31"
+  },
+  "X-186": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-187": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-188": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-189": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-190": {
+    "startPeriod": "2020-01-01",
+    "endPeriod": "2023-12-31"
+  },
+  "X-193": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-194": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-196": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-197": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-198": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-199": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-200": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-201": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-202": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-203": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-204": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-205": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-206": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-207": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-209": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-210": {
+    "FILE_PATH": "raw\/S_40, S_63, S_66, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls",
+    "WPA_YEAR_COL": 2016.0
+  },
+  "X-211": {
+    "FILE_PATH": "raw\/S_40, S_63, S_66, S_231, S_232\/WORLD_Dataset_Adult_Labor_9.17.18.xls",
+    "WPA_YEAR_COL": 2016.0
+  },
+  "X-212": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-212.xlsx",
+  },
+  "X-213": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-214": {
+    "FILE_PATH": "../../../2020/in/data/staging/X-214.xlsx"
+  },
+  "X-215": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-216": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-217": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-218": {
+    "STARTPERIOD": "xxx",
+    "ENDPERIOD": "xxx",
+    "TIMEPERIOD": "xxx"
+  },
+  "X-222": {
+    "SOURCE_TITLE": "NCMEC 2022 CyberTipline Reports by country",
+    "ADDRESS": "https://www.missingkids.org/content/dam/missingkids/pdfs/2022-reports-by-country.pdf"
+  }
+}
