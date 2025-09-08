@@ -47,7 +47,7 @@
     "WPA_YEAR_COL": 2019.0
   },
   "X-12": {
-    "TIME_PERIOD": 2023
+    "TIME_PERIOD": 2025
   },
   "X-13": {
     "FILE_PATH": "raw\/S_13\/WORLD_Dataset_Child_Labor_7Mar22.xls", 
@@ -159,11 +159,11 @@
   },
   "X-41": {
     "startPeriod": "2020-01-01",
-    "endPeriod": "2023-12-31"
+    "endPeriod": "2025-12-31"
   },
   "X-42": {
     "startPeriod": "2020-01-01",
-    "endPeriod": "2023-12-31"
+    "endPeriod": "2025-12-31"
   },
   "X-43": {
     "STARTPERIOD": "xxx",
@@ -172,7 +172,7 @@
   },
   "X-44": {
     "startPeriod": "2012-01-01",
-    "endPeriod": "2023-12-31"
+    "endPeriod": "2025-12-31"
   },
   "X-221": {
     "STARTPERIOD": "xxx",
@@ -792,7 +792,7 @@
   },
   "X-185": {
     "startPeriod": "2020-01-01",
-    "endPeriod": "2023-12-31"
+    "endPeriod": "2025-12-31"
   },
   "X-186": {
     "STARTPERIOD": "xxx",
@@ -816,7 +816,7 @@
   },
   "X-190": {
     "startPeriod": "2020-01-01",
-    "endPeriod": "2023-12-31"
+    "endPeriod": "2025-12-31"
   },
   "X-193": {
     "STARTPERIOD": "xxx",
