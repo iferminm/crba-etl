@@ -162,7 +162,6 @@ def aggregate_combined_normalized_csv(config):
         .rename(columns={"SCALED_OBS_VALUE": "CATEGORY_ISSUE_SCORE"})
     )
 
-    aggregated_scores_dataset = _invert_score(aggregated_scores_dataset, "CATEGORY_ISSUE_SCORE")
 
     # # # # Introduce weighting: duplicate all index_issues who belong to category outcome or enforcement
     aggregated_scores_dataset = aggregated_scores_dataset.append(
@@ -181,7 +180,6 @@ def aggregate_combined_normalized_csv(config):
         .rename(columns={"CATEGORY_ISSUE_SCORE": "ISSUE_INDEX_SCORE"})
     )
 
-    temp = _invert_score(temp, "ISSUE_INDEX_SCORE")
 
     # Drop duplicates again
     temp = temp.drop_duplicates()
@@ -214,7 +212,6 @@ def aggregate_combined_normalized_csv(config):
         .rename(columns={"ISSUE_INDEX_SCORE": "INDEX_SCORE"})
     )
 
-    temp_2 = _invert_score(temp_2, "INDEX_SCORE")
 
     # # Add risk category
     # Define list of percentiles
@@ -250,7 +247,6 @@ def aggregate_combined_normalized_csv(config):
     )
 
     
-    temp_3 = _invert_score(temp_3, "OVERALL_SCORE")
 
     # Join all aggregated score together
     aggregated_scores_dataset = (
@@ -286,6 +282,8 @@ def aggregate_combined_normalized_csv(config):
 
     # Did not join on entire composite key on left, must drop dupliates
     crba_final = crba_final.drop_duplicates()
+
+    crba_final = _invert_scores(crba_final, ["CATEGORY_ISSUE_SCORE", "ISSUE_INDEX_SCORE", "INDEX_SCORE", "OVERALL_SCORE"])
 
     # Export combined cleansed dataframe as a sample
     crba_final.to_csv(
@@ -386,7 +384,8 @@ def run(args, config):
     if args.sdmx_stage: make_sdmx_ready(config)
 
 
-def _invert_score(df, column_name):
+def _invert_scores(df, column_names):
     # Invert the score: 10 - x
-    df[column_name] = 10 - df[column_name]
+    for column_name in column_names:
+        df[column_name] = 10 - df[column_name]
     return df
