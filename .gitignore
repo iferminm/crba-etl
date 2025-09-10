@@ -359,3 +359,8 @@ scripts/test.xml
 dummy*
 soure_filter.sql
 soure_filter1.sql
+
+# ignored local folder
+local/
+.DS_Store
+**/.DS_Store
