@@ -2,12 +2,9 @@ config/2020/in/data/raw/** filter=lfs diff=lfs merge=lfs -text
 config/2020/in/data/staging/** filter=lfs diff=lfs merge=lfs -text
 config/2023/in/data/raw/** filter=lfs diff=lfs merge=lfs -text
 config/2023/in/data/staging/** filter=lfs diff=lfs merge=lfs -text
+config/2025/in/data/raw/** filter=lfs diff=lfs merge=lfs -text
+config/2025/in/data/staging/** filter=lfs diff=lfs merge=lfs -text
 
-config/2020/out/data/raw/** filter=lfs diff=lfs merge=lfs -text
-config/2020/out/data/staging/** filter=lfs diff=lfs merge=lfs -text
-config/2020/out/data/indicator/** filter=lfs diff=lfs merge=lfs -text
-config/2023/out/data/indicator/** filter=lfs diff=lfs merge=lfs -text
-config/2025/in/data/** filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.python-version filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
